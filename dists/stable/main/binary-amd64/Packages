@@ -12,20 +12,6 @@ SHA1: 3f2504c1a447b5b35e212d3dad656cb7d8708992
 MD5sum: 7c38eea046a290eb11c7182592f97b9a
 Description: Graphical GRUB Editor
 
-Package: soplos-plymouth-manager
-Version: 1.0.2
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, grim, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, wl-screenshot | slurp, wlr-randr | swaybg, xvfb
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.2_all.deb
-Size: 348052
-SHA256: 20a8fa9f7af30b06341fd869c2873e5ca8df250e8b33f3820654ac451e135ae8
-SHA1: e293a32a636a0859851ea8a2c935d772355710ed
-MD5sum: 3ba441e7433b1daad5d2e4d7bc3f92ff
-Description: Plymouth Themes Manager
-
 Package: soplos-release
 Version: 0.0.4
 Architecture: all
