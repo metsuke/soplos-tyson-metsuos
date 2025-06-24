@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>com.soplos.welcome.desktop</id>
+  <pkgname>soplos-welcome</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Soplos Welcome</name>
@@ -110,7 +111,8 @@
 
   <url type="homepage">https://soploslinux.com</url>
   <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
-  <url type="help">https://soploslinux.com</url>
+  <url type="help">https://soploslinux.com/foros</url>
+  <url type="donate">https://www.paypal.com/paypalme/isubdes</url>
 
   <developer id="com.soploslinux">
     <name>Soplos Team</name>
@@ -139,6 +141,60 @@
   </provides>
 
   <releases>
+    <release version="1.0.6" date="2025-06-24">
+      <description>
+        <p>Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.</p>
+        <p xml:lang="es">Corrección de errores menores, actualización de traducciones, mejoras en el instalador, enlaces de ayuda/donación actualizados y pequeños ajustes de seguridad.</p>
+        <p xml:lang="fr">Corrections de bugs mineurs, mises à jour des traductions, améliorations de l'installateur, liens d'aide/don actualisés et petits ajustements de sécurité.</p>
+        <p xml:lang="pt">Correções de bugs menores, atualização de traduções, melhorias no instalador, links de ajuda/doação atualizados e pequenos ajustes de segurança.</p>
+        <p xml:lang="de">Kleinere Fehlerbehebungen, Übersetzungsaktualisierungen, Verbesserungen am Installer, aktualisierte Hilfe-/Spendenlinks und kleinere Sicherheitsanpassungen.</p>
+        <p xml:lang="it">Correzioni di bug minori, aggiornamenti delle traduzioni, miglioramenti all'installer, link di aiuto/donazione aggiornati e piccoli aggiustamenti di sicurezza.</p>
+        <p xml:lang="ru">Мелкие исправления ошибок, обновления переводов, улучшения установщика, обновленные ссылки на помощь/пожертвования и небольшие улучшения безопасности.</p>
+        <p xml:lang="ro">Corecții minore de erori, actualizări de traduceri, îmbunătățiri ale programului de instalare, linkuri de ajutor/donații actualizate și mici ajustări de securitate.</p>
+        <ul>
+          <li>Minor bug fixes and stability improvements</li>
+          <li xml:lang="es">Corrección de errores menores y mejoras de estabilidad</li>
+          <li xml:lang="fr">Corrections de bugs mineurs et améliorations de stabilité</li>
+          <li xml:lang="pt">Correções de bugs menores e melhorias de estabilidade</li>
+          <li xml:lang="de">Kleinere Fehlerbehebungen und Stabilitätsverbesserungen</li>
+          <li xml:lang="it">Correzioni di bug minori e miglioramenti di stabilità</li>
+          <li xml:lang="ru">Мелкие исправления ошибок и улучшения стабильности</li>
+          <li xml:lang="ro">Corecții minore de erori și îmbunătățiri de stabilitate</li>
+          <li>Translation updates for all supported languages</li>
+          <li xml:lang="es">Actualización y ampliación de traducciones</li>
+          <li xml:lang="fr">Mises à jour et extension des traductions</li>
+          <li xml:lang="pt">Atualização e ampliação das traduções</li>
+          <li xml:lang="de">Aktualisierung und Erweiterung der Übersetzungen</li>
+          <li xml:lang="it">Aggiornamento e ampliamento delle traduzioni</li>
+          <li xml:lang="ru">Обновление и расширение переводов</li>
+          <li xml:lang="ro">Actualizare și extindere a traducerilor</li>
+          <li>Installer improvements and clearer error messages</li>
+          <li xml:lang="es">Mejoras en el proceso de instalación y mensajes de error</li>
+          <li xml:lang="fr">Améliorations du processus d'installation et messages d'erreur</li>
+          <li xml:lang="pt">Melhorias no processo de instalação e mensagens de erro</li>
+          <li xml:lang="de">Verbesserungen beim Installationsprozess und Fehlermeldungen</li>
+          <li xml:lang="it">Miglioramenti nel processo di installazione e messaggi di errore</li>
+          <li xml:lang="ru">Улучшения процесса установки и сообщения об ошибках</li>
+          <li xml:lang="ro">Îmbunătățiri ale procesului de instalare și mesaje de eroare</li>
+          <li>Updated help and donation links</li>
+          <li xml:lang="es">Actualización de enlaces de ayuda y donaciones</li>
+          <li xml:lang="fr">Mise à jour des liens d'aide et de dons</li>
+          <li xml:lang="pt">Atualização de links de ajuda e doação</li>
+          <li xml:lang="de">Aktualisierung von Hilfe- und Spendenlinks</li>
+          <li xml:lang="it">Aggiornamento dei link di aiuto e donazione</li>
+          <li xml:lang="ru">Обновление ссылок на помощь и пожертвования</li>
+          <li xml:lang="ro">Actualizare a linkurilor de ajutor și donații</li>
+          <li>Minor security enhancements</li>
+          <li xml:lang="es">Ajustes menores de seguridad</li>
+          <li xml:lang="fr">Petits ajustements de sécurité</li>
+          <li xml:lang="pt">Pequenos ajustes de segurança</li>
+          <li xml:lang="de">Kleinere Sicherheitsanpassungen</li>
+          <li xml:lang="it">Piccoli aggiustamenti di sicurezza</li>
+          <li xml:lang="ru">Небольшие улучшения безопасности</li>
+          <li xml:lang="ro">Ajustări minore de securitate</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.5" date="2025-01-15">
       <description>
         <p>Complete internationalization and software updates</p>

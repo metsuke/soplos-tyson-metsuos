@@ -226,6 +226,7 @@ usr/share/soplos-repo-selector/src/utils/error_handler.py	    utils/soplos-repo-
 usr/share/soplos-repo-selector/src/utils/event_bus.py	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/utils/config.py	    utils/soplos-repo-selector
 usr/share/soplos-welcome/Análisis de las Pestañas de Soplos Welco.md	    utils/soplos-welcome
+usr/share/soplos-welcome/CHANGELOG.md	    utils/soplos-welcome
 usr/share/soplos-welcome/LICENSE	    utils/soplos-welcome
 usr/share/soplos-welcome/README.md	    utils/soplos-welcome
 usr/share/soplos-welcome/__init__.py	    utils/soplos-welcome
