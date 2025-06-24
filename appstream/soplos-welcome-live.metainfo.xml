@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>com.soplos.welcomelive.desktop</id>
+  <pkgname>soplos-welcome-live</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Soplos Welcome Live</name>
@@ -104,6 +105,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.6" date="2025-06-24">
+      <description>
+        <p>Now visible in Discover (AppStream integration)</p>
+        <p xml:lang="es">Ahora visible en Discover (integración AppStream)</p>
+        <p xml:lang="fr">Désormais visible dans Discover (intégration AppStream)</p>
+        <p xml:lang="pt">Agora visível no Discover (integração AppStream)</p>
+        <p xml:lang="de">Jetzt in Discover sichtbar (AppStream-Integration)</p>
+        <p xml:lang="it">Ora visibile in Discover (integrazione AppStream)</p>
+        <p xml:lang="ru">Теперь видно в Discover (интеграция AppStream)</p>
+        <p xml:lang="ro">Acum vizibil în Discover (integrare AppStream)</p>
+      </description>
+    </release>
     <release version="1.0.5" date="2025-06-20">
       <description>
         <p>Complete internationalization and label refinement to English</p>
