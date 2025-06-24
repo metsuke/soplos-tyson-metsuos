@@ -99,6 +99,7 @@ usr/share/metainfo/com.soplos.msi-keyboard.metainfo.xml	    utils/msi-keyboard-g
 usr/share/metainfo/com.soplos.reposelector.metainfo.xml	    utils/soplos-repo-selector
 usr/share/metainfo/com.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/metainfo/com.soplos.welcomelive.metainfo.xml	    utils/soplos-welcome-live
+usr/share/metainfo/com.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/msi-keyboard-gui/LICENSE	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/README.md	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/changelog	    utils/msi-keyboard-gui
