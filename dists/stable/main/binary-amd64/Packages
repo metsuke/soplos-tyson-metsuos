@@ -13,17 +13,17 @@ MD5sum: d2cee81b33b7e1f509f81fa785ec5451
 Description: MSI Keyboard Color Manager
 
 Package: soplos-grub-editor
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.1_all.deb
-Size: 390200
-SHA256: 0cf1ee6700674229534e49285d0ccfe50b9e5e93f500e8ea7d17e47e472e197f
-SHA1: 3f2504c1a447b5b35e212d3dad656cb7d8708992
-MD5sum: 7c38eea046a290eb11c7182592f97b9a
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.2_all.deb
+Size: 416688
+SHA256: 195a255c989157f0509e660ae9ea13e17e74c70914a0f91afa6ae9fcfceecf7c
+SHA1: 4cf3a2c9a8815951e9832629c4ec5c6f9555adf7
+MD5sum: 4aa42f9c415dba5e70d763bb4beb14a5
 Description: Graphical GRUB Editor
 
 Package: soplos-release

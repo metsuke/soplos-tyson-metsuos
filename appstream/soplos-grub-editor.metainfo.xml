@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.soplos.grubeditor</id>
+  <pkgname>soplos-grub-editor</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   
@@ -96,7 +97,7 @@
       <caption xml:lang="it">Finestra principale con impostazioni generali</caption>
       <caption xml:lang="ru">Главное окно с общими настройками</caption>
       <caption xml:lang="ro">Fereastra principală cu setări generale</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/general-tab.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-grub-editor/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Theme and appearance configuration</caption>
@@ -107,7 +108,7 @@
       <caption xml:lang="it">Configurazione di temi e aspetto</caption>
       <caption xml:lang="ru">Настройка тем и внешнего вида</caption>
       <caption xml:lang="ro">Configurarea temelor și aspectului</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/appearance-tab.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-grub-editor/screenshots/screenshot3.png</image>
     </screenshot>
     <screenshot>
       <caption>Boot entries management</caption>
@@ -118,7 +119,7 @@
       <caption xml:lang="it">Gestione delle voci di avvio</caption>
       <caption xml:lang="ru">Управление записями загрузки</caption>
       <caption xml:lang="ro">Gestionarea intrărilor de pornire</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/entries-tab.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-grub-editor/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
       <caption>Font installation and management</caption>
@@ -129,15 +130,14 @@
       <caption xml:lang="it">Installazione e gestione dei font</caption>
       <caption xml:lang="ru">Установка и управление шрифтами</caption>
       <caption xml:lang="ro">Instalarea și gestionarea fonturilor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/font-management.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-grub-editor/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
   <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
-  <url type="help">https://soploslinux.com/docs/soplos-grub-editor</url>
-  <url type="donation">https://soploslinux.com/donate</url>
-  <url type="contact">mailto:info@soploslinux.com</url>
+  <url type="help">https://soploslinux.com/foros</url>
+  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
   <url type="vcs-browser">https://github.com/SoplosLinux/tyron</url>
 
   <developer id="com.soploslinux">
@@ -201,16 +201,24 @@
   </supports>
 
   <releases>
-    <release version="1.0.2" date="2025-06-15">
+    <release version="1.0.2" date="2025-06-24">
       <description>
         <p>Complete internationalization update with 8 languages</p>
+        <p>Improved AppStream metadata for better visibility in Plasma Discover</p>
         <p xml:lang="es">Actualización completa de internacionalización con 8 idiomas</p>
+        <p xml:lang="es">Mejoras en metadatos AppStream para visibilidad en Plasma Discover</p>
         <p xml:lang="fr">Mise à jour complète d'internationalisation avec 8 langues</p>
+        <p xml:lang="fr">Amélioration des métadonnées AppStream pour Plasma Discover</p>
         <p xml:lang="pt">Atualização completa de internacionalização com 8 idiomas</p>
+        <p xml:lang="pt">Melhorias nos metadados AppStream para Plasma Discover</p>
         <p xml:lang="de">Vollständige Internationalisierung mit 8 Sprachen</p>
+        <p xml:lang="de">Verbesserte AppStream-Metadaten für Plasma Discover</p>
         <p xml:lang="it">Aggiornamento completo di internazionalizzazione con 8 lingue</p>
+        <p xml:lang="it">Miglioramenti ai metadati AppStream per Plasma Discover</p>
         <p xml:lang="ru">Полное обновление интернационализации с 8 языками</p>
+        <p xml:lang="ru">Улучшены метаданные AppStream для Plasma Discover</p>
         <p xml:lang="ro">Actualizare completă de internaționalizare cu 8 limbi</p>
+        <p xml:lang="ro">Îmbunătățiri la metadatele AppStream pentru Plasma Discover</p>
         <ul>
           <li>100% internationalization coverage</li>
           <li>8 languages fully supported: es, en, fr, pt, de, it, ru, ro</li>
@@ -220,6 +228,7 @@
           <li>Enhanced error messages</li>
           <li>Better keyboard shortcuts</li>
           <li>Optimized file structure</li>
+          <li>Improved AppStream metadata for Plasma Discover</li>
         </ul>
       </description>
       <url>https://github.com/SoplosLinux/tyron/releases/tag/v1.0.2</url>
@@ -260,6 +269,5 @@
   <custom>
     <value key="floss">yes</value>
     <value key="Purism::form_factor">workstation</value>
-    <value key="Purism::form_factor">laptop</value>
-  </custom>
+    </custom>
 </component>

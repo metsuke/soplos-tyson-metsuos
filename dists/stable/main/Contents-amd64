@@ -145,6 +145,7 @@ usr/share/soplos-grub-editor/assets/icons/soplos-logo.png	    utils/soplos-grub-
 usr/share/soplos-grub-editor/assets/screenshots/screenshot1.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/screenshots/screenshot2.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/screenshots/screenshot3.png	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/assets/screenshots/screenshot4.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/config/__init__.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/config/grub_config.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/debian/com.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
