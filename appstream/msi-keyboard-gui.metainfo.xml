@@ -36,7 +36,7 @@
       <caption xml:lang="it">Finestra principale: selezione colore tastiera</caption>
       <caption xml:lang="ru">Главное окно: выбор цвета клавиатуры</caption>
       <caption xml:lang="ro">Fereastra principală: selecția culorii tastaturii</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/msi-keyboard-rgb/main/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Advanced effects and zone configuration</caption>
@@ -47,7 +47,7 @@
       <caption xml:lang="it">Configurazione avanzata di effetti e zone</caption>
       <caption xml:lang="ru">Расширенная настройка эффектов и зон</caption>
       <caption xml:lang="ro">Configurare avansată a efectelor și zonelor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/msi-keyboard-rgb/main/screenshots/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot2.png</image>
     </screenshot>
   </screenshots>
 
@@ -64,6 +64,15 @@
   </provides>
 
   <releases>
+    <release version="1.0.2" date="2025-06-24">
+      <description>
+        <p>Minor improvements and metadata updates</p>
+        <p xml:lang="es">Mejoras menores y actualización de metadatos</p>
+        <ul>
+          <li>Actualización de versión y metadatos</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1" date="2025-06-24">
       <description>
         <p>Visible in KDE Discover and other AppStream-based stores</p>
