@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>com.soplos.msi-keyboard</id>
+  <pkgname>msi-keyboard-gui</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   
@@ -25,6 +26,31 @@
 
   <icon type="stock">com.soplos.msi-keyboard</icon>
 
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window: keyboard color selection</caption>
+      <caption xml:lang="es">Ventana principal: selección de color del teclado</caption>
+      <caption xml:lang="fr">Fenêtre principale : sélection de la couleur du clavier</caption>
+      <caption xml:lang="pt">Janela principal: seleção de cor do teclado</caption>
+      <caption xml:lang="de">Hauptfenster: Tastaturfarbauswahl</caption>
+      <caption xml:lang="it">Finestra principale: selezione colore tastiera</caption>
+      <caption xml:lang="ru">Главное окно: выбор цвета клавиатуры</caption>
+      <caption xml:lang="ro">Fereastra principală: selecția culorii tastaturii</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/msi-keyboard-rgb/main/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Advanced effects and zone configuration</caption>
+      <caption xml:lang="es">Configuración avanzada de efectos y zonas</caption>
+      <caption xml:lang="fr">Configuration avancée des effets et des zones</caption>
+      <caption xml:lang="pt">Configuração avançada de efeitos e zonas</caption>
+      <caption xml:lang="de">Erweiterte Effekte- und Zonen-Konfiguration</caption>
+      <caption xml:lang="it">Configurazione avanzata di effetti e zone</caption>
+      <caption xml:lang="ru">Расширенная настройка эффектов и зон</caption>
+      <caption xml:lang="ro">Configurare avansată a efectelor și zonelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/msi-keyboard-rgb/main/screenshots/screenshot2.png</image>
+    </screenshot>
+  </screenshots>
+
   <url type="homepage">https://soploslinux.com</url>
   <url type="bugtracker">https://github.com/SoplosLinux/msi-keyboard-rgb/issues</url>
 
@@ -38,6 +64,15 @@
   </provides>
 
   <releases>
+    <release version="1.0.1" date="2025-06-24">
+      <description>
+        <p>Visible in KDE Discover and other AppStream-based stores</p>
+        <p xml:lang="es">Ahora visible en Discover y otras tiendas AppStream</p>
+        <ul>
+          <li>Mejoras en los metadatos AppStream</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2024-12-19">
       <description>
         <p>Initial release</p>
