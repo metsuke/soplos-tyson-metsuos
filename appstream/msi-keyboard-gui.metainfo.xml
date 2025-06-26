@@ -64,6 +64,16 @@
   </provides>
 
   <releases>
+    <release version="1.0.3" date="2025-06-26">
+      <description>
+        <p>Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
+        <p xml:lang="es">Generación y actualización automática del servicio systemd al aplicar la configuración desde la interfaz gráfica.</p>
+        <ul>
+          <li>El servicio systemd se habilita para aplicar la configuración RGB al arrancar el sistema.</li>
+          <li>Correcciones menores y mejoras de integración.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2" date="2025-06-24">
       <description>
         <p>Minor improvements and metadata updates</p>
