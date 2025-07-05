@@ -64,6 +64,16 @@
   </provides>
 
   <releases>
+    <release version="1.0.4" date="2025-07-05">
+      <description>
+        <p>Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
+        <p xml:lang="es">Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando problemas de permisos en GUI.</p>
+        <ul>
+          <li>Mejor manejo de cancelación de autenticación por parte del usuario.</li>
+          <li>Correcciones menores y mejoras de estabilidad.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.3" date="2025-06-26">
       <description>
         <p>Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
