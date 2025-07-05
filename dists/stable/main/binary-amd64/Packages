@@ -27,16 +27,16 @@ MD5sum: 4aa42f9c415dba5e70d763bb4beb14a5
 Description: Graphical GRUB Editor
 
 Package: soplos-release
-Version: 0.0.7
+Version: 0.0.8
 Architecture: all
 Maintainer: Soplos Linux Team 
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.0.7_all.deb
-Size: 4029400
-SHA256: 2b9db1217bf14dfbf37f20e508e0ec16c804d651abb9fc10fe44f9f66ccf7dd7
-SHA1: c7d305a5f5f1e4c2cccc9154f1400841477ac8d8
-MD5sum: 7f4a04bd79d0e1122658cca5e4a0c27b
+Filename: pool/main/s/soplos-release/soplos-release_0.0.8_all.deb
+Size: 4029372
+SHA256: ceb0f8ab3752e67da6bbe0b7d6e46af8f64968a305fc412d87689c0ae2ac4598
+SHA1: 59b2969168664cfa84aecc3a5a99cc11070ee4ff
+MD5sum: f8d77f894a286876a20a4a179e02bac8
 Description: Información de lanzamiento de Soplos Linux (sistema interno)
  Contiene la información de lanzamiento y archivos de versión para Soplos Linux.
  Este paquete es esencial para la identificación del sistema operativo.
