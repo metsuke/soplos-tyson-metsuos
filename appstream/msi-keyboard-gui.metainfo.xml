@@ -64,6 +64,16 @@
   </provides>
 
   <releases>
+    <release version="1.0.5" date="2025-07-05">
+      <description>
+        <p>Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>
+        <p xml:lang="es">Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.</p>
+        <ul>
+          <li>Eliminación automática de archivos temporales después de crear servicios.</li>
+          <li>Mejoras en el manejo de errores y estabilidad general del sistema.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.4" date="2025-07-05">
       <description>
         <p>Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
