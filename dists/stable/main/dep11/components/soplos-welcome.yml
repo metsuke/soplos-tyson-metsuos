@@ -1,0 +1,141 @@
+Type: desktop
+ID: com.soplos.welcome.desktop
+Package: soplos-welcome
+Name:
+  C: Soplos Welcome
+  es: Bienvenida a Soplos
+  fr: Bienvenue sur Soplos
+  pt: Bem-vindo ao Soplos
+  de: Willkommen bei Soplos
+  it: Benvenuto su Soplos
+  ru: Добро пожаловать в Soplos
+  ro: Bun venit la Soplos
+Summary:
+  C: Welcome screen for Soplos Linux
+  es: Pantalla de bienvenida para Soplos Linux
+  fr: Écran de bienvenue pour Soplos Linux
+  pt: Tela de boas-vindas para Soplos Linux
+  de: Willkommensbildschirm für Soplos Linux
+  it: Schermata di benvenuto per Soplos Linux
+  ru: Экран приветствия для Soplos Linux
+  ro: Ecran de întâmpinare pentru Soplos Linux
+Description:
+  C:
+  - A comprehensive welcome application for Soplos Linux that helps new users get
+    started with their system, featuring full internationalization support and modern
+    software recommendations.
+  - Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos
+    usuarios a comenzar con su sistema, con soporte completo de internacionalización
+    y recomendaciones de software modernas.
+  - Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux
+    utilisateurs à démarrer avec leur système, avec un support d'internationalisation
+    complet et des recommandations de logiciels modernes.
+  - Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários
+    a começar com seu sistema, com suporte completo de internacionalização e recomendações
+    de software modernas.
+  - Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft,
+    mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung
+    und modernen Software-Empfehlungen.
+  - Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti
+    a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione
+    e raccomandazioni software moderne.
+  - Комплексное приветственное приложение для Soplos Linux, которое помогает новым
+    пользователям начать работу с системой, с полной поддержкой интернационализации
+    и современными рекомендациями программного обеспечения.
+  - O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori
+    să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări
+    software moderne.
+Icon:
+  stock: soplos-welcome
+Categories:
+- Settings
+- System
+- Utility
+Keywords:
+  C:
+  - welcome
+  - start
+  - setup
+  - configuration
+  - soplos
+  - internationalization
+  - i18n
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/tyron/issues
+  help: https://soploslinux.com/foros
+  donate: https://www.paypal.com/paypalme/isubdes
+Releases:
+- version: 1.0.6
+  date: '2025-06-24'
+- version: 1.0.5
+  date: '2025-01-15'
+- version: 1.0.0
+  date: '2025-05-08'
+Screenshots:
+- caption:
+    C: Main welcome screen with internationalization support
+    es: Pantalla principal de bienvenida con soporte de internacionalización
+    fr: Écran principal de bienvenue avec support d'internationalisation
+    pt: Tela principal de boas-vindas com suporte de internacionalização
+    de: Hauptwillkommensbildschirm mit Internationalisierungsunterstützung
+    it: Schermata principale di benvenuto con supporto di internazionalizzazione
+    ru: Главный экран приветствия с поддержкой интернационализации
+    ro: Ecran principal de întâmpinare cu suport de internaționalizare
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png
+- caption:
+    C: Software center with updated recommendations
+    es: Centro de software con recomendaciones actualizadas
+    fr: Centre de logiciels avec recommandations mises à jour
+    pt: Central de software com recomendações atualizadas
+    de: Software-Center mit aktualisierten Empfehlungen
+    it: Centro software con raccomandazioni aggiornate
+    ru: Центр программ с обновленными рекомендациями
+    ro: Centru software cu recomandări actualizate
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png
+- caption:
+    C: Driver management interface
+    es: Interfaz de gestión de controladores
+    fr: Interface de gestion des pilotes
+    pt: Interface de gerenciamento de drivers
+    de: Treiberverwaltungsschnittstelle
+    it: Interfaccia di gestione dei driver
+    ru: Интерфейс управления драйверами
+    ro: Interfață de gestionare a driverelor
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png
+- caption:
+    C: Kernel optimization options
+    es: Opciones de optimización del kernel
+    fr: Options d'optimisation du noyau
+    pt: Opções de otimização do kernel
+    de: Kernel-Optimierungsoptionen
+    it: Opzioni di ottimizzazione del kernel
+    ru: Параметры оптимизации ядра
+    ro: Opțiuni de optimizare a kernel-ului
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png
+- caption:
+    C: Customization panel
+    es: Panel de personalización
+    fr: Panneau de personnalisation
+    pt: Painel de personalização
+    de: Anpassungsbereich
+    it: Pannello di personalizzazione
+    ru: Панель настройки
+    ro: Panoul de personalizare
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot5.png
+- caption:
+    C: Recommended applications with updated software
+    es: Aplicaciones recomendadas con software actualizado
+    fr: Applications recommandées avec logiciels mis à jour
+    pt: Aplicações recomendadas com software atualizado
+    de: Empfohlene Anwendungen mit aktualisierter Software
+    it: Applicazioni raccomandate con software aggiornato
+    ru: Рекомендуемые приложения с обновленным программным обеспечением
+    ro: Aplicații recomandate cu software actualizat
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png

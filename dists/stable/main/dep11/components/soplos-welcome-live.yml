@@ -1,0 +1,97 @@
+Type: desktop
+ID: com.soplos.welcomelive.desktop
+Package: soplos-welcome-live
+Name:
+  C: Soplos Welcome Live
+  es: Bienvenida a Soplos Live
+  fr: Bienvenue sur Soplos Live
+  pt: Bem-vindo ao Soplos Live
+  de: Willkommen bei Soplos Live
+  it: Benvenuto su Soplos Live
+  ru: Добро пожаловать в Soplos Live
+  ro: Bun venit la Soplos Live
+Summary:
+  C: Welcome screen for Soplos Linux Live Environment
+  es: Pantalla de bienvenida para el entorno Live de Soplos Linux
+  fr: Écran de bienvenue pour l'environnement Live de Soplos Linux
+  pt: Tela de boas-vindas para o ambiente Live do Soplos Linux
+  de: Willkommensbildschirm für die Live-Umgebung von Soplos Linux
+  it: Schermata di benvenuto per l'ambiente Live di Soplos Linux
+  ru: Экран приветствия для Live-окружения Soplos Linux
+  ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
+Description:
+  C:
+  - A welcome application for Soplos Linux Live Environment that helps users navigate
+    the live system and install Soplos Linux.
+  - Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a
+    los usuarios a navegar por el sistema live e instalar Soplos Linux.
+  - Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide
+    les utilisateurs à naviguer dans le système live et à installer Soplos Linux.
+  - Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os
+    usuários a navegar pelo sistema live e instalar o Soplos Linux.
+  - Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft,
+    durch das Live-System zu navigieren und Soplos Linux zu installieren.
+  - Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli
+    utenti a navigare nel sistema live e installare Soplos Linux.
+  - Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям
+    ориентироваться в live-системе и устанавливать Soplos Linux.
+  - O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii
+    să navigheze în sistemul live și să instaleze Soplos Linux.
+Icon:
+  stock: soplos-welcome-live
+Categories:
+- System
+- Settings
+- Utility
+Keywords:
+  C:
+  - welcome
+  - live
+  - install
+  - setup
+  - soplos
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/tyron/issues
+  help: https://soploslinux.com
+Releases:
+- version: 1.0.6
+  date: '2025-06-24'
+- version: 1.0.5
+  date: '2025-06-20'
+- version: 1.0.3
+  date: '2024-01-27'
+Screenshots:
+- caption:
+    C: Live Welcome Screen
+    es: Pantalla de bienvenida Live
+    fr: Écran de bienvenue Live
+    pt: Tela de boas-vindas Live
+    de: Live-Willkommensbildschirm
+    it: Schermata di benvenuto Live
+    ru: Экран приветствия Live
+    ro: Ecran de întâmpinare Live
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot1.png
+- caption:
+    C: Installation Options
+    es: Opciones de instalación
+    fr: Options d'installation
+    pt: Opções de instalação
+    de: Installationsoptionen
+    it: Opzioni di installazione
+    ru: Параметры установки
+    ro: Opțiuni de instalare
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot2.png
+- caption:
+    C: Hardware Detection
+    es: Detección de hardware
+    fr: Détection du matériel
+    pt: Detecção de hardware
+    de: Hardware-Erkennung
+    it: Rilevamento hardware
+    ru: Обнаружение оборудования
+    ro: Detectarea hardware-ului
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot3.png

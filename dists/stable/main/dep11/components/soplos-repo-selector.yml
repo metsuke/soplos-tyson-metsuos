@@ -1,0 +1,134 @@
+Type: desktop
+ID: com.soplos.reposelector.desktop
+Package: soplos-repo-selector
+Name:
+  C: Soplos Repo Selector
+  es: Selector de Repositorios Soplos
+  fr: Sélecteur de dépôts Soplos
+  pt: Seletor de Repositórios Soplos
+  de: Soplos Repository-Selektor
+  it: Selettore Repository Soplos
+  ru: Селектор репозиториев Soplos
+  ro: Selector de depozite Soplos
+Summary:
+  C: Advanced APT repository manager for Debian-based systems
+  es: Gestor avanzado de repositorios APT para sistemas basados en Debian
+  fr: Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian
+  pt: Gerenciador avançado de repositórios APT para sistemas baseados em Debian
+  de: Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme
+  it: Gestore avanzato di repository APT per sistemi basati su Debian
+  ru: Продвинутый менеджер APT-репозиториев для систем на базе Debian
+  ro: Manager avansat de depozite APT pentru sisteme bazate pe Debian
+Description:
+  C:
+  - Soplos Repo Selector is a comprehensive repository management tool designed for
+    Debian-based Linux distributions. It provides an intuitive graphical interface
+    for managing APT repositories, GPG keys, and system software sources with automatic
+    theme detection and multi-language support.
+  - Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada
+    para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica
+    intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del
+    sistema con detección automática de tema y soporte multiidioma.
+  - Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les
+    distributions Linux basées sur Debian. Il fournit une interface graphique intuitive
+    pour gérer les dépôts APT, les clés GPG et les sources logicielles du système
+    avec détection automatique de thème et support multilingue.
+  - Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios
+    projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica
+    intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do
+    sistema com detecção automática de tema e suporte multilíngue.
+  - Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte
+    Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für
+    die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen
+    mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.
+  - Soplos Repo Selector è uno strumento completo di gestione repository progettato
+    per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva
+    per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento
+    automatico del tema e supporto multilingue.
+  - Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный
+    для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический
+    интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного
+    обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.
+  - Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor
+    proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică
+    intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software
+    de sistem cu detectare automată a temei și suport multilingv.
+  - 'Key features include:'
+  - 'Las características principales incluyen:'
+  - 'Les fonctionnalités clés incluent:'
+  - 'As principais características incluem:'
+  - 'Hauptmerkmale umfassen:'
+  - 'Le caratteristiche principali includono:'
+  - 'Ключевые функции включают:'
+  - 'Caracteristicile principale includ:'
+Icon:
+  stock: com.soplos.reposelector
+Categories:
+- Settings
+- System
+- PackageManager
+- Utility
+Keywords:
+  C:
+  - repository
+  - apt
+  - sources
+  - debian
+  - soplos
+  - package
+  - manager
+  - gpg
+  - theme
+  - wayland
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/soplos-repo-selector/issues
+  help: https://soploslinux.com/docs/repo-selector
+  donation: https://paypal.me/soploslinux
+Releases:
+- version: 1.0.3
+  date: '2025-06-17'
+- version: 1.0.2
+  date: '2025-01-15'
+- version: 1.0.1
+  date: '2025-01-10'
+- version: 1.0.0
+  date: '2025-01-05'
+Screenshots:
+- caption:
+    C: Main repository management interface with automatic theme detection
+    es: Interfaz principal de gestión de repositorios con detección automática de
+      tema
+    fr: Interface principale de gestion des dépôts avec détection automatique de thème
+    pt: Interface principal de gerenciamento de repositórios com detecção automática
+      de tema
+    de: Hauptschnittstelle für Repository-Verwaltung mit automatischer Theme-Erkennung
+    it: Interfaccia principale di gestione repository con rilevamento automatico del
+      tema
+    ru: Основной интерфейс управления репозиториями с автоматическим обнаружением
+      темы
+    ro: Interfața principală de gestionare a depozitelor cu detectare automată a temei
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/main-interface.png
+- caption:
+    C: Repository speed testing and optimization
+    es: Prueba de velocidad y optimización de repositorios
+    fr: Test de vitesse et optimisation des dépôts
+    pt: Teste de velocidade e otimização de repositórios
+    de: Repository-Geschwindigkeitstest und -Optimierung
+    it: Test di velocità e ottimizzazione dei repository
+    ru: Тестирование скорости и оптимизация репозиториев
+    ro: Testarea vitezei și optimizarea depozitelor
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/speed-test.png
+- caption:
+    C: GPG key management interface
+    es: Interfaz de gestión de claves GPG
+    fr: Interface de gestion des clés GPG
+    pt: Interface de gerenciamento de chaves GPG
+    de: GPG-Schlüsselverwaltungsschnittstelle
+    it: Interfaccia di gestione delle chiavi GPG
+    ru: Интерфейс управления GPG-ключами
+    ro: Interfața de gestionare a cheilor GPG
+  images:
+  - url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/gpg-management.png
