@@ -6,41 +6,41 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Sat, 12 Jul 2025 08:49:49 UTC
+Date: Sat, 12 Jul 2025 08:53:39 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
+
 MD5Sum:
- 46b8803976150b1c9414acb20e82fc92 4941 main/binary-amd64/Packages
- e8f965d4cc263f6bfd472e2a9e10e8ff 1786 main/binary-amd64/Packages.gz
- ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
- 395412cb694917779cdcbd2bd54ec506 28389 main/Contents-amd64
- 6e1847aef87067a2b91e68f014b503a7 2500 main/Contents-amd64.gz
+ 29d0cde17f8d86fb551fb70e3178c120 4287 main/binary-amd64/Packages
+ 9e342e8b6becba963510166b2789af08 1597 main/binary-amd64/Packages.gz
+ 1e5873fd5a759acb75e782c9717424d0 5414 main/dep11/Components-amd64.yml.gz
+ 1f57caf714a7f515ba5273aa93a5c426 2223599 main/dep11/Icons-64x64.tar.gz
+
 SHA1:
- 53e861e0553e016b4e1d6fc76bea445117be88c9 4941 main/binary-amd64/Packages
- e53a950a43a4a3c087faa7e85d8d7ec4e03548d6 1786 main/binary-amd64/Packages.gz
- a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
- ed8fefd366b4d1a1b86c86c757f8358a9df17f8a 28389 main/Contents-amd64
- 2e3bad5968faa33002e8827bb83eb6fd24ec53a5 2500 main/Contents-amd64.gz
+ 84d0aca9ff25a928ae6182b638ac28a482f1d544 4287 main/binary-amd64/Packages
+ e0c497a3a99442204ac45fcaaceaccd4751a0680 1597 main/binary-amd64/Packages.gz
+ a80734a12857fc7208fb43dca86281a53cfcd78b 5414 main/dep11/Components-amd64.yml.gz
+ 8279a3da6acdeff748726c178eefc1cc588d7d46 2223599 main/dep11/Icons-64x64.tar.gz
+
 SHA256:
- 6c19cf9067a6ec6eb0be07c6cd47b72d2a0f806e1b396e904d3f30ea8b84ddda 4941 main/binary-amd64/Packages
- 930797964dac10ba0e593939ec495a47afe4daef5fa90fd252ad867ef9bf18f9 1786 main/binary-amd64/Packages.gz
- 730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
- e27ce2b5719ebf6e87337380b6271ffbd05aad3b39a7eb538c99fc03106a9538 28389 main/Contents-amd64
- 7bc2162adc63083b7bccee382eb2b0ac66a3eee256a350d27f7fe6f62dcbd4e2 2500 main/Contents-amd64.gz
+ 526c15bd834b9157b4f60f67c46b0f684b77e26c85b8010ce059cb83a95010e9 4287 main/binary-amd64/Packages
+ 7aeef084045f04776dbc4237fc82820fe0ce40628a3c2b43383d8d0bc6a2935b 1597 main/binary-amd64/Packages.gz
+ 88a23a7de518c7ad140f0585522fb20898801529305ff5e2d9ed77907468c69d 5414 main/dep11/Components-amd64.yml.gz
+ 8f557e4267f401579cea0859f6271aa95813b05a400e90ba792cfa7e3d7e3482 2223599 main/dep11/Icons-64x64.tar.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEGfD0EIDZtAmGkhEmiEVBnx3uS2QFAmhyIa0ACgkQiEVBnx3u
-S2Rh0g//XhsXQzSWn1Vm8+QwUgkaOVAtozFEc71LNbqhHU36dwSrxeEQbG0bt9BL
-NajwdFCNlwTRhGoPG6QBEHf8c+v/AyB0wjWu0o4rMqPFwdvPywoIs+lUXDS/lYQj
-CzAHPjHyvK+OwKCwH16eWXFBqtlS47wxNG+FJZ1Muolhhc9hwBg8Y9PmGYIKPb3K
-RcI9dIZTeTlhXqusAP86GD5tgSGd/l15GX0HCmXkYLsghtz3OOR7Z/csRAkks8zW
-yFz7TOzmpFnXGwyxkSO7+Q+VuzAdGnO3TWnr+F4E/J0LXbYtXl/feKdvDDYqT7Z4
-CJwDz0zZc32Jt/sb/7Gz8bjsosUebsmekzo0wyUHPfmAdmoRIptiaQmXgkFCxBmO
-xwdONanE7cGeQQ9bqW3JODFaQ+CPmy9AK7mrinxKfdWarctssGjNd6Hee8g2X92E
-qJQeBcxaFWBrextPvKM+/heiVx2w47UqrnBZuIcyD5R2D4XXG1sPJLLHu5Le3AB3
-T0hJ5slXxhQYw2zHYQ4L3r/cE8v0/W3xpx0qLDKiF5Cl/a2SHkNTwu+1P6oW4TAB
-WztDHaU4zgHTl2EqK5t91Bh1+AZir2Mbbn+LO4Ma0mtbuPeW38fjjURdUo2/sa64
-s1dYtr4mxg5jUgWse8oy4zTlGs8XepLl+pXmTZ3lSV2XcJmB3d4=
-=CI5o
+iQIzBAEBCgAdFiEEGfD0EIDZtAmGkhEmiEVBnx3uS2QFAmhyIpQACgkQiEVBnx3u
+S2TYZhAAgoSFrCxZxpNGjlwZQ1ePzYyP+Ynwm7vW3GGgjpKpz5qU0afpBuN1ZW27
+FPjBc9RqnXzaC2oxN1Z1EnhvWtqD0f9Tku3P5hCb1gLE4zD+12i60eNRXd4tnSph
+Qi/DiWrlYJ66HiWVf04wVhg0p4UooSxRe81oBoATGslwCGqQiCTSC9WCK8Wt3jop
+X+pvkyrgO9I6cckXzDpug7N37easwUTunMHmgae4qs0qvyLgNle5HY0EMrkgyQ8Z
+Vh0PB5cPXOS0noXyzktnmF57O4Z4H99rb3aDhlSY8YIyI4zFryKSiTzIfUkFOSZs
+1pcDezwXk9crbYe7pHorbXeydpIbTUdgPFWuMKFJGJ6dcTR0e6iBS7U8mm+i/L9l
+ahBiy7/MYeDC28+sujKhJZIt/FF2HGR4dPzy0I3pwtRGCGquHYoXnzEd0y5gCP6T
+/vvyMSlZ8XiJq8lxkhuPvpAFCqND1sjLXcELHlenrMrryySD3dMF4qx2aVn3DQ/T
+RDWMvnIunvpaRxIqRV0xINIwASQ6ZrjG47pTW1UDiV6X0y7y4Ks6HfV9quHraReu
+92EVGHqyR8H7KzXjr/DblL0vukVWmGtnN6hizOAs/sneeEYTXAxrVpQHS2XuJN9B
+uDT/qYeBMZfd3NEhoS8xpWbWymR0SCX1z+M+N9oUuoLrnsprsHI=
+=jvab
 -----END PGP SIGNATURE-----
