@@ -1,17 +1,3 @@
-Package: msi-keyboard-gui
-Version: 1.0.5
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, msi-keyboard, msi-keyboard-gui, python3-all, python3-dev, python3-gi, python3-gi-cairo, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/m/msi-keyboard-gui/msi-keyboard-gui_1.0.5_all.deb
-Size: 378804
-SHA256: 4870ac4b5831d7d140137e8312d3fc3b85ef7cb9ec3e55a5eea19497e2f44760
-SHA1: 9b8fc38a8a955b1502849db572e90817208044a5
-MD5sum: ad1ea4978dae3d0c4c6ef98fe720c5d8
-Description: MSI Keyboard Color Manager
-
 Package: soplos-grub-editor
 Version: 1.0.2
 Architecture: all
