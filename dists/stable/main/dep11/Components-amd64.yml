@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T171833
+Time: 20250713T171845
 ---
 Description:
   C: |-
@@ -127,7 +127,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T171833
+Time: 20250713T171845
 ---
 Description:
   C: Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on
@@ -145,7 +145,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T171833
+Time: 20250713T171845
 ---
 Description:
   C: A comprehensive welcome application for Soplos Linux that helps new users get
@@ -280,7 +280,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T171833
+Time: 20250713T171845
 ---
 Description:
   C: A welcome application for Soplos Linux Live Environment that helps users navigate
@@ -372,7 +372,55 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T171833
+Time: 20250713T171845
+---
+Description:
+  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
+    control, intensity adjustment and multiple lighting modes.
+  es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con
+    control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
+ID: com.soplos.msi-keyboard
+Icon:
+  - stock: com.soplos.msi-keyboard
+MetadataLicense: CC0-1.0
+Name:
+  C: MSI Keyboard RGB Controller
+  es: Controlador RGB Teclado MSI
+Package: msi-keyboard-gui
+Screenshots:
+  - caption:
+      C: 'Main window: keyboard color selection'
+      de: 'Hauptfenster: Tastaturfarbauswahl'
+      es: 'Ventana principal: selección de color del teclado'
+      fr: 'Fenêtre principale : sélection de la couleur du clavier'
+      it: 'Finestra principale: selezione colore tastiera'
+      pt: 'Janela principal: seleção de cor do teclado'
+      ro: 'Fereastra principală: selecția culorii tastaturii'
+      ru: 'Главное окно: выбор цвета клавиатуры'
+    default: true
+    source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
+  - caption:
+      C: Advanced effects and zone configuration
+      de: Erweiterte Effekte- und Zonen-Konfiguration
+      es: Configuración avanzada de efectos y zonas
+      fr: Configuration avancée des effets et des zones
+      it: Configurazione avanzata di effetti e zone
+      pt: Configuração avançada de efeitos e zonas
+      ro: Configurare avansată a efectelor și zonelor
+      ru: Расширенная настройка эффектов и зон
+    source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
+Summary:
+  C: Configure MSI keyboard RGB lighting
+  es: Configurar iluminación RGB del teclado MSI
+Type: desktop-application
+---
+File: DEP-11
+Version: '1.0'
+Origin: soplos
+MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
+Time: 20250713T171845
 ---
 Description:
   C: "Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing\
