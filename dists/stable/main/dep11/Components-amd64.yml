@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos-tyson-main
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: '1752409830'
+Time: '1752409959'
 ---
 Type: desktop
 ID: com.soplos.reposelector.desktop
@@ -161,6 +161,54 @@ Keywords:
 Launchable:
   desktop-id:
     - com.soplos.welcomelive.desktop
+Url:
+  Homepage: https://soploslinux.com
+  BugTracker: https://github.com/SoplosLinux/tyron/issues
+  Help: https://soploslinux.com
+---
+Type: desktop
+ID: com.soplos.plymouthmanager.desktop
+MetadataLicense: CC0-1.0
+Package: soplos-plymouthmanager
+Name:
+  C: Soplos Plymouth Manager
+Summary:
+  C: Plymouth boot splash theme manager for Soplos Linux
+Description:
+  C: |-
+    <p>
+      A simple and intuitive Plymouth theme manager that allows you to preview, install and apply boot splash themes easily. Features automatic system theme detection and improved Wayland support.
+      Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Incluye detección automática de temas del sistema y soporte mejorado para Wayland.
+      Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement. Comprend la détection automatique des thèmes système et un support amélioré pour Wayland.
+      Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente. Inclui detecção automática de temas do sistema e suporte aprimorado para Wayland.
+      Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können. Beinhaltet automatische Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.
+      Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente. Include rilevamento automatico dei temi di sistema e supporto migliorato per Wayland.
+      Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана. Включает автоматическое определение системных тем и улучшенную поддержку Wayland.
+      Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință. Include detectarea automată a temelor sistemului și suport îmbunătățit pentru Wayland.
+    </p>
+Icon:
+  stock: soplos-plymouth-manager
+ProjectLicense: GPL-3.0+
+Categories:
+  - System
+  - Settings
+  - DesktopSettings
+  - Utility
+Keywords:
+  C:
+    - plymouth
+    - boot
+    - splash
+    - theme
+    - themes
+    - boot-splash
+    - customize
+    - soplos
+    - wayland
+    - kde
+Launchable:
+  desktop-id:
+    - com.soplos.plymouthmanager.desktop
 Url:
   Homepage: https://soploslinux.com
   BugTracker: https://github.com/SoplosLinux/tyron/issues
