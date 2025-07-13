@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos-tyson-main
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: '1752423659'
+Time: '1752423670'
 ---
 Type: desktop
 ID: com.soplos.reposelector.desktop
@@ -40,6 +40,15 @@ Summary:
   C: Welcome screen for Soplos Linux Live Environment
 MetadataLicense: CC0-1.0
 Package: soplos-welcome-live
+---
+Type: desktop-application
+ID: com.soplos.msi-keyboard
+Name:
+  C: MSI Keyboard RGB Controller
+Summary:
+  C: Configure MSI keyboard RGB lighting
+MetadataLicense: CC0-1.0
+Package: msi-keyboard-gui
 ---
 Type: desktop-application
 ID: com.soplos.grubeditor
