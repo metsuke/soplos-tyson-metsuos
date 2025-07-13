@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos-tyson-main
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: '1752417708'
+Time: '1752420501'
 ---
 Type: desktop
 ID: com.soplos.reposelector.desktop
@@ -75,11 +75,11 @@ Keywords:
 Icon:
   - stock: com.soplos.reposelector
   - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/icons/com.soplos.reposelector.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/icons/com.soplos.reposelector.png
 Screenshots:
   - default: true
     source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot1.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot1.png
     caption:
       C: Gestor de Repositorios Debian
       es: Gestor de Repositorios Debian
@@ -90,7 +90,7 @@ Screenshots:
       ru: Менеджер репозиториев Debian
       ro: Manager de depozite Debian
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot2.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot2.png
     caption:
       C: Buscar Repositorios Más Rápidos
       es: Buscar Repositorios Más Rápidos
@@ -101,7 +101,7 @@ Screenshots:
       ru: Поиск самых быстрых репозиториев
       ro: Căutare depozite mai rapide
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot3.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot3.png
     caption:
       C: Gestor de Claves GPG
       es: Gestor de Claves GPG
@@ -112,7 +112,7 @@ Screenshots:
       ru: Менеджер ключей GPG
       ro: Manager de chei GPG
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot4.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot4.png
     caption:
       C: Detalles de Clave GPG
       es: Detalles de Clave GPG
@@ -407,46 +407,6 @@ Screenshots:
       it: Impostazioni avanzate
       ru: Расширенные настройки
       ro: Setări avansate
----
-Type: desktop-application
-ID: com.soplos.msi-keyboard
-MetadataLicense: CC0-1.0
-Package: msi-keyboard-gui
-Name:
-  C: MSI Keyboard RGB Controller
-  es: Controlador RGB Teclado MSI
-Summary:
-  C: Configure MSI keyboard RGB lighting
-  es: Configurar iluminación RGB del teclado MSI
-Description:
-  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.
-  es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
-Icon:
-  - stock: com.soplos.msi-keyboard
-Screenshots:
-  - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot1.png
-    caption:
-      C: 'Main window: keyboard color selection'
-      es: 'Ventana principal: selección de color del teclado'
-      fr: 'Fenêtre principale : sélection de la couleur du clavier'
-      pt: 'Janela principal: seleção de cor do teclado'
-      de: 'Hauptfenster: Tastaturfarbauswahl'
-      it: 'Finestra principale: selezione colore tastiera'
-      ru: 'Главное окно: выбор цвета клавиатуры'
-      ro: 'Fereastra principală: selecția culorii tastaturii'
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot2.png
-    caption:
-      C: Advanced effects and zone configuration
-      es: Configuración avanzada de efectos y zonas
-      fr: Configuration avancée des effets et des zones
-      pt: Configuração avançada de efeitos e zonas
-      de: Erweiterte Effekte- und Zonen-Konfiguration
-      it: Configurazione avanzata di effetti e zone
-      ru: Расширенная настройка эффектов и зон
-      ro: Configurare avansată a efectelor și zonelor
 ---
 Type: desktop-application
 ID: com.soplos.grubeditor

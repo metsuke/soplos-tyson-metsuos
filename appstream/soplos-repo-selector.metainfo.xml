@@ -110,7 +110,7 @@
 
   <icon type="stock">com.soplos.reposelector</icon>
   <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/icons/com.soplos.reposelector.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/icons/com.soplos.reposelector.png</url>
   </icon>
 
   <screenshots>
@@ -123,7 +123,7 @@
       <caption xml:lang="it">Gestore dei repository Debian</caption>
       <caption xml:lang="ru">Менеджер репозиториев Debian</caption>
       <caption xml:lang="ro">Manager de depozite Debian</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Buscar Repositorios Más Rápidos</caption>
@@ -134,7 +134,7 @@
       <caption xml:lang="it">Cerca repository più veloci</caption>
       <caption xml:lang="ru">Поиск самых быстрых репозиториев</caption>
       <caption xml:lang="ro">Căutare depozite mai rapide</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
       <caption>Gestor de Claves GPG</caption>
@@ -145,7 +145,7 @@
       <caption xml:lang="it">Gestore chiavi GPG</caption>
       <caption xml:lang="ru">Менеджер ключей GPG</caption>
       <caption xml:lang="ro">Manager de chei GPG</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot3.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot3.png</image>
     </screenshot>
     <screenshot>
       <caption>Detalles de Clave GPG</caption>
@@ -156,13 +156,13 @@
       <caption xml:lang="it">Dettagli chiave GPG</caption>
       <caption xml:lang="ru">Детали ключа GPG</caption>
       <caption xml:lang="ro">Detalii cheie GPG</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot4.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-repo-selector/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/soplos-repo-selector/issues</url>
-  <url type="help">https://soploslinux.com/docs/repo-selector</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
+  <url type="help">https://github.com/SoplosLinux/tyson#readme</url>
   <url type="donation">https://paypal.me/soploslinux</url>
 
   <developer id="com.soploslinux">
