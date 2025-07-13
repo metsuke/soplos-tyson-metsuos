@@ -134,6 +134,28 @@ BugTracker: https://github.com/SoplosLinux/tyron/issues
 Help: https://soploslinux.com
 ---
 Type: desktop-application
+ID: com.soplos.msi-keyboard
+MetadataLicense: CC0-1.0
+Package: soplos-msi-keyboard
+Name: MSI Keyboard RGB Controller
+Summary: Configure MSI keyboard RGB lighting
+Description: |-
+  A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.
+
+  Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
+Icon: com.soplos.msi-keyboard
+ProjectLicense: GPL-3.0+
+Categories:
+  - Settings
+  - HardwareSettings
+  - System
+Launchable:
+  desktop-id:
+    - com.soplos.msi-keyboard.desktop
+Homepage: https://soploslinux.com
+BugTracker: https://github.com/SoplosLinux/msi-keyboard-rgb/issues
+---
+Type: desktop-application
 ID: com.soplos.grubeditor
 MetadataLicense: CC0-1.0
 Package: soplos-grubeditor
