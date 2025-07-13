@@ -1,0 +1,20 @@
+Package: soplos-release
+Version: 0.0.8
+Architecture: all
+Maintainer: Soplos Linux Team 
+Priority: required
+Section: admin
+Filename: pool/main/s/soplos-release/soplos-release_0.0.8_all.deb
+Size: 4029372
+SHA256: ceb0f8ab3752e67da6bbe0b7d6e46af8f64968a305fc412d87689c0ae2ac4598
+SHA1: 59b2969168664cfa84aecc3a5a99cc11070ee4ff
+MD5sum: f8d77f894a286876a20a4a179e02bac8
+Description: Información de lanzamiento de Soplos Linux (sistema interno)
+ Contiene la información de lanzamiento y archivos de versión para Soplos Linux.
+ Este paquete es esencial para la identificación del sistema operativo.
+ .
+ Este es un paquete interno del sistema y no proporciona ninguna interfaz para el usuario.
+Essential: yes
+Replaces: base-files
+Conflicts: base-files (<< 13.7)
+
