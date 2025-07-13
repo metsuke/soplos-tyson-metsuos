@@ -4,7 +4,7 @@ Version: '0.14'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
 Priority: 20
-Time: 1752409239
+Time: 1752409250
 ---
 Type: desktop
 ID: com.soplos.reposelector.desktop
@@ -234,6 +234,60 @@ Releases:
       Versione iniziale
       Начальная версия
       Versiune inițială
+---
+Type: desktop-application
+ID: com.soplos.msi-keyboard
+MetadataLicense: CC0-1.0
+Package: com
+Name: MSI Keyboard RGB Controller
+Summary: Configure MSI keyboard RGB lighting
+Description: |-
+  A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.
+  Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
+Icon:
+  stock: com.soplos.msi-keyboard
+ProjectLicense: GPL-3.0+
+Categories:
+  - Settings
+  - HardwareSettings
+  - System
+Launchable:
+  desktop-id:
+    - com.soplos.msi-keyboard.desktop
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/msi-keyboard-rgb/issues
+Releases:
+  - version: 1.0.5
+    date: '2025-07-05'
+    description: |-
+      Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.
+      Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.
+  - version: 1.0.4
+    date: '2025-07-05'
+    description: |-
+      Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.
+      Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando problemas de permisos en GUI.
+  - version: 1.0.3
+    date: '2025-06-26'
+    description: |-
+      Automatic generation and update of systemd service when applying configuration from the graphical interface.
+      Generación y actualización automática del servicio systemd al aplicar la configuración desde la interfaz gráfica.
+  - version: 1.0.2
+    date: '2025-06-24'
+    description: |-
+      Minor improvements and metadata updates
+      Mejoras menores y actualización de metadatos
+  - version: 1.0.1
+    date: '2025-06-24'
+    description: |-
+      Visible in KDE Discover and other AppStream-based stores
+      Ahora visible en Discover y otras tiendas AppStream
+  - version: 1.0.0
+    date: '2024-12-19'
+    description: |-
+      Initial release
+      Features:
 ---
 Type: desktop-application
 ID: com.soplos.grubeditor
