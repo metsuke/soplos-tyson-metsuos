@@ -36,7 +36,7 @@
       <caption xml:lang="it">Finestra principale: selezione colore tastiera</caption>
       <caption xml:lang="ru">Главное окно: выбор цвета клавиатуры</caption>
       <caption xml:lang="ro">Fereastra principală: selecția culorii tastaturii</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Advanced effects and zone configuration</caption>
@@ -47,12 +47,12 @@
       <caption xml:lang="it">Configurazione avanzata di effetti e zone</caption>
       <caption xml:lang="ru">Расширенная настройка эффектов и зон</caption>
       <caption xml:lang="ro">Configurare avansată a efectelor și zonelor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/msi-keyboard-rgb/issues</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
 
   <developer id="com.soploslinux">
     <name>Soplos Team</name>
@@ -64,6 +64,42 @@
   </provides>
 
   <releases>
+    <release version="1.0.6" date="2025-07-13">
+      <description>
+        <p>Metainfo data corrected for proper display in AppStream/Discover.</p>
+        <p xml:lang="es">Corregidos los datos del metainfo para que se muestren de forma correcta en AppStream/Discover.</p>
+      </description>
+    </release>
+    <release version="1.0.5" date="2025-07-05">
+      <description>
+        <p>Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>
+        <p xml:lang="es">Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.</p>
+        <ul>
+          <li>Eliminación automática de archivos temporales después de crear servicios.</li>
+          <li>Mejoras en el manejo de errores y estabilidad general del sistema.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.4" date="2025-07-05">
+      <description>
+        <p>Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
+        <p xml:lang="es">Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando problemas de permisos en GUI.</p>
+        <ul>
+          <li>Mejor manejo de cancelación de autenticación por parte del usuario.</li>
+          <li>Correcciones menores y mejoras de estabilidad.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.3" date="2025-06-26">
+      <description>
+        <p>Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
+        <p xml:lang="es">Generación y actualización automática del servicio systemd al aplicar la configuración desde la interfaz gráfica.</p>
+        <ul>
+          <li>El servicio systemd se habilita para aplicar la configuración RGB al arrancar el sistema.</li>
+          <li>Correcciones menores y mejoras de integración.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2" date="2025-06-24">
       <description>
         <p>Minor improvements and metadata updates</p>

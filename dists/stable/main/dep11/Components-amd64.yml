@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T202025
+Time: 20250713T202036
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -470,7 +470,7 @@ Icon:
 Screenshots:
   - default: true
     source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot1.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
     caption:
       C: 'Main window: keyboard color selection'
       es: 'Ventana principal: selección de color del teclado'
@@ -481,7 +481,7 @@ Screenshots:
       ru: 'Главное окно: выбор цвета клавиатуры'
       ro: 'Fereastra principală: selecția culorii tastaturii'
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot2.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
     caption:
       C: Advanced effects and zone configuration
       es: Configuración avanzada de efectos y zonas
