@@ -3,17 +3,35 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T174813
+Time: 20250713T180020
 ---
+Type: desktop-application
+ID: com.soplos.reposelector.desktop
+MetadataLicense: CC0-1.0
+Package: soplos-repo-selector
+Name:
+  C: Soplos Repo Selector
+  es: Selector de Repositorios Soplos
+  fr: Sélecteur de dépôts Soplos
+  pt: Seletor de Repositórios Soplos
+  de: Soplos Repository-Selektor
+  it: Selettore Repository Soplos
+  ru: Селектор репозиториев Soplos
+  ro: Selector de depozite Soplos
+Summary:
+  C: Advanced APT repository manager for Debian-based systems
+  es: Gestor avanzado de repositorios APT para sistemas basados en Debian
+  fr: Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian
+  pt: Gerenciador avançado de repositórios APT para sistemas baseados em Debian
+  de: Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme
+  it: Gestore avanzato di repository APT per sistemi basati su Debian
+  ru: Продвинутый менеджер APT-репозиториев для систем на базе Debian
+  ro: Manager avansat de depozite APT pentru sisteme bazate pe Debian
 Description:
   C: |-
     Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.
 
     Key features include:
-  de: |-
-    Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.
-
-    Hauptmerkmale umfassen:
   es: |-
     Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.
 
@@ -22,27 +40,26 @@ Description:
     Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.
 
     Les fonctionnalités clés incluent:
-  it: |-
-    Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.
-
-    Le caratteristiche principali includono:
   pt: |-
     Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.
 
     As principais características incluem:
-  ro: |-
-    Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.
+  de: |-
+    Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.
 
-    Caracteristicile principale includ:
+    Hauptmerkmale umfassen:
+  it: |-
+    Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.
+
+    Le caratteristiche principali includono:
   ru: |-
     Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.
 
     Ключевые функции включают:
-ID: com.soplos.reposelector.desktop
-Icon:
-  - stock: com.soplos.reposelector
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/icons/com.soplos.reposelector.png
+  ro: |-
+    Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.
+
+    Caracteristicile principale includ:
 Keywords:
   C:
     - repository
@@ -55,116 +72,116 @@ Keywords:
     - gpg
     - theme
     - wayland
-MetadataLicense: CC0-1.0
-Name:
-  C: Soplos Repo Selector
-  de: Soplos Repository-Selektor
-  es: Selector de Repositorios Soplos
-  fr: Sélecteur de dépôts Soplos
-  it: Selettore Repository Soplos
-  pt: Seletor de Repositórios Soplos
-  ro: Selector de depozite Soplos
-  ru: Селектор репозиториев Soplos
-Package: soplos-repo-selector
+Icon:
+  - stock: com.soplos.reposelector
+  - remote:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/icons/com.soplos.reposelector.png
 Screenshots:
-  - caption:
-      C: Gestor de Repositorios Debian
-      de: Debian-Repository-Manager
-      es: Gestor de Repositorios Debian
-      fr: Gestionnaire de dépôts Debian
-      it: Gestore dei repository Debian
-      pt: Gerenciador de Repositórios Debian
-      ro: Manager de depozite Debian
-      ru: Менеджер репозиториев Debian
-    default: true
+  - default: true
     source-image:
       url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot1.png
-  - caption:
+    caption:
+      C: Gestor de Repositorios Debian
+      es: Gestor de Repositorios Debian
+      fr: Gestionnaire de dépôts Debian
+      pt: Gerenciador de Repositórios Debian
+      de: Debian-Repository-Manager
+      it: Gestore dei repository Debian
+      ru: Менеджер репозиториев Debian
+      ro: Manager de depozite Debian
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot2.png
+    caption:
       C: Buscar Repositorios Más Rápidos
-      de: Schnellste Repositories suchen
       es: Buscar Repositorios Más Rápidos
       fr: Recherche des dépôts les plus rapides
-      it: Cerca repository più veloci
       pt: Buscar Repositórios Mais Rápidos
-      ro: Căutare depozite mai rapide
+      de: Schnellste Repositories suchen
+      it: Cerca repository più veloci
       ru: Поиск самых быстрых репозиториев
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot2.png
-  - caption:
+      ro: Căutare depozite mai rapide
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot3.png
+    caption:
       C: Gestor de Claves GPG
-      de: GPG-Schlüsselverwaltung
       es: Gestor de Claves GPG
       fr: Gestionnaire de clés GPG
-      it: Gestore chiavi GPG
       pt: Gerenciador de Chaves GPG
-      ro: Manager de chei GPG
+      de: GPG-Schlüsselverwaltung
+      it: Gestore chiavi GPG
       ru: Менеджер ключей GPG
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot3.png
-  - caption:
+      ro: Manager de chei GPG
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot4.png
+    caption:
       C: Detalles de Clave GPG
-      de: GPG-Schlüsseldetails
       es: Detalles de Clave GPG
       fr: Détails de la clé GPG
-      it: Dettagli chiave GPG
       pt: Detalhes da Chave GPG
-      ro: Detalii cheie GPG
+      de: GPG-Schlüsseldetails
+      it: Dettagli chiave GPG
       ru: Детали ключа GPG
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot4.png
-Summary:
-  C: Advanced APT repository manager for Debian-based systems
-  de: Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme
-  es: Gestor avanzado de repositorios APT para sistemas basados en Debian
-  fr: Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian
-  it: Gestore avanzato di repository APT per sistemi basati su Debian
-  pt: Gerenciador avançado de repositórios APT para sistemas baseados em Debian
-  ro: Manager avansat de depozite APT pentru sisteme bazate pe Debian
-  ru: Продвинутый менеджер APT-репозиториев для систем на базе Debian
-Type: desktop
+      ro: Detalii cheie GPG
 ---
+Type: operating-system
+ID: com.soploslinux.soplos
+MetadataLicense: CC0-1.0
+Package: soplos-release
+Name:
+  C: Soplos Linux
+Summary:
+  C: GNU/Linux distribution focused on usability and modern desktop experience
 Description:
   C: Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on
     simplicity, performance, and a great out-of-the-box experience.
-ID: com.soploslinux.soplos
-MetadataLicense: CC0-1.0
-Name:
-  C: Soplos Linux
-Package: soplos-release
-Summary:
-  C: GNU/Linux distribution focused on usability and modern desktop experience
-Type: operating-system
 ---
+Type: desktop-application
+ID: com.soplos.welcome.desktop
+MetadataLicense: CC0-1.0
+Package: soplos-welcome
+Name:
+  C: Soplos Welcome
+  es: Bienvenida a Soplos
+  fr: Bienvenue sur Soplos
+  pt: Bem-vindo ao Soplos
+  de: Willkommen bei Soplos
+  it: Benvenuto su Soplos
+  ru: Добро пожаловать в Soplos
+  ro: Bun venit la Soplos
+Summary:
+  C: Welcome screen for Soplos Linux
+  es: Pantalla de bienvenida para Soplos Linux
+  fr: Écran de bienvenue pour Soplos Linux
+  pt: Tela de boas-vindas para Soplos Linux
+  de: Willkommensbildschirm für Soplos Linux
+  it: Schermata di benvenuto per Soplos Linux
+  ru: Экран приветствия для Soplos Linux
+  ro: Ecran de întâmpinare pentru Soplos Linux
 Description:
   C: A comprehensive welcome application for Soplos Linux that helps new users get
     started with their system, featuring full internationalization support and modern
     software recommendations.
-  de: Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern
-    hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung
-    und modernen Software-Empfehlungen.
   es: Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos
     usuarios a comenzar con su sistema, con soporte completo de internacionalización
     y recomendaciones de software modernas.
   fr: Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux
     utilisateurs à démarrer avec leur système, avec un support d'internationalisation
     complet et des recommandations de logiciels modernes.
-  it: Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti
-    a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione
-    e raccomandazioni software moderne.
   pt: Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários
     a começar com seu sistema, com suporte completo de internacionalização e recomendações
     de software modernas.
-  ro: O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori
-    să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări
-    software moderne.
+  de: Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern
+    hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung
+    und modernen Software-Empfehlungen.
+  it: Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti
+    a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione
+    e raccomandazioni software moderne.
   ru: Комплексное приветственное приложение для Soplos Linux, которое помогает новым
     пользователям начать работу с системой, с полной поддержкой интернационализации
     и современными рекомендациями программного обеспечения.
-ID: com.soplos.welcome.desktop
-Icon:
-  - stock: soplos-welcome
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/icons/com.soplos.welcome.png
+  ro: O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori
+    să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări
+    software moderne.
 Keywords:
   C:
     - welcome
@@ -174,118 +191,118 @@ Keywords:
     - soplos
     - internationalization
     - i18n
-MetadataLicense: CC0-1.0
-Name:
-  C: Soplos Welcome
-  de: Willkommen bei Soplos
-  es: Bienvenida a Soplos
-  fr: Bienvenue sur Soplos
-  it: Benvenuto su Soplos
-  pt: Bem-vindo ao Soplos
-  ro: Bun venit la Soplos
-  ru: Добро пожаловать в Soplos
-Package: soplos-welcome
+Icon:
+  - stock: soplos-welcome
+  - remote:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/icons/com.soplos.welcome.png
 Screenshots:
-  - caption:
-      C: Main welcome screen with internationalization support
-      de: Hauptwillkommensbildschirm mit Internationalisierungsunterstützung
-      es: Pantalla principal de bienvenida con soporte de internacionalización
-      fr: Écran principal de bienvenue avec support d'internationalisation
-      it: Schermata principale di benvenuto con supporto di internazionalizzazione
-      pt: Tela principal de boas-vindas com suporte de internacionalização
-      ro: Ecran principal de întâmpinare cu suport de internaționalizare
-      ru: Главный экран приветствия с поддержкой интернационализации
-    default: true
+  - default: true
     source-image:
       url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png
-  - caption:
+    caption:
+      C: Main welcome screen with internationalization support
+      es: Pantalla principal de bienvenida con soporte de internacionalización
+      fr: Écran principal de bienvenue avec support d'internationalisation
+      pt: Tela principal de boas-vindas com suporte de internacionalização
+      de: Hauptwillkommensbildschirm mit Internationalisierungsunterstützung
+      it: Schermata principale di benvenuto con supporto di internazionalizzazione
+      ru: Главный экран приветствия с поддержкой интернационализации
+      ro: Ecran principal de întâmpinare cu suport de internaționalizare
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png
+    caption:
       C: Software center with updated recommendations
-      de: Software-Center mit aktualisierten Empfehlungen
       es: Centro de software con recomendaciones actualizadas
       fr: Centre de logiciels avec recommandations mises à jour
-      it: Centro software con raccomandazioni aggiornate
       pt: Central de software com recomendações atualizadas
-      ro: Centru software cu recomandări actualizate
+      de: Software-Center mit aktualisierten Empfehlungen
+      it: Centro software con raccomandazioni aggiornate
       ru: Центр программ с обновленными рекомендациями
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png
-  - caption:
+      ro: Centru software cu recomandări actualizate
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png
+    caption:
       C: Driver management interface
-      de: Treiberverwaltungsschnittstelle
       es: Interfaz de gestión de controladores
       fr: Interface de gestion des pilotes
-      it: Interfaccia di gestione dei driver
       pt: Interface de gerenciamento de drivers
-      ro: Interfață de gestionare a driverelor
+      de: Treiberverwaltungsschnittstelle
+      it: Interfaccia di gestione dei driver
       ru: Интерфейс управления драйверами
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png
-  - caption:
+      ro: Interfață de gestionare a driverelor
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png
+    caption:
       C: Kernel optimization options
-      de: Kernel-Optimierungsoptionen
       es: Opciones de optimización del kernel
       fr: Options d'optimisation du noyau
-      it: Opzioni di ottimizzazione del kernel
       pt: Opções de otimização do kernel
-      ro: Opțiuni de optimizare a kernel-ului
+      de: Kernel-Optimierungsoptionen
+      it: Opzioni di ottimizzazione del kernel
       ru: Параметры оптимизации ядра
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png
-  - caption:
+      ro: Opțiuni de optimizare a kernel-ului
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png
+    caption:
       C: Customization panel
-      de: Anpassungsbereich
       es: Panel de personalización
       fr: Panneau de personnalisation
-      it: Pannello di personalizzazione
       pt: Painel de personalização
-      ro: Panoul de personalizare
+      de: Anpassungsbereich
+      it: Pannello di personalizzazione
       ru: Панель настройки
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png
-  - caption:
+      ro: Panoul de personalizare
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png
+    caption:
       C: Recommended applications with updated software
-      de: Empfohlene Anwendungen mit aktualisierter Software
       es: Aplicaciones recomendadas con software actualizado
       fr: Applications recommandées avec logiciels mis à jour
-      it: Applicazioni raccomandate con software aggiornato
       pt: Aplicações recomendadas com software atualizado
-      ro: Aplicații recomandate cu software actualizat
+      de: Empfohlene Anwendungen mit aktualisierter Software
+      it: Applicazioni raccomandate con software aggiornato
       ru: Рекомендуемые приложения с обновленным программным обеспечением
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png
-Summary:
-  C: Welcome screen for Soplos Linux
-  de: Willkommensbildschirm für Soplos Linux
-  es: Pantalla de bienvenida para Soplos Linux
-  fr: Écran de bienvenue pour Soplos Linux
-  it: Schermata di benvenuto per Soplos Linux
-  pt: Tela de boas-vindas para Soplos Linux
-  ro: Ecran de întâmpinare pentru Soplos Linux
-  ru: Экран приветствия для Soplos Linux
-Type: desktop
+      ro: Aplicații recomandate cu software actualizat
 ---
+Type: desktop-application
+ID: com.soplos.welcomelive.desktop
+MetadataLicense: CC0-1.0
+Package: soplos-welcome-live
+Name:
+  C: Soplos Welcome Live
+  es: Bienvenida a Soplos Live
+  fr: Bienvenue sur Soplos Live
+  pt: Bem-vindo ao Soplos Live
+  de: Willkommen bei Soplos Live
+  it: Benvenuto su Soplos Live
+  ru: Добро пожаловать в Soplos Live
+  ro: Bun venit la Soplos Live
+Summary:
+  C: Welcome screen for Soplos Linux Live Environment
+  es: Pantalla de bienvenida para el entorno Live de Soplos Linux
+  fr: Écran de bienvenue pour l'environnement Live de Soplos Linux
+  pt: Tela de boas-vindas para o ambiente Live do Soplos Linux
+  de: Willkommensbildschirm für die Live-Umgebung von Soplos Linux
+  it: Schermata di benvenuto per l'ambiente Live di Soplos Linux
+  ru: Экран приветствия для Live-окружения Soplos Linux
+  ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
 Description:
   C: A welcome application for Soplos Linux Live Environment that helps users navigate
     the live system and install Soplos Linux.
-  de: Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern
-    hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.
   es: Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda
     a los usuarios a navegar por el sistema live e instalar Soplos Linux.
   fr: Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide
     les utilisateurs à naviguer dans le système live et à installer Soplos Linux.
-  it: Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli
-    utenti a navigare nel sistema live e installare Soplos Linux.
   pt: Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda
     os usuários a navegar pelo sistema live e instalar o Soplos Linux.
-  ro: O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii
-    să navigheze în sistemul live și să instaleze Soplos Linux.
+  de: Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern
+    hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.
+  it: Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli
+    utenti a navigare nel sistema live e installare Soplos Linux.
   ru: Приветственное приложение для Live-окружения Soplos Linux, которое помогает
     пользователям ориентироваться в live-системе и устанавливать Soplos Linux.
-ID: com.soplos.welcomelive.desktop
-Icon:
-  - stock: soplos-welcome-live
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png
+  ro: O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii
+    să navigheze în sistemul live și să instaleze Soplos Linux.
 Keywords:
   C:
     - welcome
@@ -293,93 +310,93 @@ Keywords:
     - install
     - setup
     - soplos
-MetadataLicense: CC0-1.0
-Name:
-  C: Soplos Welcome Live
-  de: Willkommen bei Soplos Live
-  es: Bienvenida a Soplos Live
-  fr: Bienvenue sur Soplos Live
-  it: Benvenuto su Soplos Live
-  pt: Bem-vindo ao Soplos Live
-  ro: Bun venit la Soplos Live
-  ru: Добро пожаловать в Soplos Live
-Package: soplos-welcome-live
+Icon:
+  - stock: soplos-welcome-live
+  - remote:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png
 Screenshots:
-  - caption:
-      C: Live Welcome Screen
-      de: Live-Willkommensbildschirm
-      es: Pantalla de bienvenida Live
-      fr: Écran de bienvenue Live
-      it: Schermata di benvenuto Live
-      pt: Tela de boas-vindas Live
-      ro: Ecran de întâmpinare Live
-      ru: Экран приветствия Live
-    default: true
+  - default: true
     source-image:
       url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot1.png
-  - caption:
+    caption:
+      C: Live Welcome Screen
+      es: Pantalla de bienvenida Live
+      fr: Écran de bienvenue Live
+      pt: Tela de boas-vindas Live
+      de: Live-Willkommensbildschirm
+      it: Schermata di benvenuto Live
+      ru: Экран приветствия Live
+      ro: Ecran de întâmpinare Live
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png
+    caption:
       C: Installation Options
-      de: Installationsoptionen
       es: Opciones de instalación
       fr: Options d'installation
-      it: Opzioni di installazione
       pt: Opções de instalação
-      ro: Opțiuni de instalare
+      de: Installationsoptionen
+      it: Opzioni di installazione
       ru: Параметры установки
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png
-  - caption:
+      ro: Opțiuni de instalare
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png
+    caption:
       C: Hardware Detection
-      de: Hardware-Erkennung
       es: Detección de hardware
       fr: Détection du matériel
-      it: Rilevamento hardware
       pt: Detecção de hardware
-      ro: Detectarea hardware-ului
+      de: Hardware-Erkennung
+      it: Rilevamento hardware
       ru: Обнаружение оборудования
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png
-Summary:
-  C: Welcome screen for Soplos Linux Live Environment
-  de: Willkommensbildschirm für die Live-Umgebung von Soplos Linux
-  es: Pantalla de bienvenida para el entorno Live de Soplos Linux
-  fr: Écran de bienvenue pour l'environnement Live de Soplos Linux
-  it: Schermata di benvenuto per l'ambiente Live di Soplos Linux
-  pt: Tela de boas-vindas para o ambiente Live do Soplos Linux
-  ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
-  ru: Экран приветствия для Live-окружения Soplos Linux
-Type: desktop
+      ro: Detectarea hardware-ului
 ---
+Type: desktop-application
+ID: com.soplos.plymouthmanager.desktop
+MetadataLicense: CC0-1.0
+Package: soplos-plymouth-manager
+Name:
+  C: Soplos Plymouth Manager
+  es: Gestor Plymouth Soplos
+  fr: Gestionnaire Plymouth Soplos
+  pt: Gerenciador Plymouth Soplos
+  de: Soplos Plymouth-Manager
+  it: Gestore Plymouth Soplos
+  ru: Менеджер Plymouth Soplos
+  ro: Manager Plymouth Soplos
+Summary:
+  C: Plymouth boot splash theme manager for Soplos Linux
+  es: Gestor de temas de arranque Plymouth para Soplos Linux
+  fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
+  pt: Gerenciador de temas de inicialização Plymouth para Soplos Linux
+  de: Plymouth Boot-Splash Theme Manager für Soplos Linux
+  it: Gestore dei temi di avvio Plymouth per Soplos Linux
+  ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
+  ro: Manager de teme Plymouth pentru Soplos Linux
 Description:
   C: A simple and intuitive Plymouth theme manager that allows you to preview, install
     and apply boot splash themes easily. Features automatic system theme detection
     and improved Wayland support.
-  de: Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes
-    einfach vorschauen, installieren und anwenden können. Beinhaltet automatische
-    Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.
   es: Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar,
     instalar y aplicar temas de arranque fácilmente. Incluye detección automática
     de temas del sistema y soporte mejorado para Wayland.
   fr: Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser,
     installer et appliquer des thèmes de démarrage facilement. Comprend la détection
     automatique des thèmes système et un support amélioré pour Wayland.
-  it: Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare,
-    installare e applicare temi di avvio facilmente. Include rilevamento automatico
-    dei temi di sistema e supporto migliorato per Wayland.
   pt: Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar,
     instalar e aplicar temas de inicialização facilmente. Inclui detecção automática
     de temas do sistema e suporte aprimorado para Wayland.
-  ro: Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați,
-    instalați și aplicați teme de pornire cu ușurință. Include detectarea automată
-    a temelor sistemului și suport îmbunătățit pentru Wayland.
+  de: Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes
+    einfach vorschauen, installieren und anwenden können. Beinhaltet automatische
+    Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.
+  it: Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare,
+    installare e applicare temi di avvio facilmente. Include rilevamento automatico
+    dei temi di sistema e supporto migliorato per Wayland.
   ru: Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко
     просматривать, устанавливать и применять темы загрузочного экрана. Включает автоматическое
     определение системных тем и улучшенную поддержку Wayland.
-ID: com.soplos.plymouthmanager.desktop
-Icon:
-  - stock: soplos-plymouth-manager
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png
+  ro: Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați,
+    instalați și aplicați teme de pornire cu ușurință. Include detectarea automată
+    a temelor sistemului și suport îmbunătățit pentru Wayland.
 Keywords:
   C:
     - plymouth
@@ -392,114 +409,73 @@ Keywords:
     - soplos
     - wayland
     - kde
-MetadataLicense: CC0-1.0
-Name:
-  C: Soplos Plymouth Manager
-  de: Soplos Plymouth-Manager
-  es: Gestor Plymouth Soplos
-  fr: Gestionnaire Plymouth Soplos
-  it: Gestore Plymouth Soplos
-  pt: Gerenciador Plymouth Soplos
-  ro: Manager Plymouth Soplos
-  ru: Менеджер Plymouth Soplos
-Package: soplos-plymouth-manager
+Icon:
+  - stock: soplos-plymouth-manager
+  - remote:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png
 Screenshots:
-  - caption:
-      C: Available themes list
-      de: Liste verfügbarer Themes
-      es: Lista de temas disponibles
-      fr: Liste des thèmes disponibles
-      it: Lista dei temi disponibili
-      pt: Lista de temas disponíveis
-      ro: Lista temelor disponibile
-      ru: Список доступных тем
-    default: true
+  - default: true
     source-image:
       url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot1.png
-  - caption:
+    caption:
+      C: Available themes list
+      es: Lista de temas disponibles
+      fr: Liste des thèmes disponibles
+      pt: Lista de temas disponíveis
+      de: Liste verfügbarer Themes
+      it: Lista dei temi disponibili
+      ru: Список доступных тем
+      ro: Lista temelor disponibile
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot2.png
+    caption:
       C: Theme preview
-      de: Theme-Vorschau
       es: Previsualización del tema
       fr: Aperçu du thème
-      it: Anteprima del tema
       pt: Prévia do tema
-      ro: Previzualizare temă
+      de: Theme-Vorschau
+      it: Anteprima del tema
       ru: Предварительный просмотр темы
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot2.png
-  - caption:
+      ro: Previzualizare temă
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot3.png
+    caption:
       C: Advanced settings
-      de: Erweiterte Einstellungen
       es: Configuración avanzada
       fr: Paramètres avancés
-      it: Impostazioni avanzate
       pt: Configurações avançadas
-      ro: Setări avansate
+      de: Erweiterte Einstellungen
+      it: Impostazioni avanzate
       ru: Расширенные настройки
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot3.png
-Summary:
-  C: Plymouth boot splash theme manager for Soplos Linux
-  de: Plymouth Boot-Splash Theme Manager für Soplos Linux
-  es: Gestor de temas de arranque Plymouth para Soplos Linux
-  fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
-  it: Gestore dei temi di avvio Plymouth per Soplos Linux
-  pt: Gerenciador de temas de inicialização Plymouth para Soplos Linux
-  ro: Manager de teme Plymouth pentru Soplos Linux
-  ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
-Type: desktop
+      ro: Setări avansate
 ---
-Description:
-  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
-    control, intensity adjustment and multiple lighting modes.
-  es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con
-    control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
-ID: com.soplos.msi-keyboard
-Icon:
-  - stock: com.soplos.msi-keyboard
-MetadataLicense: CC0-1.0
-Name:
-  C: MSI Keyboard RGB Controller
-  es: Controlador RGB Teclado MSI
-Package: msi-keyboard-gui
-Screenshots:
-  - caption:
-      C: 'Main window: keyboard color selection'
-      de: 'Hauptfenster: Tastaturfarbauswahl'
-      es: 'Ventana principal: selección de color del teclado'
-      fr: 'Fenêtre principale : sélection de la couleur du clavier'
-      it: 'Finestra principale: selezione colore tastiera'
-      pt: 'Janela principal: seleção de cor do teclado'
-      ro: 'Fereastra principală: selecția culorii tastaturii'
-      ru: 'Главное окно: выбор цвета клавиатуры'
-    default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
-  - caption:
-      C: Advanced effects and zone configuration
-      de: Erweiterte Effekte- und Zonen-Konfiguration
-      es: Configuración avanzada de efectos y zonas
-      fr: Configuration avancée des effets et des zones
-      it: Configurazione avanzata di effetti e zone
-      pt: Configuração avançada de efeitos e zonas
-      ro: Configurare avansată a efectelor și zonelor
-      ru: Расширенная настройка эффектов и зон
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
-Summary:
-  C: Configure MSI keyboard RGB lighting
-  es: Configurar iluminación RGB del teclado MSI
 Type: desktop-application
----
+ID: com.soplos.grubeditor
+MetadataLicense: CC0-1.0
+Package: soplos-grub-editor
+Name:
+  C: Soplos GRUB Editor
+  es: Editor GRUB de Soplos
+  fr: Éditeur GRUB Soplos
+  pt: Editor GRUB Soplos
+  de: Soplos GRUB Editor
+  it: Editor GRUB Soplos
+  ru: Редактор GRUB Soplos
+  ro: Editor GRUB Soplos
+Summary:
+  C: Advanced GRUB configuration editor with complete internationalization
+  es: Editor avanzado de configuración GRUB con internacionalización completa
+  fr: Éditeur de configuration GRUB avancé avec internationalisation complète
+  pt: Editor avançado de configuração GRUB com internacionalização completa
+  de: Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung
+  it: Editor avanzato di configurazione GRUB con internazionalizzazione completa
+  ru: Расширенный редактор конфигурации GRUB с полной интернационализацией
+  ro: Editor avansat de configurare GRUB cu internaționalizare completă
 Description:
   C: "Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing\
     \ the GRUB2 bootloader. \n      With complete internationalization support for\
     \ 8 languages, it provides an intuitive interface for managing \n      boot settings,\
     \ themes, fonts, and custom entries.\n\nKey Features:"
-  de: "Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und\
-    \ Anpassung des GRUB2-Bootloaders. \n      Mit vollständiger Internationalisierungsunterstützung\
-    \ für 8 Sprachen bietet es eine intuitive Benutzeroberfläche \n      zur Verwaltung\
-    \ von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen."
   es: "Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar\
     \ el gestor de arranque GRUB2. \n      Con soporte completo de internacionalización\
     \ para 8 idiomas, proporciona una interfaz intuitiva para gestionar \n      configuraciones\
@@ -508,27 +484,26 @@ Description:
     \ le chargeur de démarrage GRUB2. \n      Avec un support complet d'internationalisation\
     \ pour 8 langues, il fournit une interface intuitive pour gérer \n      les paramètres\
     \ de démarrage, les thèmes, les polices et les entrées personnalisées."
-  it: "Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare\
-    \ il bootloader GRUB2. \n      Con supporto completo per l'internazionalizzazione\
-    \ in 8 lingue, fornisce un'interfaccia intuitiva per gestire \n      impostazioni\
-    \ di avvio, temi, font ed entrate personalizzate."
   pt: "Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar\
     \ o gerenciador de inicialização GRUB2. \n      Com suporte completo de internacionalização\
     \ para 8 idiomas, fornece uma interface intuitiva para gerenciar \n      configurações\
     \ de inicialização, temas, fontes e entradas personalizadas."
-  ro: "Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea\
-    \ și personalizarea încărcătorului de sistem GRUB2. \n      Cu suport complet\
-    \ de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea\
-    \ \n      setărilor de pornire, temelor, fonturilor și intrărilor personalizate."
+  de: "Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und\
+    \ Anpassung des GRUB2-Bootloaders. \n      Mit vollständiger Internationalisierungsunterstützung\
+    \ für 8 Sprachen bietet es eine intuitive Benutzeroberfläche \n      zur Verwaltung\
+    \ von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen."
+  it: "Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare\
+    \ il bootloader GRUB2. \n      Con supporto completo per l'internazionalizzazione\
+    \ in 8 lingue, fornisce un'interfaccia intuitiva per gestire \n      impostazioni\
+    \ di avvio, temi, font ed entrate personalizzate."
   ru: "Soplos GRUB Editor - это комплексный графический инструмент для настройки и\
     \ персонализации загрузчика GRUB2. \n      С полной поддержкой интернационализации\
     \ для 8 языков, он предоставляет интуитивный интерфейс для управления \n     \
     \ настройками загрузки, темами, шрифтами и пользовательскими записями."
-ID: com.soplos.grubeditor
-Icon:
-  - stock: com.soplos.grubeditor
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png
+  ro: "Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea\
+    \ și personalizarea încărcătorului de sistem GRUB2. \n      Cu suport complet\
+    \ de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea\
+    \ \n      setărilor de pornire, temelor, fonturilor și intrărilor personalizate."
 Keywords:
   C:
     - grub
@@ -540,10 +515,6 @@ Keywords:
     - customize
     - theme
     - soplos
-  de:
-    - start
-    - konfiguration
-    - thema
   es:
     - arranque
     - configurar
@@ -552,87 +523,74 @@ Keywords:
     - démarrage
     - configurer
     - thème
-  it:
-    - avvio
-    - configurare
-    - tema
   pt:
     - inicialização
     - configurar
     - tema
-  ro:
-    - pornire
+  de:
+    - start
+    - konfiguration
+    - thema
+  it:
+    - avvio
     - configurare
-    - temă
+    - tema
   ru:
     - загрузка
     - настройка
     - тема
-MetadataLicense: CC0-1.0
-Name:
-  C: Soplos GRUB Editor
-  de: Soplos GRUB Editor
-  es: Editor GRUB de Soplos
-  fr: Éditeur GRUB Soplos
-  it: Editor GRUB Soplos
-  pt: Editor GRUB Soplos
-  ro: Editor GRUB Soplos
-  ru: Редактор GRUB Soplos
-Package: soplos-grub-editor
+  ro:
+    - pornire
+    - configurare
+    - temă
+Icon:
+  - stock: com.soplos.grubeditor
+  - remote:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png
 Screenshots:
-  - caption:
-      C: Main window with general settings
-      de: Hauptfenster mit allgemeinen Einstellungen
-      es: Ventana principal con configuración general
-      fr: Fenêtre principale avec paramètres généraux
-      it: Finestra principale con impostazioni generali
-      pt: Janela principal com configurações gerais
-      ro: Fereastra principală cu setări generale
-      ru: Главное окно с общими настройками
-    default: true
+  - default: true
     source-image:
       url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot1.png
-  - caption:
+    caption:
+      C: Main window with general settings
+      es: Ventana principal con configuración general
+      fr: Fenêtre principale avec paramètres généraux
+      pt: Janela principal com configurações gerais
+      de: Hauptfenster mit allgemeinen Einstellungen
+      it: Finestra principale con impostazioni generali
+      ru: Главное окно с общими настройками
+      ro: Fereastra principală cu setări generale
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot3.png
+    caption:
       C: Theme and appearance configuration
-      de: Theme- und Erscheinungsbild-Konfiguration
       es: Configuración de temas y apariencia
       fr: Configuration des thèmes et de l'apparence
-      it: Configurazione di temi e aspetto
       pt: Configuração de temas e aparência
-      ro: Configurarea temelor și aspectului
+      de: Theme- und Erscheinungsbild-Konfiguration
+      it: Configurazione di temi e aspetto
       ru: Настройка тем и внешнего вида
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot3.png
-  - caption:
+      ro: Configurarea temelor și aspectului
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot2.png
+    caption:
       C: Boot entries management
-      de: Verwaltung von Boot-Einträgen
       es: Gestión de entradas de arranque
       fr: Gestion des entrées de démarrage
-      it: Gestione delle voci di avvio
       pt: Gerenciamento de entradas de inicialização
-      ro: Gestionarea intrărilor de pornire
+      de: Verwaltung von Boot-Einträgen
+      it: Gestione delle voci di avvio
       ru: Управление записями загрузки
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot2.png
-  - caption:
+      ro: Gestionarea intrărilor de pornire
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot4.png
+    caption:
       C: Font installation and management
-      de: Schriftarten-Installation und -Verwaltung
       es: Instalación y gestión de fuentes
       fr: Installation et gestion des polices
-      it: Installazione e gestione dei font
       pt: Instalação e gerenciamento de fontes
-      ro: Instalarea și gestionarea fonturilor
+      de: Schriftarten-Installation und -Verwaltung
+      it: Installazione e gestione dei font
       ru: Установка и управление шрифтами
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot4.png
-Summary:
-  C: Advanced GRUB configuration editor with complete internationalization
-  de: Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung
-  es: Editor avanzado de configuración GRUB con internacionalización completa
-  fr: Éditeur de configuration GRUB avancé avec internationalisation complète
-  it: Editor avanzato di configurazione GRUB con internazionalizzazione completa
-  pt: Editor avançado de configuração GRUB com internacionalização completa
-  ro: Editor avansat de configurare GRUB cu internaționalizare completă
-  ru: Расширенный редактор конфигурации GRUB с полной интернационализацией
-Type: desktop-application
+      ro: Instalarea și gestionarea fonturilor
 ---
