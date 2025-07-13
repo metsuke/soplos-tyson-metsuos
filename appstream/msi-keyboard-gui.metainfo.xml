@@ -36,7 +36,7 @@
       <caption xml:lang="it">Finestra principale: selezione colore tastiera</caption>
       <caption xml:lang="ru">Главное окно: выбор цвета клавиатуры</caption>
       <caption xml:lang="ro">Fereastra principală: selecția culorii tastaturii</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Advanced effects and zone configuration</caption>
@@ -47,12 +47,12 @@
       <caption xml:lang="it">Configurazione avanzata di effetti e zone</caption>
       <caption xml:lang="ru">Расширенная настройка эффектов и зон</caption>
       <caption xml:lang="ro">Configurare avansată a efectelor și zonelor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/msi-keyboard-rgb/issues</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
 
   <developer id="com.soploslinux">
     <name>Soplos Team</name>
@@ -64,6 +64,12 @@
   </provides>
 
   <releases>
+    <release version="1.0.6" date="2025-07-13">
+      <description>
+        <p>Metainfo data corrected for proper display in AppStream/Discover.</p>
+        <p xml:lang="es">Corregidos los datos del metainfo para que se muestren de forma correcta en AppStream/Discover.</p>
+      </description>
+    </release>
     <release version="1.0.5" date="2025-07-05">
       <description>
         <p>Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>

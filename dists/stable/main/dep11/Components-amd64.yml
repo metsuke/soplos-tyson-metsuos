@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T174311
+Time: 20250713T174324
 ---
 Description:
   C: |-
@@ -474,7 +474,7 @@ Screenshots:
       ru: 'Главное окно: выбор цвета клавиатуры'
     default: true
     source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot1.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
   - caption:
       C: Advanced effects and zone configuration
       de: Erweiterte Effekte- und Zonen-Konfiguration
@@ -485,7 +485,7 @@ Screenshots:
       ro: Configurare avansată a efectelor și zonelor
       ru: Расширенная настройка эффектов и зон
     source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/msi-keyboard-gui/screenshots/screenshot2.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
 Summary:
   C: Configure MSI keyboard RGB lighting
   es: Configurar iluminación RGB del teclado MSI
