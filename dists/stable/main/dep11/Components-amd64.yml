@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos-tyson-main
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: '1752420587'
+Time: '1752420593'
 ---
 Type: desktop
 ID: com.soplos.reposelector.desktop
@@ -211,86 +211,3 @@ Screenshots:
       it: Rilevamento hardware
       ru: Обнаружение оборудования
       ro: Detectarea hardware-ului
----
-Type: desktop
-ID: com.soplos.plymouthmanager.desktop
-MetadataLicense: CC0-1.0
-Package: soplos-plymouth-manager
-Name:
-  C: Soplos Plymouth Manager
-  es: Gestor Plymouth Soplos
-  fr: Gestionnaire Plymouth Soplos
-  pt: Gerenciador Plymouth Soplos
-  de: Soplos Plymouth-Manager
-  it: Gestore Plymouth Soplos
-  ru: Менеджер Plymouth Soplos
-  ro: Manager Plymouth Soplos
-Summary:
-  C: Plymouth boot splash theme manager for Soplos Linux
-  es: Gestor de temas de arranque Plymouth para Soplos Linux
-  fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
-  pt: Gerenciador de temas de inicialização Plymouth para Soplos Linux
-  de: Plymouth Boot-Splash Theme Manager für Soplos Linux
-  it: Gestore dei temi di avvio Plymouth per Soplos Linux
-  ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
-  ro: Manager de teme Plymouth pentru Soplos Linux
-Description:
-  C: A simple and intuitive Plymouth theme manager that allows you to preview, install and apply boot splash themes easily. Features automatic system theme detection and improved Wayland support.
-  es: Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Incluye detección automática de temas del sistema y soporte mejorado para Wayland.
-  fr: Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement. Comprend la détection automatique des thèmes système et un support amélioré pour Wayland.
-  pt: Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente. Inclui detecção automática de temas do sistema e suporte aprimorado para Wayland.
-  de: Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können. Beinhaltet automatische Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.
-  it: Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente. Include rilevamento automatico dei temi di sistema e supporto migliorato per Wayland.
-  ru: Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана. Включает автоматическое определение системных тем и улучшенную поддержку Wayland.
-  ro: Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință. Include detectarea automată a temelor sistemului și suport îmbunătățit pentru Wayland.
-Keywords:
-  C:
-    - plymouth
-    - boot
-    - splash
-    - theme
-    - themes
-    - boot-splash
-    - customize
-    - soplos
-    - wayland
-    - kde
-Icon:
-  - stock: soplos-plymouth-manager
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png
-Screenshots:
-  - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot1.png
-    caption:
-      C: Available themes list
-      es: Lista de temas disponibles
-      fr: Liste des thèmes disponibles
-      pt: Lista de temas disponíveis
-      de: Liste verfügbarer Themes
-      it: Lista dei temi disponibili
-      ru: Список доступных тем
-      ro: Lista temelor disponibile
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot2.png
-    caption:
-      C: Theme preview
-      es: Previsualización del tema
-      fr: Aperçu du thème
-      pt: Prévia do tema
-      de: Theme-Vorschau
-      it: Anteprima del tema
-      ru: Предварительный просмотр темы
-      ro: Previzualizare temă
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot3.png
-    caption:
-      C: Advanced settings
-      es: Configuración avanzada
-      fr: Paramètres avancés
-      pt: Configurações avançadas
-      de: Erweiterte Einstellungen
-      it: Impostazioni avanzate
-      ru: Расширенные настройки
-      ro: Setări avansate
