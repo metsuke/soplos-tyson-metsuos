@@ -1,317 +1,287 @@
 ---
-- id: com.soplos.reposelector.desktop
-  type: desktop
-  metadata_license: CC0-1.0
-  name: Soplos Repo Selector
-  summary: Advanced APT repository manager for Debian-based systems
-  description: |-
-    Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.
-    Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.
-    Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.
-    Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.
-    Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.
-    Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.
-    Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.
-    Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.
-    Key features include:
-    Las características principales incluyen:
-    Les fonctionnalités clés incluent:
-    As principais características incluem:
-    Hauptmerkmale umfassen:
-    Le caratteristiche principali includono:
-    Ключевые функции включают:
-    Caracteristicile principale includ:
-  icon: com.soplos.reposelector
-  project_license: GPL-3.0+
-  categories:
-    - Settings
-    - System
-    - PackageManager
-    - Utility
-  launchable:
-    type: desktop-id
-    value: com.soplos.reposelector.desktop
-  urls:
-    homepage: https://soploslinux.com
-    bugtracker: https://github.com/SoplosLinux/soplos-repo-selector/issues
-    help: https://soploslinux.com/docs/repo-selector
-    donation: https://paypal.me/soploslinux
-  releases:
-    - version: 1.0.3
-      date: '2025-06-17'
-      description: |-
-        Enhanced theme compatibility and stability improvements
-        Compatibilidad de tema mejorada y mejoras de estabilidad
-        Compatibilité de thème améliorée et améliorations de stabilité
-        Compatibilidade de tema aprimorada e melhorias de estabilidade
-        Verbesserte Theme-Kompatibilität und Stabilitätsverbesserungen
-        Compatibilità del tema migliorata e miglioramenti della stabilità
-        Улучшенная совместимость темы и улучшения стабильности
-        Compatibilitate de temă îmbunătățită și îmbunătățiri de stabilitate
-    - version: 1.0.2
-      date: '2025-01-15'
-      description: |-
-        Automatic theme detection and interface improvements
-        Detección automática de tema y mejoras de interfaz
-        Détection automatique de thème et améliorations d'interface
-        Detecção automática de tema e melhorias de interface
-        Automatische Theme-Erkennung und Interface-Verbesserungen
-        Rilevamento automatico del tema e miglioramenti dell'interfaccia
-        Автоматическое обнаружение темы и улучшения интерфейса
-        Detectarea automată a temei și îmbunătățiri ale interfeței
-    - version: 1.0.1
-      date: '2025-01-10'
-      description: |-
-        Multi-language support and advanced features
-        Soporte multiidioma y características avanzadas
-        Support multilingue et fonctionnalités avancées
-        Suporte multilíngue e recursos avançados
-        Mehrsprachige Unterstützung und erweiterte Funktionen
-        Supporto multilingue e funzionalità avanzate
-        Многоязычная поддержка и расширенные функции
-        Suport multilingv și funcții avansate
-    - version: 1.0.0
-      date: '2025-01-05'
-      description: |-
-        Initial release with core repository management features
-        Lanzamiento inicial con características básicas de gestión de repositorios
-        Version initiale avec fonctionnalités de base de gestion des dépôts
-        Lançamento inicial com recursos básicos de gerenciamento de repositórios
-        Erste Version mit grundlegenden Repository-Verwaltungsfunktionen
-        Rilascio iniziale con funzionalità di base per la gestione dei repository
-        Первый выпуск с основными функциями управления репозиториями
-        Lansarea inițială cu funcții de bază de gestionare a depozitelor
-- id: com.soploslinux.soplos
-  type: operating-system
-  metadata_license: CC0-1.0
-  name: Soplos Linux
-  summary: GNU/Linux distribution focused on usability and modern desktop experience
-  description: Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on simplicity, performance, and a great out-of-the-box experience.
-  project_license: GPL-3.0+
-  developer_name: Soplos Team
-  urls:
-    homepage: https://soploslinux.com
-  releases:
-    - version: 1.0.2
-      date: '2025-06-24'
-- id: com.soplos.welcome.desktop
-  type: desktop
-  metadata_license: CC0-1.0
-  name: Soplos Welcome
-  summary: Welcome screen for Soplos Linux
-  description: |-
-    A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.
-    Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema, con soporte completo de internacionalización y recomendaciones de software modernas.
-    Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système, avec un support d'internationalisation complet et des recommandations de logiciels modernes.
-    Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários a começar com seu sistema, com suporte completo de internacionalização e recomendações de software modernas.
-    Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung und modernen Software-Empfehlungen.
-    Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione e raccomandazioni software moderne.
-    Комплексное приветственное приложение для Soplos Linux, которое помогает новым пользователям начать работу с системой, с полной поддержкой интернационализации и современными рекомендациями программного обеспечения.
-    O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări software moderne.
-  icon: soplos-welcome
-  project_license: GPL-3.0+
-  categories:
-    - Settings
-    - System
-    - Utility
-  launchable:
-    type: desktop-id
-    value: com.soplos.welcome.desktop
-  urls:
-    homepage: https://soploslinux.com
-    bugtracker: https://github.com/SoplosLinux/tyron/issues
-    help: https://soploslinux.com/foros
-    donate: https://www.paypal.com/paypalme/isubdes
-  releases:
-    - version: 1.0.6
-      date: '2025-06-24'
-      description: |-
-        Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.
-        Corrección de errores menores, actualización de traducciones, mejoras en el instalador, enlaces de ayuda/donación actualizados y pequeños ajustes de seguridad.
-        Corrections de bugs mineurs, mises à jour des traductions, améliorations de l'installateur, liens d'aide/don actualisés et petits ajustements de sécurité.
-        Correções de bugs menores, atualização de traduções, melhorias no instalador, links de ajuda/doação atualizados e pequenos ajustes de segurança.
-        Kleinere Fehlerbehebungen, Übersetzungsaktualisierungen, Verbesserungen am Installer, aktualisierte Hilfe-/Spendenlinks und kleinere Sicherheitsanpassungen.
-        Correzioni di bug minori, aggiornamenti delle traduzioni, miglioramenti all'installer, link di aiuto/donazione aggiornati e piccoli aggiustamenti di sicurezza.
-        Мелкие исправления ошибок, обновления переводов, улучшения установщика, обновленные ссылки на помощь/пожертвования и небольшие улучшения безопасности.
-        Corecții minore de erori, actualizări de traduceri, îmbunătățiri ale programului de instalare, linkuri de ajutor/donații actualizate și mici ajustări de securitate.
-    - version: 1.0.5
-      date: '2025-01-15'
-      description: |-
-        Complete internationalization and software updates
-        Internacionalización completa y actualizaciones de software
-        Internationalisation complète et mises à jour logicielles
-        Internacionalização completa e atualizações de software
-        Vollständige Internationalisierung und Software-Updates
-        Internazionalizzazione completa e aggiornamenti software
-        Полная интернационализация и обновления программного обеспечения
-        Internaționalizare completă și actualizări software
-    - version: 1.0.0
-      date: '2025-05-08'
-      description: |-
-        Initial release
-        Versión inicial
-        Version initiale
-        Versão inicial
-        Erste Version
-        Versione iniziale
-        Начальная версия
-        Versiune inițială
-- id: com.soplos.welcomelive.desktop
-  type: desktop
-  metadata_license: CC0-1.0
-  name: Soplos Welcome Live
-  summary: Welcome screen for Soplos Linux Live Environment
-  description: |-
-    A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.
-    Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a los usuarios a navegar por el sistema live e instalar Soplos Linux.
-    Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide les utilisateurs à naviguer dans le système live et à installer Soplos Linux.
-    Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os usuários a navegar pelo sistema live e instalar o Soplos Linux.
-    Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.
-    Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.
-    Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям ориентироваться в live-системе и устанавливать Soplos Linux.
-    O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii să navigheze în sistemul live și să instaleze Soplos Linux.
-  icon: soplos-welcome-live
-  project_license: GPL-3.0+
-  categories:
-    - System
-    - Settings
-    - Utility
-  launchable:
-    type: desktop-id
-    value: com.soplos.welcomelive.desktop
-  urls:
-    homepage: https://soploslinux.com
-    bugtracker: https://github.com/SoplosLinux/tyron/issues
-    help: https://soploslinux.com
-  releases:
-    - version: 1.0.6
-      date: '2025-06-24'
-      description: |-
-        Now visible in Discover (AppStream integration)
-        Ahora visible en Discover (integración AppStream)
-        Désormais visible dans Discover (intégration AppStream)
-        Agora visível no Discover (integração AppStream)
-        Jetzt in Discover sichtbar (AppStream-Integration)
-        Ora visibile in Discover (integrazione AppStream)
-        Теперь видно в Discover (интеграция AppStream)
-        Acum vizibil în Discover (integrare AppStream)
-    - version: 1.0.5
-      date: '2025-06-20'
-      description: |-
-        Complete internationalization and label refinement to English
-        Internacionalización completa y depuración de etiquetas a inglés
-        Internationalisation complète et affinement des étiquettes en anglais
-        Internacionalização completa e refinamento de rótulos para o inglês
-        Vollständige Internationalisierung und Verfeinerung der Bezeichnungen auf Englisch
-        Internazionalizzazione completa e raffinamento delle etichette in inglese
-        Полная интернационализация и уточнение меток на английском языке
-        Internaționalizare completă și rafinarea etichetelor în engleză
-    - version: 1.0.3
-      date: '2024-01-27'
-      description: |-
-        Initial release
-        Versión inicial
-        Version initiale
-        Versão inicial
-        Erste Version
-        Versione iniziale
-        Начальная версия
-        Versiune inițială
-- id: com.soplos.msi-keyboard
-  type: desktop-application
-  metadata_license: CC0-1.0
-  name: MSI Keyboard RGB Controller
-  summary: Configure MSI keyboard RGB lighting
-  description: |-
-    A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.
-    Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
-  icon: com.soplos.msi-keyboard
-  project_license: GPL-3.0+
-  categories:
-    - Settings
-    - HardwareSettings
-    - System
-  launchable:
-    type: desktop-id
-    value: com.soplos.msi-keyboard.desktop
-  urls:
-    homepage: https://soploslinux.com
-    bugtracker: https://github.com/SoplosLinux/msi-keyboard-rgb/issues
-  releases:
-    - version: 1.0.5
-      date: '2025-07-05'
-      description: |-
-        Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.
-        Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.
-    - version: 1.0.4
-      date: '2025-07-05'
-      description: |-
-        Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.
-        Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando problemas de permisos en GUI.
-    - version: 1.0.3
-      date: '2025-06-26'
-      description: |-
-        Automatic generation and update of systemd service when applying configuration from the graphical interface.
-        Generación y actualización automática del servicio systemd al aplicar la configuración desde la interfaz gráfica.
-    - version: 1.0.2
-      date: '2025-06-24'
-      description: |-
-        Minor improvements and metadata updates
-        Mejoras menores y actualización de metadatos
-    - version: 1.0.1
-      date: '2025-06-24'
-      description: |-
-        Visible in KDE Discover and other AppStream-based stores
-        Ahora visible en Discover y otras tiendas AppStream
-    - version: 1.0.0
-      date: '2024-12-19'
-      description: |-
-        Initial release
-        Features:
-- id: com.soplos.grubeditor
-  type: desktop-application
-  metadata_license: CC0-1.0
-  name: Soplos GRUB Editor
-  summary: Advanced GRUB configuration editor with complete internationalization
-  description: "Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader. \n      With complete internationalization support for 8 languages, it provides an intuitive interface for managing \n      boot settings, themes, fonts, and custom entries.\nSoplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2. \n      Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar \n      configuraciones de arranque, temas, fuentes y entradas personalizadas.\nSoplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2. \n      Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer \n      les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.\nSoplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2. \n      Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar \n      configurações de inicialização, temas, fontes e entradas personalizadas.\nSoplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. \n      Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche \n      zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.\nSoplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2. \n      Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire \n      impostazioni di avvio, temi, font ed entrate personalizzate.\nSoplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2. \n      С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления \n      настройками загрузки, темами, шрифтами и пользовательскими записями.\nSoplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2. \n      Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea \n      setărilor de pornire, temelor, fonturilor și intrărilor personalizate.\nKey Features:"
-  icon: com.soplos.grubeditor
-  project_license: GPL-3.0-or-later
-  categories:
-    - System
-    - Settings
-    - Utility
-  launchable:
-    type: desktop-id
-    value: com.soplos.grubeditor.desktop
-  urls:
-    homepage: https://soploslinux.com
-    bugtracker: https://github.com/SoplosLinux/tyron/issues
-    help: https://soploslinux.com/foros
-    donation: https://www.paypal.com/paypalme/isubdes
-    vcs-browser: https://github.com/SoplosLinux/tyron
-  releases:
-    - version: 1.0.2
-      date: '2025-06-24'
-      description: |-
-        Complete internationalization update with 8 languages
-        Improved AppStream metadata for better visibility in Plasma Discover
-        Actualización completa de internacionalización con 8 idiomas
-        Mejoras en metadatos AppStream para visibilidad en Plasma Discover
-        Mise à jour complète d'internationalisation avec 8 langues
-        Amélioration des métadonnées AppStream pour Plasma Discover
-        Atualização completa de internacionalização com 8 idiomas
-        Melhorias nos metadados AppStream para Plasma Discover
-        Vollständige Internationalisierung mit 8 Sprachen
-        Verbesserte AppStream-Metadaten für Plasma Discover
-        Aggiornamento completo di internazionalizzazione con 8 lingue
-        Miglioramenti ai metadati AppStream per Plasma Discover
-        Полное обновление интернационализации с 8 языками
-        Улучшены метаданные AppStream для Plasma Discover
-        Actualizare completă de internaționalizare cu 8 limbi
-        Îmbunătățiri la metadatele AppStream pentru Plasma Discover
-    - version: 1.0.1
-      date: '2025-06-15'
-      description: Font management improvements and bug fixes
-    - version: 1.0.0
-      date: '2025-06-13'
-      description: Initial stable release
+File: DEP-11
+Version: '0.14'
+Origin: soplos
+MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
+Priority: 20
+Time: 1752409239
+---
+Type: desktop
+ID: com.soplos.reposelector.desktop
+MetadataLicense: CC0-1.0
+Package: com
+Name: Soplos Repo Selector
+Summary: Advanced APT repository manager for Debian-based systems
+Description: |-
+  Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.
+  Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.
+  Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.
+  Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.
+  Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.
+  Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.
+  Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.
+  Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.
+  Key features include:
+  Las características principales incluyen:
+  Les fonctionnalités clés incluent:
+  As principais características incluem:
+  Hauptmerkmale umfassen:
+  Le caratteristiche principali includono:
+  Ключевые функции включают:
+  Caracteristicile principale includ:
+Icon:
+  stock: com.soplos.reposelector
+ProjectLicense: GPL-3.0+
+Categories:
+  - Settings
+  - System
+  - PackageManager
+  - Utility
+Launchable:
+  desktop-id:
+    - com.soplos.reposelector.desktop
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/soplos-repo-selector/issues
+  help: https://soploslinux.com/docs/repo-selector
+  donation: https://paypal.me/soploslinux
+Releases:
+  - version: 1.0.3
+    date: '2025-06-17'
+    description: |-
+      Enhanced theme compatibility and stability improvements
+      Compatibilidad de tema mejorada y mejoras de estabilidad
+      Compatibilité de thème améliorée et améliorations de stabilité
+      Compatibilidade de tema aprimorada e melhorias de estabilidade
+      Verbesserte Theme-Kompatibilität und Stabilitätsverbesserungen
+      Compatibilità del tema migliorata e miglioramenti della stabilità
+      Улучшенная совместимость темы и улучшения стабильности
+      Compatibilitate de temă îmbunătățită și îmbunătățiri de stabilitate
+  - version: 1.0.2
+    date: '2025-01-15'
+    description: |-
+      Automatic theme detection and interface improvements
+      Detección automática de tema y mejoras de interfaz
+      Détection automatique de thème et améliorations d'interface
+      Detecção automática de tema e melhorias de interface
+      Automatische Theme-Erkennung und Interface-Verbesserungen
+      Rilevamento automatico del tema e miglioramenti dell'interfaccia
+      Автоматическое обнаружение темы и улучшения интерфейса
+      Detectarea automată a temei și îmbunătățiri ale interfeței
+  - version: 1.0.1
+    date: '2025-01-10'
+    description: |-
+      Multi-language support and advanced features
+      Soporte multiidioma y características avanzadas
+      Support multilingue et fonctionnalités avancées
+      Suporte multilíngue e recursos avançados
+      Mehrsprachige Unterstützung und erweiterte Funktionen
+      Supporto multilingue e funzionalità avanzate
+      Многоязычная поддержка и расширенные функции
+      Suport multilingv și funcții avansate
+  - version: 1.0.0
+    date: '2025-01-05'
+    description: |-
+      Initial release with core repository management features
+      Lanzamiento inicial con características básicas de gestión de repositorios
+      Version initiale avec fonctionnalités de base de gestion des dépôts
+      Lançamento inicial com recursos básicos de gerenciamento de repositórios
+      Erste Version mit grundlegenden Repository-Verwaltungsfunktionen
+      Rilascio iniziale con funzionalità di base per la gestione dei repository
+      Первый выпуск с основными функциями управления репозиториями
+      Lansarea inițială cu funcții de bază de gestionare a depozitelor
+---
+Type: operating-system
+ID: com.soploslinux.soplos
+MetadataLicense: CC0-1.0
+Package: com
+Name: Soplos Linux
+Summary: GNU/Linux distribution focused on usability and modern desktop experience
+Description: Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on simplicity, performance, and a great out-of-the-box experience.
+ProjectLicense: GPL-3.0+
+DeveloperName: Soplos Team
+Url:
+  homepage: https://soploslinux.com
+Releases:
+  - version: 1.0.2
+    date: '2025-06-24'
+---
+Type: desktop
+ID: com.soplos.welcome.desktop
+MetadataLicense: CC0-1.0
+Package: com
+Name: Soplos Welcome
+Summary: Welcome screen for Soplos Linux
+Description: |-
+  A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.
+  Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema, con soporte completo de internacionalización y recomendaciones de software modernas.
+  Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système, avec un support d'internationalisation complet et des recommandations de logiciels modernes.
+  Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários a começar com seu sistema, com suporte completo de internacionalização e recomendações de software modernas.
+  Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung und modernen Software-Empfehlungen.
+  Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione e raccomandazioni software moderne.
+  Комплексное приветственное приложение для Soplos Linux, которое помогает новым пользователям начать работу с системой, с полной поддержкой интернационализации и современными рекомендациями программного обеспечения.
+  O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări software moderne.
+Icon:
+  stock: soplos-welcome
+ProjectLicense: GPL-3.0+
+Categories:
+  - Settings
+  - System
+  - Utility
+Launchable:
+  desktop-id:
+    - com.soplos.welcome.desktop
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/tyron/issues
+  help: https://soploslinux.com/foros
+  donate: https://www.paypal.com/paypalme/isubdes
+Releases:
+  - version: 1.0.6
+    date: '2025-06-24'
+    description: |-
+      Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.
+      Corrección de errores menores, actualización de traducciones, mejoras en el instalador, enlaces de ayuda/donación actualizados y pequeños ajustes de seguridad.
+      Corrections de bugs mineurs, mises à jour des traductions, améliorations de l'installateur, liens d'aide/don actualisés et petits ajustements de sécurité.
+      Correções de bugs menores, atualização de traduções, melhorias no instalador, links de ajuda/doação atualizados e pequenos ajustes de segurança.
+      Kleinere Fehlerbehebungen, Übersetzungsaktualisierungen, Verbesserungen am Installer, aktualisierte Hilfe-/Spendenlinks und kleinere Sicherheitsanpassungen.
+      Correzioni di bug minori, aggiornamenti delle traduzioni, miglioramenti all'installer, link di aiuto/donazione aggiornati e piccoli aggiustamenti di sicurezza.
+      Мелкие исправления ошибок, обновления переводов, улучшения установщика, обновленные ссылки на помощь/пожертвования и небольшие улучшения безопасности.
+      Corecții minore de erori, actualizări de traduceri, îmbunătățiri ale programului de instalare, linkuri de ajutor/donații actualizate și mici ajustări de securitate.
+  - version: 1.0.5
+    date: '2025-01-15'
+    description: |-
+      Complete internationalization and software updates
+      Internacionalización completa y actualizaciones de software
+      Internationalisation complète et mises à jour logicielles
+      Internacionalização completa e atualizações de software
+      Vollständige Internationalisierung und Software-Updates
+      Internazionalizzazione completa e aggiornamenti software
+      Полная интернационализация и обновления программного обеспечения
+      Internaționalizare completă și actualizări software
+  - version: 1.0.0
+    date: '2025-05-08'
+    description: |-
+      Initial release
+      Versión inicial
+      Version initiale
+      Versão inicial
+      Erste Version
+      Versione iniziale
+      Начальная версия
+      Versiune inițială
+---
+Type: desktop
+ID: com.soplos.welcomelive.desktop
+MetadataLicense: CC0-1.0
+Package: com
+Name: Soplos Welcome Live
+Summary: Welcome screen for Soplos Linux Live Environment
+Description: |-
+  A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.
+  Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a los usuarios a navegar por el sistema live e instalar Soplos Linux.
+  Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide les utilisateurs à naviguer dans le système live et à installer Soplos Linux.
+  Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os usuários a navegar pelo sistema live e instalar o Soplos Linux.
+  Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.
+  Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.
+  Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям ориентироваться в live-системе и устанавливать Soplos Linux.
+  O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii să navigheze în sistemul live și să instaleze Soplos Linux.
+Icon:
+  stock: soplos-welcome-live
+ProjectLicense: GPL-3.0+
+Categories:
+  - System
+  - Settings
+  - Utility
+Launchable:
+  desktop-id:
+    - com.soplos.welcomelive.desktop
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/tyron/issues
+  help: https://soploslinux.com
+Releases:
+  - version: 1.0.6
+    date: '2025-06-24'
+    description: |-
+      Now visible in Discover (AppStream integration)
+      Ahora visible en Discover (integración AppStream)
+      Désormais visible dans Discover (intégration AppStream)
+      Agora visível no Discover (integração AppStream)
+      Jetzt in Discover sichtbar (AppStream-Integration)
+      Ora visibile in Discover (integrazione AppStream)
+      Теперь видно в Discover (интеграция AppStream)
+      Acum vizibil în Discover (integrare AppStream)
+  - version: 1.0.5
+    date: '2025-06-20'
+    description: |-
+      Complete internationalization and label refinement to English
+      Internacionalización completa y depuración de etiquetas a inglés
+      Internationalisation complète et affinement des étiquettes en anglais
+      Internacionalização completa e refinamento de rótulos para o inglês
+      Vollständige Internationalisierung und Verfeinerung der Bezeichnungen auf Englisch
+      Internazionalizzazione completa e raffinamento delle etichette in inglese
+      Полная интернационализация и уточнение меток на английском языке
+      Internaționalizare completă și rafinarea etichetelor în engleză
+  - version: 1.0.3
+    date: '2024-01-27'
+    description: |-
+      Initial release
+      Versión inicial
+      Version initiale
+      Versão inicial
+      Erste Version
+      Versione iniziale
+      Начальная версия
+      Versiune inițială
+---
+Type: desktop-application
+ID: com.soplos.grubeditor
+MetadataLicense: CC0-1.0
+Package: com
+Name: Soplos GRUB Editor
+Summary: Advanced GRUB configuration editor with complete internationalization
+Description: "Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader. \n      With complete internationalization support for 8 languages, it provides an intuitive interface for managing \n      boot settings, themes, fonts, and custom entries.\nSoplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2. \n      Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar \n      configuraciones de arranque, temas, fuentes y entradas personalizadas.\nSoplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2. \n      Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer \n      les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.\nSoplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2. \n      Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar \n      configurações de inicialização, temas, fontes e entradas personalizadas.\nSoplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. \n      Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche \n      zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.\nSoplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2. \n      Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire \n      impostazioni di avvio, temi, font ed entrate personalizzate.\nSoplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2. \n      С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления \n      настройками загрузки, темами, шрифтами и пользовательскими записями.\nSoplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2. \n      Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea \n      setărilor de pornire, temelor, fonturilor și intrărilor personalizate.\nKey Features:"
+Icon:
+  stock: com.soplos.grubeditor
+ProjectLicense: GPL-3.0-or-later
+Categories:
+  - System
+  - Settings
+  - Utility
+Launchable:
+  desktop-id:
+    - com.soplos.grubeditor.desktop
+Url:
+  homepage: https://soploslinux.com
+  bugtracker: https://github.com/SoplosLinux/tyron/issues
+  help: https://soploslinux.com/foros
+  donation: https://www.paypal.com/paypalme/isubdes
+  vcs-browser: https://github.com/SoplosLinux/tyron
+Releases:
+  - version: 1.0.2
+    date: '2025-06-24'
+    description: |-
+      Complete internationalization update with 8 languages
+      Improved AppStream metadata for better visibility in Plasma Discover
+      Actualización completa de internacionalización con 8 idiomas
+      Mejoras en metadatos AppStream para visibilidad en Plasma Discover
+      Mise à jour complète d'internationalisation avec 8 langues
+      Amélioration des métadonnées AppStream pour Plasma Discover
+      Atualização completa de internacionalização com 8 idiomas
+      Melhorias nos metadados AppStream para Plasma Discover
+      Vollständige Internationalisierung mit 8 Sprachen
+      Verbesserte AppStream-Metadaten für Plasma Discover
+      Aggiornamento completo di internazionalizzazione con 8 lingue
+      Miglioramenti ai metadati AppStream per Plasma Discover
+      Полное обновление интернационализации с 8 языками
+      Улучшены метаданные AppStream для Plasma Discover
+      Actualizare completă de internaționalizare cu 8 limbi
+      Îmbunătățiri la metadatele AppStream pentru Plasma Discover
+  - version: 1.0.1
+    date: '2025-06-15'
+    description: Font management improvements and bug fixes
+  - version: 1.0.0
+    date: '2025-06-13'
+    description: Initial stable release
+---
