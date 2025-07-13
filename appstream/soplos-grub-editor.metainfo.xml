@@ -84,7 +84,7 @@
 
   <icon type="stock">com.soplos.grubeditor</icon>
   <icon type="remote" width="128" height="128">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png</url>
   </icon>
 
   <screenshots>
@@ -135,10 +135,10 @@
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
   <url type="help">https://soploslinux.com/foros</url>
   <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
-  <url type="vcs-browser">https://github.com/SoplosLinux/tyron</url>
+  <url type="vcs-browser">https://github.com/SoplosLinux/tyson</url>
 
   <developer id="com.soploslinux">
     <name>Soplos Team</name>
@@ -201,24 +201,32 @@
   </supports>
 
   <releases>
-    <release version="1.0.2" date="2025-06-24">
+    <release version="1.0.2" date="2025-07-13">
       <description>
         <p>Complete internationalization update with 8 languages</p>
         <p>Improved AppStream metadata for better visibility in Plasma Discover</p>
+        <p>Metainfo updated for full compatibility with Discover/AppStream</p>
         <p xml:lang="es">Actualización completa de internacionalización con 8 idiomas</p>
         <p xml:lang="es">Mejoras en metadatos AppStream para visibilidad en Plasma Discover</p>
+        <p xml:lang="es">Metainfo actualizado para compatibilidad total con Discover/AppStream</p>
         <p xml:lang="fr">Mise à jour complète d'internationalisation avec 8 langues</p>
         <p xml:lang="fr">Amélioration des métadonnées AppStream pour Plasma Discover</p>
+        <p xml:lang="fr">Metainfo mis à jour pour compatibilité totale Discover/AppStream</p>
         <p xml:lang="pt">Atualização completa de internacionalização com 8 idiomas</p>
         <p xml:lang="pt">Melhorias nos metadados AppStream para Plasma Discover</p>
+        <p xml:lang="pt">Metainfo atualizado para compatibilidade total com Discover/AppStream</p>
         <p xml:lang="de">Vollständige Internationalisierung mit 8 Sprachen</p>
         <p xml:lang="de">Verbesserte AppStream-Metadaten für Plasma Discover</p>
+        <p xml:lang="de">Metainfo für vollständige Discover/AppStream-Kompatibilität aktualisiert</p>
         <p xml:lang="it">Aggiornamento completo di internazionalizzazione con 8 lingue</p>
         <p xml:lang="it">Miglioramenti ai metadati AppStream per Plasma Discover</p>
+        <p xml:lang="it">Metainfo aggiornato per compatibilità totale Discover/AppStream</p>
         <p xml:lang="ru">Полное обновление интернационализации с 8 языками</p>
         <p xml:lang="ru">Улучшены метаданные AppStream для Plasma Discover</p>
+        <p xml:lang="ru">Metainfo обновлен для полной совместимости с Discover/AppStream</p>
         <p xml:lang="ro">Actualizare completă de internaționalizare cu 8 limbi</p>
         <p xml:lang="ro">Îmbunătățiri la metadatele AppStream pentru Plasma Discover</p>
+        <p xml:lang="ro">Metainfo actualizat pentru compatibilitate completă Discover/AppStream</p>
         <ul>
           <li>100% internationalization coverage</li>
           <li>8 languages fully supported: es, en, fr, pt, de, it, ru, ro</li>
@@ -229,9 +237,10 @@
           <li>Better keyboard shortcuts</li>
           <li>Optimized file structure</li>
           <li>Improved AppStream metadata for Plasma Discover</li>
+          <li>Metainfo updated for Discover/AppStream</li>
         </ul>
       </description>
-      <url>https://github.com/SoplosLinux/tyron/releases/tag/v1.0.2</url>
+      <url>https://github.com/SoplosLinux/tyson/releases/tag/v1.0.2</url>
     </release>
     <release version="1.0.1" date="2025-06-15">
       <description>

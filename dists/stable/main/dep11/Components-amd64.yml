@@ -79,38 +79,49 @@ Icon:
 Screenshots:
   - default: true
     source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/main-interface.png
+      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot1.png
     caption:
-      C: Main repository management interface with automatic theme detection
-      es: Interfaz principal de gestión de repositorios con detección automática de tema
-      fr: Interface principale de gestion des dépôts avec détection automatique de thème
-      pt: Interface principal de gerenciamento de repositórios com detecção automática de tema
-      de: Hauptschnittstelle für Repository-Verwaltung mit automatischer Theme-Erkennung
-      it: Interfaccia principale di gestione repository con rilevamento automatico del tema
-      ru: Основной интерфейс управления репозиториями с автоматическим обнаружением темы
-      ro: Interfața principală de gestionare a depozitelor cu detectare automată a temei
+      C: Gestor de Repositorios Debian
+      es: Gestor de Repositorios Debian
+      fr: Gestionnaire de dépôts Debian
+      pt: Gerenciador de Repositórios Debian
+      de: Debian-Repository-Manager
+      it: Gestore dei repository Debian
+      ru: Менеджер репозиториев Debian
+      ro: Manager de depozite Debian
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/speed-test.png
+      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot2.png
     caption:
-      C: Repository speed testing and optimization
-      es: Prueba de velocidad y optimización de repositorios
-      fr: Test de vitesse et optimisation des dépôts
-      pt: Teste de velocidade e otimização de repositórios
-      de: Repository-Geschwindigkeitstest und -Optimierung
-      it: Test di velocità e ottimizzazione dei repository
-      ru: Тестирование скорости и оптимизация репозиториев
-      ro: Testarea vitezei și optimizarea depozitelor
+      C: Buscar Repositorios Más Rápidos
+      es: Buscar Repositorios Más Rápidos
+      fr: Recherche des dépôts les plus rapides
+      pt: Buscar Repositórios Mais Rápidos
+      de: Schnellste Repositories suchen
+      it: Cerca repository più veloci
+      ru: Поиск самых быстрых репозиториев
+      ro: Căutare depozite mai rapide
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/gpg-management.png
+      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot3.png
     caption:
-      C: GPG key management interface
-      es: Interfaz de gestión de claves GPG
-      fr: Interface de gestion des clés GPG
-      pt: Interface de gerenciamento de chaves GPG
-      de: GPG-Schlüsselverwaltungsschnittstelle
-      it: Interfaccia di gestione delle chiavi GPG
-      ru: Интерфейс управления GPG-ключами
-      ro: Interfața de gestionare a cheilor GPG
+      C: Gestor de Claves GPG
+      es: Gestor de Claves GPG
+      fr: Gestionnaire de clés GPG
+      pt: Gerenciador de Chaves GPG
+      de: GPG-Schlüsselverwaltung
+      it: Gestore chiavi GPG
+      ru: Менеджер ключей GPG
+      ro: Manager de chei GPG
+  - source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot4.png
+    caption:
+      C: Detalles de Clave GPG
+      es: Detalles de Clave GPG
+      fr: Détails de la clé GPG
+      pt: Detalhes da Chave GPG
+      de: GPG-Schlüsseldetails
+      it: Dettagli chiave GPG
+      ru: Детали ключа GPG
+      ro: Detalii cheie GPG
 ---
 Type: operating-system
 ID: com.soploslinux.soplos
@@ -214,7 +225,7 @@ Screenshots:
       ru: Параметры оптимизации ядра
       ro: Opțiuni de optimizare a kernel-ului
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot5.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png
     caption:
       C: Customization panel
       es: Panel de personalización
@@ -277,11 +288,11 @@ Keywords:
 Icon:
   - stock: soplos-welcome-live
   - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png
 Screenshots:
   - default: true
     source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot1.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot1.png
     caption:
       C: Live Welcome Screen
       es: Pantalla de bienvenida Live
@@ -292,7 +303,7 @@ Screenshots:
       ru: Экран приветствия Live
       ro: Ecran de întâmpinare Live
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot2.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png
     caption:
       C: Installation Options
       es: Opciones de instalación
@@ -303,7 +314,7 @@ Screenshots:
       ru: Параметры установки
       ro: Opțiuni de instalare
   - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot3.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png
     caption:
       C: Hardware Detection
       es: Detección de hardware
@@ -510,7 +521,7 @@ Keywords:
 Icon:
   - stock: com.soplos.grubeditor
   - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png
 Screenshots:
   - default: true
     source-image:

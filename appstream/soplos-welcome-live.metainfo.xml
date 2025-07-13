@@ -37,7 +37,7 @@
 
   <icon type="stock">soplos-welcome-live</icon>
   <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png</url>
   </icon>
 
   <screenshots>
@@ -50,7 +50,7 @@
       <caption xml:lang="it">Schermata di benvenuto Live</caption>
       <caption xml:lang="ru">Экран приветствия Live</caption>
       <caption xml:lang="ro">Ecran de întâmpinare Live</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Installation Options</caption>
@@ -61,7 +61,7 @@
       <caption xml:lang="it">Opzioni di installazione</caption>
       <caption xml:lang="ru">Параметры установки</caption>
       <caption xml:lang="ro">Opțiuni de instalare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
       <caption>Hardware Detection</caption>
@@ -72,12 +72,12 @@
       <caption xml:lang="it">Rilevamento hardware</caption>
       <caption xml:lang="ru">Обнаружение оборудования</caption>
       <caption xml:lang="ro">Detectarea hardware-ului</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot3.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
   <url type="help">https://soploslinux.com</url>
 
   <developer id="com.soploslinux">
@@ -105,6 +105,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.8" date="2025-07-13">
+      <description>
+        <p>Fixed metainfo file for proper visualization in Discover/AppStream</p>
+        <p xml:lang="es">Corregido el archivo metainfo para su correcta visualización en Discover/AppStream</p>
+        <p xml:lang="fr">Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream</p>
+        <p xml:lang="pt">Corrigido o arquivo metainfo para visualização adequada no Discover/AppStream</p>
+        <p xml:lang="de">Metainfo-Datei für die korrekte Anzeige in Discover/AppStream korrigiert</p>
+        <p xml:lang="it">Corretto il file metainfo per la corretta visualizzazione in Discover/AppStream</p>
+        <p xml:lang="ru">Исправлен файл metainfo для корректного отображения в Discover/AppStream</p>
+        <p xml:lang="ro">Fișierul metainfo corectat pentru afișare corectă în Discover/AppStream</p>
+      </description>
+    </release>
     <release version="1.0.6" date="2025-06-24">
       <description>
         <p>Now visible in Discover (AppStream integration)</p>

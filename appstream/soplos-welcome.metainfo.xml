@@ -94,7 +94,7 @@
       <caption xml:lang="it">Pannello di personalizzazione</caption>
       <caption xml:lang="ru">Панель настройки</caption>
       <caption xml:lang="ro">Panoul de personalizare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot5.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png</image>
     </screenshot>
     <screenshot>
       <caption>Recommended applications with updated software</caption>
@@ -110,7 +110,7 @@
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
   <url type="help">https://soploslinux.com/foros</url>
   <url type="donate">https://www.paypal.com/paypalme/isubdes</url>
 
@@ -141,6 +141,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.7" date="2025-07-13">
+      <description>
+        <p>Fixed metainfo file for proper visualization in Discover/AppStream.</p>
+        <p xml:lang="es">Corrección del archivo metainfo para visualización adecuada en Discover/AppStream.</p>
+        <p xml:lang="fr">Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream.</p>
+        <p xml:lang="pt">Correção do arquivo metainfo para visualização adequada no Discover/AppStream.</p>
+        <p xml:lang="de">Korrektur der Metainfo-Datei für die korrekte Anzeige in Discover/AppStream.</p>
+        <p xml:lang="it">Correzione del file metainfo per la corretta visualizzazione in Discover/AppStream.</p>
+        <p xml:lang="ru">Исправлен файл metainfo для корректного отображения в Discover/AppStream.</p>
+        <p xml:lang="ro">Corectarea fișierului metainfo pentru vizualizare corectă în Discover/AppStream.</p>
+      </description>
+    </release>
     <release version="1.0.6" date="2025-06-24">
       <description>
         <p>Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.</p>

@@ -48,7 +48,7 @@
       <li xml:lang="de">Vollständige APT-Repository-Verwaltung mit moderner DEB822-Format-Unterstützung</li>
       <li xml:lang="it">Gestione completa dei repository APT con supporto per il formato DEB822 moderno</li>
       <li xml:lang="ru">Полное управление APT-репозиториями с поддержкой современного формата DEB822</li>
-      <li xml:lang="ro">Gestionarea completă a depozitelor APT cu suport pentru formatul DEB822 modern</li>
+      <li xml:lang="ro">Gestionarea completă a depozitelor APT cu suport pentru formatul DEB822 moderno</li>
 
       <li>Automatic fastest mirror detection and speed testing</li>
       <li xml:lang="es">Detección automática de mirrors más rápidos y pruebas de velocidad</li>
@@ -115,37 +115,48 @@
 
   <screenshots>
     <screenshot type="default">
-      <caption>Main repository management interface with automatic theme detection</caption>
-      <caption xml:lang="es">Interfaz principal de gestión de repositorios con detección automática de tema</caption>
-      <caption xml:lang="fr">Interface principale de gestion des dépôts avec détection automatique de thème</caption>
-      <caption xml:lang="pt">Interface principal de gerenciamento de repositórios com detecção automática de tema</caption>
-      <caption xml:lang="de">Hauptschnittstelle für Repository-Verwaltung mit automatischer Theme-Erkennung</caption>
-      <caption xml:lang="it">Interfaccia principale di gestione repository con rilevamento automatico del tema</caption>
-      <caption xml:lang="ru">Основной интерфейс управления репозиториями с автоматическим обнаружением темы</caption>
-      <caption xml:lang="ro">Interfața principală de gestionare a depozitelor cu detectare automată a temei</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/main-interface.png</image>
+      <caption>Gestor de Repositorios Debian</caption>
+      <caption xml:lang="es">Gestor de Repositorios Debian</caption>
+      <caption xml:lang="fr">Gestionnaire de dépôts Debian</caption>
+      <caption xml:lang="pt">Gerenciador de Repositórios Debian</caption>
+      <caption xml:lang="de">Debian-Repository-Manager</caption>
+      <caption xml:lang="it">Gestore dei repository Debian</caption>
+      <caption xml:lang="ru">Менеджер репозиториев Debian</caption>
+      <caption xml:lang="ro">Manager de depozite Debian</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
-      <caption>Repository speed testing and optimization</caption>
-      <caption xml:lang="es">Prueba de velocidad y optimización de repositorios</caption>
-      <caption xml:lang="fr">Test de vitesse et optimisation des dépôts</caption>
-      <caption xml:lang="pt">Teste de velocidade e otimização de repositórios</caption>
-      <caption xml:lang="de">Repository-Geschwindigkeitstest und -Optimierung</caption>
-      <caption xml:lang="it">Test di velocità e ottimizzazione dei repository</caption>
-      <caption xml:lang="ru">Тестирование скорости и оптимизация репозиториев</caption>
-      <caption xml:lang="ro">Testarea vitezei și optimizarea depozitelor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/speed-test.png</image>
+      <caption>Buscar Repositorios Más Rápidos</caption>
+      <caption xml:lang="es">Buscar Repositorios Más Rápidos</caption>
+      <caption xml:lang="fr">Recherche des dépôts les plus rapides</caption>
+      <caption xml:lang="pt">Buscar Repositórios Mais Rápidos</caption>
+      <caption xml:lang="de">Schnellste Repositories suchen</caption>
+      <caption xml:lang="it">Cerca repository più veloci</caption>
+      <caption xml:lang="ru">Поиск самых быстрых репозиториев</caption>
+      <caption xml:lang="ro">Căutare depozite mai rapide</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
-      <caption>GPG key management interface</caption>
-      <caption xml:lang="es">Interfaz de gestión de claves GPG</caption>
-      <caption xml:lang="fr">Interface de gestion des clés GPG</caption>
-      <caption xml:lang="pt">Interface de gerenciamento de chaves GPG</caption>
-      <caption xml:lang="de">GPG-Schlüsselverwaltungsschnittstelle</caption>
-      <caption xml:lang="it">Interfaccia di gestione delle chiavi GPG</caption>
-      <caption xml:lang="ru">Интерфейс управления GPG-ключами</caption>
-      <caption xml:lang="ro">Interfața de gestionare a cheilor GPG</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/gpg-management.png</image>
+      <caption>Gestor de Claves GPG</caption>
+      <caption xml:lang="es">Gestor de Claves GPG</caption>
+      <caption xml:lang="fr">Gestionnaire de clés GPG</caption>
+      <caption xml:lang="pt">Gerenciador de Chaves GPG</caption>
+      <caption xml:lang="de">GPG-Schlüsselverwaltung</caption>
+      <caption xml:lang="it">Gestore chiavi GPG</caption>
+      <caption xml:lang="ru">Менеджер ключей GPG</caption>
+      <caption xml:lang="ro">Manager de chei GPG</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Detalles de Clave GPG</caption>
+      <caption xml:lang="es">Detalles de Clave GPG</caption>
+      <caption xml:lang="fr">Détails de la clé GPG</caption>
+      <caption xml:lang="pt">Detalhes da Chave GPG</caption>
+      <caption xml:lang="de">GPG-Schlüsseldetails</caption>
+      <caption xml:lang="it">Dettagli chiave GPG</caption>
+      <caption xml:lang="ru">Детали ключа GPG</caption>
+      <caption xml:lang="ro">Detalii cheie GPG</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
 
@@ -184,6 +195,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.4" date="2025-07-13">
+      <description>
+        <p>Updated metainfo for better visibility in Discover and AppStream.</p>
+        <p xml:lang="es">Metainfo actualizado para mejor visibilidad en Discover y AppStream.</p>
+        <p xml:lang="fr">Metainfo mis à jour pour une meilleure visibilité dans Discover et AppStream.</p>
+        <p xml:lang="pt">Metainfo atualizado para melhor visibilidade no Discover e AppStream.</p>
+        <p xml:lang="de">Metainfo für bessere Sichtbarkeit in Discover und AppStream aktualisiert.</p>
+        <p xml:lang="it">Metainfo aggiornato per una migliore visibilità in Discover e AppStream.</p>
+        <p xml:lang="ru">Обновлен метаинфо для лучшей видимости в Discover и AppStream.</p>
+        <p xml:lang="ro">Metainfo actualizat pentru o mai bună vizibilitate în Discover și AppStream.</p>
+      </description>
+    </release>
     <release version="1.0.3" date="2025-06-17">
       <description>
         <p>Enhanced theme compatibility and stability improvements</p>
