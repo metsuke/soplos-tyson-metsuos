@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: soplos
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T172822
+Time: 20250713T172838
 ---
 components:
   - Description:
@@ -348,6 +348,147 @@ components:
       ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
       ru: Экран приветствия для Live-окружения Soplos Linux
     Type: desktop
+  - Description:
+      C: A simple and intuitive Plymouth theme manager that allows you to preview,
+        install and apply boot splash themes easily. Features automatic system theme
+        detection and improved Wayland support.
+      de: Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes
+        einfach vorschauen, installieren und anwenden können. Beinhaltet automatische
+        Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.
+      es: Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar,
+        instalar y aplicar temas de arranque fácilmente. Incluye detección automática
+        de temas del sistema y soporte mejorado para Wayland.
+      fr: Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de
+        prévisualiser, installer et appliquer des thèmes de démarrage facilement.
+        Comprend la détection automatique des thèmes système et un support amélioré
+        pour Wayland.
+      it: Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare,
+        installare e applicare temi di avvio facilmente. Include rilevamento automatico
+        dei temi di sistema e supporto migliorato per Wayland.
+      pt: Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar,
+        instalar e aplicar temas de inicialização facilmente. Inclui detecção automática
+        de temas do sistema e suporte aprimorado para Wayland.
+      ro: Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați,
+        instalați și aplicați teme de pornire cu ușurință. Include detectarea automată
+        a temelor sistemului și suport îmbunătățit pentru Wayland.
+      ru: Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко
+        просматривать, устанавливать и применять темы загрузочного экрана. Включает
+        автоматическое определение системных тем и улучшенную поддержку Wayland.
+    ID: com.soplos.plymouthmanager.desktop
+    Icon:
+      - stock: soplos-plymouth-manager
+      - remote:
+          url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png
+    Keywords:
+      C:
+        - plymouth
+        - boot
+        - splash
+        - theme
+        - themes
+        - boot-splash
+        - customize
+        - soplos
+        - wayland
+        - kde
+    MetadataLicense: CC0-1.0
+    Name:
+      C: Soplos Plymouth Manager
+      de: Soplos Plymouth-Manager
+      es: Gestor Plymouth Soplos
+      fr: Gestionnaire Plymouth Soplos
+      it: Gestore Plymouth Soplos
+      pt: Gerenciador Plymouth Soplos
+      ro: Manager Plymouth Soplos
+      ru: Менеджер Plymouth Soplos
+    Package: soplos-plymouth-manager
+    Screenshots:
+      - caption:
+          C: Available themes list
+          de: Liste verfügbarer Themes
+          es: Lista de temas disponibles
+          fr: Liste des thèmes disponibles
+          it: Lista dei temi disponibili
+          pt: Lista de temas disponíveis
+          ro: Lista temelor disponibile
+          ru: Список доступных тем
+        default: true
+        source-image:
+          url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot1.png
+      - caption:
+          C: Theme preview
+          de: Theme-Vorschau
+          es: Previsualización del tema
+          fr: Aperçu du thème
+          it: Anteprima del tema
+          pt: Prévia do tema
+          ro: Previzualizare temă
+          ru: Предварительный просмотр темы
+        source-image:
+          url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot2.png
+      - caption:
+          C: Advanced settings
+          de: Erweiterte Einstellungen
+          es: Configuración avanzada
+          fr: Paramètres avancés
+          it: Impostazioni avanzate
+          pt: Configurações avançadas
+          ro: Setări avansate
+          ru: Расширенные настройки
+        source-image:
+          url: https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot3.png
+    Summary:
+      C: Plymouth boot splash theme manager for Soplos Linux
+      de: Plymouth Boot-Splash Theme Manager für Soplos Linux
+      es: Gestor de temas de arranque Plymouth para Soplos Linux
+      fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
+      it: Gestore dei temi di avvio Plymouth per Soplos Linux
+      pt: Gerenciador de temas de inicialização Plymouth para Soplos Linux
+      ro: Manager de teme Plymouth pentru Soplos Linux
+      ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
+    Type: desktop
+  - Description:
+      C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
+        control, intensity adjustment and multiple lighting modes.
+      es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI
+        con control de colores por zonas, ajuste de intensidad y múltiples modos de
+        iluminación.
+    ID: com.soplos.msi-keyboard
+    Icon:
+      - stock: com.soplos.msi-keyboard
+    MetadataLicense: CC0-1.0
+    Name:
+      C: MSI Keyboard RGB Controller
+      es: Controlador RGB Teclado MSI
+    Package: msi-keyboard-gui
+    Screenshots:
+      - caption:
+          C: 'Main window: keyboard color selection'
+          de: 'Hauptfenster: Tastaturfarbauswahl'
+          es: 'Ventana principal: selección de color del teclado'
+          fr: 'Fenêtre principale : sélection de la couleur du clavier'
+          it: 'Finestra principale: selezione colore tastiera'
+          pt: 'Janela principal: seleção de cor do teclado'
+          ro: 'Fereastra principală: selecția culorii tastaturii'
+          ru: 'Главное окно: выбор цвета клавиатуры'
+        default: true
+        source-image:
+          url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
+      - caption:
+          C: Advanced effects and zone configuration
+          de: Erweiterte Effekte- und Zonen-Konfiguration
+          es: Configuración avanzada de efectos y zonas
+          fr: Configuration avancée des effets et des zones
+          it: Configurazione avanzata di effetti e zone
+          pt: Configuração avançada de efeitos e zonas
+          ro: Configurare avansată a efectelor și zonelor
+          ru: Расширенная настройка эффектов и зон
+        source-image:
+          url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
+    Summary:
+      C: Configure MSI keyboard RGB lighting
+      es: Configurar iluminación RGB del teclado MSI
+    Type: desktop-application
   - Description:
       C: "Soplos GRUB Editor is a comprehensive graphical tool for configuring and\
         \ customizing the GRUB2 bootloader. \n      With complete internationalization\
