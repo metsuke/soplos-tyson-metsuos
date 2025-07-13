@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250713T190422
+Time: 20250713T191127
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -12,48 +12,48 @@ Package: soplos-repo-selector
 Name:
   C: Soplos Repo Selector
   es: Selector de Repositorios Soplos
-  fr: Slecteur de dpts Soplos
-  pt: Seletor de Repositrios Soplos
+  fr: Sélecteur de dépôts Soplos
+  pt: Seletor de Repositórios Soplos
   de: Soplos Repository-Selektor
   it: Selettore Repository Soplos
-  ru: '  Soplos'
+  ru: Селектор репозиториев Soplos
   ro: Selector de depozite Soplos
 Summary:
   C: Advanced APT repository manager for Debian-based systems
   es: Gestor avanzado de repositorios APT para sistemas basados en Debian
-  fr: Gestionnaire avanc de dpts APT pour systmes bass sur Debian
-  pt: Gerenciador avanado de repositrios APT para sistemas baseados em Debian
-  de: Erweiterte APT-Repository-Verwaltung fr Debian-basierte Systeme
+  fr: Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian
+  pt: Gerenciador avançado de repositórios APT para sistemas baseados em Debian
+  de: Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme
   it: Gestore avanzato di repository APT per sistemi basati su Debian
-  ru: '  APT-     Debian'
+  ru: Продвинутый менеджер APT-репозиториев для систем на базе Debian
   ro: Manager avansat de depozite APT pentru sisteme bazate pe Debian
 Description:
   es: |-
-    Soplos Repo Selector es una herramienta integral de gestin de repositorios diseada para distribuciones Linux basadas en Debian. Proporciona una interfaz grfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con deteccin automtica de tema y soporte multiidioma.
+    Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.
 
-    Las caractersticas principales incluyen:
+    Las características principales incluyen:
   fr: |-
-    Soplos Repo Selector est un outil complet de gestion de dpts conu pour les distributions Linux bases sur Debian. Il fournit une interface graphique intuitive pour grer les dpts APT, les cls GPG et les sources logicielles du systme avec dtection automatique de thme et support multilingue.
+    Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.
 
-    Les fonctionnalits cls incluent:
+    Les fonctionnalités clés incluent:
   pt: |-
-    Soplos Repo Selector  uma ferramenta abrangente de gerenciamento de repositrios projetada para distribuies Linux baseadas em Debian. Fornece uma interface grfica intuitiva para gerenciar repositrios APT, chaves GPG e fontes de software do sistema com deteco automtica de tema e suporte multilngue.
+    Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.
 
-    As principais caractersticas incluem:
+    As principais características incluem:
   de: |-
-    Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool fr Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberflche fr die Verwaltung von APT-Repositories, GPG-Schlsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Untersttzung.
+    Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.
 
     Hauptmerkmale umfassen:
   it: |-
-    Soplos Repo Selector  uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.
+    Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.
 
     Le caratteristiche principali includono:
   ru: |-
-    Soplos Repo Selector -     ,    Linux   Debian.        APT-, GPG-            .
+    Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.
 
-      :
+    Ключевые функции включают:
   ro: |-
-    Soplos Repo Selector este un instrument cuprinztor de gestionare a depozitelor proiectat pentru distribuiile Linux bazate pe Debian. Ofer o interfa grafic intuitiv pentru gestionarea depozitelor APT, cheilor GPG i surselor software de sistem cu detectare automat a temei i suport multilingv.
+    Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.
 
     Caracteristicile principale includ:
 Keywords:
@@ -144,40 +144,42 @@ Name:
   pt: Bem-vindo ao Soplos
   de: Willkommen bei Soplos
   it: Benvenuto su Soplos
-  ru: '   Soplos'
+  ru: Добро пожаловать в Soplos
   ro: Bun venit la Soplos
 Summary:
   C: Welcome screen for Soplos Linux
   es: Pantalla de bienvenida para Soplos Linux
-  fr: cran de bienvenue pour Soplos Linux
+  fr: Écran de bienvenue pour Soplos Linux
   pt: Tela de boas-vindas para Soplos Linux
-  de: Willkommensbildschirm fr Soplos Linux
+  de: Willkommensbildschirm für Soplos Linux
   it: Schermata di benvenuto per Soplos Linux
-  ru: '   Soplos Linux'
-  ro: Ecran de ntmpinare pentru Soplos Linux
+  ru: Экран приветствия для Soplos Linux
+  ro: Ecran de întâmpinare pentru Soplos Linux
 Description:
   C: A comprehensive welcome application for Soplos Linux that helps new users get
     started with their system, featuring full internationalization support and modern
     software recommendations.
-  es: Una aplicacin de bienvenida integral para Soplos Linux que ayuda a los nuevos
-    usuarios a comenzar con su sistema, con soporte completo de internacionalizacin
+  es: Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos
+    usuarios a comenzar con su sistema, con soporte completo de internacionalización
     y recomendaciones de software modernas.
-  fr: Une application de bienvenue complte pour Soplos Linux qui aide les nouveaux
-    utilisateurs  dmarrer avec leur systme, avec un support d'internationalisation
+  fr: Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux
+    utilisateurs à démarrer avec leur système, avec un support d'internationalisation
     complet et des recommandations de logiciels modernes.
-  pt: Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usurios
-    a comear com seu sistema, com suporte completo de internacionalizao e recomendaes
+  pt: Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários
+    a começar com seu sistema, com suporte completo de internacionalização e recomendações
     de software modernas.
-  de: Eine umfassende Willkommens-Anwendung fr Soplos Linux, die neuen Benutzern hilft,
-    mit ihrem System zu beginnen, mit vollstndiger Internationalisierungsuntersttzung
+  de: Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern
+    hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung
     und modernen Software-Empfehlungen.
   it: Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti
     a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione
     e raccomandazioni software moderne.
-  ru: '    Soplos Linux,        ,         .'
-  ro: O aplicaie de bun venit cuprinztoare pentru Soplos Linux care ajut noii utilizatori
-    s nceap cu sistemul lor, cu suport complet de internaionalizare i recomandri software
-    moderne.
+  ru: Комплексное приветственное приложение для Soplos Linux, которое помогает новым
+    пользователям начать работу с системой, с полной поддержкой интернационализации
+    и современными рекомендациями программного обеспечения.
+  ro: O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori
+    să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări
+    software moderne.
 Keywords:
   C:
     - welcome
@@ -272,33 +274,34 @@ Name:
   pt: Bem-vindo ao Soplos Live
   de: Willkommen bei Soplos Live
   it: Benvenuto su Soplos Live
-  ru: '   Soplos Live'
+  ru: Добро пожаловать в Soplos Live
   ro: Bun venit la Soplos Live
 Summary:
   C: Welcome screen for Soplos Linux Live Environment
   es: Pantalla de bienvenida para el entorno Live de Soplos Linux
-  fr: cran de bienvenue pour l'environnement Live de Soplos Linux
+  fr: Écran de bienvenue pour l'environnement Live de Soplos Linux
   pt: Tela de boas-vindas para o ambiente Live do Soplos Linux
-  de: Willkommensbildschirm fr die Live-Umgebung von Soplos Linux
+  de: Willkommensbildschirm für die Live-Umgebung von Soplos Linux
   it: Schermata di benvenuto per l'ambiente Live di Soplos Linux
-  ru: '   Live- Soplos Linux'
-  ro: Ecran de ntmpinare pentru mediul Live Soplos Linux
+  ru: Экран приветствия для Live-окружения Soplos Linux
+  ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
 Description:
   C: A welcome application for Soplos Linux Live Environment that helps users navigate
     the live system and install Soplos Linux.
-  es: Una aplicacin de bienvenida para el entorno Live de Soplos Linux que ayuda a
-    los usuarios a navegar por el sistema live e instalar Soplos Linux.
+  es: Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda
+    a los usuarios a navegar por el sistema live e instalar Soplos Linux.
   fr: Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide
-    les utilisateurs  naviguer dans le systme live et  installer Soplos Linux.
-  pt: Uma aplicao de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os
-    usurios a navegar pelo sistema live e instalar o Soplos Linux.
-  de: Eine Willkommens-Anwendung fr die Soplos Linux Live-Umgebung, die Benutzern
+    les utilisateurs à naviguer dans le système live et à installer Soplos Linux.
+  pt: Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda
+    os usuários a navegar pelo sistema live e instalar o Soplos Linux.
+  de: Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern
     hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.
   it: Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli
     utenti a navigare nel sistema live e installare Soplos Linux.
-  ru: '   Live- Soplos Linux,      live-   Soplos Linux.'
-  ro: O aplicaie de bun venit pentru mediul Live Soplos Linux care ajut utilizatorii
-    s navigheze n sistemul live i s instaleze Soplos Linux.
+  ru: Приветственное приложение для Live-окружения Soplos Linux, которое помогает
+    пользователям ориентироваться в live-системе и устанавливать Soplos Linux.
+  ro: O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii
+    să navigheze în sistemul live și să instaleze Soplos Linux.
 Keywords:
   C:
     - welcome
@@ -358,40 +361,42 @@ Name:
   pt: Gerenciador Plymouth Soplos
   de: Soplos Plymouth-Manager
   it: Gestore Plymouth Soplos
-  ru: ' Plymouth Soplos'
+  ru: Менеджер Plymouth Soplos
   ro: Manager Plymouth Soplos
 Summary:
   C: Plymouth boot splash theme manager for Soplos Linux
   es: Gestor de temas de arranque Plymouth para Soplos Linux
-  fr: Gestionnaire de thmes de dmarrage Plymouth pour Soplos Linux
-  pt: Gerenciador de temas de inicializao Plymouth para Soplos Linux
-  de: Plymouth Boot-Splash Theme Manager fr Soplos Linux
+  fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
+  pt: Gerenciador de temas de inicialização Plymouth para Soplos Linux
+  de: Plymouth Boot-Splash Theme Manager für Soplos Linux
   it: Gestore dei temi di avvio Plymouth per Soplos Linux
-  ru: '    Plymouth  Soplos Linux'
+  ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
   ro: Manager de teme Plymouth pentru Soplos Linux
 Description:
   C: A simple and intuitive Plymouth theme manager that allows you to preview, install
     and apply boot splash themes easily. Features automatic system theme detection
     and improved Wayland support.
   es: Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar,
-    instalar y aplicar temas de arranque fcilmente. Incluye deteccin automtica de
-    temas del sistema y soporte mejorado para Wayland.
-  fr: Un gestionnaire de thmes Plymouth simple et intuitif qui vous permet de prvisualiser,
-    installer et appliquer des thmes de dmarrage facilement. Comprend la dtection
-    automatique des thmes systme et un support amlior pour Wayland.
+    instalar y aplicar temas de arranque fácilmente. Incluye detección automática
+    de temas del sistema y soporte mejorado para Wayland.
+  fr: Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser,
+    installer et appliquer des thèmes de démarrage facilement. Comprend la détection
+    automatique des thèmes système et un support amélioré pour Wayland.
   pt: Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar,
-    instalar e aplicar temas de inicializao facilmente. Inclui deteco automtica de
-    temas do sistema e suporte aprimorado para Wayland.
+    instalar e aplicar temas de inicialização facilmente. Inclui detecção automática
+    de temas do sistema e suporte aprimorado para Wayland.
   de: Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes
-    einfach vorschauen, installieren und anwenden knnen. Beinhaltet automatische Systemtheme-Erkennung
-    und verbesserte Wayland-Untersttzung.
+    einfach vorschauen, installieren und anwenden können. Beinhaltet automatische
+    Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.
   it: Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare,
     installare e applicare temi di avvio facilmente. Include rilevamento automatico
     dei temi di sistema e supporto migliorato per Wayland.
-  ru: '      Plymouth,    ,      .         Wayland.'
-  ro: Un manager de teme Plymouth simplu i intuitiv care v permite s previzualizai,
-    instalai i aplicai teme de pornire cu uurin. Include detectarea automat a temelor
-    sistemului i suport mbuntit pentru Wayland.
+  ru: Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко
+    просматривать, устанавливать и применять темы загрузочного экрана. Включает автоматическое
+    определение системных тем и улучшенную поддержку Wayland.
+  ro: Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați,
+    instalați și aplicați teme de pornire cu ușurință. Include detectarea automată
+    a temelor sistemului și suport îmbunătățit pentru Wayland.
 Keywords:
   C:
     - plymouth
@@ -446,99 +451,56 @@ Screenshots:
 Component: main
 ---
 Type: desktop-application
-ID: com.soplos.msi-keyboard
-MetadataLicense: CC0-1.0
-Package: msi-keyboard-gui
-Name:
-  C: MSI Keyboard RGB Controller
-  es: Controlador RGB Teclado MSI
-Summary:
-  C: Configure MSI keyboard RGB lighting
-  es: Configurar iluminacin RGB del teclado MSI
-Description:
-  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
-    control, intensity adjustment and multiple lighting modes.
-  es: Una herramienta grfica para configurar la iluminacin RGB de teclados MSI con
-    control de colores por zonas, ajuste de intensidad y mltiples modos de iluminacin.
-Icon:
-  - stock: com.soplos.msi-keyboard
-Screenshots:
-  - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
-    caption:
-      C: 'Main window: keyboard color selection'
-      es: 'Ventana principal: selección de color del teclado'
-      fr: 'Fenêtre principale : sélection de la couleur du clavier'
-      pt: 'Janela principal: seleção de cor do teclado'
-      de: 'Hauptfenster: Tastaturfarbauswahl'
-      it: 'Finestra principale: selezione colore tastiera'
-      ru: 'Главное окно: выбор цвета клавиатуры'
-      ro: 'Fereastra principală: selecția culorii tastaturii'
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
-    caption:
-      C: Advanced effects and zone configuration
-      es: Configuración avanzada de efectos y zonas
-      fr: Configuration avancée des effets et des zones
-      pt: Configuração avançada de efeitos e zonas
-      de: Erweiterte Effekte- und Zonen-Konfiguration
-      it: Configurazione avanzata di effetti e zone
-      ru: Расширенная настройка эффектов и зон
-      ro: Configurare avansată a efectelor și zonelor
-Component: main
----
-Type: desktop-application
 ID: com.soplos.grubeditor
 MetadataLicense: CC0-1.0
 Package: soplos-grub-editor
 Name:
   C: Soplos GRUB Editor
   es: Editor GRUB de Soplos
-  fr: diteur GRUB Soplos
+  fr: Éditeur GRUB Soplos
   pt: Editor GRUB Soplos
   de: Soplos GRUB Editor
   it: Editor GRUB Soplos
-  ru: ' GRUB Soplos'
+  ru: Редактор GRUB Soplos
   ro: Editor GRUB Soplos
 Summary:
   C: Advanced GRUB configuration editor with complete internationalization
-  es: Editor avanzado de configuracin GRUB con internacionalizacin completa
-  fr: diteur de configuration GRUB avanc avec internationalisation complte
-  pt: Editor avanado de configurao GRUB com internacionalizao completa
-  de: Erweiterte GRUB-Konfigurationseditor mit vollstndiger Internationalisierung
+  es: Editor avanzado de configuración GRUB con internacionalización completa
+  fr: Éditeur de configuration GRUB avancé avec internationalisation complète
+  pt: Editor avançado de configuração GRUB com internacionalização completa
+  de: Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung
   it: Editor avanzato di configurazione GRUB con internazionalizzazione completa
-  ru: '   GRUB'
-  ro: Editor avansat de configurare GRUB cu internaionalizare complet
+  ru: Расширенный редактор конфигурации GRUB с полной интернационализацией
+  ro: Editor avansat de configurare GRUB cu internaționalizare completă
 Description:
   es: |-
-    Soplos GRUB Editor es una herramienta grfica integral para configurar y personalizar el gestor de arranque GRUB2.
-    Con soporte completo de internacionalizacin para 8 idiomas, proporciona una interfaz intuitiva para gestionar
+    Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2.
+    Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar
     configuraciones de arranque, temas, fuentes y entradas personalizadas.
   fr: |-
-    Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de dmarrage GRUB2.
-    Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour grer
-    les paramtres de dmarrage, les thmes, les polices et les entres personnalises.
+    Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2.
+    Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer
+    les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.
   pt: |-
-    Soplos GRUB Editor  uma ferramenta grfica abrangente para configurar e personalizar o gerenciador de inicializao GRUB2.
-    Com suporte completo de internacionalizao para 8 idiomas, fornece uma interface intuitiva para gerenciar
-    configuraes de inicializao, temas, fontes e entradas personalizadas.
+    Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2.
+    Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar
+    configurações de inicialização, temas, fontes e entradas personalizadas.
   de: |-
     Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders.
-    Mit vollstndiger Internationalisierungsuntersttzung fr 8 Sprachen bietet es eine intuitive Benutzeroberflche
-    zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Eintrgen.
+    Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche
+    zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.
   it: |-
-    Soplos GRUB Editor  uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2.
+    Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2.
     Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire
     impostazioni di avvio, temi, font ed entrate personalizzate.
   ru: |-
-    Soplos GRUB Editor -          GRUB2.
-         8 ,
-     , ,    .
+    Soplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2.
+    С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления
+    настройками загрузки, темами, шрифтами и пользовательскими записями.
   ro: |-
-    Soplos GRUB Editor este un instrument grafic cuprinztor pentru configurarea i personalizarea ncrctorului de sistem GRUB2.
-    Cu suport complet de internaionalizare pentru 8 limbi, ofer o interfa intuitiv pentru gestionarea
-    setrilor de pornire, temelor, fonturilor i intrrilor personalizate.
+    Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2.
+    Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea
+    setărilor de pornire, temelor, fonturilor și intrărilor personalizate.
 Keywords:
   C:
     - grub
@@ -555,11 +517,11 @@ Keywords:
     - configurar
     - tema
   fr:
-    - dmarrage
+    - démarrage
     - configurer
-    - thme
+    - thème
   pt:
-    - inicializao
+    - inicialização
     - configurar
     - tema
   de:
@@ -571,13 +533,13 @@ Keywords:
     - configurare
     - tema
   ru:
-    - ''
-    - ''
-    - ''
+    - загрузка
+    - настройка
+    - тема
   ro:
     - pornire
     - configurare
-    - tem
+    - temă
 Icon:
   - stock: com.soplos.grubeditor
   - remote:
