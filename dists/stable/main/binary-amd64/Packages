@@ -1,3 +1,45 @@
+Package: msi-keyboard-gui
+Version: 1.0.7
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, msi-keyboard, msi-keyboard-gui, python3-all, python3-dev, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/m/msi-keyboard-gui/msi-keyboard-gui_1.0.7_all.deb
+Size: 379508
+SHA256: 1aadd91dcae5b8f8c6f4863ce901dcf9e3e5981c479d93c0cc70305f99457479
+SHA1: bf06d77f9934096e1207ac2e55516a15253b4284
+MD5sum: 1d806d90cfd93afe910eefcf60d25d67
+Description: MSI Keyboard Color Manager
+
+Package: soplos-grub-editor
+Version: 1.0.5
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.5_all.deb
+Size: 417176
+SHA256: 70732cde1bbab1d4d2ce3c8bfb19b119f9c31fefc14eced151c0e8d14e587f1c
+SHA1: affd4ba1f3d4b4baa37fb4753184432fc771bc6b
+MD5sum: 51c990efb11231476891cfdc59cd6f53
+Description: Graphical GRUB Editor
+
+Package: soplos-plymouth-manager
+Version: 1.0.3
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, grim, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, wl-screenshot | slurp, wlr-randr | swaybg, xvfb
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.3_all.deb
+Size: 348596
+SHA256: b3ff2b9e5ef339251c4e70d60c843858cc32dd08437d243067f1ee3990d2de90
+SHA1: 57643214b32d4e3655146baa44888c9b13747158
+MD5sum: 7a6d7de2743deea6572007a4cbc66e0b
+Description: Plymouth Themes Manager
+
 Package: soplos-release
 Version: 0.0.8
 Architecture: all
