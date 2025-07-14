@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250714T020028
+Time: 20250714T021602
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -163,13 +163,12 @@ Categories:
   - PackageManager
   - Utility
 Icon:
-  - stock: com.soplos.reposelector.png
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/icons/com.soplos.reposelector.png
+  cached:
+    - name: com.soplos.reposelector.png
+      width: 1024
+      height: 1024
 Screenshots:
   - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot1.png
     caption:
       C: Gestor de Repositorios Debian
       es: Gestor de Repositorios Debian
@@ -179,9 +178,7 @@ Screenshots:
       it: Gestore dei repository Debian
       ru: Менеджер репозиториев Debian
       ro: Manager de depozite Debian
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot2.png
-    caption:
+  - caption:
       C: Buscar Repositorios Más Rápidos
       es: Buscar Repositorios Más Rápidos
       fr: Recherche des dépôts les plus rapides
@@ -190,9 +187,7 @@ Screenshots:
       it: Cerca repository più veloci
       ru: Поиск самых быстрых репозиториев
       ro: Căutare depozite mai rapide
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot3.png
-    caption:
+  - caption:
       C: Gestor de Claves GPG
       es: Gestor de Claves GPG
       fr: Gestionnaire de clés GPG
@@ -201,9 +196,7 @@ Screenshots:
       it: Gestore chiavi GPG
       ru: Менеджер ключей GPG
       ro: Manager de chei GPG
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot4.png
-    caption:
+  - caption:
       C: Detalles de Clave GPG
       es: Detalles de Clave GPG
       fr: Détails de la clé GPG
@@ -330,6 +323,11 @@ Summary:
 Description:
   C: Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on
     simplicity, performance, and a great out-of-the-box experience.
+Icon:
+  cached:
+    - name: com.soploslinux.soplos.png
+      width: 64
+      height: 64
 Urls:
   homepage: https://soploslinux.com
 Releases:
@@ -486,13 +484,12 @@ Categories:
   - System
   - Utility
 Icon:
-  - stock: com.soplos.welcome.png
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/icons/com.soplos.welcome.png
+  cached:
+    - name: com.soplos.welcome.png
+      width: 256
+      height: 256
 Screenshots:
   - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png
     caption:
       C: Main welcome screen with internationalization support
       es: Pantalla principal de bienvenida con soporte de internacionalización
@@ -502,9 +499,7 @@ Screenshots:
       it: Schermata principale di benvenuto con supporto di internazionalizzazione
       ru: Главный экран приветствия с поддержкой интернационализации
       ro: Ecran principal de întâmpinare cu suport de internaționalizare
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png
-    caption:
+  - caption:
       C: Software center with updated recommendations
       es: Centro de software con recomendaciones actualizadas
       fr: Centre de logiciels avec recommandations mises à jour
@@ -513,9 +508,7 @@ Screenshots:
       it: Centro software con raccomandazioni aggiornate
       ru: Центр программ с обновленными рекомендациями
       ro: Centru software cu recomandări actualizate
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png
-    caption:
+  - caption:
       C: Driver management interface
       es: Interfaz de gestión de controladores
       fr: Interface de gestion des pilotes
@@ -524,9 +517,7 @@ Screenshots:
       it: Interfaccia di gestione dei driver
       ru: Интерфейс управления драйверами
       ro: Interfață de gestionare a driverelor
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png
-    caption:
+  - caption:
       C: Kernel optimization options
       es: Opciones de optimización del kernel
       fr: Options d'optimisation du noyau
@@ -535,9 +526,7 @@ Screenshots:
       it: Opzioni di ottimizzazione del kernel
       ru: Параметры оптимизации ядра
       ro: Opțiuni de optimizare a kernel-ului
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png
-    caption:
+  - caption:
       C: Customization panel
       es: Panel de personalización
       fr: Panneau de personnalisation
@@ -546,9 +535,7 @@ Screenshots:
       it: Pannello di personalizzazione
       ru: Панель настройки
       ro: Panoul de personalizare
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png
-    caption:
+  - caption:
       C: Recommended applications with updated software
       es: Aplicaciones recomendadas con software actualizado
       fr: Applications recommandées avec logiciels mis à jour
@@ -755,13 +742,12 @@ Categories:
   - Settings
   - Utility
 Icon:
-  - stock: com.soplos.welcomelive.png
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png
+  cached:
+    - name: com.soplos.welcomelive.png
+      width: 256
+      height: 256
 Screenshots:
   - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot1.png
     caption:
       C: Live Welcome Screen
       es: Pantalla de bienvenida Live
@@ -771,9 +757,7 @@ Screenshots:
       it: Schermata di benvenuto Live
       ru: Экран приветствия Live
       ro: Ecran de întâmpinare Live
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png
-    caption:
+  - caption:
       C: Installation Options
       es: Opciones de instalación
       fr: Options d'installation
@@ -782,9 +766,7 @@ Screenshots:
       it: Opzioni di installazione
       ru: Параметры установки
       ro: Opțiuni de instalare
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png
-    caption:
+  - caption:
       C: Hardware Detection
       es: Detección de hardware
       fr: Détection du matériel
@@ -993,13 +975,12 @@ Categories:
   - DesktopSettings
   - Utility
 Icon:
-  - stock: com.soplos.plymouthmanager.png
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png
+  cached:
+    - name: com.soplos.plymouthmanager.png
+      width: 256
+      height: 256
 Screenshots:
   - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot1.png
     caption:
       C: Available themes list
       es: Lista de temas disponibles
@@ -1009,9 +990,7 @@ Screenshots:
       it: Lista dei temi disponibili
       ru: Список доступных тем
       ro: Lista temelor disponibile
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot2.png
-    caption:
+  - caption:
       C: Theme preview
       es: Previsualización del tema
       fr: Aperçu du thème
@@ -1020,9 +999,7 @@ Screenshots:
       it: Anteprima del tema
       ru: Предварительный просмотр темы
       ro: Previzualizare temă
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot3.png
-    caption:
+  - caption:
       C: Advanced settings
       es: Configuración avanzada
       fr: Paramètres avancés
@@ -1097,207 +1074,6 @@ Releases:
       it: Versione iniziale
       ru: Начальная версия
       ro: Versiune inițială
-ContentRating:
-  type: oars-1.1
-Component: main
----
-Type: desktop-application
-ID: com.soplos.msi-keyboard
-MetadataLicense: CC0-1.0
-Package: msi-keyboard-gui
-Name:
-  C: MSI Keyboard RGB Controller
-  es: Controlador RGB Teclado MSI
-Summary:
-  C: Configure MSI keyboard RGB lighting
-  es: Configurar iluminación RGB del teclado MSI
-Description:
-  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
-    control, intensity adjustment and multiple lighting modes.
-  es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con
-    control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
-Keywords:
-  C:
-    - keyboard
-    - RGB
-    - MSI
-    - lighting
-    - color
-    - backlight
-    - zones
-    - effects
-    - hardware
-    - configuration
-    - settings
-  es:
-    - teclado
-    - iluminación
-    - color
-    - retroiluminación
-    - zonas
-    - efectos
-    - hardware
-    - configuración
-    - ajustes
-  fr:
-    - clavier
-    - éclairage
-    - couleur
-    - rétroéclairage
-    - zones
-    - effets
-    - matériel
-    - configuration
-    - paramètres
-  pt:
-    - teclado
-    - iluminação
-    - cor
-    - retroiluminação
-    - zonas
-    - efeitos
-    - hardware
-    - configuração
-    - definições
-  de:
-    - tastatur
-    - beleuchtung
-    - farbe
-    - hintergrundbeleuchtung
-    - zonen
-    - effekte
-    - hardware
-    - konfiguration
-    - einstellungen
-  it:
-    - tastiera
-    - illuminazione
-    - colore
-    - retroilluminazione
-    - zone
-    - effetti
-    - hardware
-    - configurazione
-    - impostazioni
-  ru:
-    - клавиатура
-    - подсветка
-    - цвет
-    - зоны
-    - эффекты
-    - оборудование
-    - настройка
-    - параметры
-  ro:
-    - tastatură
-    - iluminare
-    - culoare
-    - iluminare de fundal
-    - zone
-    - efecte
-    - hardware
-    - configurare
-    - setări
-Categories:
-  - Settings
-  - HardwareSettings
-  - System
-Icon:
-  - stock: com.soplos.msi-keyboard.png
-Screenshots:
-  - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
-    caption:
-      C: 'Main window: keyboard color selection'
-      es: 'Ventana principal: selección de color del teclado'
-      fr: 'Fenêtre principale : sélection de la couleur du clavier'
-      pt: 'Janela principal: seleção de cor do teclado'
-      de: 'Hauptfenster: Tastaturfarbauswahl'
-      it: 'Finestra principale: selezione colore tastiera'
-      ru: 'Главное окно: выбор цвета клавиатуры'
-      ro: 'Fereastra principală: selecția culorii tastaturii'
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
-    caption:
-      C: Advanced effects and zone configuration
-      es: Configuración avanzada de efectos y zonas
-      fr: Configuration avancée des effets et des zones
-      pt: Configuração avançada de efeitos e zonas
-      de: Erweiterte Effekte- und Zonen-Konfiguration
-      it: Configurazione avanzata di effetti e zone
-      ru: Расширенная настройка эффектов и зон
-      ro: Configurare avansată a efectelor și zonelor
-Launchable:
-  desktop-id:
-    - com.soplos.msi-keyboard.desktop
-Urls:
-  homepage: https://soploslinux.com
-  bugtracker: https://github.com/SoplosLinux/tyson/issues
-Developer:
-  id: com.soploslinux
-  name:
-    C: Soplos Team
-  url: https://soploslinux.com
-Provides:
-  - msi-keyboard-gui
-Releases:
-  - version: 1.0.7
-    date: '2025-07-14'
-    type: stable
-    description:
-      C: Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME
-        Software).
-      es: Correcciones finales en el metainfo para garantizar la aparición en centros
-        de software (AppStream/Discover/GNOME Software).
-  - version: 1.0.6
-    date: '2025-07-13'
-    type: stable
-    description:
-      C: Metainfo data corrected for proper display in AppStream/Discover.
-      es: Corregidos los datos del metainfo para que se muestren de forma correcta
-        en AppStream/Discover.
-  - version: 1.0.5
-    date: '2025-07-05'
-    type: stable
-    description:
-      C: Unified script for all systemd operations with single pkexec authentication,
-        fixing multiple password prompts.
-      es: Script unificado para todas las operaciones systemd con una sola autenticación
-        pkexec, eliminando múltiples solicitudes de contraseña.
-  - version: 1.0.4
-    date: '2025-07-05'
-    type: stable
-    description:
-      C: Use pkexec for graphical authentication when creating systemd services, fixing
-        permission issues in GUI.
-      es: Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando
-        problemas de permisos en GUI.
-  - version: 1.0.3
-    date: '2025-06-26'
-    type: stable
-    description:
-      C: Automatic generation and update of systemd service when applying configuration
-        from the graphical interface.
-      es: Generación y actualización automática del servicio systemd al aplicar la
-        configuración desde la interfaz gráfica.
-  - version: 1.0.2
-    date: '2025-06-24'
-    type: stable
-    description:
-      C: Minor improvements and metadata updates
-      es: Mejoras menores y actualización de metadatos
-  - version: 1.0.1
-    date: '2025-06-24'
-    type: stable
-    description:
-      C: Visible in KDE Discover and other AppStream-based stores
-      es: Ahora visible en Discover y otras tiendas AppStream
-  - version: 1.0.0
-    date: '2024-12-19'
-    type: stable
-    description:
-      C: 'Features:'
 ContentRating:
   type: oars-1.1
 Component: main
@@ -1397,15 +1173,12 @@ Categories:
   - Settings
   - Utility
 Icon:
-  - stock: com.soplos.grubeditor.png
-  - remote:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png
-      width: 128
-      height: 128
+  cached:
+    - name: com.soplos.grubeditor.png
+      width: 256
+      height: 256
 Screenshots:
   - default: true
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot1.png
     caption:
       C: Main window with general settings
       es: Ventana principal con configuración general
@@ -1415,9 +1188,7 @@ Screenshots:
       it: Finestra principale con impostazioni generali
       ru: Главное окно с общими настройками
       ro: Fereastra principală cu setări generale
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot3.png
-    caption:
+  - caption:
       C: Theme and appearance configuration
       es: Configuración de temas y apariencia
       fr: Configuration des thèmes et de l'apparence
@@ -1426,9 +1197,7 @@ Screenshots:
       it: Configurazione di temi e aspetto
       ru: Настройка тем и внешнего вида
       ro: Configurarea temelor și aspectului
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot2.png
-    caption:
+  - caption:
       C: Boot entries management
       es: Gestión de entradas de arranque
       fr: Gestion des entrées de démarrage
@@ -1437,9 +1206,7 @@ Screenshots:
       it: Gestione delle voci di avvio
       ru: Управление записями загрузки
       ro: Gestionarea intrărilor de pornire
-  - source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot4.png
-    caption:
+  - caption:
       C: Font installation and management
       es: Instalación y gestión de fuentes
       fr: Installation et gestion des polices
