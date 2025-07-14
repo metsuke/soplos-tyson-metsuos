@@ -33,21 +33,6 @@ Description: Fondos de pantalla para SopLOS KDE
  Este paquete contiene una colección de fondos de pantalla 
  para el sistema operativo Soplos Linux Tyron con entorno KDE.
 
-Package: soplos-wallpapers02
-Version: 1.0.0
-Architecture: all
-Maintainer: SopLOS <info@soploslinux.com>
-Priority: optional
-Section: x11
-Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_1.0.0_all.deb
-Size: 32269772
-SHA256: d69e93a82c347eb32068412b40695e4540fd2b0430a3142daee8eeb5daa88974
-SHA1: 90ca35bf21121c675fb74f6d4df6b6da510c80f0
-MD5sum: fba5486eb028c4d08770235274c4a60c
-Description: Fondos de pantalla para SopLOS KDE
- Este paquete contiene una colección de fondos de pantalla 
- para el sistema operativo Soplos Linux Tyson con entorno KDE.
-
 Package: soplos-welcome
 Version: 1.0.8
 Architecture: all
