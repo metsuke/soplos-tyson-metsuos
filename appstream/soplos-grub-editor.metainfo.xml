@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.soplos.grubeditor</id>
+  <id>com.soplos.grubeditor.desktop</id>
   <pkgname>soplos-grub-editor</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
@@ -99,7 +99,7 @@
       <caption xml:lang="ro">Fereastra principală cu setări generale</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot1.png</image>
     </screenshot>
-    <screenshot>
+    <screenshot type="normal">
       <caption>Theme and appearance configuration</caption>
       <caption xml:lang="es">Configuración de temas y apariencia</caption>
       <caption xml:lang="fr">Configuration des thèmes et de l'apparence</caption>
@@ -110,7 +110,7 @@
       <caption xml:lang="ro">Configurarea temelor și aspectului</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot3.png</image>
     </screenshot>
-    <screenshot>
+    <screenshot type="normal">
       <caption>Boot entries management</caption>
       <caption xml:lang="es">Gestión de entradas de arranque</caption>
       <caption xml:lang="fr">Gestion des entrées de démarrage</caption>
@@ -121,7 +121,7 @@
       <caption xml:lang="ro">Gestionarea intrărilor de pornire</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-grub-editor/screenshots/screenshot2.png</image>
     </screenshot>
-    <screenshot>
+    <screenshot type="normal">
       <caption>Font installation and management</caption>
       <caption xml:lang="es">Instalación y gestión de fuentes</caption>
       <caption xml:lang="fr">Installation et gestion des polices</caption>

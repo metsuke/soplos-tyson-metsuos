@@ -2,7 +2,7 @@
 File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
-Time: 20250714T045347
+Time: 20250714T053942
 ---
 Type: desktop-application
 ID: com.soplos.reposelector
@@ -1332,7 +1332,7 @@ ContentRating:
 Component: main
 ---
 Type: desktop-application
-ID: com.soplos.grubeditor
+ID: com.soplos.grubeditor.desktop
 MetadataLicense: CC0-1.0
 Package: soplos-grub-editor
 Name:
