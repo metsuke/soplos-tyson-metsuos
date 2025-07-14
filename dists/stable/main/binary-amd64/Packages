@@ -1,17 +1,3 @@
-Package: soplos-plymouth-manager
-Version: 1.0.3
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, grim, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, wl-screenshot | slurp, wlr-randr | swaybg, xvfb
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.3_all.deb
-Size: 348612
-SHA256: 4963534123ec9fb9aebd3b24a6943e972d91ed903767047dc97d40305c1887b5
-SHA1: 83c60e0ec72caca4c03d3e85d270787b6e5e7a57
-MD5sum: 76e5d2c8fcb83d7b5ed95ee08346057e
-Description: Plymouth Themes Manager
-
 Package: soplos-release
 Version: 0.0.8
 Architecture: all
