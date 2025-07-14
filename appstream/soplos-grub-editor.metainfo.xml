@@ -185,7 +185,7 @@
     <keyword xml:lang="ro">temă</keyword>
   </keywords>
 
-  <translation>
+  <translation type="gettext">
     <locale>es</locale>
     <locale>en</locale>
     <locale>fr</locale>

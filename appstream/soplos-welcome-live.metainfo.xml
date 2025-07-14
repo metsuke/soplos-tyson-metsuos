@@ -139,7 +139,7 @@
     <binary>soplos-welcome-live</binary>
   </provides>
 
-  <translation>
+  <translation type="gettext">
     <locale>es</locale>
     <locale>en</locale>
     <locale>fr</locale>

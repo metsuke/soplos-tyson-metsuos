@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>com.soplos.reposelector.desktop</id>
+  <id>com.soplos.reposelector</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Soplos Repo Selector</name>
@@ -272,7 +272,7 @@
     <keyword xml:lang="ro">setări</keyword>
   </keywords>
 
-  <translation>
+  <translation type="gettext">
     <locale>es</locale>
     <locale>en</locale>
     <locale>fr</locale>
