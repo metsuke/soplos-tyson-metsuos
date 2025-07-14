@@ -2,7 +2,7 @@
 File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
-Time: 20250714T110922
+Time: 20250714T113624
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -250,14 +250,7 @@ Urls:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Linux Team
-    es: Equipo de Soplos Linux
-    fr: Équipe Soplos Linux
-    pt: Equipe Soplos Linux
-    de: Soplos Linux Team
-    it: Team Soplos Linux
-    ru: Команда Soplos Linux
-    ro: Echipa Soplos Linux
+    C: Echipa Soplos Linux
   url: https://soploslinux.com
 Provides:
   - soplos-repo-selector
@@ -639,14 +632,7 @@ Urls:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Team
-    es: Equipo de Soplos
-    fr: Équipe Soplos
-    pt: Equipe Soplos
-    de: Soplos Team
-    it: Team Soplos
-    ru: Команда Soplos
-    ro: Echipa Soplos
+    C: Echipa Soplos
   url: https://soploslinux.com
 Provides:
   - soplos-welcome
@@ -894,14 +880,7 @@ Urls:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Team
-    es: Equipo de Soplos
-    fr: Équipe Soplos
-    pt: Equipe Soplos
-    de: Soplos Team
-    it: Team Soplos
-    ru: Команда Soplos
-    ro: Echipa Soplos
+    C: Echipa Soplos
   url: https://soploslinux.com
 Provides:
   - soplos-welcome-live
@@ -1152,14 +1131,7 @@ Urls:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Team
-    es: Equipo de Soplos
-    fr: Équipe Soplos
-    pt: Equipe Soplos
-    de: Soplos Team
-    it: Team Soplos
-    ru: Команда Soplos
-    ro: Echipa Soplos
+    C: Echipa Soplos
   url: https://soploslinux.com
 Provides:
   - soplos-plymouth-manager
@@ -1208,232 +1180,6 @@ Releases:
       it: Versione iniziale
       ru: Начальная версия
       ro: Versiune inițială
-ContentRating:
-  type: oars-1.1
-Component: main
----
-Type: desktop-application
-ID: com.soplos.msi-keyboard.desktop
-ProjectLicense: CC0-1.0
-Package: msi-keyboard-gui
-Name:
-  C: MSI Keyboard RGB Controller
-  es: Controlador RGB Teclado MSI
-Summary:
-  C: Configure MSI keyboard RGB lighting
-  es: Configurar iluminación RGB del teclado MSI
-Description:
-  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
-    control, intensity adjustment and multiple lighting modes.
-  es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con
-    control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
-Keywords:
-  C:
-    - keyboard
-    - RGB
-    - MSI
-    - lighting
-    - color
-    - backlight
-    - zones
-    - effects
-    - hardware
-    - configuration
-    - settings
-  es:
-    - teclado
-    - iluminación
-    - color
-    - retroiluminación
-    - zonas
-    - efectos
-    - hardware
-    - configuración
-    - ajustes
-  fr:
-    - clavier
-    - éclairage
-    - couleur
-    - rétroéclairage
-    - zones
-    - effets
-    - matériel
-    - configuration
-    - paramètres
-  pt:
-    - teclado
-    - iluminação
-    - cor
-    - retroiluminação
-    - zonas
-    - efeitos
-    - hardware
-    - configuração
-    - definições
-  de:
-    - tastatur
-    - beleuchtung
-    - farbe
-    - hintergrundbeleuchtung
-    - zonen
-    - effekte
-    - hardware
-    - konfiguration
-    - einstellungen
-  it:
-    - tastiera
-    - illuminazione
-    - colore
-    - retroilluminazione
-    - zone
-    - effetti
-    - hardware
-    - configurazione
-    - impostazioni
-  ru:
-    - клавиатура
-    - подсветка
-    - цвет
-    - зоны
-    - эффекты
-    - оборудование
-    - настройка
-    - параметры
-  ro:
-    - tastatură
-    - iluminare
-    - culoare
-    - iluminare de fundal
-    - zone
-    - efecte
-    - hardware
-    - configurare
-    - setări
-Categories:
-  - Settings
-  - HardwareSettings
-  - System
-Icon:
-  remote:
-    - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/icons/com.soplos.msi-keyboard.png
-      width: 48
-      height: 48
-    - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/icons/com.soplos.msi-keyboard.png
-      width: 64
-      height: 64
-    - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/icons/com.soplos.msi-keyboard.png
-      width: 128
-      height: 128
-Screenshots:
-  - default: true
-    caption:
-      C: 'Main window: keyboard color selection'
-      es: 'Ventana principal: selección de color del teclado'
-      fr: 'Fenêtre principale : sélection de la couleur du clavier'
-      pt: 'Janela principal: seleção de cor do teclado'
-      de: 'Hauptfenster: Tastaturfarbauswahl'
-      it: 'Finestra principale: selezione colore tastiera'
-      ru: 'Главное окно: выбор цвета клавиатуры'
-      ro: 'Fereastra principală: selecția culorii tastaturii'
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
-      width: 1920
-      height: 1080
-      type: image/png
-    thumbnails:
-      - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
-  - caption:
-      C: Advanced effects and zone configuration
-      es: Configuración avanzada de efectos y zonas
-      fr: Configuration avancée des effets et des zones
-      pt: Configuração avançada de efeitos e zonas
-      de: Erweiterte Effekte- und Zonen-Konfiguration
-      it: Configurazione avanzata di effetti e zone
-      ru: Расширенная настройка эффектов и зон
-      ro: Configurare avansată a efectelor și zonelor
-    source-image:
-      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
-      width: 1920
-      height: 1080
-      type: image/png
-    thumbnails:
-      - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
-Launchable:
-  desktop-id:
-    - com.soplos.msi-keyboard.desktop
-Urls:
-  homepage: https://soploslinux.com
-  bugtracker: https://github.com/SoplosLinux/tyson/issues
-Developer:
-  id: com.soploslinux
-  name:
-    C: Soplos Team
-  url: https://soploslinux.com
-Provides:
-  - msi-keyboard-gui
-Releases:
-  - version: 1.0.7
-    date: '2025-07-14'
-    type: stable
-    description:
-      C: Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME
-        Software).
-      es: Correcciones finales en el metainfo para garantizar la aparición en centros
-        de software (AppStream/Discover/GNOME Software).
-  - version: 1.0.6
-    date: '2025-07-13'
-    type: stable
-    description:
-      C: Metainfo data corrected for proper display in AppStream/Discover.
-      es: Corregidos los datos del metainfo para que se muestren de forma correcta
-        en AppStream/Discover.
-  - version: 1.0.5
-    date: '2025-07-05'
-    type: stable
-    description:
-      C: Unified script for all systemd operations with single pkexec authentication,
-        fixing multiple password prompts.
-      es: Script unificado para todas las operaciones systemd con una sola autenticación
-        pkexec, eliminando múltiples solicitudes de contraseña.
-  - version: 1.0.4
-    date: '2025-07-05'
-    type: stable
-    description:
-      C: Use pkexec for graphical authentication when creating systemd services, fixing
-        permission issues in GUI.
-      es: Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando
-        problemas de permisos en GUI.
-  - version: 1.0.3
-    date: '2025-06-26'
-    type: stable
-    description:
-      C: Automatic generation and update of systemd service when applying configuration
-        from the graphical interface.
-      es: Generación y actualización automática del servicio systemd al aplicar la
-        configuración desde la interfaz gráfica.
-  - version: 1.0.2
-    date: '2025-06-24'
-    type: stable
-    description:
-      C: Minor improvements and metadata updates
-      es: Mejoras menores y actualización de metadatos
-  - version: 1.0.1
-    date: '2025-06-24'
-    type: stable
-    description:
-      C: Visible in KDE Discover and other AppStream-based stores
-      es: Ahora visible en Discover y otras tiendas AppStream
-  - version: 1.0.0
-    date: '2024-12-19'
-    type: stable
-    description:
-      C: 'Features:'
 ContentRating:
   type: oars-1.1
 Component: main
@@ -1622,14 +1368,7 @@ Urls:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Team
-    es: Equipo de Soplos
-    fr: Équipe Soplos
-    pt: Equipe Soplos
-    de: Soplos Team
-    it: Team Soplos
-    ru: Команда Soplos
-    ro: Echipa Soplos
+    C: Echipa Soplos
   url: https://soploslinux.com
 Provides:
   - soplos-grub-editor
