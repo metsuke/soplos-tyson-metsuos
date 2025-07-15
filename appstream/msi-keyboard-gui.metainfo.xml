@@ -4,8 +4,10 @@
   <pkgname>msi-keyboard-gui</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
+  <project_group>com.soploslinux</project_group>
   
   <name>MSI Keyboard RGB Controller</name>
+  <name xml:lang="en">MSI Keyboard RGB Controller</name>
   <name xml:lang="es">Controlador RGB Teclado MSI</name>
   <name xml:lang="fr">Contrôleur RGB Clavier MSI</name>
   <name xml:lang="pt">Controlador RGB de Teclado MSI</name>
@@ -15,6 +17,7 @@
   <name xml:lang="ro">Controler RGB tastatură MSI</name>
 
   <summary>Configure MSI keyboard RGB lighting</summary>
+  <summary xml:lang="en">Configure MSI keyboard RGB lighting</summary>
   <summary xml:lang="es">Configurar iluminación RGB del teclado MSI</summary>
   <summary xml:lang="fr">Configurer l'éclairage RGB du clavier MSI</summary>
   <summary xml:lang="pt">Configurar a iluminação RGB do teclado MSI</summary>
@@ -25,6 +28,7 @@
 
   <description>
     <p>A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.</p>
+    <p xml:lang="en">A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.</p>
     <p xml:lang="es">Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.</p>
     <p xml:lang="fr">Un outil graphique pour configurer l'éclairage RGB du clavier MSI avec contrôle des couleurs par zone, réglage de l'intensité et plusieurs modes d'éclairage.</p>
     <p xml:lang="pt">Uma ferramenta gráfica para configurar a iluminação RGB do teclado MSI com controle de cores por zona, ajuste de intensidade e vários modos de iluminação.</p>
@@ -40,18 +44,38 @@
     <category>System</category>
   </categories>
 
+  <requires>
+    <id>udev</id>
+    <id>python3</id>
+    <id>python3-pyqt5</id>
+    <id>python3-dbus</id>
+    <id>python3-gi</id>
+    <id>libusb-1.0-0</id>
+  </requires>
+
   <keywords>
     <keyword>keyboard</keyword>
+    <keyword xml:lang="en">keyboard</keyword>
     <keyword>RGB</keyword>
+    <keyword xml:lang="en">RGB</keyword>
     <keyword>MSI</keyword>
+    <keyword xml:lang="en">MSI</keyword>
     <keyword>lighting</keyword>
+    <keyword xml:lang="en">lighting</keyword>
     <keyword>color</keyword>
+    <keyword xml:lang="en">color</keyword>
     <keyword>backlight</keyword>
+    <keyword xml:lang="en">backlight</keyword>
     <keyword>zones</keyword>
+    <keyword xml:lang="en">zones</keyword>
     <keyword>effects</keyword>
+    <keyword xml:lang="en">effects</keyword>
     <keyword>hardware</keyword>
+    <keyword xml:lang="en">hardware</keyword>
     <keyword>configuration</keyword>
+    <keyword xml:lang="en">configuration</keyword>
     <keyword>settings</keyword>
+    <keyword xml:lang="en">settings</keyword>
     <keyword xml:lang="es">teclado</keyword>
     <keyword xml:lang="es">iluminación</keyword>
     <keyword xml:lang="es">color</keyword>
@@ -115,6 +139,7 @@
     <keyword xml:lang="ro">configurare</keyword>
     <keyword xml:lang="ro">setări</keyword>
   </keywords>
+
   <translation type="gettext">
     <locale>es</locale>
     <locale>en</locale>
@@ -128,7 +153,12 @@
 
   <launchable type="desktop-id">com.soplos.msi-keyboard.desktop</launchable>
 
-  <icon type="stock">com.soplos.msi-keyboard</icon>
+  <!-- Iconos stock en diferentes tamaños -->
+  <icon type="stock" width="48" height="48">com.soplos.msi-keyboard</icon>
+  <icon type="stock" width="64" height="64">com.soplos.msi-keyboard</icon>
+  <icon type="stock" width="128" height="128">com.soplos.msi-keyboard</icon>
+  
+  <!-- Icono remoto como fallback -->
   <icon type="remote">
     <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/icons/com.soplos.msi-keyboard.png</url>
   </icon>
@@ -136,8 +166,9 @@
   <screenshots>
     <screenshot type="default">
       <caption>Main window: keyboard color selection</caption>
+      <caption xml:lang="en">Main window: keyboard color selection</caption>
       <caption xml:lang="es">Ventana principal: selección de color del teclado</caption>
-      <caption xml:lang="fr">Fenêtre principale : sélection de la couleur du clavier</caption>
+      <caption xml:lang="fr">Fenêtre principale : sélection de la couleur du clavier</caption>
       <caption xml:lang="pt">Janela principal: seleção de cor do teclado</caption>
       <caption xml:lang="de">Hauptfenster: Tastaturfarbauswahl</caption>
       <caption xml:lang="it">Finestra principale: selezione colore tastiera</caption>
@@ -147,6 +178,7 @@
     </screenshot>
     <screenshot type="normal">
       <caption>Advanced effects and zone configuration</caption>
+      <caption xml:lang="en">Advanced effects and zone configuration</caption>
       <caption xml:lang="es">Configuración avanzada de efectos y zonas</caption>
       <caption xml:lang="fr">Configuration avancée des effets et des zones</caption>
       <caption xml:lang="pt">Configuração avançada de efeitos e zonas</caption>
@@ -165,6 +197,7 @@
 
   <developer id="com.soploslinux">
     <name>Soplos Team</name>
+    <name xml:lang="en">Soplos Team</name>
     <url type="homepage">https://soploslinux.com</url>
   </developer>
 
@@ -173,9 +206,23 @@
   </provides>
 
   <releases>
-    <release version="1.0.7" date="2025-07-14">
+    <release version="1.0.8" date="2025-07-15">
       <description>
+        <p>Mejoras en el metainfo para validación AppStream/DEP11 y nuevos iconos en diferentes tamaños para integración con centros de software.</p>
+        <p xml:lang="en">Improvements in metainfo for AppStream/DEP11 validation and new icons in various sizes for software center integration.</p>
+        <p xml:lang="es">Mejoras en el metainfo para validación AppStream/DEP11 y nuevos iconos en diferentes tamaños para integración con centros de software.</p>
+        <p xml:lang="fr">Améliorations du metainfo pour la validation AppStream/DEP11 et nouveaux icônes de différentes tailles pour l'intégration dans les centres logiciels.</p>
+        <p xml:lang="pt">Melhorias no metainfo para validação AppStream/DEP11 e novos ícones em diferentes tamanhos para integração com centros de software.</p>
+        <p xml:lang="de">Verbesserungen im Metainfo für AppStream/DEP11-Validierung und neue Icons in verschiedenen Größen für die Integration in Software-Center.</p>
+        <p xml:lang="it">Miglioramenti al metainfo per la validazione AppStream/DEP11 e nuove icone in diverse dimensioni per l'integrazione nei centri software.</p>
+        <p xml:lang="ru">Улучшения в metainfo для валидации AppStream/DEP11 и новые иконки разных размеров для интеграции с центрами программного обеспечения.</p>
+        <p xml:lang="ro">Îmbunătățiri la metainfo pentru validarea AppStream/DEP11 și pictograme noi de diferite dimensiuni pentru integrarea cu centrele software.</p>
+      <description>
+        <p>Mejoras en el metainfo para validación AppStream/DEP11 e implementación de los iconos del programa en 48x48, 64x64 y 128x128 para integración con centros de software.</p>
+        <p xml:lang="en">Improvements in metainfo for AppStream/DEP11 validation and implementation of program icons in 48x48, 64x64 and 128x128 for software center integration.</p>
+      </description>
         <p>Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="en">Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME Software).</p>
         <p xml:lang="es">Correcciones finales en el metainfo para garantizar la aparición en centros de software (AppStream/Discover/GNOME Software).</p>
         <p xml:lang="fr">Corrections finales du metainfo pour garantir l'apparition dans les centres logiciels (AppStream/Discover/GNOME Software).</p>
         <p xml:lang="pt">Correções finais no metainfo para garantir a aparição nos centros de software (AppStream/Discover/GNOME Software).</p>
@@ -188,6 +235,7 @@
     <release version="1.0.6" date="2025-07-13">
       <description>
         <p>Metainfo data corrected for proper display in AppStream/Discover.</p>
+        <p xml:lang="en">Metainfo data corrected for proper display in AppStream/Discover.</p>
         <p xml:lang="es">Corregidos los datos del metainfo para que se muestren de forma correcta en AppStream/Discover.</p>
         <p xml:lang="fr">Données metainfo corrigées pour un affichage correct dans AppStream/Discover.</p>
         <p xml:lang="pt">Dados do metainfo corrigidos para exibição adequada no AppStream/Discover.</p>
@@ -200,6 +248,7 @@
     <release version="1.0.5" date="2025-07-05">
       <description>
         <p>Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>
+        <p xml:lang="en">Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>
         <p xml:lang="es">Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.</p>
         <p xml:lang="fr">Script unifié pour toutes les opérations systemd avec une seule authentification pkexec, éliminant les multiples demandes de mot de passe.</p>
         <p xml:lang="pt">Script unificado para todas as operações systemd com uma única autenticação pkexec, eliminando múltiplos pedidos de senha.</p>
@@ -216,6 +265,7 @@
     <release version="1.0.4" date="2025-07-05">
       <description>
         <p>Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
+        <p xml:lang="en">Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
         <p xml:lang="es">Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando problemas de permisos en GUI.</p>
         <p xml:lang="fr">Utilisation de pkexec pour l'authentification graphique lors de la création de services systemd, résolvant les problèmes d'autorisations dans l'interface graphique.</p>
         <p xml:lang="pt">Uso do pkexec para autenticação gráfica ao criar serviços systemd, corrigindo problemas de permissões na interface gráfica.</p>
@@ -232,6 +282,7 @@
     <release version="1.0.3" date="2025-06-26">
       <description>
         <p>Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
+        <p xml:lang="en">Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
         <p xml:lang="es">Generación y actualización automática del servicio systemd al aplicar la configuración desde la interfaz gráfica.</p>
         <p xml:lang="fr">Génération et mise à jour automatiques du service systemd lors de l'application de la configuration depuis l'interface graphique.</p>
         <p xml:lang="pt">Geração e atualização automática do serviço systemd ao aplicar a configuração a partir da interface gráfica.</p>
@@ -240,7 +291,7 @@
         <p xml:lang="ru">Автоматическое создание и обновление службы systemd при применении конфигурации из графического интерфейса.</p>
         <p xml:lang="ro">Generare și actualizare automată a serviciului systemd la aplicarea configurației din interfața grafică.</p>
         <ul>
-          <li>El servicio systemd se habilita para aplicar la configuración RGB al arrancar el sistema.</li>
+          <li>El servicio systemd se habilita pentru aplicația configurației RGB al arrancar el sistema.</li>
           <li>Correcciones menores y mejoras de integración.</li>
         </ul>
       </description>
@@ -248,6 +299,7 @@
     <release version="1.0.2" date="2025-06-24">
       <description>
         <p>Minor improvements and metadata updates</p>
+        <p xml:lang="en">Minor improvements and metadata updates</p>
         <p xml:lang="es">Mejoras menores y actualización de metadatos</p>
         <p xml:lang="fr">Améliorations mineures et mise à jour des métadonnées</p>
         <p xml:lang="pt">Pequenas melhorias e atualização de metadados</p>
@@ -263,6 +315,7 @@
     <release version="1.0.1" date="2025-06-24">
       <description>
         <p>Visible in KDE Discover and other AppStream-based stores</p>
+        <p xml:lang="en">Visible in KDE Discover and other AppStream-based stores</p>
         <p xml:lang="es">Ahora visible en Discover y otras tiendas AppStream</p>
         <p xml:lang="fr">Désormais visible dans Discover et d'autres boutiques AppStream</p>
         <p xml:lang="pt">Agora visível no Discover e em outras lojas AppStream</p>
@@ -278,6 +331,7 @@
     <release version="1.0.0" date="2024-12-19">
       <description>
         <p>Initial release</p>
+        <p xml:lang="en">Initial release</p>
         <p xml:lang="es">Lanzamiento inicial</p>
         <p xml:lang="fr">Première version</p>
         <p xml:lang="pt">Lançamento inicial</p>
@@ -285,7 +339,7 @@
         <p xml:lang="it">Rilascio iniziale</p>
         <p xml:lang="ru">Первый выпуск</p>
         <p xml:lang="ro">Lansare inițială</p>
-        <p>Includes the following features:</p>
+        <p xml:lang="en">Includes the following features:</p>
         <ul>
           <li>Visual zone-based RGB configuration</li>
           <li>Intensity control</li>

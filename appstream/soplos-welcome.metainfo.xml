@@ -4,7 +4,10 @@
   <pkgname>soplos-welcome</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
+  <project_group>com.soploslinux</project_group>
+
   <name>Soplos Welcome</name>
+  <name xml:lang="en">Soplos Welcome</name>
   <name xml:lang="es">Bienvenida a Soplos</name>
   <name xml:lang="fr">Bienvenue sur Soplos</name>
   <name xml:lang="pt">Bem-vindo ao Soplos</name>
@@ -12,18 +15,20 @@
   <name xml:lang="it">Benvenuto su Soplos</name>
   <name xml:lang="ru">Добро пожаловать в Soplos</name>
   <name xml:lang="ro">Bun venit la Soplos</name>
-  
+
   <summary>Welcome screen for Soplos Linux</summary>
+  <summary xml:lang="en">Welcome screen for Soplos Linux</summary>
   <summary xml:lang="es">Pantalla de bienvenida para Soplos Linux</summary>
   <summary xml:lang="fr">Écran de bienvenue pour Soplos Linux</summary>
   <summary xml:lang="pt">Tela de boas-vindas para Soplos Linux</summary>
   <summary xml:lang="de">Willkommensbildschirm für Soplos Linux</summary>
-  <summary xml:lang="it">Schermata di benvenuto per Soplos Linux</summary>
+  <summary xml:lang="it">Schermata de benvenuto per Soplos Linux</summary>
   <summary xml:lang="ru">Экран приветствия для Soplos Linux</summary>
   <summary xml:lang="ro">Ecran de întâmpinare pentru Soplos Linux</summary>
 
   <description>
     <p>A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
+    <p xml:lang="en">A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
     <p xml:lang="es">Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema, con soporte completo de internacionalización y recomendaciones de software modernas.</p>
     <p xml:lang="fr">Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système, avec un support d'internationalisation complet et des recommandations de logiciels modernes.</p>
     <p xml:lang="pt">Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários a começar com seu sistema, com suporte completo de internacionalização e recomendações de software modernas.</p>
@@ -33,91 +38,20 @@
     <p xml:lang="ro">O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări software moderne.</p>
   </description>
 
-  <launchable type="desktop-id">com.soplos.welcome.desktop</launchable>
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
 
-  <icon type="stock">com.soplos.welcome</icon>
-  <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/icons/com.soplos.welcome.png</url>
-  </icon>
-
-  <screenshots>
-    <screenshot type="default">
-      <caption>Main welcome screen with internationalization support</caption>
-      <caption xml:lang="es">Pantalla principal de bienvenida con soporte de internacionalización</caption>
-      <caption xml:lang="fr">Écran principal de bienvenue avec support d'internationalisation</caption>
-      <caption xml:lang="pt">Tela principal de boas-vindas com suporte de internacionalização</caption>
-      <caption xml:lang="de">Hauptwillkommensbildschirm mit Internationalisierungsunterstützung</caption>
-      <caption xml:lang="it">Schermata principale di benvenuto con supporto di internazionalizzazione</caption>
-      <caption xml:lang="ru">Главный экран приветствия с поддержкой интернационализации</caption>
-      <caption xml:lang="ro">Ecran principal de întâmpinare cu suport de internaționalizare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Software center with updated recommendations</caption>
-      <caption xml:lang="es">Centro de software con recomendaciones actualizadas</caption>
-      <caption xml:lang="fr">Centre de logiciels avec recommandations mises à jour</caption>
-      <caption xml:lang="pt">Central de software com recomendações atualizadas</caption>
-      <caption xml:lang="de">Software-Center mit aktualisierten Empfehlungen</caption>
-      <caption xml:lang="it">Centro software con raccomandazioni aggiornate</caption>
-      <caption xml:lang="ru">Центр программ с обновленными рекомендациями</caption>
-      <caption xml:lang="ro">Centru software cu recomandări actualizate</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Driver management interface</caption>
-      <caption xml:lang="es">Interfaz de gestión de controladores</caption>
-      <caption xml:lang="fr">Interface de gestion des pilotes</caption>
-      <caption xml:lang="pt">Interface de gerenciamento de drivers</caption>
-      <caption xml:lang="de">Treiberverwaltungsschnittstelle</caption>
-      <caption xml:lang="it">Interfaccia di gestione dei driver</caption>
-      <caption xml:lang="ru">Интерфейс управления драйверами</caption>
-      <caption xml:lang="ro">Interfață de gestionare a driverelor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Kernel optimization options</caption>
-      <caption xml:lang="es">Opciones de optimización del kernel</caption>
-      <caption xml:lang="fr">Options d'optimisation du noyau</caption>
-      <caption xml:lang="pt">Opções de otimização do kernel</caption>
-      <caption xml:lang="de">Kernel-Optimierungsoptionen</caption>
-      <caption xml:lang="it">Opzioni di ottimizzazione del kernel</caption>
-      <caption xml:lang="ru">Параметры оптимизации ядра</caption>
-      <caption xml:lang="ro">Opțiuni de optimizare a kernel-ului</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Customization panel</caption>
-      <caption xml:lang="es">Panel de personalización</caption>
-      <caption xml:lang="fr">Panneau de personnalisation</caption>
-      <caption xml:lang="pt">Painel de personalização</caption>
-      <caption xml:lang="de">Anpassungsbereich</caption>
-      <caption xml:lang="it">Pannello di personalizzazione</caption>
-      <caption xml:lang="ru">Панель настройки</caption>
-      <caption xml:lang="ro">Panoul de personalizare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Recommended applications with updated software</caption>
-      <caption xml:lang="es">Aplicaciones recomendadas con software actualizado</caption>
-      <caption xml:lang="fr">Applications recommandées avec logiciels mis à jour</caption>
-      <caption xml:lang="pt">Aplicações recomendadas com software atualizado</caption>
-      <caption xml:lang="de">Empfohlene Anwendungen mit aktualisierter Software</caption>
-      <caption xml:lang="it">Applicazioni raccomandate con software aggiornato</caption>
-      <caption xml:lang="ru">Рекомендуемые приложения с обновленным программным обеспечением</caption>
-      <caption xml:lang="ro">Aplicații recomandate cu software actualizat</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png</image>
-    </screenshot>
-  </screenshots>
-
-  <url type="homepage">https://soploslinux.com/tyson</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
-  <url type="contact">https://soploslinux.com/foros</url>
-  <url type="donation">https://paypal.me/soploslinux</url>
-
-  <developer id="com.soploslinux">
-    <name>Soplos Linux Team</name>
-    <url>https://soploslinux.com</url>
-  </developer>
+  <requires>
+    <id>python3-gi</id>
+    <id>python3-xlib</id>
+    <id>python3-psutil</id>
+    <id>gir1.2-gtk-3.0</id>
+    <id>curl</id>
+    <id>wget</id>
+  </requires>
 
   <keywords>
     <keyword>welcome</keyword>
@@ -209,10 +143,6 @@
     <keyword xml:lang="ro">traducere</keyword>
   </keywords>
 
-  <provides>
-    <binary>soplos-welcome</binary>
-  </provides>
-
   <translation type="gettext">
     <locale>es</locale>
     <locale>en</locale>
@@ -224,7 +154,116 @@
     <locale>ro</locale>
   </translation>
 
+  <launchable type="desktop-id">com.soplos.welcome.desktop</launchable>
+
+  <icon type="stock">com.soplos.welcome</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/icons/com.soplos.welcome.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main welcome screen with internationalization support</caption>
+      <caption xml:lang="en">Main welcome screen with internationalization support</caption>
+      <caption xml:lang="es">Pantalla principal de bienvenida con soporte de internacionalización</caption>
+      <caption xml:lang="fr">Écran principal de bienvenue avec support d'internationalisation</caption>
+      <caption xml:lang="pt">Tela principal de boas-vindas com suporte de internacionalização</caption>
+      <caption xml:lang="de">Hauptwillkommensbildschirm mit Internationalisierungsunterstützung</caption>
+      <caption xml:lang="it">Schermata principale di benvenuto con supporto di internazionalizzazione</caption>
+      <caption xml:lang="ru">Главный экран приветствия с поддержкой интернационализации</caption>
+      <caption xml:lang="ro">Ecran principal de întâmpinare cu suport de internaționalizare</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Software center with updated recommendations</caption>
+      <caption xml:lang="en">Software center with updated recommendations</caption>
+      <caption xml:lang="es">Centro de software con recomendaciones actualizadas</caption>
+      <caption xml:lang="fr">Centre de logiciels avec recommandations mises à jour</caption>
+      <caption xml:lang="pt">Central de software com recomendações atualizadas</caption>
+      <caption xml:lang="de">Software-Center mit aktualisierten Empfehlungen</caption>
+      <caption xml:lang="it">Centro software con raccomandazioni aggiornate</caption>
+      <caption xml:lang="ru">Центр программ с обновленными рекомендациями</caption>
+      <caption xml:lang="ro">Centru software cu recomandări actualizate</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Driver management interface</caption>
+      <caption xml:lang="en">Driver management interface</caption>
+      <caption xml:lang="es">Interfaz de gestión de controladores</caption>
+      <caption xml:lang="fr">Interface de gestion des pilotes</caption>
+      <caption xml:lang="pt">Interface de gerenciamento de drivers</caption>
+      <caption xml:lang="de">Treiberverwaltungsschnittstelle</caption>
+      <caption xml:lang="it">Interfaccia di gestione dei driver</caption>
+      <caption xml:lang="ru">Интерфейс управления драйверами</caption>
+      <caption xml:lang="ro">Interfață de gestionare a driverelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Kernel optimization options</caption>
+      <caption xml:lang="en">Kernel optimization options</caption>
+      <caption xml:lang="es">Opciones de optimización del kernel</caption>
+      <caption xml:lang="fr">Options d'optimisation du noyau</caption>
+      <caption xml:lang="pt">Opções de otimização do kernel</caption>
+      <caption xml:lang="de">Kernel-Optimierungsoptionen</caption>
+      <caption xml:lang="it">Opzioni di ottimizzazione del kernel</caption>
+      <caption xml:lang="ru">Параметры оптимизации ядра</caption>
+      <caption xml:lang="ro">Opțiuni de optimizare a kernel-ului</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Customization panel</caption>
+      <caption xml:lang="en">Customization panel</caption>
+      <caption xml:lang="es">Panel de personalización</caption>
+      <caption xml:lang="fr">Panneau de personnalisation</caption>
+      <caption xml:lang="pt">Painel de personalização</caption>
+      <caption xml:lang="de">Anpassungsbereich</caption>
+      <caption xml:lang="it">Pannello di personalizzazione</caption>
+      <caption xml:lang="ru">Панель настройки</caption>
+      <caption xml:lang="ro">Panoul de personalizare</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Recommended applications with updated software</caption>
+      <caption xml:lang="en">Recommended applications with updated software</caption>
+      <caption xml:lang="es">Aplicaciones recomendadas con software actualizado</caption>
+      <caption xml:lang="fr">Applications recommandées avec logiciels mis à jour</caption>
+      <caption xml:lang="pt">Aplicações recomendadas com software atualizado</caption>
+      <caption xml:lang="de">Empfohlene Anwendungen mit aktualisierter Software</caption>
+      <caption xml:lang="it">Applicazioni raccomandate con software aggiornato</caption>
+      <caption xml:lang="ru">Рекомендуемые приложения с обновленным программным обеспечением</caption>
+      <caption xml:lang="ro">Aplicații recomandate cu software actualizat</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com/tyson</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
+  <url type="donation">https://paypal.me/soploslinux</url>
+  <url type="contact">https://soploslinux.com/foros</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Linux Team</name>
+    <url type="homepage">https://soploslinux.com</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-welcome</binary>
+  </provides>
+
   <releases>
+    <release version="1.0.9" date="2025-07-16">
+      <description>
+        <p>Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.</p>
+        <p xml:lang="es">Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.</p>
+        <p xml:lang="en">Metainfo finalized and validated according to AppStream/DEP-11 standard for maximum compatibility in software centers. Added icons in 48x48, 64x64 and 128x128.</p>
+        <p xml:lang="fr">Metainfo finalisé et validé selon la norme AppStream/DEP-11 pour une compatibilité maximale dans les centres logiciels. Icônes ajoutées en 48x48, 64x64 et 128x128.</p>
+        <p xml:lang="pt">Metainfo finalizado e validado de acordo com o padrão AppStream/DEP-11 para máxima compatibilidade em centros de software. Ícones adicionados em 48x48, 64x64 e 128x128.</p>
+        <p xml:lang="de">Metainfo abgeschlossen und gemäß AppStream/DEP-11-Standard validiert für maximale Kompatibilität in Software-Centern. Hinzugefügte Symbole in 48x48, 64x64 und 128x128.</p>
+        <p xml:lang="it">Metainfo finalizzato e validato secondo lo standard AppStream/DEP-11 per la massima compatibilità nei centri software. Aggiunte icone in 48x48, 64x64 e 128x128.</p>
+        <p xml:lang="ru">Metainfo завершён и проверен по стандарту AppStream/DEP-11 для максимальной совместимости в центрах программ. Добавлены иконки 48x48, 64x64 и 128x128.</p>
+        <p xml:lang="ro">Metainfo finalizat și validat conform standardului AppStream/DEP-11 pentru compatibilitate maximă în centrele software. Adăugate pictograme în 48x48, 64x64 și 128x128.</p>
+      </description>
+    </release>
     <release version="1.0.8" date="2025-07-14">
       <description>
         <p>Final metainfo corrections for full compatibility and visibility in software centers (AppStream/Discover).</p>
@@ -285,7 +324,7 @@
           <li xml:lang="ru">Улучшения процесса установки и сообщения об ошибках</li>
           <li xml:lang="ro">Îmbunătățiri ale procesului de instalare și mesaje de eroare</li>
           <li>Updated help and donation links</li>
-          <li xml:lang="es">Actualización de enlaces de ayuda y donaciones</li>
+          <li xml:lang="es">Actualización de enlaces de ayuda și donaciones</li>
           <li xml:lang="fr">Mise à jour des liens d'aide et de dons</li>
           <li xml:lang="pt">Atualização de links de ajuda e doação</li>
           <li xml:lang="de">Aktualisierung von Hilfe- und Spendenlinks</li>
@@ -372,10 +411,4 @@
   </releases>
 
   <content_rating type="oars-1.1"/>
-
-  <categories>
-    <category>Settings</category>
-    <category>System</category>
-    <category>Utility</category>
-  </categories>
 </component>

@@ -4,7 +4,10 @@
   <pkgname>soplos-welcome-live</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
+  <project_group>com.soploslinux</project_group>
+
   <name>Soplos Welcome Live</name>
+  <name xml:lang="en">Soplos Welcome Live</name>
   <name xml:lang="es">Bienvenida a Soplos Live</name>
   <name xml:lang="fr">Bienvenue sur Soplos Live</name>
   <name xml:lang="pt">Bem-vindo ao Soplos Live</name>
@@ -12,8 +15,9 @@
   <name xml:lang="it">Benvenuto su Soplos Live</name>
   <name xml:lang="ru">Добро пожаловать в Soplos Live</name>
   <name xml:lang="ro">Bun venit la Soplos Live</name>
-  
+
   <summary>Welcome screen for Soplos Linux Live Environment</summary>
+  <summary xml:lang="en">Welcome screen for Soplos Linux Live Environment</summary>
   <summary xml:lang="es">Pantalla de bienvenida para el entorno Live de Soplos Linux</summary>
   <summary xml:lang="fr">Écran de bienvenue pour l'environnement Live de Soplos Linux</summary>
   <summary xml:lang="pt">Tela de boas-vindas para o ambiente Live do Soplos Linux</summary>
@@ -24,67 +28,26 @@
 
   <description>
     <p>A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
+    <p xml:lang="en">A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
     <p xml:lang="es">Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a los usuarios a navegar por el sistema live e instalar Soplos Linux.</p>
     <p xml:lang="fr">Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide les utilisateurs à naviguer dans le système live et à installer Soplos Linux.</p>
     <p xml:lang="pt">Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os usuários a navegar pelo sistema live e instalar o Soplos Linux.</p>
     <p xml:lang="de">Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.</p>
-    <p xml:lang="it">Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.</p>
+    <p xml:lang="it">Un'applicazione di benvenuto para l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.</p>
     <p xml:lang="ru">Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям ориентироваться в live-системе и устанавливать Soplos Linux.</p>
     <p xml:lang="ro">O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii să navigheze în sistemul live și să instaleze Soplos Linux.</p>
   </description>
 
-  <launchable type="desktop-id">com.soplos.welcomelive.desktop</launchable>
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>Utility</category>
+  </categories>
 
-  <icon type="stock">com.soplos.welcomelive</icon>
-  <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png</url>
-  </icon>
-
-  <screenshots>
-    <screenshot type="default">
-      <caption>Live Welcome Screen</caption>
-      <caption xml:lang="es">Pantalla de bienvenida Live</caption>
-      <caption xml:lang="fr">Écran de bienvenue Live</caption>
-      <caption xml:lang="pt">Tela de boas-vindas Live</caption>
-      <caption xml:lang="de">Live-Willkommensbildschirm</caption>
-      <caption xml:lang="it">Schermata di benvenuto Live</caption>
-      <caption xml:lang="ru">Экран приветствия Live</caption>
-      <caption xml:lang="ro">Ecran de întâmpinare Live</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot1.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Installation Options</caption>
-      <caption xml:lang="es">Opciones de instalación</caption>
-      <caption xml:lang="fr">Options d'installation</caption>
-      <caption xml:lang="pt">Opções de instalação</caption>
-      <caption xml:lang="de">Installationsoptionen</caption>
-      <caption xml:lang="it">Opzioni di installazione</caption>
-      <caption xml:lang="ru">Параметры установки</caption>
-      <caption xml:lang="ro">Opțiuni de instalare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Hardware Detection</caption>
-      <caption xml:lang="es">Detección de hardware</caption>
-      <caption xml:lang="fr">Détection du matériel</caption>
-      <caption xml:lang="pt">Detecção de hardware</caption>
-      <caption xml:lang="de">Hardware-Erkennung</caption>
-      <caption xml:lang="it">Rilevamento hardware</caption>
-      <caption xml:lang="ru">Обнаружение оборудования</caption>
-      <caption xml:lang="ro">Detectarea hardware-ului</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png</image>
-    </screenshot>
-  </screenshots>
-
-  <url type="homepage">https://soploslinux.com/tyson</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
-  <url type="contact">https://soploslinux.com/foros</url>
-  <url type="donation">https://paypal.me/soploslinux</url>
-
-  <developer id="com.soploslinux">
-    <name>Soplos Linux Team</name>
-    <url>https://soploslinux.com</url>
-  </developer>
+  <requires>
+    <id>python3-gi</id>
+    <id>gir1.2-gtk-3.0</id>
+  </requires>
 
   <keywords>
     <keyword>welcome</keyword>
@@ -129,10 +92,6 @@
     <keyword xml:lang="ro">soplos</keyword>
   </keywords>
 
-  <provides>
-    <binary>soplos-welcome-live</binary>
-  </provides>
-
   <translation type="gettext">
     <locale>es</locale>
     <locale>en</locale>
@@ -144,7 +103,79 @@
     <locale>ro</locale>
   </translation>
 
+  <launchable type="desktop-id">com.soplos.welcomelive.desktop</launchable>
+
+  <icon type="stock">com.soplos.welcomelive</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Live Welcome Screen</caption>
+      <caption xml:lang="en">Live Welcome Screen</caption>
+      <caption xml:lang="es">Pantalla de bienvenida Live</caption>
+      <caption xml:lang="fr">Écran de bienvenue Live</caption>
+      <caption xml:lang="pt">Tela de boas-vindas Live</caption>
+      <caption xml:lang="de">Live-Willkommensbildschirm</caption>
+      <caption xml:lang="it">Schermata di benvenuto Live</caption>
+      <caption xml:lang="ru">Экран приветствия Live</caption>
+      <caption xml:lang="ro">Ecran de întâmpinare Live</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Installation Options</caption>
+      <caption xml:lang="en">Installation Options</caption>
+      <caption xml:lang="es">Opciones de instalación</caption>
+      <caption xml:lang="fr">Options d'installation</caption>
+      <caption xml:lang="pt">Opções de instalação</caption>
+      <caption xml:lang="de">Installationsoptionen</caption>
+      <caption xml:lang="it">Opzioni di installazione</caption>
+      <caption xml:lang="ru">Параметры установки</caption>
+      <caption xml:lang="ro">Opțiuni de instalare</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Hardware Detection</caption>
+      <caption xml:lang="en">Hardware Detection</caption>
+      <caption xml:lang="es">Detección de hardware</caption>
+      <caption xml:lang="fr">Détection du matériel</caption>
+      <caption xml:lang="pt">Detecção de hardware</caption>
+      <caption xml:lang="de">Hardware-Erkennung</caption>
+      <caption xml:lang="it">Rilevamento hardware</caption>
+      <caption xml:lang="ru">Обнаружение оборудования</caption>
+      <caption xml:lang="ro">Detectarea hardware-ului</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome-live/screenshots/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com/tyson</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
+  <url type="donation">https://paypal.me/soploslinux</url>
+  <url type="contact">https://soploslinux.com/foros</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Linux Team</name>
+    <url type="homepage">https://soploslinux.com</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-welcome-live</binary>
+  </provides>
+
   <releases>
+    <release version="1.1.0" date="2025-07-16">
+      <description>
+        <p>Metainfo finalized to AppStream/DEP-11 standard. Program icons added in 48x48, 64x64, and 128x128 resolutions.</p>
+        <p xml:lang="es">Metainfo finalizado al estándar AppStream/DEP-11. Iconos del programa agregados en 48x48, 64x64 y 128x128.</p>
+        <p xml:lang="fr">Metainfo finalisé selon la norme AppStream/DEP-11. Icônes du programme ajoutées en 48x48, 64x64 et 128x128.</p>
+        <p xml:lang="pt">Metainfo finalizado para o padrão AppStream/DEP-11. Ícones do programa adicionados em 48x48, 64x64 e 128x128.</p>
+        <p xml:lang="de">Metainfo gemäß AppStream/DEP-11-Standard finalisiert. Programmsymbole in 48x48, 64x64 und 128x128 hinzugefügt.</p>
+        <p xml:lang="it">Metainfo finalizzato allo standard AppStream/DEP-11. Icone del programma aggiunte in 48x48, 64x64 e 128x128.</p>
+        <p xml:lang="ru">Metainfo доведен до стандарта AppStream/DEP-11. Добавлены иконки программы 48x48, 64x64 и 128x128.</p>
+        <p xml:lang="ro">Metainfo finalizat la standardul AppStream/DEP-11. Adăugate pictogramele programului la 48x48, 64x64 și 128x128.</p>
+      </description>
+    </release>
     <release version="1.0.9" date="2025-07-14">
       <description>
         <p>Finalized metainfo corrections for proper appearance in software centers (AppStream/Discover).</p>
@@ -208,10 +239,4 @@
   </releases>
 
   <content_rating type="oars-1.1"/>
-
-  <categories>
-    <category>System</category>
-    <category>Settings</category>
-    <category>Utility</category>
-  </categories>
 </component>
