@@ -2,7 +2,7 @@
 File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
-Time: 20250715T235651
+Time: 20250715T235705
 ---
 Type: desktop-application
 ID: com.soplos.reposelector
@@ -1324,6 +1324,361 @@ Releases:
       it: Versione iniziale
       ru: Начальная версия
       ro: Versiune inițială
+ContentRating:
+  type: oars-1.1
+Component: main
+---
+Type: desktop-application
+ID: com.soplos.msi-keyboard
+ProjectLicense: GPL-3.0+
+Package: msi-keyboard-gui
+Name:
+  C: MSI Keyboard RGB Controller
+  en: MSI Keyboard RGB Controller
+  es: Controlador RGB Teclado MSI
+  fr: Contrôleur RGB Clavier MSI
+  pt: Controlador RGB de Teclado MSI
+  de: MSI-Tastatur-RGB-Controller
+  it: Controller RGB Tastiera MSI
+  ru: Контроллер RGB клавиатуры MSI
+  ro: Controler RGB tastatură MSI
+Summary:
+  C: Configure MSI keyboard RGB lighting
+  en: Configure MSI keyboard RGB lighting
+  es: Configurar iluminación RGB del teclado MSI
+  fr: Configurer l'éclairage RGB du clavier MSI
+  pt: Configurar a iluminação RGB do teclado MSI
+  de: MSI-Tastatur-RGB-Beleuchtung konfigurieren
+  it: Configura l'illuminazione RGB della tastiera MSI
+  ru: Настройка RGB-подсветки клавиатуры MSI
+  ro: Configurează iluminarea RGB a tastaturii MSI
+Description:
+  C: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
+    control, intensity adjustment and multiple lighting modes.
+  en: A graphical tool to configure MSI keyboard RGB lighting with zone-based color
+    control, intensity adjustment and multiple lighting modes.
+  es: Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con
+    control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.
+  fr: Un outil graphique pour configurer l'éclairage RGB du clavier MSI avec contrôle
+    des couleurs par zone, réglage de l'intensité et plusieurs modes d'éclairage.
+  pt: Uma ferramenta gráfica para configurar a iluminação RGB do teclado MSI com controle
+    de cores por zona, ajuste de intensidade e vários modos de iluminação.
+  de: Ein grafisches Tool zur Konfiguration der RGB-Beleuchtung der MSI-Tastatur mit
+    zonenbasierter Farbsteuerung, Intensitätsanpassung und mehreren Beleuchtungsmodi.
+  it: Uno strumento grafico per configurare l'illuminazione RGB della tastiera MSI
+    con controllo dei colori per zona, regolazione dell'intensità e molteplici modalità
+    di illuminazione.
+  ru: Графический инструмент для настройки RGB-подсветки клавиатуры MSI с управлением
+    цветом по зонам, регулировкой интенсивности и несколькими режимами подсветки.
+  ro: Un instrument grafic pentru configurarea iluminării RGB a tastaturii MSI cu
+    control pe zone, ajustarea intensității și multiple moduri de iluminare.
+Keywords:
+  C:
+    - keyboard
+    - RGB
+    - MSI
+    - lighting
+    - color
+    - backlight
+    - zones
+    - effects
+    - hardware
+    - configuration
+    - settings
+  en:
+    - keyboard
+    - RGB
+    - MSI
+    - lighting
+    - color
+    - backlight
+    - zones
+    - effects
+    - hardware
+    - configuration
+    - settings
+  es:
+    - teclado
+    - iluminación
+    - color
+    - retroiluminación
+    - zonas
+    - efectos
+    - hardware
+    - configuración
+    - ajustes
+  fr:
+    - clavier
+    - éclairage
+    - couleur
+    - rétroéclairage
+    - zones
+    - effets
+    - matériel
+    - configuration
+    - paramètres
+  pt:
+    - teclado
+    - iluminação
+    - cor
+    - retroiluminação
+    - zonas
+    - efeitos
+    - hardware
+    - configuração
+    - definições
+  de:
+    - tastatur
+    - beleuchtung
+    - farbe
+    - hintergrundbeleuchtung
+    - zonen
+    - effekte
+    - hardware
+    - konfiguration
+    - einstellungen
+  it:
+    - tastiera
+    - illuminazione
+    - colore
+    - retroilluminazione
+    - zone
+    - effetti
+    - hardware
+    - configurazione
+    - impostazioni
+  ru:
+    - клавиатура
+    - подсветка
+    - цвет
+    - зоны
+    - эффекты
+    - оборудование
+    - настройка
+    - параметры
+  ro:
+    - tastatură
+    - iluminare
+    - culoare
+    - iluminare de fundal
+    - zone
+    - efecte
+    - hardware
+    - configurare
+    - setări
+Categories:
+  - Settings
+  - HardwareSettings
+  - System
+Icon:
+  cached:
+    - name: com.soplos.msi-keyboard.png
+      width: 64
+      height: 64
+  remote:
+    - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/icons/com.soplos.msi-keyboard.png
+      width: 64
+      height: 64
+Screenshots:
+  - default: true
+    caption:
+      C: 'Main window: keyboard color selection'
+      en: 'Main window: keyboard color selection'
+      es: 'Ventana principal: selección de color del teclado'
+      fr: 'Fenêtre principale : sélection de la couleur du clavier'
+      pt: 'Janela principal: seleção de cor do teclado'
+      de: 'Hauptfenster: Tastaturfarbauswahl'
+      it: 'Finestra principale: selezione colore tastiera'
+      ru: 'Главное окно: выбор цвета клавиатуры'
+      ro: 'Fereastra principală: selecția culorii tastaturii'
+    source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+    thumbnails:
+      - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1-thumb.png
+        width: 320
+        height: 180
+        type: image/png
+  - caption:
+      C: Advanced effects and zone configuration
+      en: Advanced effects and zone configuration
+      es: Configuración avanzada de efectos y zonas
+      fr: Configuration avancée des effets et des zones
+      pt: Configuração avançada de efeitos e zonas
+      de: Erweiterte Effekte- und Zonen-Konfiguration
+      it: Configurazione avanzata di effetti e zone
+      ru: Расширенная настройка эффектов и зон
+      ro: Configurare avansată a efectelor și zonelor
+    source-image:
+      url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+    thumbnails:
+      - url: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2-thumb.png
+        width: 320
+        height: 180
+        type: image/png
+Launchable:
+  desktop-id:
+    - com.soplos.msi-keyboard.desktop
+Urls:
+  homepage: https://soploslinux.com/tyson
+  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  donation: https://www.paypal.com/paypalme/isubdes
+  contact: https://soploslinux.com/foros/
+Developer:
+  id: com.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soploslinux.com
+Provides:
+  - msi-keyboard-gui
+Releases:
+  - version: 1.0.8
+    date: '2025-07-15'
+    type: stable
+    description:
+      C: Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME
+        Software).
+      en: Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME
+        Software).
+      es: Correcciones finales en el metainfo para garantizar la aparición en centros
+        de software (AppStream/Discover/GNOME Software).
+      fr: Corrections finales du metainfo pour garantir l'apparition dans les centres
+        logiciels (AppStream/Discover/GNOME Software).
+      pt: Correções finais no metainfo para garantir a aparição nos centros de software
+        (AppStream/Discover/GNOME Software).
+      de: Letzte Metainfo-Korrekturen, um die Anzeige in Software-Centern (AppStream/Discover/GNOME
+        Software) sicherzustellen.
+      it: Correzioni finali al metainfo per garantire la visualizzazione nei centri
+        software (AppStream/Discover/GNOME Software).
+      ru: Финальные исправления metainfo для отображения в центрах программного обеспечения
+        (AppStream/Discover/GNOME Software).
+      ro: Corecții finale la metainfo pentru a asigura apariția în centrele software
+        (AppStream/Discover/GNOME Software).
+  - version: 1.0.6
+    date: '2025-07-13'
+    type: stable
+    description:
+      C: Metainfo data corrected for proper display in AppStream/Discover.
+      en: Metainfo data corrected for proper display in AppStream/Discover.
+      es: Corregidos los datos del metainfo para que se muestren de forma correcta
+        en AppStream/Discover.
+      fr: Données metainfo corrigées pour un affichage correct dans AppStream/Discover.
+      pt: Dados do metainfo corrigidos para exibição adequada no AppStream/Discover.
+      de: Metainfo-Daten für die korrekte Anzeige in AppStream/Discover korrigiert.
+      it: Dati metainfo corretti per la corretta visualizzazione in AppStream/Discover.
+      ru: Исправлены данные metainfo для правильного отображения в AppStream/Discover.
+      ro: Datele metainfo corectate pentru afișare corectă în AppStream/Discover.
+  - version: 1.0.5
+    date: '2025-07-05'
+    type: stable
+    description:
+      C: Unified script for all systemd operations with single pkexec authentication,
+        fixing multiple password prompts.
+      en: Unified script for all systemd operations with single pkexec authentication,
+        fixing multiple password prompts.
+      es: Script unificado para todas las operaciones systemd con una sola autenticación
+        pkexec, eliminando múltiples solicitudes de contraseña.
+      fr: Script unifié pour toutes les opérations systemd avec une seule authentification
+        pkexec, éliminant les multiples demandes de mot de passe.
+      pt: Script unificado para todas as operações systemd com uma única autenticação
+        pkexec, eliminando múltiplos pedidos de senha.
+      de: Vereinheitlichtes Skript für alle systemd-Operationen mit einmaliger pkexec-Authentifizierung,
+        wodurch mehrere Passwortabfragen entfallen.
+      it: Script unificato per tutte le operazioni systemd con un'unica autenticazione
+        pkexec, eliminando richieste multiple di password.
+      ru: Унифицированный скрипт для всех операций systemd с одной аутентификацией
+        pkexec, устраняя множественные запросы пароля.
+      ro: Script unificat pentru toate operațiunile systemd cu o singură autentificare
+        pkexec, eliminând solicitările multiple de parolă.
+  - version: 1.0.4
+    date: '2025-07-05'
+    type: stable
+    description:
+      C: Use pkexec for graphical authentication when creating systemd services, fixing
+        permission issues in GUI.
+      en: Use pkexec for graphical authentication when creating systemd services,
+        fixing permission issues in GUI.
+      es: Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando
+        problemas de permisos en GUI.
+      fr: Utilisation de pkexec pour l'authentification graphique lors de la création
+        de services systemd, résolvant les problèmes d'autorisations dans l'interface
+        graphique.
+      pt: Uso do pkexec para autenticação gráfica ao criar serviços systemd, corrigindo
+        problemas de permissões na interface gráfica.
+      de: Verwendung von pkexec für die grafische Authentifizierung beim Erstellen
+        von systemd-Diensten, wodurch Berechtigungsprobleme in der GUI behoben werden.
+      it: Utilizzo di pkexec per l'autenticazione grafica durante la creazione di
+        servizi systemd, risolvendo problemi di permessi nella GUI.
+      ru: Использование pkexec для графической аутентификации при создании сервисов
+        systemd, устраняя проблемы с разрешениями в GUI.
+      ro: Utilizarea pkexec pentru autentificare grafică la crearea serviciilor systemd,
+        rezolvând problemele de permisiuni în interfața grafică.
+  - version: 1.0.3
+    date: '2025-06-26'
+    type: stable
+    description:
+      C: Automatic generation and update of systemd service when applying configuration
+        from the graphical interface.
+      en: Automatic generation and update of systemd service when applying configuration
+        from the graphical interface.
+      es: Generación y actualización automática del servicio systemd al aplicar la
+        configuración desde la interfaz gráfica.
+      fr: Génération et mise à jour automatiques du service systemd lors de l'application
+        de la configuration depuis l'interface graphique.
+      pt: Geração e atualização automática do serviço systemd ao aplicar a configuração
+        a partir da interface gráfica.
+      de: Automatische Erstellung und Aktualisierung des systemd-Dienstes beim Anwenden
+        der Konfiguration aus der grafischen Oberfläche.
+      it: Generazione e aggiornamento automatico del servizio systemd durante l'applicazione
+        della configurazione dall'interfaccia grafica.
+      ru: Автоматическое создание и обновление службы systemd при применении конфигурации
+        из графического интерфейса.
+      ro: Generare și actualizare automată a serviciului systemd la aplicarea configurației
+        din interfața grafică.
+  - version: 1.0.2
+    date: '2025-06-24'
+    type: stable
+    description:
+      C: Minor improvements and metadata updates
+      en: Minor improvements and metadata updates
+      es: Mejoras menores y actualización de metadatos
+      fr: Améliorations mineures et mise à jour des métadonnées
+      pt: Pequenas melhorias e atualização de metadados
+      de: Kleinere Verbesserungen und Metadatenaktualisierungen
+      it: Miglioramenti minori e aggiornamento dei metadati
+      ru: Незначительные улучшения и обновление метаданных
+      ro: Îmbunătățiri minore și actualizare a metadatelor
+  - version: 1.0.1
+    date: '2025-06-24'
+    type: stable
+    description:
+      C: Visible in KDE Discover and other AppStream-based stores
+      en: Visible in KDE Discover and other AppStream-based stores
+      es: Ahora visible en Discover y otras tiendas AppStream
+      fr: Désormais visible dans Discover et d'autres boutiques AppStream
+      pt: Agora visível no Discover e em outras lojas AppStream
+      de: Jetzt sichtbar in Discover und anderen AppStream-Shops
+      it: Ora visibile in Discover e in altri store AppStream
+      ru: Теперь отображается в Discover и других магазинах AppStream
+      ro: Acum vizibil în Discover și în alte magazine AppStream
+  - version: 1.0.0
+    date: '2024-12-19'
+    type: stable
+    description:
+      C: 'Includes the following features:'
+      en: 'Includes the following features:'
+      es: Lanzamiento inicial
+      fr: Première version
+      pt: Lançamento inicial
+      de: Erstveröffentlichung
+      it: Rilascio iniziale
+      ru: Первый выпуск
+      ro: Lansare inițială
 ContentRating:
   type: oars-1.1
 Component: main
