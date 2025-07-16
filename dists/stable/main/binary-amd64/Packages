@@ -1,17 +1,3 @@
-Package: soplos-plymouth-manager
-Version: 1.0.5
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, grim, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, wl-screenshot | slurp, wlr-randr | swaybg, xvfb
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.5_all.deb
-Size: 381072
-SHA256: d021e0c88b47412d0c7c15bdf1ee81801d1e7e1bc39960bd2b99a4c2132e5ab6
-SHA1: af90bc0b7293db183be9799873a6393a01e10422
-MD5sum: 360d06fac570a560211144eafe7e6b33
-Description: Plymouth boot splash theme manager for Soplos Linux
-
 Package: soplos-release
 Version: 0.0.8
 Architecture: all
