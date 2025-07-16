@@ -3,34 +3,25 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Tue, 15 Jul 2025 23:57:05 UTC
+Date: Wed, 16 Jul 2025 00:09:31 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- cef0e4df7c9fc3276cdf91e60a52b7c0 5850 main/binary-amd64/Packages
- e22fb2a8246c904beebf335466d3a929 2089 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
- 6cd1aa72e8de4801aa13aa433e0e803b 33694 main/Contents-amd64
- a54f5a657a1e76f21dd48e0cb97c909c 2829 main/Contents-amd64.gz
- 1d7a19dcb21581e65a920623d750a1c1 18076 main/dep11/Components-amd64.yml.gz
- 26a7ed8c44a3c2a52bca2ab4d405b0b4 80948 main/dep11/Components-amd64.yml
- 4e9a728b9476a0984193e62b73eea47d 478684 main/dep11/icons-64x64.tar.xz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/Contents-amd64
+ 7029066c27ac6f5ef18d660d5741979a 20 main/Contents-amd64.gz
 SHA1:
- 31203d82212c0af2b0c314c6aa6b85f39f787448 5850 main/binary-amd64/Packages
- 00b9e729595eb522c64eba1c24cda6332d873deb 2089 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
- 9c68d18744c8066a0e0b0bbf346a291961a2abfb 33694 main/Contents-amd64
- 0f2a83c50f1602ded25428ee6531eca74612ac15 2829 main/Contents-amd64.gz
- cf0401bdd56159d50b17b25f2daccd50f4fb5313 18076 main/dep11/Components-amd64.yml.gz
- f349838469dc2101091d1c57e124a38407d28196 80948 main/dep11/Components-amd64.yml
- 137d367d69187600144715abab041bf118c42584 478684 main/dep11/icons-64x64.tar.xz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/Contents-amd64
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/Contents-amd64.gz
 SHA256:
- c010e11d135fd1a5eeadef3100841433f88e116992abe6b949f83545d3586cd9 5850 main/binary-amd64/Packages
- 19e9339eeb97021af0a12b17556be968a1a0a097b78841538abcfb474565bd02 2089 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
- df9225a140a0cacf5a9fb0bf3079ea34003a3f8082d6bc77a863392f1f5ecfa3 33694 main/Contents-amd64
- e18ab93bd65c1ed4ff669ed9f7ed7a383a7f9480bfa78db25f0869761c54bde0 2829 main/Contents-amd64.gz
- 72017ed832d7547575ab564ba36b6a67f89c453881a09785bf21e9f44d2d426c 18076 main/dep11/Components-amd64.yml.gz
- d7945e6b38067692f6ff9ba151a4fa25e857b110e4f5e80811a7d196ab3e3be1 80948 main/dep11/Components-amd64.yml
- c1f68845b55282b16b0efb7dc7ec58c37e17c2a2d978f1bc8cb353f24c30e0ab 478684 main/dep11/icons-64x64.tar.xz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/Contents-amd64
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/Contents-amd64.gz
