@@ -6,7 +6,7 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Wed, 16 Jul 2025 01:34:25 UTC
+Date: Wed, 16 Jul 2025 01:35:55 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
@@ -30,17 +30,17 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/Contents-amd64.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEGfD0EIDZtAmGkhEmiEVBnx3uS2QFAmh3AaEACgkQiEVBnx3u
-S2Szww/8CuXYNtOQSAqpQlXlZVekEBNgPM8ufLcrOHoLfI5u8bfVUtpfSPOkJMVQ
-aZe1KmTCSUvGondDD5Y+pGJJLCCCxA0RLup7p39wevHaBZDtsUDvUt6st/nSOdbJ
-Qe1iPkP7AEqADhtj/kYwoQ5lUNcfXz+GE+y/Bbgpi1rPmqhFI28vxhp7jaOvE9Tr
-bVmLtbQFro5/1rO4iIDVUQPlHh38eHtDFwoXK+0JXdlx1JzeY+XQ8sGyJmXft6hh
-RxWQjNwGAf7qZuoSaptVZnlNLOdZorhKWZsioGj3P+5p5fvym/pqMOKeUXAxuljR
-FDxloY53/brqlCxvRMYmJ6iiANUfD6zumt2KLT24hE2M94oXoztvzT4BrvKLcahf
-yRaPi9azZsTrsS4WsVQPDwzLQyln4QPWd5Lpu1AXCv3bfS/topqY4+HAY1ie01to
-g01zLfRgk/bnEJ+MsaEaVOiKXNu/AkhXJjlsLe0Wr6EDcTyjQV9xaGxtY13Qh9Wu
-nyt72+36vL/Vi1W1O/crwbpKQAlMMHg9do3CD/h8nQlwEfpUpqDwn3VvNka+pjxv
-QvJeW6G/cLSFh1Ft3QnpljH9ArOZGAnspzcKdqCOdm7aMPbgQX5475015G0Z2hAa
-M49bm7QWlFflNV97fJN3hi+iC7anufS1vShDjCy0wwdhdU0BmCQ=
-=goge
+iQIzBAEBCgAdFiEEGfD0EIDZtAmGkhEmiEVBnx3uS2QFAmh3AfsACgkQiEVBnx3u
+S2Tbew//dqfKPgPwzaTj0oWu4rEr03ARRiDltG62Nuc4Doho07maU7yG6qz64Py9
+NThrVy1yPfZKiTxvOOpXAwdtosfHE4JtTvyA6nD57flOEE4ZFRs60/B/QzP8XLOW
+e+7tpoVCRjTwCVU8tafvoRR5NxwBwl9aGPx2qawRpk7S2jm8NYSd47VWApJcyObx
+JMe4okyutg4WpnHussR9VFg9tAv2f2/5phP7yXckI8P88IluYQAsOB/LgYkILqB4
+vi4LnscbMxZay8VagLRN+Upt7PBHc6t7bkMLxrGNTquuEh8aO+qJW/78lDBq18/R
+iUAkM9MbyT/se0tsUkgwS+lIPA8WLOAnLpFRq+9UfrUztvjbyRfHCXLbrawctJXj
+Q/FBIo1IVqkiTz3hoOmrZyiOXnicHJgGsMmQG3yuPPnuaZpRvZnhpc9i5bZKi8lp
+5taO5SaqKfmyruJ2d6M+EwAr2+KBU3oAe0VGiHwWHxC4KW1WRdjZJzvvXUoyRCLp
+s+Y78OSr9nCzb71We2nDc89Uc43cPva96Eop5Kwj5VMo+OT8pZTIfSk2vRABZ13l
+F2RJ5NZ6oVJoBtlSkZ9rEPMdDJf94/9n/qSKGk5aV5/YucGnI+NKyFGXQgaMjybC
+NT6mB0SwFCyqdt6jX3Gca4iCo8xye6ntyNuK81D3d4kycMvYaGQ=
+=nyMa
 -----END PGP SIGNATURE-----
