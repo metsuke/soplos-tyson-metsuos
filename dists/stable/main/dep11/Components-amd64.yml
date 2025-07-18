@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250718T002142
+Time: 20250718T173139
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -190,11 +190,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-repo-selector/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Buscar Repositorios Más Rápidos
       es: Buscar Repositorios Más Rápidos
@@ -209,11 +204,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-repo-selector/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Gestor de Claves GPG
       es: Gestor de Claves GPG
@@ -228,11 +218,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-repo-selector/screenshots/screenshot3-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Detalles de Clave GPG
       es: Detalles de Clave GPG
@@ -247,11 +232,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-repo-selector/screenshots/screenshot4-thumb.png
-        width: 320
-        height: 180
-        type: image/png
 Launchable:
   desktop-id:
     - com.soplos.reposelector.desktop
@@ -263,7 +243,7 @@ Url:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Linux Team
+    C: Soplos Team
   url: https://soploslinux.com
 Provides:
   - soplos-repo-selector
@@ -526,11 +506,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Software center with updated recommendations
       en: Software center with updated recommendations
@@ -546,11 +521,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Driver management interface
       en: Driver management interface
@@ -566,11 +536,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome/screenshots/screenshot3-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Kernel optimization options
       en: Kernel optimization options
@@ -586,11 +551,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome/screenshots/screenshot4-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Customization panel
       en: Customization panel
@@ -606,11 +566,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome/screenshots/screenshot5-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Recommended applications with updated software
       en: Recommended applications with updated software
@@ -626,11 +581,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome/screenshots/screenshot6-thumb.png
-        width: 320
-        height: 180
-        type: image/png
 Launchable:
   desktop-id:
     - com.soplos.welcome.desktop
@@ -642,7 +592,7 @@ Url:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Linux Team
+    C: Soplos Team
   url: https://soploslinux.com
 Provides:
   - soplos-welcome
@@ -881,11 +831,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome-live/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Installation Options
       en: Installation Options
@@ -901,11 +846,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome-live/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Hardware Detection
       en: Hardware Detection
@@ -921,11 +861,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-welcome-live/screenshots/screenshot3-thumb.png
-        width: 320
-        height: 180
-        type: image/png
 Launchable:
   desktop-id:
     - com.soplos.welcomelive.desktop
@@ -937,11 +872,31 @@ Url:
 Developer:
   id: com.soploslinux
   name:
-    C: Soplos Linux Team
+    C: Soplos Team
   url: https://soploslinux.com
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 1.1.1
+    date: '2025-07-18'
+    type: stable
+    description:
+      C: Minor maintenance update and translation improvements. Improved language
+        detection and startup robustness.
+      es: Actualización menor de mantenimiento y traducciones. Mejoras menores en
+        la detección de idioma y robustez de arranque.
+      fr: |-
+        Mise à jour mineure de maintenance et améliorations des traductions. Amélioration de la détection de la langue et de la robustesse au démarrage.
+      pt: Atualização menor de manutenção e melhorias de tradução. Melhorias na detecção
+        de idioma e robustez de inicialização.
+      de: Kleines Wartungsupdate und Verbesserungen bei den Übersetzungen. Verbesserte
+        Spracherkennung und Robustheit beim Start.
+      it: |-
+        Aggiornamento minore di manutenzione e miglioramenti alle traduzioni. Migliorata la rilevazione della lingua e la robustezza all'avvio.
+      ru: Небольшое обновление обслуживания и улучшения переводов. Улучшено определение
+        языка и устойчивость запуска.
+      ro: |-
+        Actualizare minoră de mentenanță și îmbunătățiri ale traducerilor. Detectarea limbii și robustețea la pornire îmbunătățite.
   - version: 1.1.0
     date: '2025-07-16'
     type: stable
@@ -1171,11 +1126,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-plymouth-manager/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Theme preview
       en: Theme preview
@@ -1191,11 +1141,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-plymouth-manager/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Advanced settings
       en: Advanced settings
@@ -1211,11 +1156,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-plymouth-manager/screenshots/screenshot3-thumb.png
-        width: 320
-        height: 180
-        type: image/png
 Launchable:
   desktop-id:
     - com.soplos.plymouthmanager.desktop
@@ -1227,7 +1167,7 @@ Url:
 Developer:
   id: com.soploslinux
   name:
-    C: Echipa Soplos
+    C: Soplos Team
   url: https://soploslinux.com
 Provides:
   - soplos-plymouth-manager
@@ -1499,11 +1439,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: msi-keyboard-gui/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Advanced effects and zone configuration
       en: Advanced effects and zone configuration
@@ -1519,11 +1454,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: msi-keyboard-gui/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
 Launchable:
   desktop-id:
     - com.soplos.msi-keyboard.desktop
@@ -1853,11 +1783,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-grub-editor/screenshots/screenshot1-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Theme and appearance configuration
       en: Theme and appearance configuration
@@ -1873,11 +1798,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-grub-editor/screenshots/screenshot3-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Boot entries management
       en: Boot entries management
@@ -1893,11 +1813,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-grub-editor/screenshots/screenshot2-thumb.png
-        width: 320
-        height: 180
-        type: image/png
   - caption:
       C: Font installation and management
       en: Font installation and management
@@ -1913,11 +1828,6 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
-    thumbnails:
-      - url: soplos-grub-editor/screenshots/screenshot4-thumb.png
-        width: 320
-        height: 180
-        type: image/png
 Launchable:
   desktop-id:
     - com.soplos.grubeditor.desktop

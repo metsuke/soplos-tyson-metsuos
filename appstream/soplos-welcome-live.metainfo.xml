@@ -166,6 +166,18 @@
   </provides>
 
   <releases>
+    <release version="1.1.1" date="2025-07-18">
+      <description>
+        <p>Minor maintenance update and translation improvements. Improved language detection and startup robustness.</p>
+        <p xml:lang="es">Actualización menor de mantenimiento y traducciones. Mejoras menores en la detección de idioma y robustez de arranque.</p>
+        <p xml:lang="fr">Mise à jour mineure de maintenance et améliorations des traductions. Amélioration de la détection de la langue et de la robustesse au démarrage.</p>
+        <p xml:lang="pt">Atualização menor de manutenção e melhorias de tradução. Melhorias na detecção de idioma e robustez de inicialização.</p>
+        <p xml:lang="de">Kleines Wartungsupdate und Verbesserungen bei den Übersetzungen. Verbesserte Spracherkennung und Robustheit beim Start.</p>
+        <p xml:lang="it">Aggiornamento minore di manutenzione e miglioramenti alle traduzioni. Migliorata la rilevazione della lingua e la robustezza all'avvio.</p>
+        <p xml:lang="ru">Небольшое обновление обслуживания и улучшения переводов. Улучшено определение языка и устойчивость запуска.</p>
+        <p xml:lang="ro">Actualizare minoră de mentenanță și îmbunătățiri ale traducerilor. Detectarea limbii și robustețea la pornire îmbunătățite.</p>
+      </description>
+    </release>
     <release version="1.1.0" date="2025-07-16">
       <description>
         <p>Metainfo finalized to AppStream/DEP-11 standard. Program icons added in 48x48, 64x64, and 128x128 resolutions.</p>
