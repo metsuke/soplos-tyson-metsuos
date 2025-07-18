@@ -2,6 +2,7 @@ etc/debian_version	    admin/soplos-release
 etc/issue	    admin/soplos-release
 etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
+etc/apt/sources.list.d/tyson.list	    admin/soplos-release
 share/wallpapers/soplos/001.jpg	    x11/soplos-wallpapers01
 share/wallpapers/soplos/002.jpg	    x11/soplos-wallpapers01
 share/wallpapers/soplos/003.jpg	    x11/soplos-wallpapers01
