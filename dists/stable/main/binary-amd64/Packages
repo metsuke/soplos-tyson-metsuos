@@ -41,16 +41,16 @@ MD5sum: 5e4a49f3d4b0aa4f407bd502470e70d1
 Description: Plymouth boot splash theme manager for Soplos Linux
 
 Package: soplos-release
-Version: 0.0.10
+Version: 0.0.11
 Architecture: all
 Maintainer: Soplos Linux Team 
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.0.10_all.deb
-Size: 4029412
-SHA256: a22e3082f9412b6ab32a20d4f062a51f77557beb679321cec0ff974e5fd00658
-SHA1: 7a1c5d32cda73214df04c9baee3ed8d97909848c
-MD5sum: fbcaadfe2cb92521aad273beaeee6e39
+Filename: pool/main/s/soplos-release/soplos-release_0.0.11_all.deb
+Size: 4022784
+SHA256: 9ecc40ea66df760baa3f068132ef3fcb44974e150a5f906041d805d9f85e990f
+SHA1: 12db045a48bb7929eb3f0e1d15f1b58518ec9e8d
+MD5sum: e21ec3ff1395d131c4ee564084cd3b1a
 Description: Información de lanzamiento de Soplos Linux (sistema interno)
  Contiene la información de lanzamiento y archivos de versión para Soplos Linux.
  Este paquete es esencial para la identificación del sistema operativo.
