@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250719T092128
+Time: 20250724T001540
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -597,6 +597,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 1.1.0
+    date: '2025-07-21'
+    type: stable
+    description:
+      C: |-
+        LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.
+      es: |-
+        La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.
+      en: |-
+        LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.
+      fr: |-
+        LibreWolf est maintenant installé via Flatpak (Flathub) au lieu d'APT/dépôts externes, évitant les conflits et simplifiant la maintenance.
+      pt: |-
+        O LibreWolf agora é instalado via Flatpak (Flathub) em vez de APT/repositórios externos, evitando conflitos e simplificando a manutenção.
+      de: |-
+        LibreWolf wird jetzt über Flatpak (Flathub) anstelle von APT/externalen Repositories installiert, um Konflikte zu vermeiden und die Wartung zu vereinfachen.
+      it: |-
+        LibreWolf ora viene installato tramite Flatpak (Flathub) invece di APT/repository esterni, evitando conflitti e semplificando la manutenzione.
+      ru: |-
+        LibreWolf теперь устанавливается через Flatpak (Flathub), а не через APT/внешние репозитории, что предотвращает конфликты и упрощает обслуживание.
+      ro: |-
+        LibreWolf este acum instalat prin Flatpak (Flathub) în loc de APT/repo externe, evitând conflictele și simplificând întreținerea.
   - version: 1.0.9
     date: '2025-07-16'
     type: stable

@@ -253,6 +253,55 @@
   </provides>
 
   <releases>
+    <release version="1.1.0" date="2025-07-21">
+      <description>
+        <p>Mejoras en la integración y funcionamiento de QEMU/KVM para máquinas virtuales y refuerzo en la gestión e instalación de controladores NVIDIA.</p>
+        <p xml:lang="es">Mejoras en la integración y funcionamiento de QEMU/KVM para máquinas virtuales y refuerzo en la gestión e instalación de controladores NVIDIA.</p>
+        <p xml:lang="en">Improved QEMU/KVM virtual machine support and enhanced NVIDIA driver management and installation.</p>
+        <p xml:lang="fr">Amélioration de la prise en charge des machines virtuelles QEMU/KVM et renforcement de la gestion/installation des pilotes NVIDIA.</p>
+        <p xml:lang="pt">Melhorias no suporte a máquinas virtuais QEMU/KVM e reforço na gestão/instalação dos drivers NVIDIA.</p>
+        <p xml:lang="de">Verbesserte QEMU/KVM-VM-Unterstützung und optimierte Verwaltung/Installation der NVIDIA-Treiber.</p>
+        <p xml:lang="it">Migliorato il supporto QEMU/KVM per macchine virtuali e rafforzata la gestione/installazione dei driver NVIDIA.</p>
+        <p xml:lang="ru">Улучшена поддержка виртуальных машин QEMU/KVM и усилено управление/установка драйверов NVIDIA.</p>
+        <p xml:lang="ro">Îmbunătățiri pentru suportul QEMU/KVM și întărirea gestionării/instalării driverelor NVIDIA.</p>
+        <p>Fragmentación y reorganización de los diccionarios de idiomas: cada idioma ahora se gestiona en archivos independientes para facilitar el mantenimiento y la internacionalización.</p>
+        <p xml:lang="es">Fragmentación y reorganización de los diccionarios de idiomas: cada idioma ahora se gestiona en archivos independientes para facilitar el mantenimiento y la internacionalización.</p>
+        <p xml:lang="en">Language dictionary fragmentation and reorganization: each language is now managed in separate files for easier maintenance and internationalization.</p>
+        <p xml:lang="fr">Fragmentation et réorganisation des dictionnaires de langues : chaque langue est désormais gérée dans des fichiers séparés pour faciliter la maintenance et l'internationalisation.</p>
+        <p xml:lang="pt">Fragmentação e reorganização dos dicionários de idiomas: cada idioma agora é gerenciado em arquivos independentes para facilitar a manutenção e a internacionalização.</p>
+        <p xml:lang="de">Fragmentierung and Neuorganisation der Sprachwörterbücher: Jede Sprache wird jetzt in separaten Dateien verwaltet, um die Wartung und Internationalisierung zu erleichtern.</p>
+        <p xml:lang="it">Frammentazione e riorganizzazione dei dizionari delle lingue: ogni lingua ora è gestita in file separati per facilitare la manutenzione e l'internazionalizzazione.</p>
+        <p xml:lang="ru">Фрагментация и реорганизация языковых словарей: каждый язык теперь управляется в отдельных файлах для облегчения обслуживания и интернационализации.</p>
+        <p xml:lang="ro">Fragmentarea și reorganizarea dicționarelor de limbi: fiecare limbă este acum gestionată în fișiere separate pentru a facilita întreținerea și internaționalizarea.</p>
+        <p><b>Fragmentación finalizada: el programa está 100% internacionalizado y preparado para colaboración internacional.</b></p>
+        <p xml:lang="es"><b>Fragmentación finalizada: el programa está 100% internacionalizado y preparado para colaboración internacional.</b></p>
+        <p xml:lang="en"><b>Dictionary fragmentation finalized: the program is now 100% internationalized and ready for international collaboration.</b></p>
+        <p xml:lang="fr"><b>Fragmentation terminée : le programme est désormais 100 % internationalisé et prêt pour la collaboration internationale.</b></p>
+        <p xml:lang="pt"><b>Fragmentação concluída: o programa está 100% internacionalizado e pronto para colaboração internacional.</b></p>
+        <p xml:lang="de"><b>Fragmentierung abgeschlossen: Das Programm ist jetzt zu 100 % internationalisiert und bereit für internationale Zusammenarbeit.</b></p>
+        <p xml:lang="it"><b>Frammentazione completata: il programma è ora completamente internazionalizzato e pronto per la collaborazione internazionale.</b></p>
+        <p xml:lang="ru"><b>Фрагментация завершена: программа полностью интернационализирована и готова к международному сотрудничеству.</b></p>
+        <p xml:lang="ro"><b>Fragmentarea finalizată: programul este acum 100% internaționalizat și pregătit pentru colaborare internațională.</b></p>
+        <p>Mejorada la lógica de los botones de instalar/desinstalar en la pestaña de recomendados: ahora cambian de estado y acción dinámicamente tras cada operación.</p>
+        <p>La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.</p>
+        <p xml:lang="es">Mejorada la lógica de los botones de instalar/desinstalar en la pestaña de recomendados: ahora cambian de estado y acción dinámicamente tras cada operación.</p>
+        <p xml:lang="es">La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.</p>
+        <p xml:lang="en">Improved logic for install/uninstall buttons in the recommended tab: they now dynamically change state and action after each operation.</p>
+        <p xml:lang="en">LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.</p>
+        <p xml:lang="fr">Logique améliorée pour les boutons d'installation/désinstallation dans l'onglet recommandé : ils changent maintenant dynamiquement d'état et d'action après chaque opération.</p>
+        <p xml:lang="fr">LibreWolf est maintenant installé via Flatpak (Flathub) au lieu d'APT/dépôts externes, évitant les conflits et simplifiant la maintenance.</p>
+        <p xml:lang="pt">Lógica aprimorada para os botões de instalar/desinstalar na aba recomendada: agora eles mudam dinamicamente de estado e ação após cada operação.</p>
+        <p xml:lang="pt">O LibreWolf agora é instalado via Flatpak (Flathub) em vez de APT/repositórios externos, evitando conflitos e simplificando a manutenção.</p>
+        <p xml:lang="de">Verbesserte Logik für Installations-/Deinstallationsschaltflächen im empfohlenen Tab: Sie ändern jetzt dynamisch den Status und die Aktion nach jedem Vorgang.</p>
+        <p xml:lang="de">LibreWolf wird jetzt über Flatpak (Flathub) anstelle von APT/externalen Repositories installiert, um Konflikte zu vermeiden und die Wartung zu vereinfachen.</p>
+        <p xml:lang="it">Logica migliorata per i pulsanti di installazione/disinstallazione nella scheda consigliata: ora cambiano dinamicamente stato e azione dopo ogni operazione.</p>
+        <p xml:lang="it">LibreWolf ora viene installato tramite Flatpak (Flathub) invece di APT/repository esterni, evitando conflitti e semplificando la manutenzione.</p>
+        <p xml:lang="ru">Улучшена логика кнопок установки/удаления на вкладке рекомендаций: теперь они динамически меняют состояние и действие после каждой операции.</p>
+        <p xml:lang="ru">LibreWolf теперь устанавливается через Flatpak (Flathub), а не через APT/внешние репозитории, что предотвращает конфликты и упрощает обслуживание.</p>
+        <p xml:lang="ro">Logica îmbunătățită pentru butoanele de instalare/ dezinstalare din fila recomandată: acum acestea își schimbă starea și acțiunea dinamic după fiecare operațiune.</p>
+        <p xml:lang="ro">LibreWolf este acum instalat prin Flatpak (Flathub) în loc de APT/repo externe, evitând conflictele și simplificând întreținerea.</p>
+      </description>
+    </release>
     <release version="1.0.9" date="2025-07-16">
       <description>
         <p>Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.</p>
@@ -305,7 +354,7 @@
           <li xml:lang="es">Corrección de errores menores y mejoras de estabilidad</li>
           <li xml:lang="fr">Corrections de bugs mineurs et améliorations de stabilité</li>
           <li xml:lang="pt">Correções de bugs menores e melhorias de estabilidade</li>
-          <li xml:lang="de">Kleinere Fehlerbehebungen und Stabilitätsverbesserungen</li>
+          <li xml:lang="de">Kleinere Fehlerbehebungen and Stabilitätsverbesserungen</li>
           <li xml:lang="it">Correzioni di bug minori e miglioramenti di stabilità</li>
           <li xml:lang="ru">Мелкие исправления ошибок и улучшения стабильности</li>
           <li xml:lang="ro">Corecții minore de erori și îmbunătățiri de stabilitate</li>

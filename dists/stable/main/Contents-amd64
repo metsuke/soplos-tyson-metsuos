@@ -281,7 +281,6 @@ usr/share/soplos-repo-selector/src/utils/dependency_checker_test.py	    utils/so
 usr/share/soplos-repo-selector/src/utils/error_handler.py	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/src/utils/event_bus.py	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/utils/config.py	    utils/soplos-repo-selector
-usr/share/soplos-welcome/Análisis de las Pestañas de Soplos Welco.md	    utils/soplos-welcome
 usr/share/soplos-welcome/CHANGELOG.md	    utils/soplos-welcome
 usr/share/soplos-welcome/LICENSE	    utils/soplos-welcome
 usr/share/soplos-welcome/README.md	    utils/soplos-welcome
@@ -341,6 +340,9 @@ usr/share/soplos-welcome/assets/icons/multimedia/obs-studio.png	    utils/soplos
 usr/share/soplos-welcome/assets/icons/multimedia/openshot.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/shotcut.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/vlc.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/office/libreoffice.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/office/onlyoffice.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/office/wpsoffice.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/flatpak.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/gdebi.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/gnome-software.png	    utils/soplos-welcome
@@ -359,6 +361,15 @@ usr/share/soplos-welcome/assets/screenshots/screenshot6.png	    utils/soplos-wel
 usr/share/soplos-welcome/config/__init__.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/paths.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/strings.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__init__.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/de.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/en.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/es.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/fr.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/it.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/pt.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/ro.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/ru.py	    utils/soplos-welcome
 usr/share/soplos-welcome/debian/com.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/soplos-welcome/debian/control	    utils/soplos-welcome
 usr/share/soplos-welcome/debian/soplos-welcome	    utils/soplos-welcome
