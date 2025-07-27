@@ -157,7 +157,7 @@
   <url type="contact">https://soploslinux.com/foros</url>
 
   <developer id="com.soploslinux">
-    <name>Soplos Linux Team</name>
+    <name>Sergi Perich</name>
     <url type="homepage">https://soploslinux.com</url>
   </developer>
 
@@ -166,6 +166,18 @@
   </provides>
 
   <releases>
+    <release version="1.1.2" date="2025-07-27">
+      <description>
+        <p>Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.</p>
+        <p xml:lang="es">Detección y selección avanzada de particiones y subvolúmenes btrfs en la recuperación chroot. Soporte completo para montaje de /home como partición o subvolumen btrfs. Mejoras en la robustez y compatibilidad con múltiples terminales. Autor cambiado a Sergi Perich.</p>
+        <p xml:lang="fr">Détection et sélection avancées des partitions et sous-volumes btrfs dans la récupération chroot. Prise en charge complète du montage de /home en tant que partition ou sous-volume btrfs. Amélioration de la robustesse et compatibilité multi-terminaux. Auteur changé en Sergi Perich.</p>
+        <p xml:lang="pt">Detecção e seleção avançada de partições e subvolumes btrfs na recuperação chroot. Suporte completo para montagem de /home como partição ou subvolume btrfs. Melhorias na robustez e compatibilidade com múltiplos terminais. Autor alterado para Sergi Perich.</p>
+        <p xml:lang="de">Erweiterte Erkennung und Auswahl von Partitionen und btrfs-Subvolumes in der chroot-Wiederherstellung. Vollständige Unterstützung für das Einbinden von /home als Partition oder btrfs-Subvolume. Verbesserte Robustheit und Multi-Terminal-Kompatibilität. Autor geändert zu Sergi Perich.</p>
+        <p xml:lang="it">Rilevamento e selezione avanzati di partizioni e subvolumi btrfs nel ripristino chroot. Supporto completo per il montaggio di /home come partizione o subvolume btrfs. Migliorata la robustezza e la compatibilità con più terminali. Autore cambiato in Sergi Perich.</p>
+        <p xml:lang="ru">Расширенное обнаружение и выбор разделов и подтомов btrfs в восстановлении chroot. Полная поддержка монтирования /home как раздела или подтома btrfs. Улучшена надежность и совместимость с несколькими терминалами. Автор изменен на Sergi Perich.</p>
+        <p xml:lang="ro">Detectare și selecție avansată a partițiilor și subvolumelor btrfs în recuperarea chroot. Suport complet pentru montarea /home ca partiție sau subvolum btrfs. Îmbunătățiri de robustețe și compatibilitate cu mai multe terminale. Autor schimbat în Sergi Perich.</p>
+      </description>
+    </release>
     <release version="1.1.1" date="2025-07-18">
       <description>
         <p>Minor maintenance update and translation improvements. Improved language detection and startup robustness.</p>
