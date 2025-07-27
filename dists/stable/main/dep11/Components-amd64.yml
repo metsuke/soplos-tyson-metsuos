@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250727T051907
+Time: 20250727T075007
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -587,8 +587,9 @@ Launchable:
 Url:
   homepage: https://soploslinux.com/tyson
   bugtracker: https://github.com/SoplosLinux/tyson/issues
-  donation: https://paypal.me/soploslinux
+  donation: https://www.paypal.com/paypalme/isubdes
   contact: https://soploslinux.com/foros
+  help: https://soploslinux.com
 Developer:
   id: com.soploslinux
   name:
@@ -597,6 +598,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 1.1.1
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: 'Fixed hardware detector: now always returns the correct recommended driver
+        for NVIDIA and other hardware.'
+      es: |-
+        Corregido el detector de hardware: ahora siempre devuelve el controlador recomendado correcto para NVIDIA y otros dispositivos.
+      en: 'Fixed hardware detector: now always returns the correct recommended driver
+        for NVIDIA and other hardware.'
+      fr: |-
+        Correction du détecteur de matériel : il retourne désormais toujours le pilote recommandé correct pour NVIDIA et autres matériels.
+      pt: 'Corrigido o detector de hardware: agora sempre retorna o driver recomendado
+        correto para NVIDIA e outros dispositivos.'
+      de: 'Hardware-Erkennung korrigiert: Gibt jetzt immer den richtigen empfohlenen
+        Treiber für NVIDIA und andere Hardware zurück.'
+      it: 'Corretto il rilevatore hardware: ora restituisce sempre il driver consigliato
+        corretto per NVIDIA e altri dispositivi.'
+      ru: |-
+        Исправлен детектор оборудования: теперь всегда возвращает правильный рекомендуемый драйвер для NVIDIA и другого оборудования.
+      ro: |-
+        Detectorul de hardware a fost corectat: acum returnează întotdeauna driverul recomandat corect pentru NVIDIA și alte dispozitive.
   - version: 1.1.0
     date: '2025-07-21'
     type: stable
