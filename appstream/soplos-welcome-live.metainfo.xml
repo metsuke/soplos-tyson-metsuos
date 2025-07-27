@@ -166,6 +166,18 @@
   </provides>
 
   <releases>
+    <release version="1.1.3" date="2025-07-27">
+      <description>
+        <p>Program icon updated. Maintainer changed to Sergi Perich.</p>
+        <p xml:lang="es">Icono del programa actualizado. Mantenedor cambiado a Sergi Perich.</p>
+        <p xml:lang="fr">Icône du programme mise à jour. Mainteneur changé en Sergi Perich.</p>
+        <p xml:lang="pt">Ícone do programa atualizado. Mantenedor alterado para Sergi Perich.</p>
+        <p xml:lang="de">Programmsymbol aktualisiert. Betreuer geändert zu Sergi Perich.</p>
+        <p xml:lang="it">Icona del programma aggiornata. Maintainer cambiato in Sergi Perich.</p>
+        <p xml:lang="ru">Обновлена иконка программы. Мейнтейнер изменён на Sergi Perich.</p>
+        <p xml:lang="ro">Pictograma programului actualizată. Mentenor schimbat în Sergi Perich.</p>
+      </description>
+    </release>
     <release version="1.1.2" date="2025-07-27">
       <description>
         <p>Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.</p>

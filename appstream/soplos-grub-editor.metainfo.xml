@@ -205,7 +205,7 @@
   <url type="vcs-browser">https://github.com/SoplosLinux/tyson</url>
 
   <developer id="com.soploslinux">
-    <name>Soplos Team</name>
+    <name>Sergi Perich</name>
     <url type="homepage">https://soploslinux.com</url>
   </developer>
 
@@ -214,6 +214,14 @@
   </provides>
 
   <releases>
+    <release version="1.0.5" date="2025-07-27">
+      <description>
+        <p>Metainfo finalizado y validado para AppStream/DEP-11.</p>
+        <p>Agregados iconos del programa en 48x48, 64x64 y 128x128 para compatibilidad con centros de software.</p>
+        <p>Mejoras menores en estructura y etiquetas.</p>
+        <p>Cambio de icono del programa.</p>
+      </description>
+    </release>
     <release version="1.0.4" date="2025-07-15">
       <description>
         <p>Metainfo finalizado y validado para AppStream/DEP-11.</p>

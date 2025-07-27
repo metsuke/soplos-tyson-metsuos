@@ -177,14 +177,14 @@
   <url type="contact">https://soploslinux.com/foros/</url>
 
   <developer id="com.soploslinux">
-    <name>Soplos Team</name>
-    <name xml:lang="es">Equipo Soplos</name>
-    <name xml:lang="fr">Équipe Soplos</name>
-    <name xml:lang="pt">Equipe Soplos</name>
-    <name xml:lang="de">Soplos Team</name>
-    <name xml:lang="it">Team Soplos</name>
-    <name xml:lang="ru">Команда Soplos</name>
-    <name xml:lang="ro">Echipa Soplos</name>
+    <name>Sergi Perich</name>
+    <name xml:lang="es">Sergi Perich</name>
+    <name xml:lang="fr">Sergi Perich</name>
+    <name xml:lang="pt">Sergi Perich</name>
+    <name xml:lang="de">Sergi Perich</name>
+    <name xml:lang="it">Sergi Perich</name>
+    <name xml:lang="ru">Sergi Perich</name>
+    <name xml:lang="ro">Sergi Perich</name>
     <url>https://soploslinux.com</url>
   </developer>
 
@@ -193,6 +193,19 @@
   </provides>
 
   <releases>
+    <release version="1.0.6" date="2025-07-27">
+      <description>
+        <p>Cambio de icono del programa.</p>
+        <p xml:lang="en">Program icon changed.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
+        <p xml:lang="fr">Changement d'icône du programme.</p>
+        <p xml:lang="pt">Alteração do ícone do programa.</p>
+        <p xml:lang="de">Programmicon geändert.</p>
+        <p xml:lang="it">Cambio dell'icona del programma.</p>
+        <p xml:lang="ru">Изменена иконка программы.</p>
+        <p xml:lang="ro">Schimbare pictogramă program.</p>
+      </description>
+    </release>
     <release version="1.0.5" date="2025-07-16">
       <description>
         <p>Finalización de la corrección del metainfo para cumplir estándar AppStream/DEP-11. Implementados iconos del programa en 48x48, 64x64 y 128x128.</p>

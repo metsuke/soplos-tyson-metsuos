@@ -290,7 +290,7 @@
   <url type="contact">https://soploslinux.com/foros</url>
 
   <developer id="com.soploslinux">
-    <name>Soplos Linux Team</name>
+    <name>Sergi Perich</name>
     <url type="homepage">https://soploslinux.com</url>
   </developer>
 
@@ -299,6 +299,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.7" date="2025-07-27">
+      <description>
+        <p>Nuevo icono de la aplicación.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
+        <p xml:lang="fr">Changement d'icône du programme.</p>
+        <p xml:lang="pt">Alteração do ícone do programa.</p>
+        <p xml:lang="de">Programmicon geändert.</p>
+        <p xml:lang="it">Cambio dell'icona del programma.</p>
+        <p xml:lang="ru">Изменена иконка программы.</p>
+        <p xml:lang="ro">Schimbare pictogramă a programului.</p>
+      </description>
+    </release>
     <release version="1.0.6" date="2025-07-16">
       <description>
         <p>AppStream/DEP11 compliance: metainfo fully validated and icons added in 48x48, 64x64, 128x128 for software centers.</p>

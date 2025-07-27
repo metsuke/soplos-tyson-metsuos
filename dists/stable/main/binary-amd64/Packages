@@ -1,43 +1,43 @@
 Package: msi-keyboard-gui
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, msi-keyboard, msi-keyboard-gui, python3-all, python3-dev, python3-gi, python3-gi-cairo, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/m/msi-keyboard-gui/msi-keyboard-gui_1.0.8_all.deb
-Size: 517092
-SHA256: abbb391018745d62276ed8db7a9b36006584661602672b6cae9aefba7c71f92e
-SHA1: 4db172bd58f46be27d446bcd2fc78998f54c627b
-MD5sum: 1a58a325985df1c95a487bbac42af5e7
+Filename: pool/main/m/msi-keyboard-gui/msi-keyboard-gui_1.0.9_all.deb
+Size: 1103760
+SHA256: 298e30daa7e8169b458d587727376fe11c80ba94bebd4ec5ff0bbe8d6dce8f6b
+SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
+MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
 Package: soplos-grub-editor
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.4_all.deb
-Size: 446992
-SHA256: f678b619995484c9a45d945716443aba15b6f57c2bf0879f53e1d808cd69f7a4
-SHA1: 3c4046b409c733901b99554d7e0bf3b3dbbae029
-MD5sum: bbd1347af83bafceab3fd1edb40d1631
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.5_all.deb
+Size: 1030916
+SHA256: 3d10ed14ca0c49e13013ed91727c3705cce19cfed8c1ea9062c338cc27762062
+SHA1: af8e16a6c15b7a9f5976957db3366592b75eb9ae
+MD5sum: 12b69df8d224e7a2f1d2aa6c458744fa
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-plymouth-manager
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, grim, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, wl-screenshot | slurp, wlr-randr | swaybg, xvfb
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.5_all.deb
-Size: 381192
-SHA256: 52af59b3fa02d17a42e7e97f70d0f8bce644be2c650dc83a634e590aec6f3ac4
-SHA1: 86367c49b171373301b69ffa0337a0696095f388
-MD5sum: 5e4a49f3d4b0aa4f407bd502470e70d1
+Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.6_all.deb
+Size: 1007444
+SHA256: 0a2304e093a33ef19691daed0f8e1340061d39e6df2bc1e33cc411c99cef3ec1
+SHA1: 3cd1e965ef9f57c5c986e478f0b8f1756ce4bf8c
+MD5sum: 8ff24f5e77a7e384726774e943520bc2
 Description: Plymouth boot splash theme manager for Soplos Linux
 
 Package: soplos-release
@@ -61,17 +61,17 @@ Replaces: base-files
 Conflicts: base-files (<< 13.7)
 
 Package: soplos-repo-selector
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, apt, curl, debhelper-compat, gettext, gir1.2-gtk-3.0, gnupg, python3, python3-gi, python3-requests, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_1.0.6_all.deb
-Size: 503148
-SHA256: 3f99109cff437f70f18c980e6b302f1733451ec2c27949ff8db382752b0ad9da
-SHA1: 6c2b968010cd83742e7825dfdc1f7bb59d53cd42
-MD5sum: ff6ff2e20798106cf64513f56d59ee3a
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_1.0.7_all.deb
+Size: 1139740
+SHA256: bbfd18918ff60d427213e3bfa9f1a6354e2473993cc5bcd89e0d4e4acc732af7
+SHA1: b80b2dd90ed439a217e5295ca3bc22f3c5748d71
+MD5sum: 5abb1b64a3e89c6e3afa925484121d36
 Description: Advanced APT repository manager for Debian-based systems
 
 Package: soplos-wallpapers01
@@ -105,30 +105,30 @@ Description: Fondos de pantalla para SopLOS KDE
  para el sistema operativo Soplos Linux Tyson con entorno KDE.
 
 Package: soplos-welcome
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_1.1.1_all.deb
-Size: 17156904
-SHA256: 7c5f1fc2d6747a059b6f1cf365cb3fced7dcae4b0bbd55a2592de6fceaae00be
-SHA1: 61628c42bd6108db90e5d0f62af86f8ad429ea6f
-MD5sum: 5f71f6135a6d05091a51827a38174380
+Filename: pool/main/s/soplos-welcome/soplos-welcome_1.1.2_all.deb
+Size: 16616852
+SHA256: 813301941ec94de800a8431c95ed6feea710b6cf13463487fedfb2a541243813
+SHA1: ecf7d20ddac185d98714da0bb5bb01c5dd508c67
+MD5sum: 37272b2ade8179bb8174e25cbcbf6051
 Description: Welcome screen for Soplos Linux
 
 Package: soplos-welcome-live
-Version: 1.1.2
+Version: 1.1.3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.1.2_all.deb
-Size: 569116
-SHA256: 46820654a01c265efa2732aeec92b8523ffa8c589ad0593652630ddadeb96cac
-SHA1: de4cdac0f970ac7682890fbb4265dd11c7ccc4b2
-MD5sum: e6131307ba00b79e11c9e583e7141522
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.1.3_all.deb
+Size: 1230784
+SHA256: bf99ac48bc1792fb9b6e23c1cde80dfe59dba217049261b372b9bc32f5e22010
+SHA1: 8dcdfff2f28c9af9278ef3d5f2d55ca2211e89f7
+MD5sum: 38581f8bf80e5741e11de2f5e893be0e
 Description: Welcome screen for Soplos Linux Live Environment
 

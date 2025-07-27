@@ -261,6 +261,19 @@
   </provides>
 
   <releases>
+    <release version="1.1.2" date="2025-07-27">
+      <description>
+        <p>Cambio de icono del programa a una nueva versión más moderna y reconocible.</p>
+        <p xml:lang="es">Cambio de icono del programa a una nueva versión más moderna y reconocible.</p>
+        <p xml:lang="en">Changed program icon to a new, more modern and recognizable version.</p>
+        <p xml:lang="fr">Changement de l'icône du programme pour une version plus moderne et reconnaissable.</p>
+        <p xml:lang="pt">Alteração do ícone do programa para uma versão mais moderna e reconhecível.</p>
+        <p xml:lang="de">Programmicon auf eine modernere und besser erkennbare Version geändert.</p>
+        <p xml:lang="it">Cambiata l'icona del programma con una versione più moderna e riconoscibile.</p>
+        <p xml:lang="ru">Изменена иконка программы на более современную и узнаваемую версию.</p>
+        <p xml:lang="ro">Schimbare a pictogramei programului cu una mai modernă și mai recognoscibilă.</p>
+      </description>
+    </release>
     <release version="1.1.1" date="2025-07-27">
       <description>
         <p>Fixed office install/uninstall button logic in the Recommended tab (now works like other categories).</p>
