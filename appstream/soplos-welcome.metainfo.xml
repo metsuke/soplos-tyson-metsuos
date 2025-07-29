@@ -261,6 +261,37 @@
   </provides>
 
   <releases>
+    <release version="1.1.3" date="2025-07-29">
+      <description>
+        <p>Updated all translation dictionaries.</p>
+        <p>Fixed several functions in the hardware detector.</p>
+        <p>Updated all program icons.</p>
+        <p xml:lang="es">Actualizados todos los diccionarios de traducción.</p>
+        <p xml:lang="es">Corregidas varias funciones en el detector de hardware.</p>
+        <p xml:lang="es">Actualizados todos los iconos del programa.</p>
+        <p xml:lang="en">Updated all translation dictionaries.</p>
+        <p xml:lang="en">Fixed several functions in the hardware detector.</p>
+        <p xml:lang="en">Updated all program icons.</p>
+        <p xml:lang="fr">Mise à jour de tous les dictionnaires de traduction.</p>
+        <p xml:lang="fr">Correction de plusieurs fonctions dans le détecteur de matériel.</p>
+        <p xml:lang="fr">Mise à jour de toutes les icônes du programme.</p>
+        <p xml:lang="pt">Atualizados todos os dicionários de tradução.</p>
+        <p xml:lang="pt">Corrigidas várias funções no detector de hardware.</p>
+        <p xml:lang="pt">Atualizados todos os ícones do programa.</p>
+        <p xml:lang="de">Alle Übersetzungswörterbücher aktualisiert.</p>
+        <p xml:lang="de">Mehrere Funktionen im Hardware-Erkenner korrigiert.</p>
+        <p xml:lang="de">Alle Programmsymbole aktualisiert.</p>
+        <p xml:lang="it">Aggiornati tutti i dizionari di traduzione.</p>
+        <p xml:lang="it">Corrette diverse funzioni nel rilevatore hardware.</p>
+        <p xml:lang="it">Aggiornate tutte le icone del programma.</p>
+        <p xml:lang="ru">Обновлены все словари переводов.</p>
+        <p xml:lang="ru">Исправлены несколько функций в детекторе оборудования.</p>
+        <p xml:lang="ru">Обновлены все значки программы.</p>
+        <p xml:lang="ro">Actualizate toate dicționarele de traducere.</p>
+        <p xml:lang="ro">Corectate mai multe funcții în detectorul de hardware.</p>
+        <p xml:lang="ro">Actualizate toate pictogramele programului.</p>
+      </description>
+    </release>
     <release version="1.1.2" date="2025-07-27">
       <description>
         <p>Cambio de icono del programa a una nueva versión más moderna y reconocible.</p>

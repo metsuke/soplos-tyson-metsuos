@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250727T202451
+Time: 20250729T011510
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -610,6 +610,19 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 1.1.3
+    date: '2025-07-29'
+    type: stable
+    description:
+      C: Updated all program icons.
+      es: Actualizados todos los iconos del programa.
+      en: Updated all program icons.
+      fr: Mise à jour de toutes les icônes du programme.
+      pt: Atualizados todos os ícones do programa.
+      de: Alle Programmsymbole aktualisiert.
+      it: Aggiornate tutte le icone del programma.
+      ru: Обновлены все значки программы.
+      ro: Actualizate toate pictogramele programului.
   - version: 1.1.2
     date: '2025-07-27'
     type: stable
