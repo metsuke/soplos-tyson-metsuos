@@ -26,20 +26,6 @@ SHA1: a0f7c1f98f1c01b107fe096fe37d72d15e75d90b
 MD5sum: 68d2cfd35e932ba2994431b02cecb36e
 Description: Advanced GRUB configuration editor with complete internationalization
 
-Package: soplos-plymouth-manager
-Version: 1.0.6
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, grim, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, wl-screenshot | slurp, wlr-randr | swaybg, xvfb
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.6_all.deb
-Size: 1007444
-SHA256: 0a2304e093a33ef19691daed0f8e1340061d39e6df2bc1e33cc411c99cef3ec1
-SHA1: 3cd1e965ef9f57c5c986e478f0b8f1756ce4bf8c
-MD5sum: 8ff24f5e77a7e384726774e943520bc2
-Description: Plymouth boot splash theme manager for Soplos Linux
-
 Package: soplos-release
 Version: 0.0.11
 Architecture: all
