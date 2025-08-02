@@ -389,6 +389,7 @@ usr/share/soplos-welcome-live/CHANGELOG.md	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/LICENSE	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/README.md	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/__init__.py	    utils/soplos-welcome-live
+usr/share/soplos-welcome-live/data.txt	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/main.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/requirements.txt	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/setup.py	    utils/soplos-welcome-live

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250802T023427
+Time: 20250802T041029
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -960,6 +960,26 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 1.1.4
+    date: '2025-08-02'
+    type: stable
+    description:
+      C: |-
+        Dictionary issues fixed and full internationalization completed. Fixed and improved chroot function for systems with btrfs subvolumes.
+      es: |-
+        Corregidos problemas de diccionarios y completada la internacionalización. Reparada y mejorada la función de chroot en sistemas con subvolúmenes btrfs.
+      fr: |-
+        Problèmes de dictionnaires corrigés et internationalisation complète. Fonction chroot corrigée et améliorée pour les systèmes avec sous-volumes btrfs.
+      pt: |-
+        Problemas de dicionário corrigidos e internacionalização completa. Função chroot corrigida e melhorada para sistemas com subvolumes btrfs.
+      de: |-
+        Diktionsprobleme behoben und vollständige Internationalisierung abgeschlossen. Chroot-Funktion für Systeme mit btrfs-Subvolumes korrigiert und verbessert.
+      it: |-
+        Correzione dei problemi dei dizionari e completata l'internazionalizzazione. Funzione chroot corretta e migliorata per sistemi con subvolumi btrfs.
+      ru: |-
+        Исправлены проблемы с словарями и завершена интернационализация. Исправлена и улучшена функция chroot для систем с подтомами btrfs.
+      ro: |-
+        Probleme de dicționar corectate și internaționalizare completă. Funcția chroot corectată și îmbunătățită pentru sistemele cu subvolume btrfs.
   - version: 1.1.3
     date: '2025-07-27'
     type: stable

@@ -166,6 +166,18 @@
   </provides>
 
   <releases>
+    <release version="1.1.4" date="2025-08-02">
+      <description>
+        <p>Dictionary issues fixed and full internationalization completed. Fixed and improved chroot function for systems with btrfs subvolumes.</p>
+        <p xml:lang="es">Corregidos problemas de diccionarios y completada la internacionalización. Reparada y mejorada la función de chroot en sistemas con subvolúmenes btrfs.</p>
+        <p xml:lang="fr">Problèmes de dictionnaires corrigés et internationalisation complète. Fonction chroot corrigée et améliorée pour les systèmes avec sous-volumes btrfs.</p>
+        <p xml:lang="pt">Problemas de dicionário corrigidos e internacionalização completa. Função chroot corrigida e melhorada para sistemas com subvolumes btrfs.</p>
+        <p xml:lang="de">Diktionsprobleme behoben und vollständige Internationalisierung abgeschlossen. Chroot-Funktion für Systeme mit btrfs-Subvolumes korrigiert und verbessert.</p>
+        <p xml:lang="it">Correzione dei problemi dei dizionari e completata l'internazionalizzazione. Funzione chroot corretta e migliorata per sistemi con subvolumi btrfs.</p>
+        <p xml:lang="ru">Исправлены проблемы с словарями и завершена интернационализация. Исправлена и улучшена функция chroot для систем с подтомами btrfs.</p>
+        <p xml:lang="ro">Probleme de dicționar corectate și internaționalizare completă. Funcția chroot corectată și îmbunătățită pentru sistemele cu subvolume btrfs.</p>
+      </description>
+    </release>
     <release version="1.1.3" date="2025-07-27">
       <description>
         <p>Program icon updated. Maintainer changed to Sergi Perich.</p>
