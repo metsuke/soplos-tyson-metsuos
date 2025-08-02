@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250802T065626
+Time: 20250802T065643
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -335,6 +335,464 @@ Releases:
       de: Automatische Theme-Erkennung und Interface-Verbesserungen
       it: Rilevamento automatico del tema e miglioramenti dell'interfaccia
       ru: Автоматическое обнаружение темы и улучшения интерфейса
+Component: main
+---
+Type: desktop-application
+ID: com.soplos.welcome.desktop
+ProjectLicense: GPL-3.0+
+Package: soplos-welcome
+Name:
+  C: Soplos Welcome
+  en: Soplos Welcome
+  es: Bienvenida a Soplos
+  fr: Bienvenue sur Soplos
+  pt: Bem-vindo ao Soplos
+  de: Willkommen bei Soplos
+  it: Benvenuto su Soplos
+  ru: Добро пожаловать в Soplos
+  ro: Bun venit la Soplos
+Summary:
+  en: Welcome screen for Soplos Linux
+  C: Welcome screen for Soplos Linux
+  es: Pantalla de bienvenida para Soplos Linux
+  fr: Écran de bienvenue pour Soplos Linux
+  pt: Tela de boas-vindas para Soplos Linux
+  de: Willkommensbildschirm für Soplos Linux
+  it: Schermata de benvenuto per Soplos Linux
+  ru: Экран приветствия для Soplos Linux
+  ro: Ecran de întâmpinare pentru Soplos Linux
+Description:
+  en: |-
+    <p>A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
+  C: |-
+    <p>A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
+  es: |-
+    <p>Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema, con soporte completo de internacionalización y recomendaciones de software modernas.</p>
+  fr: |-
+    <p>Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système, avec un support d'internationalisation complet et des recommandations de logiciels modernes.</p>
+  pt: |-
+    <p>Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários a começar com seu sistema, com suporte completo de internacionalização e recomendações de software modernas.</p>
+  de: |-
+    <p>Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung und modernen Software-Empfehlungen.</p>
+  it: |-
+    <p>Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione e raccomandazioni software moderne.</p>
+  ru: |-
+    <p>Комплексное приветственное приложение для Soplos Linux, которое помогает новым пользователям начать работу с системой, с полной поддержкой интернационализации и современными рекомендациями программного обеспечения.</p>
+  ro: |-
+    <p>O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări software moderne.</p>
+Keywords:
+  C:
+    - welcome
+    - start
+    - setup
+    - configuration
+    - soplos
+    - internationalization
+    - i18n
+    - settings
+    - utility
+    - system
+    - help
+    - guide
+    - introduction
+    - first steps
+    - linux
+    - onboarding
+    - translation
+  es:
+    - bienvenida
+    - inicio
+    - configuración
+    - soplos
+    - ayuda
+    - guía
+    - introducción
+    - primeros pasos
+    - linux
+    - traducción
+  fr:
+    - bienvenue
+    - démarrage
+    - configuration
+    - soplos
+    - aide
+    - guide
+    - introduction
+    - premiers pas
+    - linux
+    - traduction
+  pt:
+    - boas-vindas
+    - início
+    - configuração
+    - soplos
+    - ajuda
+    - guia
+    - introdução
+    - primeiros passos
+    - linux
+    - tradução
+  de:
+    - willkommen
+    - start
+    - konfiguration
+    - soplos
+    - hilfe
+    - anleitung
+    - einführung
+    - erste schritte
+    - linux
+    - übersetzung
+  it:
+    - benvenuto
+    - inizio
+    - configurazione
+    - soplos
+    - aiuto
+    - guida
+    - introduzione
+    - primi passi
+    - linux
+    - traduzione
+  ru:
+    - приветствие
+    - старт
+    - настройка
+    - soplos
+    - помощь
+    - руководство
+    - введение
+    - первые шаги
+    - linux
+    - перевод
+  ro:
+    - bun venit
+    - start
+    - configurare
+    - soplos
+    - ajutor
+    - ghid
+    - introducere
+    - primii pași
+    - linux
+    - traducere
+Categories:
+  - Settings
+  - System
+  - Utility
+Icon:
+  cached:
+    - name: com.soplos.welcome.png
+      width: 48
+      height: 48
+    - name: com.soplos.welcome.png
+      width: 64
+      height: 64
+    - name: com.soplos.welcome.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-welcome/icons/48x48/com.soplos.welcome.png
+      width: 48
+      height: 48
+    - url: soplos-welcome/icons/64x64/com.soplos.welcome.png
+      width: 64
+      height: 64
+    - url: soplos-welcome/icons/128x128/com.soplos.welcome.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Welcome tab
+      en: Welcome tab
+      es: Pestaña de bienvenida
+      fr: Onglet d'accueil
+      pt: Aba de boas-vindas
+      de: Willkommens-Tab
+      it: Scheda di benvenuto
+      ru: Вкладка приветствия
+      ro: Fila de întâmpinare
+    source-image:
+      url: soplos-welcome/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Software center
+      en: Software center
+      es: Centro de software
+      fr: Centre de logiciels
+      pt: Central de software
+      de: Software-Center
+      it: Centro software
+      ru: Центр программ
+      ro: Centru software
+    source-image:
+      url: soplos-welcome/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Drivers tab
+      en: Drivers tab
+      es: Pestaña de controladores
+      fr: Onglet pilotes
+      pt: Aba de drivers
+      de: Treiber-Tab
+      it: Scheda driver
+      ru: Вкладка драйверов
+      ro: Fila de drivere
+    source-image:
+      url: soplos-welcome/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Hardware detector
+      en: Hardware detector
+      es: Detector de hardware
+      fr: Détecteur de matériel
+      pt: Detector de hardware
+      de: Hardware-Erkennung
+      it: Rilevatore hardware
+      ru: Детектор оборудования
+      ro: Detector hardware
+    source-image:
+      url: soplos-welcome/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Kernels tab
+      en: Kernels tab
+      es: Pestaña de kernels
+      fr: Onglet noyaux
+      pt: Aba de kernels
+      de: Kernel-Tab
+      it: Scheda kernel
+      ru: Вкладка ядер
+      ro: Fila de kerneluri
+    source-image:
+      url: soplos-welcome/screenshots/screenshot5.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Recommended tab
+      en: Recommended tab
+      es: Pestaña de recomendados
+      fr: Onglet recommandés
+      pt: Aba de recomendados
+      de: Empfohlene-Tab
+      it: Scheda raccomandati
+      ru: Вкладка рекомендуемых
+      ro: Fila de recomandate
+    source-image:
+      url: soplos-welcome/screenshots/screenshot6.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Customization tab
+      en: Customization tab
+      es: Pestaña de personalización
+      fr: Onglet personnalisation
+      pt: Aba de personalização
+      de: Anpassungs-Tab
+      it: Scheda personalizzazione
+      ru: Вкладка персонализации
+      ro: Fila de personalizare
+    source-image:
+      url: soplos-welcome/screenshots/screenshot7.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - com.soplos.welcome.desktop
+Url:
+  homepage: https://soploslinux.com/tyson
+  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  donation: https://www.paypal.com/paypalme/isubdes
+  contact: https://soploslinux.com/foros
+  help: https://soploslinux.com
+Developer:
+  id: com.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soploslinux.com
+Provides:
+  - soplos-welcome
+Releases:
+  - version: 1.1.3
+    date: '2025-07-29'
+    type: stable
+    description:
+      C: Updated all program icons.
+      es: Actualizados todos los iconos del programa.
+      en: Updated all program icons.
+      fr: Mise à jour de toutes les icônes du programme.
+      pt: Atualizados todos os ícones do programa.
+      de: Alle Programmsymbole aktualisiert.
+      it: Aggiornate tutte le icone del programma.
+      ru: Обновлены все значки программы.
+      ro: Actualizate toate pictogramele programului.
+  - version: 1.1.2
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Changed program icon to a new, more modern and recognizable version.
+      es: Cambio de icono del programa a una nueva versión más moderna y reconocible.
+      en: Changed program icon to a new, more modern and recognizable version.
+      fr: Changement de l'icône du programme pour une version plus moderne et reconnaissable.
+      pt: Alteração do ícone do programa para uma versão mais moderna e reconhecível.
+      de: Programmicon auf eine modernere und besser erkennbare Version geändert.
+      it: Cambiata l'icona del programma con una versione più moderna e riconoscibile.
+      ru: Изменена иконка программы на более современную и узнаваемую версию.
+      ro: Schimbare a pictogramei programului cu una mai modernă și mai recognoscibilă.
+  - version: 1.1.1
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: 'Fixed hardware detector: now always returns the correct recommended driver
+        for NVIDIA and other hardware.'
+      es: |-
+        Corregido el detector de hardware: ahora siempre devuelve el controlador recomendado correcto para NVIDIA y otros dispositivos.
+      en: 'Fixed hardware detector: now always returns the correct recommended driver
+        for NVIDIA and other hardware.'
+      fr: |-
+        Correction du détecteur de matériel : il retourne désormais toujours le pilote recommandé correct pour NVIDIA et autres matériels.
+      pt: 'Corrigido o detector de hardware: agora sempre retorna o driver recomendado
+        correto para NVIDIA e outros dispositivos.'
+      de: 'Hardware-Erkennung korrigiert: Gibt jetzt immer den richtigen empfohlenen
+        Treiber für NVIDIA und andere Hardware zurück.'
+      it: 'Corretto il rilevatore hardware: ora restituisce sempre il driver consigliato
+        corretto per NVIDIA e altri dispositivi.'
+      ru: |-
+        Исправлен детектор оборудования: теперь всегда возвращает правильный рекомендуемый драйвер для NVIDIA и другого оборудования.
+      ro: |-
+        Detectorul de hardware a fost corectat: acum returnează întotdeauna driverul recomandat corect pentru NVIDIA și alte dispozitive.
+  - version: 1.1.0
+    date: '2025-07-21'
+    type: stable
+    description:
+      C: |-
+        LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.
+      es: |-
+        La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.
+      en: |-
+        LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.
+      fr: |-
+        LibreWolf est maintenant installé via Flatpak (Flathub) au lieu d'APT/dépôts externes, évitant les conflits et simplifiant la maintenance.
+      pt: |-
+        O LibreWolf agora é instalado via Flatpak (Flathub) em vez de APT/repositórios externos, evitando conflitos e simplificando a manutenção.
+      de: |-
+        LibreWolf wird jetzt über Flatpak (Flathub) anstelle von APT/externalen Repositories installiert, um Konflikte zu vermeiden und die Wartung zu vereinfachen.
+      it: |-
+        LibreWolf ora viene installato tramite Flatpak (Flathub) invece di APT/repository esterni, evitando conflitti e semplificando la manutenzione.
+      ru: |-
+        LibreWolf теперь устанавливается через Flatpak (Flathub), а не через APT/внешние репозитории, что предотвращает конфликты и упрощает обслуживание.
+      ro: |-
+        LibreWolf este acum instalat prin Flatpak (Flathub) în loc de APT/repo externe, evitând conflictele și simplificând întreținerea.
+  - version: 1.0.9
+    date: '2025-07-16'
+    type: stable
+    description:
+      C: |-
+        Metainfo finalized and validated according to AppStream/DEP-11 standard for maximum compatibility in software centers. Added icons in 48x48, 64x64 and 128x128.
+      es: |-
+        Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.
+      en: |-
+        Metainfo finalized and validated according to AppStream/DEP-11 standard for maximum compatibility in software centers. Added icons in 48x48, 64x64 and 128x128.
+      fr: |-
+        Metainfo finalisé et validé selon la norme AppStream/DEP-11 pour une compatibilité maximale dans les centres logiciels. Icônes ajoutées en 48x48, 64x64 et 128x128.
+      pt: |-
+        Metainfo finalizado e validado de acordo com o padrão AppStream/DEP-11 para máxima compatibilidade em centros de software. Ícones adicionados em 48x48, 64x64 e 128x128.
+      de: |-
+        Metainfo abgeschlossen und gemäß AppStream/DEP-11-Standard validiert für maximale Kompatibilität in Software-Centern. Hinzugefügte Symbole in 48x48, 64x64 und 128x128.
+      it: |-
+        Metainfo finalizzato e validato secondo lo standard AppStream/DEP-11 per la massima compatibilità nei centri software. Aggiunte icone in 48x48, 64x64 e 128x128.
+      ru: |-
+        Metainfo завершён и проверен по стандарту AppStream/DEP-11 для максимальной совместимости в центрах программ. Добавлены иконки 48x48, 64x64 и 128x128.
+      ro: |-
+        Metainfo finalizat și validat conform standardului AppStream/DEP-11 pentru compatibilitate maximă în centrele software. Adăugate pictograme în 48x48, 64x64 și 128x128.
+  - version: 1.0.8
+    date: '2025-07-14'
+    type: stable
+    description:
+      C: Final metainfo corrections for full compatibility and visibility in software
+        centers (AppStream/Discover).
+      es: |-
+        Correcciones finales del archivo metainfo para compatibilidad y visibilidad total en centros de software (AppStream/Discover).
+      fr: |-
+        Corrections finales du fichier metainfo pour une compatibilité et une visibilité complètes dans les centres logiciels (AppStream/Discover).
+      pt: |-
+        Correções finais do arquivo metainfo para compatibilidade e visibilidade total em centros de software (AppStream/Discover).
+      de: |-
+        Abschließende Korrekturen der Metainfo-Datei für vollständige Kompatibilität und Sichtbarkeit in Software-Centern (AppStream/Discover).
+      it: Correzioni finali del file metainfo per compatibilità e visibilità totale
+        nei centri software (AppStream/Discover).
+      ru: Финальные исправления файла metainfo для полной совместимости и видимости
+        в центрах программ (AppStream/Discover).
+      ro: |-
+        Corecții finale ale fișierului metainfo pentru compatibilitate și vizibilitate completă în centrele software (AppStream/Discover).
+  - version: 1.0.7
+    date: '2025-07-13'
+    type: stable
+    description:
+      C: Fixed metainfo file for proper visualization in Discover/AppStream.
+      es: Corrección del archivo metainfo para visualización adecuada en Discover/AppStream.
+      fr: Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream.
+      pt: Correção do arquivo metainfo para visualização adequada no Discover/AppStream.
+      de: Korrektur der Metainfo-Datei für die korrekte Anzeige in Discover/AppStream.
+      it: Correzione del file metainfo per la corretta visualizzazione in Discover/AppStream.
+      ru: Исправлен файл metainfo для корректного отображения в Discover/AppStream.
+      ro: Corectarea fișierului metainfo pentru vizualizare corectă în Discover/AppStream.
+  - version: 1.0.6
+    date: '2025-06-24'
+    type: stable
+    description:
+      C: |-
+        Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.
+      es: |-
+        Corrección de errores menores, actualización de traducciones, mejoras en el instalador, enlaces de ayuda/donación actualizados y pequeños ajustes de seguridad.
+      fr: |-
+        Corrections de bugs mineurs, mises à jour des traductions, améliorations de l'installateur, liens d'aide/don actualisés et petits ajustements de sécurité.
+      pt: |-
+        Correções de bugs menores, atualização de traduções, melhorias no instalador, links de ajuda/doação atualizados e pequenos ajustes de segurança.
+      de: |-
+        Kleinere Fehlerbehebungen, Übersetzungsaktualisierungen, Verbesserungen am Installer, aktualisierte Hilfe-/Spendenlinks und kleinere Sicherheitsanpassungen.
+      it: |-
+        Correzioni di bug minori, aggiornamenti delle traduzioni, miglioramenti all'installer, link di aiuto/donazione aggiornati e piccoli aggiustamenti di sicurezza.
+      ru: |-
+        Мелкие исправления ошибок, обновления переводов, улучшения установщика, обновленные ссылки на помощь/пожертвования и небольшие улучшения безопасности.
+      ro: |-
+        Corecții minore de erori, actualizări de traduceri, îmbunătățiri ale programului de instalare, linkuri de ajutor/donații actualizate și mici ajustări de securitate.
+  - version: 1.0.5
+    date: '2025-01-15'
+    type: stable
+    description:
+      C: Complete internationalization and software updates
+      es: Internacionalización completa y actualizaciones de software
+      fr: Internationalisation complète et mises à jour logicielles
+      pt: Internacionalização completa e atualizações de software
+      de: Vollständige Internationalisierung und Software-Updates
+      it: Internazionalizzazione completa e aggiornamenti software
+      ru: Полная интернационализация и обновления программного обеспечения
+      ro: Internaționalizare completă și actualizări software
+  - version: 1.0.0
+    date: '2025-05-08'
+    type: stable
+    description:
+      C: Initial release
+      es: Versión inicial
+      fr: Version initiale
+      pt: Versão inicial
+      de: Erste Version
+      it: Versione iniziale
+      ru: Начальная версия
+      ro: Versiune inițială
 Component: main
 ---
 Type: desktop-application
