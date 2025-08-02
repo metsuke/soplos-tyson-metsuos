@@ -12,20 +12,6 @@ SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
 MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
-Package: soplos-grub-editor
-Version: 1.0.5
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.5_all.deb
-Size: 1030916
-SHA256: 3d10ed14ca0c49e13013ed91727c3705cce19cfed8c1ea9062c338cc27762062
-SHA1: af8e16a6c15b7a9f5976957db3366592b75eb9ae
-MD5sum: 12b69df8d224e7a2f1d2aa6c458744fa
-Description: Advanced GRUB configuration editor with complete internationalization
-
 Package: soplos-plymouth-manager
 Version: 1.0.6
 Architecture: all
