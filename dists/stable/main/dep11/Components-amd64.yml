@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250802T065941
+Time: 20250802T065952
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -783,6 +783,361 @@ Releases:
       ro: Internaționalizare completă și actualizări software
   - version: 1.0.0
     date: '2025-05-08'
+    type: stable
+    description:
+      C: Initial release
+      es: Versión inicial
+      fr: Version initiale
+      pt: Versão inicial
+      de: Erste Version
+      it: Versione iniziale
+      ru: Начальная версия
+      ro: Versiune inițială
+Component: main
+---
+Type: desktop-application
+ID: com.soplos.welcomelive.desktop
+ProjectLicense: GPL-3.0+
+Package: soplos-welcome-live
+Name:
+  C: Soplos Welcome Live
+  en: Soplos Welcome Live
+  es: Bienvenida a Soplos Live
+  fr: Bienvenue sur Soplos Live
+  pt: Bem-vindo ao Soplos Live
+  de: Willkommen bei Soplos Live
+  it: Benvenuto su Soplos Live
+  ru: Добро пожаловать в Soplos Live
+  ro: Bun venit la Soplos Live
+Summary:
+  C: Welcome screen for Soplos Linux Live Environment
+  en: Welcome screen for Soplos Linux Live Environment
+  es: Pantalla de bienvenida para el entorno Live de Soplos Linux
+  fr: Écran de bienvenue pour l'environnement Live de Soplos Linux
+  pt: Tela de boas-vindas para o ambiente Live do Soplos Linux
+  de: Willkommensbildschirm für die Live-Umgebung von Soplos Linux
+  it: Schermata di benvenuto per l'ambiente Live di Soplos Linux
+  ru: Экран приветствия для Live-окружения Soplos Linux
+  ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
+Description:
+  C: |-
+    <p>A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
+  en: |-
+    <p>A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
+  es: |-
+    <p>Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a los usuarios a navegar por el sistema live e instalar Soplos Linux.</p>
+  fr: |-
+    <p>Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide les utilisateurs à naviguer dans le système live et à installer Soplos Linux.</p>
+  pt: |-
+    <p>Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os usuários a navegar pelo sistema live e instalar o Soplos Linux.</p>
+  de: |-
+    <p>Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.</p>
+  it: |-
+    <p>Un'applicazione di benvenuto para l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.</p>
+  ru: |-
+    <p>Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям ориентироваться в live-системе и устанавливать Soplos Linux.</p>
+  ro: |-
+    <p>O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii să navigheze în sistemul live și să instaleze Soplos Linux.</p>
+Keywords:
+  C:
+    - welcome
+    - live
+    - install
+    - setup
+    - soplos
+  es:
+    - bienvenida
+    - live
+    - instalar
+    - configuración
+    - soplos
+  fr:
+    - bienvenue
+    - live
+    - installer
+    - configuration
+    - soplos
+  pt:
+    - boas-vindas
+    - live
+    - instalar
+    - configuração
+    - soplos
+  de:
+    - willkommen
+    - live
+    - installation
+    - einrichtung
+    - soplos
+  it:
+    - benvenuto
+    - live
+    - installare
+    - configurazione
+    - soplos
+  ru:
+    - приветствие
+    - live
+    - установка
+    - настройка
+    - soplos
+  ro:
+    - bun venit
+    - live
+    - instalare
+    - configurare
+    - soplos
+Categories:
+  - System
+  - Settings
+  - Utility
+Icon:
+  cached:
+    - name: com.soplos.welcomelive.png
+      width: 48
+      height: 48
+    - name: com.soplos.welcomelive.png
+      width: 64
+      height: 64
+    - name: com.soplos.welcomelive.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-welcome-live/icons/48x48/com.soplos.welcomelive.png
+      width: 48
+      height: 48
+    - url: soplos-welcome-live/icons/64x64/com.soplos.welcomelive.png
+      width: 64
+      height: 64
+    - url: soplos-welcome-live/icons/128x128/com.soplos.welcomelive.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Welcome Live Tab
+      en: Welcome Live Tab
+      es: Pestaña de bienvenida Live
+      fr: Onglet d'accueil Live
+      pt: Aba de boas-vindas Live
+      de: Live-Willkommens-Tab
+      it: Scheda di benvenuto Live
+      ru: Вкладка приветствия Live
+      ro: Fila de întâmpinare Live
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: CHROOT Disk Selector
+      en: CHROOT Disk Selector
+      es: Selector de disco CHROOT
+      fr: Sélecteur de disque CHROOT
+      pt: Seletor de disco CHROOT
+      de: CHROOT-Datenträgerauswahl
+      it: Selettore disco CHROOT
+      ru: Выбор диска CHROOT
+      ro: Selector de disc CHROOT
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Select Partition
+      en: Select Partition
+      es: Seleccionar partición
+      fr: Sélectionner la partition
+      pt: Selecionar partição
+      de: Partition auswählen
+      it: Seleziona partizione
+      ru: Выбор раздела
+      ro: Selectează partiția
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Chroot Terminal
+      en: Chroot Terminal
+      es: Terminal chroot
+      fr: Terminal chroot
+      pt: Terminal chroot
+      de: Chroot-Terminal
+      it: Terminale chroot
+      ru: Терминал chroot
+      ro: Terminal chroot
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - com.soplos.welcomelive.desktop
+Url:
+  homepage: https://soploslinux.com/tyson
+  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  donation: https://paypal.me/soploslinux
+  contact: https://soploslinux.com/foros
+Developer:
+  id: com.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soploslinux.com
+Provides:
+  - soplos-welcome-live
+Releases:
+  - version: 1.1.4
+    date: '2025-08-02'
+    type: stable
+    description:
+      C: |-
+        Dictionary issues fixed and full internationalization completed. Fixed and improved chroot function for systems with btrfs subvolumes.
+      es: |-
+        Corregidos problemas de diccionarios y completada la internacionalización. Reparada y mejorada la función de chroot en sistemas con subvolúmenes btrfs.
+      fr: |-
+        Problèmes de dictionnaires corrigés et internationalisation complète. Fonction chroot corrigée et améliorée pour les systèmes avec sous-volumes btrfs.
+      pt: |-
+        Problemas de dicionário corrigidos e internacionalização completa. Função chroot corrigida e melhorada para sistemas com subvolumes btrfs.
+      de: |-
+        Diktionsprobleme behoben und vollständige Internationalisierung abgeschlossen. Chroot-Funktion für Systeme mit btrfs-Subvolumes korrigiert und verbessert.
+      it: |-
+        Correzione dei problemi dei dizionari e completata l'internazionalizzazione. Funzione chroot corretta e migliorata per sistemi con subvolumi btrfs.
+      ru: |-
+        Исправлены проблемы с словарями и завершена интернационализация. Исправлена и улучшена функция chroot для систем с подтомами btrfs.
+      ro: |-
+        Probleme de dicționar corectate și internaționalizare completă. Funcția chroot corectată și îmbunătățită pentru sistemele cu subvolume btrfs.
+  - version: 1.1.3
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Program icon updated. Maintainer changed to Sergi Perich.
+      es: Icono del programa actualizado. Mantenedor cambiado a Sergi Perich.
+      fr: Icône du programme mise à jour. Mainteneur changé en Sergi Perich.
+      pt: Ícone do programa atualizado. Mantenedor alterado para Sergi Perich.
+      de: Programmsymbol aktualisiert. Betreuer geändert zu Sergi Perich.
+      it: Icona del programma aggiornata. Maintainer cambiato in Sergi Perich.
+      ru: Обновлена иконка программы. Мейнтейнер изменён на Sergi Perich.
+      ro: Pictograma programului actualizată. Mentenor schimbat în Sergi Perich.
+  - version: 1.1.2
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: |-
+        Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.
+      es: |-
+        Detección y selección avanzada de particiones y subvolúmenes btrfs en la recuperación chroot. Soporte completo para montaje de /home como partición o subvolumen btrfs. Mejoras en la robustez y compatibilidad con múltiples terminales. Autor cambiado a Sergi Perich.
+      fr: |-
+        Détection et sélection avancées des partitions et sous-volumes btrfs dans la récupération chroot. Prise en charge complète du montage de /home en tant que partition ou sous-volume btrfs. Amélioration de la robustesse et compatibilité multi-terminaux. Auteur changé en Sergi Perich.
+      pt: |-
+        Detecção e seleção avançada de partições e subvolumes btrfs na recuperação chroot. Suporte completo para montagem de /home como partição ou subvolume btrfs. Melhorias na robustez e compatibilidade com múltiplos terminais. Autor alterado para Sergi Perich.
+      de: |-
+        Erweiterte Erkennung und Auswahl von Partitionen und btrfs-Subvolumes in der chroot-Wiederherstellung. Vollständige Unterstützung für das Einbinden von /home als Partition oder btrfs-Subvolume. Verbesserte Robustheit und Multi-Terminal-Kompatibilität. Autor geändert zu Sergi Perich.
+      it: |-
+        Rilevamento e selezione avanzati di partizioni e subvolumi btrfs nel ripristino chroot. Supporto completo per il montaggio di /home come partizione o subvolume btrfs. Migliorata la robustezza e la compatibilità con più terminali. Autore cambiato in Sergi Perich.
+      ru: |-
+        Расширенное обнаружение и выбор разделов и подтомов btrfs в восстановлении chroot. Полная поддержка монтирования /home как раздела или подтома btrfs. Улучшена надежность и совместимость с несколькими терминалами. Автор изменен на Sergi Perich.
+      ro: |-
+        Detectare și selecție avansată a partițiilor și subvolumelor btrfs în recuperarea chroot. Suport complet pentru montarea /home ca partiție sau subvolum btrfs. Îmbunătățiri de robustețe și compatibilitate cu mai multe terminale. Autor schimbat în Sergi Perich.
+  - version: 1.1.1
+    date: '2025-07-18'
+    type: stable
+    description:
+      C: Minor maintenance update and translation improvements. Improved language
+        detection and startup robustness.
+      es: Actualización menor de mantenimiento y traducciones. Mejoras menores en
+        la detección de idioma y robustez de arranque.
+      fr: |-
+        Mise à jour mineure de maintenance et améliorations des traductions. Amélioration de la détection de la langue et de la robustesse au démarrage.
+      pt: Atualização menor de manutenção e melhorias de tradução. Melhorias na detecção
+        de idioma e robustez de inicialização.
+      de: Kleines Wartungsupdate und Verbesserungen bei den Übersetzungen. Verbesserte
+        Spracherkennung und Robustheit beim Start.
+      it: |-
+        Aggiornamento minore di manutenzione e miglioramenti alle traduzioni. Migliorata la rilevazione della lingua e la robustezza all'avvio.
+      ru: Небольшое обновление обслуживания и улучшения переводов. Улучшено определение
+        языка и устойчивость запуска.
+      ro: |-
+        Actualizare minoră de mentenanță și îmbunătățiri ale traducerilor. Detectarea limbii și robustețea la pornire îmbunătățite.
+  - version: 1.1.0
+    date: '2025-07-16'
+    type: stable
+    description:
+      C: Metainfo finalized to AppStream/DEP-11 standard. Program icons added in 48x48,
+        64x64, and 128x128 resolutions.
+      es: Metainfo finalizado al estándar AppStream/DEP-11. Iconos del programa agregados
+        en 48x48, 64x64 y 128x128.
+      fr: Metainfo finalisé selon la norme AppStream/DEP-11. Icônes du programme ajoutées
+        en 48x48, 64x64 et 128x128.
+      pt: Metainfo finalizado para o padrão AppStream/DEP-11. Ícones do programa adicionados
+        em 48x48, 64x64 e 128x128.
+      de: Metainfo gemäß AppStream/DEP-11-Standard finalisiert. Programmsymbole in
+        48x48, 64x64 und 128x128 hinzugefügt.
+      it: Metainfo finalizzato allo standard AppStream/DEP-11. Icone del programma
+        aggiunte in 48x48, 64x64 e 128x128.
+      ru: Metainfo доведен до стандарта AppStream/DEP-11. Добавлены иконки программы
+        48x48, 64x64 и 128x128.
+      ro: Metainfo finalizat la standardul AppStream/DEP-11. Adăugate pictogramele
+        programului la 48x48, 64x64 și 128x128.
+  - version: 1.0.9
+    date: '2025-07-14'
+    type: stable
+    description:
+      C: Finalized metainfo corrections for proper appearance in software centers
+        (AppStream/Discover).
+      es: Agregadas y finalizadas las correcciones del metainfo para aparecer correctamente
+        en centros de software.
+      fr: Corrections finales du metainfo pour une apparition correcte dans les centres
+        logiciels.
+      pt: Correções finais do metainfo para aparecer corretamente nos centros de software.
+      de: Abschließende Korrekturen der Metainfo für die korrekte Anzeige in Software-Centern.
+      it: Correzioni finali del metainfo per la corretta visualizzazione nei centri
+        software.
+      ru: Завершены исправления файла metainfo для корректного отображения в центрах
+        программного обеспечения.
+      ro: Corecțiile finale ale metainfo pentru afișarea corectă în centrele software.
+  - version: 1.0.8
+    date: '2025-07-13'
+    type: stable
+    description:
+      C: Fixed metainfo file for proper visualization in Discover/AppStream
+      es: Corregido el archivo metainfo para su correcta visualización en Discover/AppStream
+      fr: Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream
+      pt: Corrigido o arquivo metainfo para visualização adequada no Discover/AppStream
+      de: Metainfo-Datei für die korrekte Anzeige in Discover/AppStream korrigiert
+      it: Corretto il file metainfo per la corretta visualizzazione in Discover/AppStream
+      ru: Исправлен файл metainfo для корректного отображения в Discover/AppStream
+      ro: Fișierul metainfo corectat pentru afișare corectă în Discover/AppStream
+  - version: 1.0.6
+    date: '2025-06-24'
+    type: stable
+    description:
+      C: Now visible in Discover (AppStream integration)
+      es: Ahora visible en Discover (integración AppStream)
+      fr: Désormais visible dans Discover (intégration AppStream)
+      pt: Agora visível no Discover (integração AppStream)
+      de: Jetzt in Discover sichtbar (AppStream-Integration)
+      it: Ora visibile in Discover (integrazione AppStream)
+      ru: Теперь видно в Discover (интеграция AppStream)
+      ro: Acum vizibil în Discover (integrare AppStream)
+  - version: 1.0.5
+    date: '2025-06-20'
+    type: stable
+    description:
+      C: Complete internationalization and label refinement to English
+      es: Internacionalización completa y depuración de etiquetas a inglés
+      fr: Internationalisation complète et affinement des étiquettes en anglais
+      pt: Internacionalização completa e refinamento de rótulos para o inglês
+      de: Vollständige Internationalisierung und Verfeinerung der Bezeichnungen auf
+        Englisch
+      it: Internazionalizzazione completa e raffinamento delle etichette in inglese
+      ru: Полная интернационализация и уточнение меток на английском языке
+      ro: Internaționalizare completă și rafinarea etichetelor în engleză
+  - version: 1.0.3
+    date: '2024-01-27'
     type: stable
     description:
       C: Initial release
