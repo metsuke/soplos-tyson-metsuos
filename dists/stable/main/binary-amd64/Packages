@@ -74,21 +74,6 @@ SHA1: 6dfd576718320d8fad0f32829bdb795cfe67a7bf
 MD5sum: 90486fa925ba7884cc08ca04f82e5cb4
 Description: Advanced APT repository manager for Debian-based systems
 
-Package: soplos-wallpapers01
-Version: 1.0.0
-Architecture: all
-Maintainer: SopLOS <info@soploslinux.com>
-Priority: optional
-Section: x11
-Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_1.0.0_all.deb
-Size: 34258416
-SHA256: 0bb9e0defeb12044fc00b044f03bafe08b45c215a4099ad4b69989152baa176c
-SHA1: f453aa948b21b3f4151018f29866545349389b67
-MD5sum: 4d37eba79f0b9a21e8aa69d6a1d607b7
-Description: Fondos de pantalla para SopLOS KDE
- Este paquete contiene una colección de fondos de pantalla 
- para el sistema operativo Soplos Linux Tyron con entorno KDE.
-
 Package: soplos-wallpapers02
 Version: 1.0.0
 Architecture: all
