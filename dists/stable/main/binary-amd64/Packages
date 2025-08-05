@@ -1,3 +1,36 @@
+Package: branding-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Replaces: soplos-release (<= 0.0.11)
+Conflicts: soplos-release (<= 0.0.11)
+Priority: optional
+Section: misc
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1_all.deb
+Size: 13852696
+SHA256: ebd541fd7fe55caee62b4d52823212d850d866c9590856f7639a314463716beb
+SHA1: 1f970b95434d686ac02afd4f34add6fa2bff5a21
+MD5sum: bc130a48c0e9e29601336d7f74a78cd9
+Description: Branding package for Soplos Linux Tyson.
+ This package provides the official branding (logos, themes, etc.) for Soplos Linux Tyson.
+ Build date: 2025-07-27
+
+Package: fastfetch-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fastfetch
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.1_all.deb
+Size: 1924
+SHA256: 1e396a5dea33925cc98becab95665b0752c37923e778f8516bff53ed25547cee
+SHA1: c140ee9cc9cc2f8ccaac2fd7730f700e5d1850cd
+MD5sum: 4800fefc1f2ce3d9942b66dc6020f7dd
+Description: Custom Fastfetch configuration for SopLOS
+ This package provides a custom Fastfetch configuration and branding
+ for SopLOS Linux, applied to both new and existing users.
+
 Package: msi-keyboard-gui
 Version: 1.0.9
 Architecture: all
@@ -11,6 +44,21 @@ SHA256: 298e30daa7e8169b458d587727376fe11c80ba94bebd4ec5ff0bbe8d6dce8f6b
 SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
 MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
+
+Package: soplos-color-scheme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-color-scheme/soplos-color-scheme_0.0.1_all.deb
+Size: 1202676
+SHA256: 97e94ddca8b8c379dc582c35a91003dffd517f884b068c25ca622d4417e3f125
+SHA1: 904e5768808748932093725de7a238d441b23404
+MD5sum: ea80a3db33e65cd4e48edd04d9e5bf8b
+Description: Color schemes comunes para los temas Soplos KDE Plasma 6.
+ Este paquete instala los archivos de color necesarios para los temas Soplos Classic y Modern en KDE Plasma 6.
+ Build date: 2025-08-01
 
 Package: soplos-grub-editor
 Version: 1.0.5
@@ -26,6 +74,85 @@ SHA1: a0f7c1f98f1c01b107fe096fe37d72d15e75d90b
 MD5sum: 68d2cfd35e932ba2994431b02cecb36e
 Description: Advanced GRUB configuration editor with complete internationalization
 
+Package: soplos-grub-theme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.1_all.deb
+Size: 2106052
+SHA256: 26eba3d104bb5fd6dfe4cb70ffa47200f793b6fb3cd2e79816b3a8d48327baaa
+SHA1: 66a13d5e8f5b34983598f2233889854a7dac32bc
+MD5sum: 7c6762a3c602215ef66c3071a95b3a17
+Description: GRUB theme package for Soplos Linux Tyson.
+ This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
+ Build date: 2025-07-27
+
+Package: soplos-plasma-classic-black-theme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plasma-classic-black-theme/soplos-plasma-classic-black-theme_0.0.1_all.deb
+Size: 3221100
+SHA256: f489e308f28d0ab8f6eec557db31acef81ebade7f9df96c7ef80dba494610d36
+SHA1: 968ec4015a05c8174ef25c0b39f336ccc417d67d
+MD5sum: 63e7fbfca757e5098cdf8a929929c699
+Description: Soplos Classic Black global theme for KDE Plasma 6.
+ This package provides the Soplos Classic Black global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
+ Build date: 2025-07-27
+Depends: soplos-color-scheme (>= 0.0.1)
+
+Package: soplos-plasma-classic-white-theme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plasma-classic-white-theme/soplos-plasma-classic-white-theme_0.0.1_all.deb
+Size: 3302372
+SHA256: 830a4cfeef64558c9e18d8767e98f4a7df0d4442b9de15a61f2cd1a183f0db4e
+SHA1: 0639187b99d7ac37ecf7a161632f42dcce56a6c9
+MD5sum: c542a0b672d923a417c7b15bbb32c5a5
+Description: Soplos Classic White global theme for KDE Plasma 6.
+ This package provides the Soplos Classic White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
+ Build date: 2025-07-27
+Depends: soplos-color-scheme (>= 0.0.1)
+
+Package: soplos-plasma-modern-black-themes
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plasma-modern-black-themes/soplos-plasma-modern-black-themes_0.0.1_all.deb
+Size: 3564236
+SHA256: 9b5ebdb2af0241ebcce706e3797111e696bc20e7353cba647314d635a92f5ff8
+SHA1: 5824bce228985d55ba6885638c7a20c35e96813c
+MD5sum: ebfe988f782bb0e9916a7381f53e1590
+Description: Soplos Modern Black global theme for KDE Plasma 6.
+ This package provides the Soplos Modern Black global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
+ Build date: 2025-07-27
+Depends: soplos-color-scheme (>= 0.0.1)
+
+Package: soplos-plasma-modern-white-themes
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plasma-modern-white-themes/soplos-plasma-modern-white-themes_0.0.1_all.deb
+Size: 3643140
+SHA256: 78104e45b9d04016f82072c2c4cda5fbde9f1ee158a7d721ec5af8ba4fb06bff
+SHA1: 9e3139e7bffd7b7b557a9f472bfdb8075640b88e
+MD5sum: 078fa4601ead55cab494379ef0a9cea6
+Description: Soplos Modern White global theme for KDE Plasma 6.
+ This package provides the Soplos Modern White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
+ Build date: 2025-07-27
+Depends: soplos-color-scheme (>= 0.0.1)
+
 Package: soplos-plymouth-manager
 Version: 1.0.6
 Architecture: all
@@ -40,25 +167,42 @@ SHA1: 6c268a54bf8a369d73876392f4973a12130953e3
 MD5sum: 1af6b5b6cc2ae5d42e57f9eeb4bab0be
 Description: Plymouth boot splash theme manager for Soplos Linux
 
-Package: soplos-release
-Version: 0.0.11
+Package: soplos-plymouth-theme
+Version: 0.0.1
 Architecture: all
-Maintainer: Soplos Linux Team 
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plymouth-theme/soplos-plymouth-theme_0.0.1_all.deb
+Size: 255032
+SHA256: f13d97d276a459ed2e4e3e7c097c927dc5c0f1e2c486889a02f1a8b142c115d5
+SHA1: cfac9c8239e3d49fc10f0d68923db54deabbe677
+MD5sum: 31de257b46e736d108294d957d738460
+Description: Soplos Plymouth theme.
+ This package provides the Soplos Plymouth theme, including all required images and configuration for Plymouth boot splash.
+ Build date: 2025-07-27
+
+Package: soplos-release
+Version: 0.0.12
+Architecture: all
+Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.0.11_all.deb
-Size: 4022784
-SHA256: 9ecc40ea66df760baa3f068132ef3fcb44974e150a5f906041d805d9f85e990f
-SHA1: 12db045a48bb7929eb3f0e1d15f1b58518ec9e8d
-MD5sum: e21ec3ff1395d131c4ee564084cd3b1a
-Description: Información de lanzamiento de Soplos Linux (sistema interno)
- Contiene la información de lanzamiento y archivos de versión para Soplos Linux.
- Este paquete es esencial para la identificación del sistema operativo.
+Filename: pool/main/s/soplos-release/soplos-release_0.0.12_all.deb
+Size: 2080
+SHA256: 25d60edb17cd4b740a478ddd813f3074ad8e2f91547e97074a7fb46ab87af94f
+SHA1: 26d78c175c0c8ae10c5831cc54dc1a909c0a6a01
+MD5sum: cf78b78c615e0bb9720a6bfee3d62fb8
+Description: Soplos Linux release information (internal system package)
+ This package contains release information and version files for Soplos Linux.
+ It is essential for operating system identification.
  .
- Este es un paquete interno del sistema y no proporciona ninguna interfaz para el usuario.
+ This is an internal system package and does not provide any user interface.
+ This release corresponds to Soplos Linux Tyson Beta 1.
 Essential: yes
 Replaces: base-files
 Conflicts: base-files (<< 13.7)
+Depends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos
 
 Package: soplos-repo-selector
 Version: 1.0.7
@@ -73,6 +217,36 @@ SHA256: 7c3695dd9215e0ae2ea7d5b74d1dbdd1a94cd6a81e1feaf01109b24b6047bf98
 SHA1: 6dfd576718320d8fad0f32829bdb795cfe67a7bf
 MD5sum: 90486fa925ba7884cc08ca04f82e5cb4
 Description: Advanced APT repository manager for Debian-based systems
+
+Package: soplos-wallpapers-01
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-wallpapers-01/soplos-wallpapers-01_0.0.1_all.deb
+Size: 34258112
+SHA256: 0250b85202207316758bc022013d7b5c17a43391f4f17a86d12c02b76f2e7259
+SHA1: ff8402c0db70d6185b34a87e09d9f13535a16503
+MD5sum: 2bf8fa73e4acf6e248bc0d9f4cb7332b
+Description: Soplos Wallpapers Pack 01.
+ This package provides the Soplos Wallpapers Pack 01, including a collection of high quality wallpapers for Soplos Linux.
+ Build date: 2025-07-27
+
+Package: soplos-wallpapers-02
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-wallpapers-02/soplos-wallpapers-02_0.0.1_all.deb
+Size: 32269576
+SHA256: 2d9191427a52ce09175a12507e3f656249790c25cbdcdc863dc332c4542ca2bc
+SHA1: baba7f77a8534ed2b6d3938a76f8afebe45da5f2
+MD5sum: 8a6ad9f6962412cd42ec27ee394afa8f
+Description: Soplos Wallpapers Pack 02.
+ This package provides the Soplos Wallpapers Pack 02, including a collection of high quality wallpapers for Soplos Linux.
+ Build date: 2025-07-27
 
 Package: soplos-welcome
 Version: 1.1.3
