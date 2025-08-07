@@ -183,16 +183,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-07-27
 
 Package: soplos-release
-Version: 0.0.12
+Version: 0.0.13
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.0.12_all.deb
-Size: 2080
-SHA256: 25d60edb17cd4b740a478ddd813f3074ad8e2f91547e97074a7fb46ab87af94f
-SHA1: 26d78c175c0c8ae10c5831cc54dc1a909c0a6a01
-MD5sum: cf78b78c615e0bb9720a6bfee3d62fb8
+Filename: pool/main/s/soplos-release/soplos-release_0.0.13_all.deb
+Size: 1844
+SHA256: 849a46f929da895807c53fc55150783b7cafb641e7bce6722c882540d4fc12bc
+SHA1: d72cf75c0f50d631fc80cfa811bb6ee0986bfac7
+MD5sum: cd96bb4f942bed99727b8bf312d8172f
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
@@ -202,7 +202,6 @@ Description: Soplos Linux release information (internal system package)
 Essential: yes
 Replaces: base-files
 Conflicts: base-files (<< 13.7)
-Depends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos
 
 Package: soplos-repo-selector
 Version: 1.0.7
