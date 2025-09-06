@@ -9,12 +9,7 @@ boot/grub/themes/soploslinux/icons/memtest.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/os.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/recovery.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/uefi.png	    misc/soplos-grub-theme
-etc/debian_version	    admin/soplos-release
-etc/issue	    admin/soplos-release
-etc/issue.net	    admin/soplos-release
-etc/lsb-release	    admin/soplos-release
 etc/modules	    base/soplos-modules
-etc/apt/sources.list.d/tyson.list	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
@@ -23,7 +18,6 @@ usr/bin/soplos-plymouth-manager	    utils/soplos-plymouth-manager
 usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
-usr/lib/os-release	    admin/soplos-release
 usr/share/applications/com.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/com.soplos.plymouthmanager.desktop	    utils/soplos-plymouth-manager
@@ -121,7 +115,6 @@ usr/share/metainfo/com.soplos.plymouthmanager.metainfo.xml	    utils/soplos-plym
 usr/share/metainfo/com.soplos.reposelector.metainfo.xml	    utils/soplos-repo-selector
 usr/share/metainfo/com.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/metainfo/com.soplos.welcomelive.metainfo.xml	    utils/soplos-welcome-live
-usr/share/metainfo/com.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/msi-keyboard-gui/LICENSE	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/README.md	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/changelog	    utils/msi-keyboard-gui
