@@ -3,40 +3,40 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Sat, 06 Sep 2025 05:28:23 UTC
+Date: Sat, 06 Sep 2025 05:35:28 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- 786a7225b0a47fea818729cd705c4ead 12346 main/binary-amd64/Packages
- 3818008f59e23a519bd395f90830219c 3770 main/binary-amd64/Packages.gz
+ 4fd6fe73adaad6dafb0c2f5de5e03f04 11289 main/binary-amd64/Packages
+ 0cd7335a1f2b148205423192ea6e6e7f 3421 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
- b961e79cf7a60dbc27a8de82a10feb8e 131663 main/Contents-amd64
- 0d706d80c1802cd7c5cdf7873931da55 7823 main/Contents-amd64.gz
- 618cdccb3a8937dc90fea382872aa690 21567 main/dep11/Components-amd64.yml.gz
- fb4e8fe6be2fdf881a4862a3f019e038 90278 main/dep11/Components-amd64.yml
+ e2cdf9f5118cbdf7cc6b5cd31cc66dfb 131321 main/Contents-amd64
+ beed11dd46cc419e0285bb2a643f1562 7739 main/Contents-amd64.gz
+ 8a20d423323cb0e608e961c15b0a90ff 21564 main/dep11/Components-amd64.yml.gz
+ 36935f9c3d518dc18bfdd6ad6df7927e 90278 main/dep11/Components-amd64.yml
  a6ac899d47de1b55f8eb626cde0788e6 40960 main/dep11/icons-48x48.tar
  01e1699d52d40148e458dd0d3d808af5 51200 main/dep11/icons-64x64.tar
  835b1c4cd41bce54c012eabb7de103d9 112640 main/dep11/icons-128x128.tar
 SHA1:
- 617c25177313ac79a2b48e1c42c27a58cf931710 12346 main/binary-amd64/Packages
- e4859c84f77c33388b90d1baab8bd90b96827385 3770 main/binary-amd64/Packages.gz
+ 5de7745bc4a06113faef317ce618371c3f28b0b1 11289 main/binary-amd64/Packages
+ 37c7e2512ed9c956b047e4f261bf4307d4b7244a 3421 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
- 6c76d3ab641ad71e1d48793d960a8c4e43eb8698 131663 main/Contents-amd64
- b53711158561c1b260541dd44e79ff63f398fb4b 7823 main/Contents-amd64.gz
- 4246553f3d6c090eb4e4664f3162b3d0aff7d0fc 21567 main/dep11/Components-amd64.yml.gz
- 8312b63a7d7f16710a95c1d09180372937257873 90278 main/dep11/Components-amd64.yml
+ c9fd76d27dcc6ce71e8ac070554308aba0725373 131321 main/Contents-amd64
+ f1cac454715a2809b0adfe7b3822786fb41f8ae1 7739 main/Contents-amd64.gz
+ 135cb62e4434ad0bfe1f4f25aff30f1d1b7dae10 21564 main/dep11/Components-amd64.yml.gz
+ 9742d16613835546cccc3991bc2af00762d1d41f 90278 main/dep11/Components-amd64.yml
  dcaee1e3bb90f640ce447900cb88ea615bccb5cc 40960 main/dep11/icons-48x48.tar
  f271e727633c8bf97ef9a2f531bc597462d38724 51200 main/dep11/icons-64x64.tar
  600dcd7396c2b17a508e1d8707b803403b07336c 112640 main/dep11/icons-128x128.tar
 SHA256:
- 50731c9e78f393ccd95a70b6fb06593a9a402d4d584cb5874c3ba83f11193843 12346 main/binary-amd64/Packages
- 270df8aa2ca6c2fd18184084fc0bacd4a64fd960d0a10b13b1e32a3fe8139f6e 3770 main/binary-amd64/Packages.gz
+ bf3b0eff76ba4fa83de7671900fb9db002f5ea500aa1f58428bb12869dc9ef91 11289 main/binary-amd64/Packages
+ 9f856220b2027f8f1d7e5d3557d150b356c4e354429f7df8dbe2974db19c4f2c 3421 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
- 19ce17c656f797671f7ec469c6bef4461bc1eaba180ff102b451f8163b019f8c 131663 main/Contents-amd64
- 59205b18d5ec221910ba3cf2dafb7260e7785d5c1f7248d9e7d4ad9eb9f97f31 7823 main/Contents-amd64.gz
- 7803264a87facd143db1a7550fc628eedc0853e0f89419237a2d1b9509a4be64 21567 main/dep11/Components-amd64.yml.gz
- 3a569ac0dd21c6980e49d944cb3de9ac609ea4eb1853bbc13837d2764d459bc0 90278 main/dep11/Components-amd64.yml
+ 53bb1e8685a203cc9b6ae490df7fd2481acf58a1e93b66c2f8636844e719c66f 131321 main/Contents-amd64
+ b9e039ba7ab5c35cbf39e95de6c4ef50fd233086b8c2d79e78b193cc00b76ca0 7739 main/Contents-amd64.gz
+ fadc882c761d9089b155bf6dd7dc3d2a5076624e2e0f11091a4548140624a404 21564 main/dep11/Components-amd64.yml.gz
+ bed66f42c97feafc0339156c7d5092c3f55c8135a3a64c917f36752938328f65 90278 main/dep11/Components-amd64.yml
  9b5a1356e12c5b3969cbad8ff0ce9c709b1f7417b950504297ce90079c10c8b7 40960 main/dep11/icons-48x48.tar
  29cf62f927491c37dea0f2e86192656b42f62d75585e76f24ed3b35b28fa7762 51200 main/dep11/icons-64x64.tar
  a84a5f80bcb8656612a43e9fc7ccd74d52aa8d199af99d68bb8a56ed94b66ad0 112640 main/dep11/icons-128x128.tar
