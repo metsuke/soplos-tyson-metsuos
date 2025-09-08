@@ -178,6 +178,18 @@
   </provides>
 
   <releases>
+    <release version="1.1.5" date="2025-09-08">
+      <description>
+        <p>Updated links in the welcome tab buttons.</p>
+        <p xml:lang="es">Enlaces actualizados en los botones de la pestaña de bienvenida.</p>
+        <p xml:lang="fr">Liens mis à jour dans les boutons de l'onglet de bienvenue.</p>
+        <p xml:lang="pt">Links atualizados nos botões da aba de boas-vindas.</p>
+        <p xml:lang="de">Links in den Willkommens-Tab-Schaltflächen aktualisiert.</p>
+        <p xml:lang="it">Link aggiornati nei pulsanti della scheda di benvenuto.</p>
+        <p xml:lang="ru">Ссылки обновлены в кнопках вкладки приветствия.</p>
+        <p xml:lang="ro">Linkuri actualizate în butoanele filei de bun venit.</p>
+      </description>
+    </release>
     <release version="1.1.4" date="2025-08-02">
       <description>
         <p>Dictionary issues fixed and full internationalization completed. Fixed and improved chroot function for systems with btrfs subvolumes.</p>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250908T184101
+Time: 20250908T190145
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -1034,6 +1034,18 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 1.1.5
+    date: '2025-09-08'
+    type: stable
+    description:
+      C: Updated links in the welcome tab buttons.
+      es: Enlaces actualizados en los botones de la pestaña de bienvenida.
+      fr: Liens mis à jour dans les boutons de l'onglet de bienvenue.
+      pt: Links atualizados nos botões da aba de boas-vindas.
+      de: Links in den Willkommens-Tab-Schaltflächen aktualisiert.
+      it: Link aggiornati nei pulsanti della scheda di benvenuto.
+      ru: Ссылки обновлены в кнопках вкладки приветствия.
+      ro: Linkuri actualizate în butoanele filei de bun venit.
   - version: 1.1.4
     date: '2025-08-02'
     type: stable
