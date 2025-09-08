@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20250908T141616
+Time: 20250908T184101
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -625,6 +625,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 1.1.5
+    date: '2025-09-08'
+    type: stable
+    description:
+      C: Updated Blender icon for better alignment and display. Updated button links
+        in welcome tab to new Soplos.org URLs.
+      es: |-
+        Icono de Blender actualizado para mejor alineación y visualización. Enlaces de botones en la pestaña de bienvenida actualizados a nuevas URLs de Soplos.org.
+      en: Updated Blender icon for better alignment and display. Updated button links
+        in welcome tab to new Soplos.org URLs.
+      fr: |-
+        Icône Blender mise à jour pour un meilleur alignement et affichage. Liens des boutons dans l'onglet de bienvenue mis à jour vers les nouvelles URL Soplos.org.
+      pt: |-
+        Ícone do Blender atualizado para melhor alinhamento e exibição. Links dos botões na aba de boas-vindas atualizados para novas URLs do Soplos.org.
+      de: |-
+        Blender-Symbol für bessere Ausrichtung und Anzeige aktualisiert. Button-Links im Willkommens-Tab auf neue Soplos.org-URLs aktualisiert.
+      it: |-
+        Icona Blender aggiornata per un migliore allineamento e visualizzazione. Link dei pulsanti nella scheda di benvenuto aggiornati alle nuove URL di Soplos.org.
+      ru: |-
+        Иконка Blender обновлена для лучшего выравнивания и отображения. Ссылки кнопок на вкладке приветствия обновлены на новые URL-адреса Soplos.org.
+      ro: |-
+        Pictograma Blender actualizată pentru o aliniere și afișare mai bună. Linkurile butoanelor din fila de bun venit actualizate la noile URL-uri Soplos.org.
   - version: 1.1.4
     date: '2025-09-09'
     type: stable

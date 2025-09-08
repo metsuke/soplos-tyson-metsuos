@@ -273,6 +273,19 @@
   </provides>
 
   <releases>
+    <release version="1.1.5" date="2025-09-08">
+      <description>
+        <p>Updated Blender icon for better alignment and display. Updated button links in welcome tab to new Soplos.org URLs.</p>
+        <p xml:lang="es">Icono de Blender actualizado para mejor alineación y visualización. Enlaces de botones en la pestaña de bienvenida actualizados a nuevas URLs de Soplos.org.</p>
+        <p xml:lang="en">Updated Blender icon for better alignment and display. Updated button links in welcome tab to new Soplos.org URLs.</p>
+        <p xml:lang="fr">Icône Blender mise à jour pour un meilleur alignement et affichage. Liens des boutons dans l'onglet de bienvenue mis à jour vers les nouvelles URL Soplos.org.</p>
+        <p xml:lang="pt">Ícone do Blender atualizado para melhor alinhamento e exibição. Links dos botões na aba de boas-vindas atualizados para novas URLs do Soplos.org.</p>
+        <p xml:lang="de">Blender-Symbol für bessere Ausrichtung und Anzeige aktualisiert. Button-Links im Willkommens-Tab auf neue Soplos.org-URLs aktualisiert.</p>
+        <p xml:lang="it">Icona Blender aggiornata per un migliore allineamento e visualizzazione. Link dei pulsanti nella scheda di benvenuto aggiornati alle nuove URL di Soplos.org.</p>
+        <p xml:lang="ru">Иконка Blender обновлена для лучшего выравнивания и отображения. Ссылки кнопок на вкладке приветствия обновлены на новые URL-адреса Soplos.org.</p>
+        <p xml:lang="ro">Pictograma Blender actualizată pentru o aliniere și afișare mai bună. Linkurile butoanelor din fila de bun venit actualizate la noile URL-uri Soplos.org.</p>
+      </description>
+    </release>
     <release version="1.1.4" date="2025-09-09">
       <description>
         <p>Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".</p>

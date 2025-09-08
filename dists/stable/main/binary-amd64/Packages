@@ -257,17 +257,17 @@ Description: Soplos Wallpapers Pack 02.
  Build date: 2025-07-27
 
 Package: soplos-welcome
-Version: 1.1.4
+Version: 1.1.5
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_1.1.4_all.deb
-Size: 19167268
-SHA256: 86f764af02b61ecce3adfa599cad551b0630c82309641733ef6721f6874e6808
-SHA1: 2e7f7526401174dcbd972f38f4ff5da63917a774
-MD5sum: 867bb6f12ecb95410232719ed2397ea4
+Filename: pool/main/s/soplos-welcome/soplos-welcome_1.1.5_all.deb
+Size: 18644544
+SHA256: c7f0760dbcb1b880688c1f9d421984f9557f97b917ba41eb9758f8fa3313ba9b
+SHA1: a75ebefb56c3f05026a27beeba50cd1eb4644ea8
+MD5sum: 002f462c5be9b6587bfed69c06ae482d
 Description: Welcome screen for Soplos Linux
 
 Package: soplos-welcome-live
