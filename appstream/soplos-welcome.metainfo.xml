@@ -273,6 +273,19 @@
   </provides>
 
   <releases>
+    <release version="1.1.4" date="2025-09-09">
+      <description>
+        <p>Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".</p>
+        <p xml:lang="es">Las etiquetas de la pestaña de personalización ahora hacen referencia a los ajustes oficiales de Plasma 6 cuando procede. El editor Grub mantiene la marca "Soplos Grub Editor".</p>
+        <p xml:lang="en">Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".</p>
+        <p xml:lang="fr">Les étiquettes de l'onglet personnalisation font désormais référence aux paramètres officiels de Plasma 6 lorsque cela est approprié. L'éditeur Grub conserve la marque "Soplos Grub Editor".</p>
+        <p xml:lang="pt">As etiquetas na aba de personalização agora fazem referência às configurações oficiais do Plasma 6 quando apropriado. O editor Grub permanece com a marca "Soplos Grub Editor".</p>
+        <p xml:lang="de">Die Bezeichnungen im Anpassungs-Tab verweisen jetzt, wo angebracht, auf die offiziellen Plasma-6-Einstellungen. Der Grub-Editor bleibt als "Soplos Grub Editor" markiert.</p>
+        <p xml:lang="it">Le etichette nella scheda personalizzazione ora fanno riferimento, quando appropriato, alle impostazioni ufficiali di Plasma 6. L'editor Grub rimane con il marchio "Soplos Grub Editor".</p>
+        <p xml:lang="ru">Ярлыки на вкладке персонализации теперь, где это уместно, ссылаются на официальные настройки Plasma 6. Редактор Grub по-прежнему маркирован как "Soplos Grub Editor".</p>
+        <p xml:lang="ro">Etichetele din fila de personalizare fac acum referire, acolo unde este cazul, la setările oficiale Plasma 6. Editorul Grub rămâne marcat "Soplos Grub Editor".</p>
+      </description>
+    </release>
     <release version="1.1.3" date="2025-07-29">
       <description>
         <p>Updated all translation dictionaries.</p>

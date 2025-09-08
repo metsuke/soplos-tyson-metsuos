@@ -1260,6 +1260,14 @@ usr/share/soplos-welcome/config/gettext/it.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/gettext/pt.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/gettext/ro.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/gettext/ru.py	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/de.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/en.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/es.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/fr.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/it.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/pt.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/ro.cpython-313.pyc	    utils/soplos-welcome
+usr/share/soplos-welcome/config/gettext/__pycache__/ru.cpython-313.pyc	    utils/soplos-welcome
 usr/share/soplos-welcome/debian/com.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/soplos-welcome/debian/control	    utils/soplos-welcome
 usr/share/soplos-welcome/debian/soplos-welcome	    utils/soplos-welcome
