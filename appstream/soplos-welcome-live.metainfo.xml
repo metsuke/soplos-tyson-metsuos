@@ -178,6 +178,18 @@
   </provides>
 
   <releases>
+    <release version="1.1.6" date="2025-11-29">
+      <description>
+        <p>Improved CHROOT disk detection and partition parsing. Removed restrictive lsblk filter, added JSON parsing of lsblk (-J) with fallback, improved btrfs subvolume detection, and added debug output for troubleshooting.</p>
+        <p xml:lang="es">Mejorada la detección de discos en CHROOT y el análisis de particiones. Eliminado el filtro restrictivo de lsblk, añadido parsing JSON de lsblk (-J) con fallback, mejorada la detección de subvolúmenes btrfs y añadida salida de depuración para resolución de problemas.</p>
+        <p xml:lang="fr">Amélioration de la détection des disques dans CHROOT et de l'analyse des partitions. Suppression du filtre restrictif de lsblk, ajout du parsing JSON de lsblk (-J) avec fallback, amélioration de la détection des sous-volumes btrfs et ajout de sorties de débogage pour le dépannage.</p>
+        <p xml:lang="pt">Melhorada a deteção de discos no CHROOT e a análise de partições. Removido o filtro restritivo do lsblk, adicionado parsing JSON do lsblk (-J) com fallback, melhorada a deteção de subvolumes btrfs e adicionada saída de depuração para resolução de problemas.</p>
+        <p xml:lang="de">Verbesserte CHROOT-Festplattenerkennung und Partitionsanalyse. Entferntes restriktives lsblk-Filter, JSON-Parsing für lsblk (-J) mit Fallback hinzugefügt, verbesserte Erkennung von btrfs-Subvolumes und Debug-Ausgaben zur Fehlerbehebung.</p>
+        <p xml:lang="it">Migliorata la rilevazione dei dischi in CHROOT e l'analisi delle partizioni. Rimosso il filtro restrittivo di lsblk, aggiunto il parsing JSON di lsblk (-J) con fallback, migliorata la rilevazione dei sottovolumi btrfs e aggiunta l'output di debug per la risoluzione dei problemi.</p>
+        <p xml:lang="ru">Улучшено обнаружение дисков в CHROOT и разбор разделов. Удалён ограничивающий фильтр lsblk, добавлен JSON-разбор lsblk (-J) с резервным вариантом, улучшено обнаружение подтомов btrfs и добавлен вывод отладки для устранения неполадок.</p>
+        <p xml:lang="ro">Detectare îmbunătățită a discurilor în CHROOT și analiză a partițiilor. Eliminat filtrul restrictiv lsblk, adăugat parsarea JSON a lsblk (-J) cu fallback, îmbunătățită detectarea subvolumelor btrfs și adăugat output de depanare pentru rezolvarea problemelor.</p>
+      </description>
+    </release>
     <release version="1.1.5" date="2025-09-08">
       <description>
         <p>Updated links in the welcome tab buttons.</p>
