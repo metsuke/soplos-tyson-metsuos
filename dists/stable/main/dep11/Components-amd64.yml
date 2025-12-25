@@ -3,10 +3,10 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20251225T001419
+Time: 20251225T001450
 ---
 Type: desktop-application
-ID: com.soplos.reposelector.desktop
+ID: org.soplos.reposelector.desktop
 ProjectLicense: GPL-3.0+
 Package: soplos-repo-selector
 Name:
@@ -155,22 +155,40 @@ Categories:
   - Utility
 Icon:
   cached:
-    - name: com.soplos.reposelector.png
+    - name: org.soplos.reposelector.png
       width: 48
       height: 48
     - name: com.soplos.reposelector.png
+      width: 48
+      height: 48
+    - name: org.soplos.reposelector.png
       width: 64
       height: 64
+    - name: com.soplos.reposelector.png
+      width: 64
+      height: 64
+    - name: org.soplos.reposelector.png
+      width: 128
+      height: 128
     - name: com.soplos.reposelector.png
       width: 128
       height: 128
   remote:
+    - url: soplos-repo-selector/icons/48x48/org.soplos.reposelector.png
+      width: 48
+      height: 48
     - url: soplos-repo-selector/icons/48x48/com.soplos.reposelector.png
       width: 48
       height: 48
+    - url: soplos-repo-selector/icons/64x64/org.soplos.reposelector.png
+      width: 64
+      height: 64
     - url: soplos-repo-selector/icons/64x64/com.soplos.reposelector.png
       width: 64
       height: 64
+    - url: soplos-repo-selector/icons/128x128/org.soplos.reposelector.png
+      width: 128
+      height: 128
     - url: soplos-repo-selector/icons/128x128/com.soplos.reposelector.png
       width: 128
       height: 128
@@ -234,20 +252,66 @@ Screenshots:
       type: image/png
 Launchable:
   desktop-id:
-    - com.soplos.reposelector.desktop
+    - org.soplos.reposelector.desktop
 Url:
-  homepage: https://soploslinux.com/tyson
-  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-repo-selector
   donation: https://paypal.me/soploslinux
-  contact: https://soploslinux.com/foros
+  contact: https://soplos.org/wiki/contact/
 Developer:
-  id: com.soploslinux
+  id: org.soploslinux
   name:
     C: Soplos Team
-  url: https://soploslinux.com
+  url: https://soplos.org
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.0
+    date: '2025-12-10'
+    type: stable
+    description:
+      es: 'Lanzamiento 2.0.0: rediseño de la interfaz, mejoras de rendimiento y mayor
+        compatibilidad.'
+      en: 'Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.'
+      fr: 'Version 2.0.0 : refonte de l''interface, améliorations des performances
+        et compatibilité étendue.'
+      pt: 'Versão 2.0.0: reformulação da interface, melhorias de desempenho e compatibilidade
+        ampliada.'
+      de: 'Version 2.0.0: Benutzeroberfläche überarbeitet, Leistungsverbesserungen
+        und erweiterte Kompatibilität.'
+      it: 'Versione 2.0.0: restyling dell''interfaccia, miglioramenti delle prestazioni
+        e compatibilità ampliata.'
+      ru: 'Версия 2.0.0: переработанный интерфейс, улучшение производительности и
+        расширенная совместимость.'
+      ro: 'Versiunea 2.0.0: interfață reproiectată, îmbunătățiri de performanță și
+        compatibilitate extinsă.'
+      C: 'Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.'
+  - version: 2.0.0
+    date: '2025-12-13'
+    type: stable
+    description:
+      es: 'Parche 2025-12-13: traducciones completadas y cabeceras estandarizadas.'
+      en: 'Patch 2025-12-13: completed translations and standardized headers.'
+      fr: 'Correctif 2025-12-13 : traductions terminées et en-têtes standardisés.'
+      pt: 'Patch 2025-12-13: traduções concluídas e cabeçalhos padronizados.'
+      de: 'Patch 2025-12-13: Übersetzungen abgeschlossen und Header standardisiert.'
+      it: 'Patch 2025-12-13: traduzioni completate e intestazioni standardizzate.'
+      ru: 'Патч 2025-12-13: завершены переводы и стандартизированы заголовки.'
+      ro: 'Patch 2025-12-13: traduceri finalizate și antete standardizate.'
+      C: 'Patch 2025-12-13: completed translations and standardized headers.'
+  - version: 2.0.0
+    date: '2025-12-12'
+    type: stable
+    description:
+      es: 'Parche 2025-12-12: correcciones y mejoras menores.'
+      en: 'Patch 2025-12-12: minor fixes and improvements.'
+      fr: 'Correctif 2025-12-12 : corrections et améliorations mineures.'
+      pt: 'Patch 2025-12-12: correções e melhorias menores.'
+      de: 'Patch 2025-12-12: kleinere Fehlerbehebungen und Verbesserungen.'
+      it: 'Patch 2025-12-12: correzioni e miglioramenti minori.'
+      ru: 'Патч 2025-12-12: мелкие исправления и улучшения.'
+      ro: 'Patch 2025-12-12: corecții și îmbunătățiri minore.'
+      C: 'Patch 2025-12-12: minor fixes and improvements.'
   - version: 1.0.7
     date: '2025-07-27'
     type: stable
@@ -338,13 +402,13 @@ Releases:
 Component: main
 ---
 Type: desktop-application
-ID: com.soplos.welcome.desktop
+ID: org.soplos.welcome
 ProjectLicense: GPL-3.0+
 Package: soplos-welcome
 Name:
   C: Soplos Welcome
-  en: Soplos Welcome
   es: Bienvenida a Soplos
+  en: Soplos Welcome
   fr: Bienvenue sur Soplos
   pt: Bem-vindo ao Soplos
   de: Willkommen bei Soplos
@@ -352,132 +416,63 @@ Name:
   ru: Добро пожаловать в Soplos
   ro: Bun venit la Soplos
 Summary:
-  en: Welcome screen for Soplos Linux
-  C: Welcome screen for Soplos Linux
-  es: Pantalla de bienvenida para Soplos Linux
-  fr: Écran de bienvenue pour Soplos Linux
-  pt: Tela de boas-vindas para Soplos Linux
-  de: Willkommensbildschirm für Soplos Linux
-  it: Schermata de benvenuto per Soplos Linux
-  ru: Экран приветствия для Soplos Linux
-  ro: Ecran de întâmpinare pentru Soplos Linux
+  C: The world's most advanced welcome application for Linux
+  es: La aplicación de bienvenida más avanzada del mundo para Linux
+  en: The world's most advanced welcome application for Linux
+  fr: L'application d'accueil la plus avancée au monde pour Linux
+  pt: A aplicação de boas-vindas mais avançada do mundo para Linux
+  de: Die weltweit fortschrittlichste Willkommensanwendung für Linux
+  it: L'applicazione di benvenuto più avanzata al mondo per Linux
+  ru: Самое продвинутое приложение-приветствие в мире для Linux
+  ro: Cea mai avansată aplicație de întâmpinare din lume pentru Linux
 Description:
-  en: |-
-    <p>A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
   C: |-
-    <p>A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
+    <p>Soplos Welcome 2.0 is a next-generation welcome application that provides an intuitive,
+    beautiful, and powerful first-time user experience for Soplos Linux. Built with modern
+    architecture, professional internationalization, and universal desktop environment compatibility.</p><p>Key Features:</p>
   es: |-
-    <p>Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema, con soporte completo de internacionalización y recomendaciones de software modernas.</p>
+    <p>Soplos Welcome 2.0 es una aplicación de bienvenida de nueva generación que proporciona una
+    experiencia de usuario intuitiva, hermosa y poderosa para nuevos usuarios de Soplos Linux.
+    Construida con arquitectura moderna, internacionalización profesional y compatibilidad
+    universal con entornos de escritorio.</p>
   fr: |-
-    <p>Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système, avec un support d'internationalisation complet et des recommandations de logiciels modernes.</p>
-  pt: |-
-    <p>Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários a começar com seu sistema, com suporte completo de internacionalização e recomendações de software modernas.</p>
+    <p>Soplos Welcome 2.0 est une application d'accueil de nouvelle génération qui offre une
+    expérience utilisateur intuitive, belle et puissante pour les nouveaux utilisateurs de
+    Soplos Linux. Construite avec une architecture moderne, une internationalisation
+    professionnelle et une compatibilité universelle avec les environnements de bureau.</p>
   de: |-
-    <p>Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung und modernen Software-Empfehlungen.</p>
-  it: |-
-    <p>Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione e raccomandazioni software moderne.</p>
-  ru: |-
-    <p>Комплексное приветственное приложение для Soplos Linux, которое помогает новым пользователям начать работу с системой, с полной поддержкой интернационализации и современными рекомендациями программного обеспечения.</p>
-  ro: |-
-    <p>O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări software moderne.</p>
+    <p>Soplos Welcome 2.0 ist eine Willkommensanwendung der nächsten Generation, die eine
+    intuitive, schöne und mächtige Erstbenutzererfahrung für Soplos Linux bietet.
+    Entwickelt mit moderner Architektur, professioneller Internationalisierung und
+    universeller Desktop-Umgebungskompatibilität.</p>
 Keywords:
   C:
     - welcome
-    - start
     - setup
-    - configuration
-    - soplos
-    - internationalization
-    - i18n
-    - settings
-    - utility
     - system
-    - help
-    - guide
-    - introduction
-    - first steps
-    - linux
-    - onboarding
-    - translation
+    - configuration
+    - customize
+    - soplos
+    - drivers
+    - software
+    - themes
   es:
     - bienvenida
-    - inicio
     - configuración
-    - soplos
-    - ayuda
-    - guía
-    - introducción
-    - primeros pasos
-    - linux
-    - traducción
+    - personalizar
+    - controladores
   fr:
     - bienvenue
-    - démarrage
     - configuration
-    - soplos
-    - aide
-    - guide
-    - introduction
-    - premiers pas
-    - linux
-    - traduction
-  pt:
-    - boas-vindas
-    - início
-    - configuração
-    - soplos
-    - ajuda
-    - guia
-    - introdução
-    - primeiros passos
-    - linux
-    - tradução
+    - personnaliser
   de:
     - willkommen
-    - start
     - konfiguration
-    - soplos
-    - hilfe
-    - anleitung
-    - einführung
-    - erste schritte
-    - linux
-    - übersetzung
-  it:
-    - benvenuto
-    - inizio
-    - configurazione
-    - soplos
-    - aiuto
-    - guida
-    - introduzione
-    - primi passi
-    - linux
-    - traduzione
-  ru:
-    - приветствие
-    - старт
-    - настройка
-    - soplos
-    - помощь
-    - руководство
-    - введение
-    - первые шаги
-    - linux
-    - перевод
-  ro:
-    - bun venit
-    - start
-    - configurare
-    - soplos
-    - ajutor
-    - ghid
-    - introducere
-    - primii pași
-    - linux
-    - traducere
+    - anpassen
 Categories:
   - Settings
+  - DesktopSettings
+  - GTK
   - System
   - Utility
 Icon:
@@ -485,367 +480,98 @@ Icon:
     - name: com.soplos.welcome.png
       width: 48
       height: 48
+    - name: org.soplos.welcome.png
+      width: 48
+      height: 48
     - name: com.soplos.welcome.png
       width: 64
       height: 64
+    - name: org.soplos.welcome.png
+      width: 64
+      height: 64
     - name: com.soplos.welcome.png
+      width: 128
+      height: 128
+    - name: org.soplos.welcome.png
       width: 128
       height: 128
   remote:
     - url: soplos-welcome/icons/48x48/com.soplos.welcome.png
       width: 48
       height: 48
+    - url: soplos-welcome/icons/48x48/org.soplos.welcome.png
+      width: 48
+      height: 48
     - url: soplos-welcome/icons/64x64/com.soplos.welcome.png
+      width: 64
+      height: 64
+    - url: soplos-welcome/icons/64x64/org.soplos.welcome.png
       width: 64
       height: 64
     - url: soplos-welcome/icons/128x128/com.soplos.welcome.png
       width: 128
       height: 128
+    - url: soplos-welcome/icons/128x128/org.soplos.welcome.png
+      width: 128
+      height: 128
 Screenshots:
   - default: true
     caption:
-      C: Welcome tab
-      en: Welcome tab
-      es: Pestaña de bienvenida
-      fr: Onglet d'accueil
-      pt: Aba de boas-vindas
-      de: Willkommens-Tab
-      it: Scheda di benvenuto
-      ru: Вкладка приветствия
-      ro: Fila de întâmpinare
+      C: Welcome screen with system overview
+      es: Pantalla de bienvenida con resumen del sistema
     source-image:
       url: soplos-welcome/screenshots/screenshot1.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Software center
-      en: Software center
-      es: Centro de software
-      fr: Centre de logiciels
-      pt: Central de software
-      de: Software-Center
-      it: Centro software
-      ru: Центр программ
-      ro: Centru software
-    source-image:
-      url: soplos-welcome/screenshots/screenshot2.png
-      width: 1920
-      height: 1080
-      type: image/png
-  - caption:
-      C: Drivers tab
-      en: Drivers tab
-      es: Pestaña de controladores
-      fr: Onglet pilotes
-      pt: Aba de drivers
-      de: Treiber-Tab
-      it: Scheda driver
-      ru: Вкладка драйверов
-      ro: Fila de drivere
+      C: Intelligent software management center
+      es: Centro de gestión inteligente de software
     source-image:
       url: soplos-welcome/screenshots/screenshot3.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Hardware detector
-      en: Hardware detector
-      es: Detector de hardware
-      fr: Détecteur de matériel
-      pt: Detector de hardware
-      de: Hardware-Erkennung
-      it: Rilevatore hardware
-      ru: Детектор оборудования
-      ro: Detector hardware
+      C: Hardware driver detection and installation
+      es: Detección e instalación de controladores de hardware
     source-image:
       url: soplos-welcome/screenshots/screenshot4.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Kernels tab
-      en: Kernels tab
-      es: Pestaña de kernels
-      fr: Onglet noyaux
-      pt: Aba de kernels
-      de: Kernel-Tab
-      it: Scheda kernel
-      ru: Вкладка ядер
-      ro: Fila de kerneluri
+      C: Desktop customization and theming
+      es: Personalización del escritorio y temas
     source-image:
       url: soplos-welcome/screenshots/screenshot5.png
       width: 1920
       height: 1080
       type: image/png
-  - caption:
-      C: Recommended tab
-      en: Recommended tab
-      es: Pestaña de recomendados
-      fr: Onglet recommandés
-      pt: Aba de recomendados
-      de: Empfohlene-Tab
-      it: Scheda raccomandati
-      ru: Вкладка рекомендуемых
-      ro: Fila de recomandate
-    source-image:
-      url: soplos-welcome/screenshots/screenshot6.png
-      width: 1920
-      height: 1080
-      type: image/png
-  - caption:
-      C: Customization tab
-      en: Customization tab
-      es: Pestaña de personalización
-      fr: Onglet personnalisation
-      pt: Aba de personalização
-      de: Anpassungs-Tab
-      it: Scheda personalizzazione
-      ru: Вкладка персонализации
-      ro: Fila de personalizare
-    source-image:
-      url: soplos-welcome/screenshots/screenshot7.png
-      width: 1920
-      height: 1080
-      type: image/png
 Launchable:
   desktop-id:
-    - com.soplos.welcome.desktop
+    - org.soplos.welcome.desktop
 Url:
-  homepage: https://soploslinux.com/tyson
-  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-welcome/issues
+  help: https://github.com/SoplosLinux/soplos-welcome/wiki
   donation: https://www.paypal.com/paypalme/isubdes
-  contact: https://soploslinux.com/foros
-  help: https://soploslinux.com
-Developer:
-  id: com.soploslinux
-  name:
-    C: Soplos Team
-  url: https://soploslinux.com
 Provides:
   - soplos-welcome
 Releases:
-  - version: 1.1.5
-    date: '2025-09-08'
+  - version: 2.0.0
+    date: '2025-12-06'
     type: stable
     description:
-      C: Updated Blender icon for better alignment and display. Updated button links
-        in welcome tab to new Soplos.org URLs.
-      es: |-
-        Icono de Blender actualizado para mejor alineación y visualización. Enlaces de botones en la pestaña de bienvenida actualizados a nuevas URLs de Soplos.org.
-      en: Updated Blender icon for better alignment and display. Updated button links
-        in welcome tab to new Soplos.org URLs.
-      fr: |-
-        Icône Blender mise à jour pour un meilleur alignement et affichage. Liens des boutons dans l'onglet de bienvenue mis à jour vers les nouvelles URL Soplos.org.
-      pt: |-
-        Ícone do Blender atualizado para melhor alinhamento e exibição. Links dos botões na aba de boas-vindas atualizados para novas URLs do Soplos.org.
-      de: |-
-        Blender-Symbol für bessere Ausrichtung und Anzeige aktualisiert. Button-Links im Willkommens-Tab auf neue Soplos.org-URLs aktualisiert.
-      it: |-
-        Icona Blender aggiornata per un migliore allineamento e visualizzazione. Link dei pulsanti nella scheda di benvenuto aggiornati alle nuove URL di Soplos.org.
-      ru: |-
-        Иконка Blender обновлена для лучшего выравнивания и отображения. Ссылки кнопок на вкладке приветствия обновлены на новые URL-адреса Soplos.org.
-      ro: |-
-        Pictograma Blender actualizată pentru o aliniere și afișare mai bună. Linkurile butoanelor din fila de bun venit actualizate la noile URL-uri Soplos.org.
-  - version: 1.1.4
-    date: '2025-09-09'
-    type: stable
-    description:
-      C: |-
-        Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".
-      es: |-
-        Las etiquetas de la pestaña de personalización ahora hacen referencia a los ajustes oficiales de Plasma 6 cuando procede. El editor Grub mantiene la marca "Soplos Grub Editor".
-      en: |-
-        Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".
-      fr: |-
-        Les étiquettes de l'onglet personnalisation font désormais référence aux paramètres officiels de Plasma 6 lorsque cela est approprié. L'éditeur Grub conserve la marque "Soplos Grub Editor".
-      pt: |-
-        As etiquetas na aba de personalização agora fazem referência às configurações oficiais do Plasma 6 quando apropriado. O editor Grub permanece com a marca "Soplos Grub Editor".
-      de: |-
-        Die Bezeichnungen im Anpassungs-Tab verweisen jetzt, wo angebracht, auf die offiziellen Plasma-6-Einstellungen. Der Grub-Editor bleibt als "Soplos Grub Editor" markiert.
-      it: |-
-        Le etichette nella scheda personalizzazione ora fanno riferimento, quando appropriato, alle impostazioni ufficiali di Plasma 6. L'editor Grub rimane con il marchio "Soplos Grub Editor".
-      ru: |-
-        Ярлыки на вкладке персонализации теперь, где это уместно, ссылаются на официальные настройки Plasma 6. Редактор Grub по-прежнему маркирован как "Soplos Grub Editor".
-      ro: |-
-        Etichetele din fila de personalizare fac acum referire, acolo unde este cazul, la setările oficiale Plasma 6. Editorul Grub rămâne marcat "Soplos Grub Editor".
-  - version: 1.1.3
-    date: '2025-07-29'
-    type: stable
-    description:
-      C: Updated all program icons.
-      es: Actualizados todos los iconos del programa.
-      en: Updated all program icons.
-      fr: Mise à jour de toutes les icônes du programme.
-      pt: Atualizados todos os ícones do programa.
-      de: Alle Programmsymbole aktualisiert.
-      it: Aggiornate tutte le icone del programma.
-      ru: Обновлены все значки программы.
-      ro: Actualizate toate pictogramele programului.
-  - version: 1.1.2
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: Changed program icon to a new, more modern and recognizable version.
-      es: Cambio de icono del programa a una nueva versión más moderna y reconocible.
-      en: Changed program icon to a new, more modern and recognizable version.
-      fr: Changement de l'icône du programme pour une version plus moderne et reconnaissable.
-      pt: Alteração do ícone do programa para uma versão mais moderna e reconhecível.
-      de: Programmicon auf eine modernere und besser erkennbare Version geändert.
-      it: Cambiata l'icona del programma con una versione più moderna e riconoscibile.
-      ru: Изменена иконка программы на более современную и узнаваемую версию.
-      ro: Schimbare a pictogramei programului cu una mai modernă și mai recognoscibilă.
-  - version: 1.1.1
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: 'Fixed hardware detector: now always returns the correct recommended driver
-        for NVIDIA and other hardware.'
-      es: |-
-        Corregido el detector de hardware: ahora siempre devuelve el controlador recomendado correcto para NVIDIA y otros dispositivos.
-      en: 'Fixed hardware detector: now always returns the correct recommended driver
-        for NVIDIA and other hardware.'
-      fr: |-
-        Correction du détecteur de matériel : il retourne désormais toujours le pilote recommandé correct pour NVIDIA et autres matériels.
-      pt: 'Corrigido o detector de hardware: agora sempre retorna o driver recomendado
-        correto para NVIDIA e outros dispositivos.'
-      de: 'Hardware-Erkennung korrigiert: Gibt jetzt immer den richtigen empfohlenen
-        Treiber für NVIDIA und andere Hardware zurück.'
-      it: 'Corretto il rilevatore hardware: ora restituisce sempre il driver consigliato
-        corretto per NVIDIA e altri dispositivi.'
-      ru: |-
-        Исправлен детектор оборудования: теперь всегда возвращает правильный рекомендуемый драйвер для NVIDIA и другого оборудования.
-      ro: |-
-        Detectorul de hardware a fost corectat: acum returnează întotdeauna driverul recomandat corect pentru NVIDIA și alte dispozitive.
-  - version: 1.1.0
-    date: '2025-07-21'
-    type: stable
-    description:
-      C: |-
-        LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.
-      es: |-
-        La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.
-      en: |-
-        LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.
-      fr: |-
-        LibreWolf est maintenant installé via Flatpak (Flathub) au lieu d'APT/dépôts externes, évitant les conflits et simplifiant la maintenance.
-      pt: |-
-        O LibreWolf agora é instalado via Flatpak (Flathub) em vez de APT/repositórios externos, evitando conflitos e simplificando a manutenção.
-      de: |-
-        LibreWolf wird jetzt über Flatpak (Flathub) anstelle von APT/externalen Repositories installiert, um Konflikte zu vermeiden und die Wartung zu vereinfachen.
-      it: |-
-        LibreWolf ora viene installato tramite Flatpak (Flathub) invece di APT/repository esterni, evitando conflitti e semplificando la manutenzione.
-      ru: |-
-        LibreWolf теперь устанавливается через Flatpak (Flathub), а не через APT/внешние репозитории, что предотвращает конфликты и упрощает обслуживание.
-      ro: |-
-        LibreWolf este acum instalat prin Flatpak (Flathub) în loc de APT/repo externe, evitând conflictele și simplificând întreținerea.
-  - version: 1.0.9
-    date: '2025-07-16'
-    type: stable
-    description:
-      C: |-
-        Metainfo finalized and validated according to AppStream/DEP-11 standard for maximum compatibility in software centers. Added icons in 48x48, 64x64 and 128x128.
-      es: |-
-        Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.
-      en: |-
-        Metainfo finalized and validated according to AppStream/DEP-11 standard for maximum compatibility in software centers. Added icons in 48x48, 64x64 and 128x128.
-      fr: |-
-        Metainfo finalisé et validé selon la norme AppStream/DEP-11 pour une compatibilité maximale dans les centres logiciels. Icônes ajoutées en 48x48, 64x64 et 128x128.
-      pt: |-
-        Metainfo finalizado e validado de acordo com o padrão AppStream/DEP-11 para máxima compatibilidade em centros de software. Ícones adicionados em 48x48, 64x64 e 128x128.
-      de: |-
-        Metainfo abgeschlossen und gemäß AppStream/DEP-11-Standard validiert für maximale Kompatibilität in Software-Centern. Hinzugefügte Symbole in 48x48, 64x64 und 128x128.
-      it: |-
-        Metainfo finalizzato e validato secondo lo standard AppStream/DEP-11 per la massima compatibilità nei centri software. Aggiunte icone in 48x48, 64x64 e 128x128.
-      ru: |-
-        Metainfo завершён и проверен по стандарту AppStream/DEP-11 для максимальной совместимости в центрах программ. Добавлены иконки 48x48, 64x64 и 128x128.
-      ro: |-
-        Metainfo finalizat și validat conform standardului AppStream/DEP-11 pentru compatibilitate maximă în centrele software. Adăugate pictograme în 48x48, 64x64 și 128x128.
-  - version: 1.0.8
-    date: '2025-07-14'
-    type: stable
-    description:
-      C: Final metainfo corrections for full compatibility and visibility in software
-        centers (AppStream/Discover).
-      es: |-
-        Correcciones finales del archivo metainfo para compatibilidad y visibilidad total en centros de software (AppStream/Discover).
-      fr: |-
-        Corrections finales du fichier metainfo pour une compatibilité et une visibilité complètes dans les centres logiciels (AppStream/Discover).
-      pt: |-
-        Correções finais do arquivo metainfo para compatibilidade e visibilidade total em centros de software (AppStream/Discover).
-      de: |-
-        Abschließende Korrekturen der Metainfo-Datei für vollständige Kompatibilität und Sichtbarkeit in Software-Centern (AppStream/Discover).
-      it: Correzioni finali del file metainfo per compatibilità e visibilità totale
-        nei centri software (AppStream/Discover).
-      ru: Финальные исправления файла metainfo для полной совместимости и видимости
-        в центрах программ (AppStream/Discover).
-      ro: |-
-        Corecții finale ale fișierului metainfo pentru compatibilitate și vizibilitate completă în centrele software (AppStream/Discover).
-  - version: 1.0.7
-    date: '2025-07-13'
-    type: stable
-    description:
-      C: Fixed metainfo file for proper visualization in Discover/AppStream.
-      es: Corrección del archivo metainfo para visualización adecuada en Discover/AppStream.
-      fr: Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream.
-      pt: Correção do arquivo metainfo para visualização adequada no Discover/AppStream.
-      de: Korrektur der Metainfo-Datei für die korrekte Anzeige in Discover/AppStream.
-      it: Correzione del file metainfo per la corretta visualizzazione in Discover/AppStream.
-      ru: Исправлен файл metainfo для корректного отображения в Discover/AppStream.
-      ro: Corectarea fișierului metainfo pentru vizualizare corectă în Discover/AppStream.
-  - version: 1.0.6
-    date: '2025-06-24'
-    type: stable
-    description:
-      C: |-
-        Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.
-      es: |-
-        Corrección de errores menores, actualización de traducciones, mejoras en el instalador, enlaces de ayuda/donación actualizados y pequeños ajustes de seguridad.
-      fr: |-
-        Corrections de bugs mineurs, mises à jour des traductions, améliorations de l'installateur, liens d'aide/don actualisés et petits ajustements de sécurité.
-      pt: |-
-        Correções de bugs menores, atualização de traduções, melhorias no instalador, links de ajuda/doação atualizados e pequenos ajustes de segurança.
-      de: |-
-        Kleinere Fehlerbehebungen, Übersetzungsaktualisierungen, Verbesserungen am Installer, aktualisierte Hilfe-/Spendenlinks und kleinere Sicherheitsanpassungen.
-      it: |-
-        Correzioni di bug minori, aggiornamenti delle traduzioni, miglioramenti all'installer, link di aiuto/donazione aggiornati e piccoli aggiustamenti di sicurezza.
-      ru: |-
-        Мелкие исправления ошибок, обновления переводов, улучшения установщика, обновленные ссылки на помощь/пожертвования и небольшие улучшения безопасности.
-      ro: |-
-        Corecții minore de erori, actualizări de traduceri, îmbunătățiri ale programului de instalare, linkuri de ajutor/donații actualizate și mici ajustări de securitate.
-  - version: 1.0.5
-    date: '2025-01-15'
-    type: stable
-    description:
-      C: Complete internationalization and software updates
-      es: Internacionalización completa y actualizaciones de software
-      fr: Internationalisation complète et mises à jour logicielles
-      pt: Internacionalização completa e atualizações de software
-      de: Vollständige Internationalisierung und Software-Updates
-      it: Internazionalizzazione completa e aggiornamenti software
-      ru: Полная интернационализация и обновления программного обеспечения
-      ro: Internaționalizare completă și actualizări software
-  - version: 1.0.0
-    date: '2025-05-08'
-    type: stable
-    description:
-      C: Initial release
-      es: Versión inicial
-      fr: Version initiale
-      pt: Versão inicial
-      de: Erste Version
-      it: Versione iniziale
-      ru: Начальная версия
-      ro: Versiune inițială
+      C: 'Major rewrite with modern architecture and enhanced capabilities:'
 Component: main
 ---
 Type: desktop-application
-ID: com.soplos.welcomelive.desktop
+ID: org.soplos.welcomelive
 ProjectLicense: GPL-3.0+
 Package: soplos-welcome-live
 Name:
   C: Soplos Welcome Live
-  en: Soplos Welcome Live
   es: Bienvenida a Soplos Live
   fr: Bienvenue sur Soplos Live
   pt: Bem-vindo ao Soplos Live
@@ -854,165 +580,161 @@ Name:
   ru: Добро пожаловать в Soplos Live
   ro: Bun venit la Soplos Live
 Summary:
-  C: Welcome screen for Soplos Linux Live Environment
-  en: Welcome screen for Soplos Linux Live Environment
-  es: Pantalla de bienvenida para el entorno Live de Soplos Linux
-  fr: Écran de bienvenue pour l'environnement Live de Soplos Linux
-  pt: Tela de boas-vindas para o ambiente Live do Soplos Linux
-  de: Willkommensbildschirm für die Live-Umgebung von Soplos Linux
-  it: Schermata di benvenuto per l'ambiente Live di Soplos Linux
-  ru: Экран приветствия для Live-окружения Soplos Linux
-  ro: Ecran de întâmpinare pentru mediul Live Soplos Linux
+  C: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
+  es: Aplicación de bienvenida para Soplos Linux Live con recuperación CHROOT y soporte
+    BTRFS
+  fr: Application d'accueil pour Soplos Linux Live avec récupération CHROOT et support
+    BTRFS
+  pt: Aplicação de boas-vindas para Soplos Linux Live com recuperação CHROOT e suporte
+    BTRFS
+  de: Willkommensanwendung für Soplos Linux Live mit CHROOT-Wiederherstellung und
+    BTRFS-Unterstützung
+  it: Applicazione di benvenuto per Soplos Linux Live con recupero CHROOT e supporto
+    BTRFS
+  ru: Приложение приветствия для Soplos Linux Live с восстановлением CHROOT и поддержкой
+    BTRFS
+  ro: Aplicație de bun venit pentru Soplos Linux Live cu recuperare CHROOT și suport
+    BTRFS
 Description:
   C: |-
-    <p>A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
-  en: |-
-    <p>A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
+    <p>Soplos Welcome Live 2.0 provides a comprehensive welcome experience for Soplos Linux Live Environment. Built with the same modular architecture as Soplos Welcome 2.0, it offers universal desktop compatibility and professional system recovery tools.</p>
   es: |-
-    <p>Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a los usuarios a navegar por el sistema live e instalar Soplos Linux.</p>
+    <p>Soplos Welcome Live 2.0 proporciona una experiencia de bienvenida completa para el entorno Live de Soplos Linux. Construida con la misma arquitectura modular que Soplos Welcome 2.0, ofrece compatibilidad universal con escritorios y herramientas profesionales de recuperación del sistema.</p>
   fr: |-
-    <p>Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide les utilisateurs à naviguer dans le système live et à installer Soplos Linux.</p>
-  pt: |-
-    <p>Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os usuários a navegar pelo sistema live e instalar o Soplos Linux.</p>
-  de: |-
-    <p>Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.</p>
-  it: |-
-    <p>Un'applicazione di benvenuto para l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.</p>
-  ru: |-
-    <p>Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям ориентироваться в live-системе и устанавливать Soplos Linux.</p>
-  ro: |-
-    <p>O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii să navigheze în sistemul live și să instaleze Soplos Linux.</p>
+    <p>Soplos Welcome Live 2.0 offre une expérience de bienvenue complète pour l'environnement Live de Soplos Linux. Construite avec la même architecture modulaire que Soplos Welcome 2.0, elle offre une compatibilité universelle avec les bureaux et des outils professionnels de récupération système.</p>
 Keywords:
   C:
     - welcome
     - live
     - install
-    - setup
+    - chroot
+    - recovery
+    - btrfs
     - soplos
   es:
     - bienvenida
-    - live
     - instalar
-    - configuración
-    - soplos
+    - recuperación
   fr:
     - bienvenue
-    - live
     - installer
-    - configuration
-    - soplos
+    - récupération
   pt:
     - boas-vindas
-    - live
     - instalar
-    - configuração
-    - soplos
+    - recuperação
   de:
     - willkommen
-    - live
     - installation
-    - einrichtung
-    - soplos
+    - wiederherstellung
   it:
     - benvenuto
-    - live
     - installare
-    - configurazione
-    - soplos
+    - recupero
   ru:
     - приветствие
-    - live
     - установка
-    - настройка
-    - soplos
+    - восстановление
   ro:
     - bun venit
-    - live
     - instalare
-    - configurare
-    - soplos
+    - recuperare
 Categories:
   - System
   - Settings
   - Utility
 Icon:
   cached:
-    - name: com.soplos.welcomelive.png
+    - name: org.soplos.welcomelive.png
       width: 48
       height: 48
     - name: com.soplos.welcomelive.png
+      width: 48
+      height: 48
+    - name: org.soplos.welcomelive.png
       width: 64
       height: 64
+    - name: com.soplos.welcomelive.png
+      width: 64
+      height: 64
+    - name: org.soplos.welcomelive.png
+      width: 128
+      height: 128
     - name: com.soplos.welcomelive.png
       width: 128
       height: 128
   remote:
+    - url: soplos-welcome-live/icons/48x48/org.soplos.welcomelive.png
+      width: 48
+      height: 48
     - url: soplos-welcome-live/icons/48x48/com.soplos.welcomelive.png
       width: 48
       height: 48
+    - url: soplos-welcome-live/icons/64x64/org.soplos.welcomelive.png
+      width: 64
+      height: 64
     - url: soplos-welcome-live/icons/64x64/com.soplos.welcomelive.png
       width: 64
       height: 64
+    - url: soplos-welcome-live/icons/128x128/org.soplos.welcomelive.png
+      width: 128
+      height: 128
     - url: soplos-welcome-live/icons/128x128/com.soplos.welcomelive.png
       width: 128
       height: 128
 Screenshots:
   - default: true
     caption:
-      C: Welcome Live Tab
-      en: Welcome Live Tab
-      es: Pestaña de bienvenida Live
-      fr: Onglet d'accueil Live
-      pt: Aba de boas-vindas Live
-      de: Live-Willkommens-Tab
-      it: Scheda di benvenuto Live
-      ru: Вкладка приветствия Live
-      ro: Fila de întâmpinare Live
+      C: Welcome Screen with Language Selection and System Installation
+      es: Pantalla de Bienvenida con Selección de Idioma e Instalación del Sistema
+      fr: Écran d'accueil avec sélection de la langue et installation du système
+      pt: Ecrã de boas-vindas com seleção de idioma e instalação do sistema
+      de: Begrüßungsbildschirm mit Sprachauswahl und Systeminstallation
+      it: Schermata di benvenuto con selezione della lingua e installazione del sistema
+      ru: Экран приветствия с выбором языка и установкой системы
+      ro: Ecran de bun venit cu selecţie de limbă şi instalare a sistemului
     source-image:
       url: soplos-welcome-live/screenshots/screenshot1.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: CHROOT Disk Selector
-      en: CHROOT Disk Selector
-      es: Selector de disco CHROOT
-      fr: Sélecteur de disque CHROOT
-      pt: Seletor de disco CHROOT
-      de: CHROOT-Datenträgerauswahl
-      it: Selettore disco CHROOT
-      ru: Выбор диска CHROOT
-      ro: Selector de disc CHROOT
+      C: Advanced CHROOT Recovery System
+      es: Sistema Avanzado de Recuperación CHROOT
+      fr: Système de récupération CHROOT avancé
+      pt: Sistema de recuperação CHROOT avançado
+      de: Fortschrittliches CHROOT-Wiederherstellungssystem
+      it: Sistema di recupero CHROOT avanzato
+      ru: Продвинутая система восстановления CHROOT
+      ro: Sistem avansat de recuperare CHROOT
     source-image:
       url: soplos-welcome-live/screenshots/screenshot2.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Select Partition
-      en: Select Partition
-      es: Seleccionar partición
-      fr: Sélectionner la partition
-      pt: Selecionar partição
-      de: Partition auswählen
-      it: Seleziona partizione
-      ru: Выбор раздела
-      ro: Selectează partiția
+      C: BTRFS Subvolume Selection
+      es: Selección de Subvolúmenes BTRFS
+      fr: Sélection de sous-volumes BTRFS
+      pt: Seleção de subvolumes BTRFS
+      de: Auswahl von BTRFS-Subvolumes
+      it: Selezione dei sottovolumi BTRFS
+      ru: Выбор подтомов BTRFS
+      ro: Selectare subvolume BTRFS
     source-image:
       url: soplos-welcome-live/screenshots/screenshot3.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Chroot Terminal
-      en: Chroot Terminal
-      es: Terminal chroot
-      fr: Terminal chroot
-      pt: Terminal chroot
-      de: Chroot-Terminal
-      it: Terminale chroot
-      ru: Терминал chroot
-      ro: Terminal chroot
+      C: Terminal with Active CHROOT Session
+      es: Terminal con Sesión CHROOT Activa
+      fr: Terminal avec session CHROOT active
+      pt: Terminal com sessão CHROOT ativa
+      de: Terminal mit aktiver CHROOT-Sitzung
+      it: Terminal con sessione CHROOT attiva
+      ru: Терминал с активной CHROOT-сессией
+      ro: Terminal cu sesiune CHROOT activă
     source-image:
       url: soplos-welcome-live/screenshots/screenshot4.png
       width: 1920
@@ -1020,210 +742,60 @@ Screenshots:
       type: image/png
 Launchable:
   desktop-id:
-    - com.soplos.welcomelive.desktop
+    - org.soplos.welcomelive.desktop
 Url:
-  homepage: https://soploslinux.com/tyson
-  bugtracker: https://github.com/SoplosLinux/tyson/issues
-  donation: https://paypal.me/soploslinux
-  contact: https://soploslinux.com/foros
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-welcome-live/issues
+  donation: https://www.paypal.com/paypalme/isubdes
+  help: https://soplos.org
 Developer:
-  id: com.soploslinux
+  id: org.soplos
   name:
     C: Soplos Team
-  url: https://soploslinux.com
+  url: https://soplos.org
 Provides:
   - soplos-welcome-live
 Releases:
-  - version: 1.1.6
+  - version: 2.0.0
+    date: '2025-12-07'
+    type: stable
+    description:
+      C: |-
+        Patch (2025-12-10 - Final): Complete quality review of all translations (ES, EN, DE, FR, PT, IT, RO, RU) ensuring 100% coverage, natural phrasing, and UI conciseness.
+      es: |-
+        Parche (2025-12-10 - Final): Completada la revisión de calidad de todas las traducciones (ES, EN, DE, FR, PT, IT, RO, RU) asegurando cobertura del 100%, fraseo natural y concisión en la interfaz.
+      fr: |-
+        Correctif (2025-12-10 - Final) : Révision complète de la qualité de toutes les traductions (ES, EN, DE, FR, PT, IT, RO, RU) assurant une couverture à 100 %, un phrasé naturel et la concision de l'interface.
+      pt: |-
+        Patch (2025-12-10 - Final): Concluída a revisão de qualidade de todas as traduções (ES, EN, DE, FR, PT, IT, RO, RU) garantindo cobertura de 100%, fraseado natural e concisão da interface.
+      de: |-
+        Patch (2025-12-10 - Final): Vollständige Qualitätsprüfung aller Übersetzungen (ES, EN, DE, FR, PT, IT, RO, RU), Sicherstellung von 100% Abdeckung, natürlicher Formulierung und UI-Prägnanz.
+      it: |-
+        Patch (2025-12-10 - Finale): Completata la revisione della qualità di tutte le traduzioni (ES, EN, DE, FR, PT, IT, RO, RU) garantendo copertura al 100%, fraseggio naturale e concisione dell'interfaccia.
+      ru: |-
+        Патч (2025-12-10 - Финал): Завершен полный аудит качества всех переводов (ES, EN, DE, FR, PT, IT, RO, RU), обеспечено 100% покрытие, естественность фраз и лаконичность интерфейса.
+      ro: |-
+        Patch (2025-12-10 - Final): Finalizată revizuirea calității tuturor traducerilor (ES, EN, DE, FR, PT, IT, RO, RU) asigurând acoperire 100%, formulare naturală și concizie a interfeței.
+  - version: 1.1.2
     date: '2025-11-29'
     type: stable
     description:
-      C: |-
-        Improved CHROOT disk detection and partition parsing. Removed restrictive lsblk filter, added JSON parsing of lsblk (-J) with fallback, improved btrfs subvolume detection, and added debug output for troubleshooting.
-      es: |-
-        Mejorada la detección de discos en CHROOT y el análisis de particiones. Eliminado el filtro restrictivo de lsblk, añadido parsing JSON de lsblk (-J) con fallback, mejorada la detección de subvolúmenes btrfs y añadida salida de depuración para resolución de problemas.
-      fr: |-
-        Amélioration de la détection des disques dans CHROOT et de l'analyse des partitions. Suppression du filtre restrictif de lsblk, ajout du parsing JSON de lsblk (-J) avec fallback, amélioration de la détection des sous-volumes btrfs et ajout de sorties de débogage pour le dépannage.
-      pt: |-
-        Melhorada a deteção de discos no CHROOT e a análise de partições. Removido o filtro restritivo do lsblk, adicionado parsing JSON do lsblk (-J) com fallback, melhorada a deteção de subvolumes btrfs e adicionada saída de depuração para resolução de problemas.
-      de: |-
-        Verbesserte CHROOT-Festplattenerkennung und Partitionsanalyse. Entferntes restriktives lsblk-Filter, JSON-Parsing für lsblk (-J) mit Fallback hinzugefügt, verbesserte Erkennung von btrfs-Subvolumes und Debug-Ausgaben zur Fehlerbehebung.
-      it: |-
-        Migliorata la rilevazione dei dischi in CHROOT e l'analisi delle partizioni. Rimosso il filtro restrittivo di lsblk, aggiunto il parsing JSON di lsblk (-J) con fallback, migliorata la rilevazione dei sottovolumi btrfs e aggiunta l'output di debug per la risoluzione dei problemi.
-      ru: |-
-        Улучшено обнаружение дисков в CHROOT и разбор разделов. Удалён ограничивающий фильтр lsblk, добавлен JSON-разбор lsblk (-J) с резервным вариантом, улучшено обнаружение подтомов btrfs и добавлен вывод отладки для устранения неполадок.
-      ro: |-
-        Detectare îmbunătățită a discurilor în CHROOT și analiză a partițiilor. Eliminat filtrul restrictiv lsblk, adăugat parsarea JSON a lsblk (-J) cu fallback, îmbunătățită detectarea subvolumelor btrfs și adăugat output de depanare pentru rezolvarea problemelor.
-  - version: 1.1.5
+      C: Universal disk detection in CHROOT for all hardware and VM types.
+  - version: 1.1.1
     date: '2025-09-08'
     type: stable
     description:
-      C: Updated links in the welcome tab buttons.
-      es: Enlaces actualizados en los botones de la pestaña de bienvenida.
-      fr: Liens mis à jour dans les boutons de l'onglet de bienvenue.
-      pt: Links atualizados nos botões da aba de boas-vindas.
-      de: Links in den Willkommens-Tab-Schaltflächen aktualisiert.
-      it: Link aggiornati nei pulsanti della scheda di benvenuto.
-      ru: Ссылки обновлены в кнопках вкладки приветствия.
-      ro: Linkuri actualizate în butoanele filei de bun venit.
-  - version: 1.1.4
+      C: Updated welcome tab links.
+  - version: 1.1.0
     date: '2025-08-02'
     type: stable
     description:
-      C: |-
-        Dictionary issues fixed and full internationalization completed. Fixed and improved chroot function for systems with btrfs subvolumes.
-      es: |-
-        Corregidos problemas de diccionarios y completada la internacionalización. Reparada y mejorada la función de chroot en sistemas con subvolúmenes btrfs.
-      fr: |-
-        Problèmes de dictionnaires corrigés et internationalisation complète. Fonction chroot corrigée et améliorée pour les systèmes avec sous-volumes btrfs.
-      pt: |-
-        Problemas de dicionário corrigidos e internacionalização completa. Função chroot corrigida e melhorada para sistemas com subvolumes btrfs.
-      de: |-
-        Diktionsprobleme behoben und vollständige Internationalisierung abgeschlossen. Chroot-Funktion für Systeme mit btrfs-Subvolumes korrigiert und verbessert.
-      it: |-
-        Correzione dei problemi dei dizionari e completata l'internazionalizzazione. Funzione chroot corretta e migliorata per sistemi con subvolumi btrfs.
-      ru: |-
-        Исправлены проблемы с словарями и завершена интернационализация. Исправлена и улучшена функция chroot для систем с подтомами btrfs.
-      ro: |-
-        Probleme de dicționar corectate și internaționalizare completă. Funcția chroot corectată și îmbunătățită pentru sistemele cu subvolume btrfs.
-  - version: 1.1.3
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: Program icon updated. Maintainer changed to Sergi Perich.
-      es: Icono del programa actualizado. Mantenedor cambiado a Sergi Perich.
-      fr: Icône du programme mise à jour. Mainteneur changé en Sergi Perich.
-      pt: Ícone do programa atualizado. Mantenedor alterado para Sergi Perich.
-      de: Programmsymbol aktualisiert. Betreuer geändert zu Sergi Perich.
-      it: Icona del programma aggiornata. Maintainer cambiato in Sergi Perich.
-      ru: Обновлена иконка программы. Мейнтейнер изменён на Sergi Perich.
-      ro: Pictograma programului actualizată. Mentenor schimbat în Sergi Perich.
-  - version: 1.1.2
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: |-
-        Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.
-      es: |-
-        Detección y selección avanzada de particiones y subvolúmenes btrfs en la recuperación chroot. Soporte completo para montaje de /home como partición o subvolumen btrfs. Mejoras en la robustez y compatibilidad con múltiples terminales. Autor cambiado a Sergi Perich.
-      fr: |-
-        Détection et sélection avancées des partitions et sous-volumes btrfs dans la récupération chroot. Prise en charge complète du montage de /home en tant que partition ou sous-volume btrfs. Amélioration de la robustesse et compatibilité multi-terminaux. Auteur changé en Sergi Perich.
-      pt: |-
-        Detecção e seleção avançada de partições e subvolumes btrfs na recuperação chroot. Suporte completo para montagem de /home como partição ou subvolume btrfs. Melhorias na robustez e compatibilidade com múltiplos terminais. Autor alterado para Sergi Perich.
-      de: |-
-        Erweiterte Erkennung und Auswahl von Partitionen und btrfs-Subvolumes in der chroot-Wiederherstellung. Vollständige Unterstützung für das Einbinden von /home als Partition oder btrfs-Subvolume. Verbesserte Robustheit und Multi-Terminal-Kompatibilität. Autor geändert zu Sergi Perich.
-      it: |-
-        Rilevamento e selezione avanzati di partizioni e subvolumi btrfs nel ripristino chroot. Supporto completo per il montaggio di /home come partizione o subvolume btrfs. Migliorata la robustezza e la compatibilità con più terminali. Autore cambiato in Sergi Perich.
-      ru: |-
-        Расширенное обнаружение и выбор разделов и подтомов btrfs в восстановлении chroot. Полная поддержка монтирования /home как раздела или подтома btrfs. Улучшена надежность и совместимость с несколькими терминалами. Автор изменен на Sergi Perich.
-      ro: |-
-        Detectare și selecție avansată a partițiilor și subvolumelor btrfs în recuperarea chroot. Suport complet pentru montarea /home ca partiție sau subvolum btrfs. Îmbunătățiri de robustețe și compatibilitate cu mai multe terminale. Autor schimbat în Sergi Perich.
-  - version: 1.1.1
-    date: '2025-07-18'
-    type: stable
-    description:
-      C: Minor maintenance update and translation improvements. Improved language
-        detection and startup robustness.
-      es: Actualización menor de mantenimiento y traducciones. Mejoras menores en
-        la detección de idioma y robustez de arranque.
-      fr: |-
-        Mise à jour mineure de maintenance et améliorations des traductions. Amélioration de la détection de la langue et de la robustesse au démarrage.
-      pt: Atualização menor de manutenção e melhorias de tradução. Melhorias na detecção
-        de idioma e robustez de inicialização.
-      de: Kleines Wartungsupdate und Verbesserungen bei den Übersetzungen. Verbesserte
-        Spracherkennung und Robustheit beim Start.
-      it: |-
-        Aggiornamento minore di manutenzione e miglioramenti alle traduzioni. Migliorata la rilevazione della lingua e la robustezza all'avvio.
-      ru: Небольшое обновление обслуживания и улучшения переводов. Улучшено определение
-        языка и устойчивость запуска.
-      ro: |-
-        Actualizare minoră de mentenanță și îmbunătățiri ale traducerilor. Detectarea limbii și robustețea la pornire îmbunătățite.
-  - version: 1.1.0
-    date: '2025-07-16'
-    type: stable
-    description:
-      C: Metainfo finalized to AppStream/DEP-11 standard. Program icons added in 48x48,
-        64x64, and 128x128 resolutions.
-      es: Metainfo finalizado al estándar AppStream/DEP-11. Iconos del programa agregados
-        en 48x48, 64x64 y 128x128.
-      fr: Metainfo finalisé selon la norme AppStream/DEP-11. Icônes du programme ajoutées
-        en 48x48, 64x64 et 128x128.
-      pt: Metainfo finalizado para o padrão AppStream/DEP-11. Ícones do programa adicionados
-        em 48x48, 64x64 e 128x128.
-      de: Metainfo gemäß AppStream/DEP-11-Standard finalisiert. Programmsymbole in
-        48x48, 64x64 und 128x128 hinzugefügt.
-      it: Metainfo finalizzato allo standard AppStream/DEP-11. Icone del programma
-        aggiunte in 48x48, 64x64 e 128x128.
-      ru: Metainfo доведен до стандарта AppStream/DEP-11. Добавлены иконки программы
-        48x48, 64x64 и 128x128.
-      ro: Metainfo finalizat la standardul AppStream/DEP-11. Adăugate pictogramele
-        programului la 48x48, 64x64 și 128x128.
-  - version: 1.0.9
-    date: '2025-07-14'
-    type: stable
-    description:
-      C: Finalized metainfo corrections for proper appearance in software centers
-        (AppStream/Discover).
-      es: Agregadas y finalizadas las correcciones del metainfo para aparecer correctamente
-        en centros de software.
-      fr: Corrections finales du metainfo pour une apparition correcte dans les centres
-        logiciels.
-      pt: Correções finais do metainfo para aparecer corretamente nos centros de software.
-      de: Abschließende Korrekturen der Metainfo für die korrekte Anzeige in Software-Centern.
-      it: Correzioni finali del metainfo per la corretta visualizzazione nei centri
-        software.
-      ru: Завершены исправления файла metainfo для корректного отображения в центрах
-        программного обеспечения.
-      ro: Corecțiile finale ale metainfo pentru afișarea corectă în centrele software.
-  - version: 1.0.8
-    date: '2025-07-13'
-    type: stable
-    description:
-      C: Fixed metainfo file for proper visualization in Discover/AppStream
-      es: Corregido el archivo metainfo para su correcta visualización en Discover/AppStream
-      fr: Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream
-      pt: Corrigido o arquivo metainfo para visualização adequada no Discover/AppStream
-      de: Metainfo-Datei für die korrekte Anzeige in Discover/AppStream korrigiert
-      it: Corretto il file metainfo per la corretta visualizzazione in Discover/AppStream
-      ru: Исправлен файл metainfo для корректного отображения в Discover/AppStream
-      ro: Fișierul metainfo corectat pentru afișare corectă în Discover/AppStream
-  - version: 1.0.6
-    date: '2025-06-24'
-    type: stable
-    description:
-      C: Now visible in Discover (AppStream integration)
-      es: Ahora visible en Discover (integración AppStream)
-      fr: Désormais visible dans Discover (intégration AppStream)
-      pt: Agora visível no Discover (integração AppStream)
-      de: Jetzt in Discover sichtbar (AppStream-Integration)
-      it: Ora visibile in Discover (integrazione AppStream)
-      ru: Теперь видно в Discover (интеграция AppStream)
-      ro: Acum vizibil în Discover (integrare AppStream)
-  - version: 1.0.5
-    date: '2025-06-20'
-    type: stable
-    description:
-      C: Complete internationalization and label refinement to English
-      es: Internacionalización completa y depuración de etiquetas a inglés
-      fr: Internationalisation complète et affinement des étiquettes en anglais
-      pt: Internacionalização completa e refinamento de rótulos para o inglês
-      de: Vollständige Internationalisierung und Verfeinerung der Bezeichnungen auf
-        Englisch
-      it: Internazionalizzazione completa e raffinamento delle etichette in inglese
-      ru: Полная интернационализация и уточнение меток на английском языке
-      ro: Internaționalizare completă și rafinarea etichetelor în engleză
-  - version: 1.0.3
+      C: Internationalization refactor and BTRFS fixes.
+  - version: 1.0.0
     date: '2024-01-27'
     type: stable
     description:
-      C: Initial release
-      es: Versión inicial
-      fr: Version initiale
-      pt: Versão inicial
-      de: Erste Version
-      it: Versione iniziale
-      ru: Начальная версия
-      ro: Versiune inițială
+      C: Initial release with basic welcome interface and CHROOT functionality.
 Component: main
 ---
 Type: desktop-application

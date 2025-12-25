@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.soplos.welcome.desktop</id>
+  <id>org.soplos.welcome</id>
   <pkgname>soplos-welcome</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <project_group>com.soploslinux</project_group>
+  <project_group>org.soplos</project_group>
 
   <name>Soplos Welcome</name>
-  <name xml:lang="en">Soplos Welcome</name>
   <name xml:lang="es">Bienvenida a Soplos</name>
+  <name xml:lang="en">Soplos Welcome</name>
   <name xml:lang="fr">Bienvenue sur Soplos</name>
   <name xml:lang="pt">Bem-vindo ao Soplos</name>
   <name xml:lang="de">Willkommen bei Soplos</name>
@@ -16,581 +16,642 @@
   <name xml:lang="ru">Добро пожаловать в Soplos</name>
   <name xml:lang="ro">Bun venit la Soplos</name>
 
-  <summary xml:lang="en">Welcome screen for Soplos Linux</summary>
-  <summary>Welcome screen for Soplos Linux</summary>
-  <summary xml:lang="es">Pantalla de bienvenida para Soplos Linux</summary>
-  <summary xml:lang="fr">Écran de bienvenue pour Soplos Linux</summary>
-  <summary xml:lang="pt">Tela de boas-vindas para Soplos Linux</summary>
-  <summary xml:lang="de">Willkommensbildschirm für Soplos Linux</summary>
-  <summary xml:lang="it">Schermata de benvenuto per Soplos Linux</summary>
-  <summary xml:lang="ru">Экран приветствия для Soplos Linux</summary>
-  <summary xml:lang="ro">Ecran de întâmpinare pentru Soplos Linux</summary>
+  <summary>The world's most advanced welcome application for Linux</summary>
+  <summary xml:lang="es">La aplicación de bienvenida más avanzada del mundo para Linux</summary>
+  <summary xml:lang="en">The world's most advanced welcome application for Linux</summary>
+  <summary xml:lang="fr">L'application d'accueil la plus avancée au monde pour Linux</summary>
+  <summary xml:lang="pt">A aplicação de boas-vindas mais avançada do mundo para Linux</summary>
+  <summary xml:lang="de">Die weltweit fortschrittlichste Willkommensanwendung für Linux</summary>
+  <summary xml:lang="it">L'applicazione di benvenuto più avanzata al mondo per Linux</summary>
+  <summary xml:lang="ru">Самое продвинутое приложение-приветствие в мире для Linux</summary>
+  <summary xml:lang="ro">Cea mai avansată aplicație de întâmpinare din lume pentru Linux</summary>
 
   <description>
-    <p xml:lang="en">A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
-    <p>A comprehensive welcome application for Soplos Linux that helps new users get started with their system, featuring full internationalization support and modern software recommendations.</p>
-    <p xml:lang="es">Una aplicación de bienvenida integral para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema, con soporte completo de internacionalización y recomendaciones de software modernas.</p>
-    <p xml:lang="fr">Une application de bienvenue complète pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système, avec un support d'internationalisation complet et des recommandations de logiciels modernes.</p>
-    <p xml:lang="pt">Um aplicativo de boas-vindas abrangente para Soplos Linux que ajuda novos usuários a começar com seu sistema, com suporte completo de internacionalização e recomendações de software modernas.</p>
-    <p xml:lang="de">Eine umfassende Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft, mit ihrem System zu beginnen, mit vollständiger Internationalisierungsunterstützung und modernen Software-Empfehlungen.</p>
-    <p xml:lang="it">Un'applicazione di benvenuto completa per Soplos Linux che aiuta i nuovi utenti a iniziare con il loro sistema, con supporto completo per l'internazionalizzazione e raccomandazioni software moderne.</p>
-    <p xml:lang="ru">Комплексное приветственное приложение для Soplos Linux, которое помогает новым пользователям начать работу с системой, с полной поддержкой интернационализации и современными рекомендациями программного обеспечения.</p>
-    <p xml:lang="ro">O aplicație de bun venit cuprinzătoare pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor, cu suport complet de internaționalizare și recomandări software moderne.</p>
+    <p>
+      Soplos Welcome 2.0 is a next-generation welcome application that provides an intuitive, 
+      beautiful, and powerful first-time user experience for Soplos Linux. Built with modern 
+      architecture, professional internationalization, and universal desktop environment compatibility.
+    </p>
+    <p xml:lang="es">
+      Soplos Welcome 2.0 es una aplicación de bienvenida de nueva generación que proporciona una 
+      experiencia de usuario intuitiva, hermosa y poderosa para nuevos usuarios de Soplos Linux. 
+      Construida con arquitectura moderna, internacionalización profesional y compatibilidad 
+      universal con entornos de escritorio.
+    </p>
+    <p xml:lang="fr">
+      Soplos Welcome 2.0 est une application d'accueil de nouvelle génération qui offre une 
+      expérience utilisateur intuitive, belle et puissante pour les nouveaux utilisateurs de 
+      Soplos Linux. Construite avec une architecture moderne, une internationalisation 
+      professionnelle et une compatibilité universelle avec les environnements de bureau.
+    </p>
+    <p xml:lang="de">
+      Soplos Welcome 2.0 ist eine Willkommensanwendung der nächsten Generation, die eine 
+      intuitive, schöne und mächtige Erstbenutzererfahrung für Soplos Linux bietet. 
+      Entwickelt mit moderner Architektur, professioneller Internationalisierung und 
+      universeller Desktop-Umgebungskompatibilität.
+    </p>
+    <p>Key Features:</p>
+    <ul>
+      <li>Universal desktop support (GNOME 48+, KDE Plasma 6, XFCE 4.20)</li>
+      <li>Complete X11 and Wayland compatibility</li>
+      <li>Professional internationalization with 8 languages</li>
+      <li>Advanced CSS-based theming system</li>
+      <li>Intelligent software management</li>
+      <li>Hardware driver detection and optimization</li>
+      <li>Kernel management (Liquorix, XanMod)</li>
+      <li>System performance optimization</li>
+    </ul>
   </description>
 
   <categories>
     <category>Settings</category>
+    <category>DesktopSettings</category>
+    <category>GTK</category>
     <category>System</category>
     <category>Utility</category>
   </categories>
 
   <requires>
-    <id>python3-gi</id>
-    <id>python3-xlib</id>
-    <id>python3-psutil</id>
-    <id>gir1.2-gtk-3.0</id>
-    <id>curl</id>
-    <id>wget</id>
+    <display_length compare="ge">800</display_length>
+    <memory compare="ge">512</memory>
   </requires>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
 
   <keywords>
     <keyword>welcome</keyword>
-    <keyword>start</keyword>
     <keyword>setup</keyword>
-    <keyword>configuration</keyword>
-    <keyword>soplos</keyword>
-    <keyword>internationalization</keyword>
-    <keyword>i18n</keyword>
-    <keyword>settings</keyword>
-    <keyword>utility</keyword>
     <keyword>system</keyword>
-    <keyword>help</keyword>
-    <keyword>guide</keyword>
-    <keyword>introduction</keyword>
-    <keyword>first steps</keyword>
-    <keyword>linux</keyword>
-    <keyword>onboarding</keyword>
-    <keyword>translation</keyword>
+    <keyword>configuration</keyword>
+    <keyword>customize</keyword>
+    <keyword>soplos</keyword>
+    <keyword>drivers</keyword>
+    <keyword>software</keyword>
+    <keyword>themes</keyword>
     <keyword xml:lang="es">bienvenida</keyword>
-    <keyword xml:lang="es">inicio</keyword>
     <keyword xml:lang="es">configuración</keyword>
-    <keyword xml:lang="es">soplos</keyword>
-    <keyword xml:lang="es">ayuda</keyword>
-    <keyword xml:lang="es">guía</keyword>
-    <keyword xml:lang="es">introducción</keyword>
-    <keyword xml:lang="es">primeros pasos</keyword>
-    <keyword xml:lang="es">linux</keyword>
-    <keyword xml:lang="es">traducción</keyword>
+    <keyword xml:lang="es">personalizar</keyword>
+    <keyword xml:lang="es">controladores</keyword>
     <keyword xml:lang="fr">bienvenue</keyword>
-    <keyword xml:lang="fr">démarrage</keyword>
     <keyword xml:lang="fr">configuration</keyword>
-    <keyword xml:lang="fr">soplos</keyword>
-    <keyword xml:lang="fr">aide</keyword>
-    <keyword xml:lang="fr">guide</keyword>
-    <keyword xml:lang="fr">introduction</keyword>
-    <keyword xml:lang="fr">premiers pas</keyword>
-    <keyword xml:lang="fr">linux</keyword>
-    <keyword xml:lang="fr">traduction</keyword>
-    <keyword xml:lang="pt">boas-vindas</keyword>
-    <keyword xml:lang="pt">início</keyword>
-    <keyword xml:lang="pt">configuração</keyword>
-    <keyword xml:lang="pt">soplos</keyword>
-    <keyword xml:lang="pt">ajuda</keyword>
-    <keyword xml:lang="pt">guia</keyword>
-    <keyword xml:lang="pt">introdução</keyword>
-    <keyword xml:lang="pt">primeiros passos</keyword>
-    <keyword xml:lang="pt">linux</keyword>
-    <keyword xml:lang="pt">tradução</keyword>
+    <keyword xml:lang="fr">personnaliser</keyword>
     <keyword xml:lang="de">willkommen</keyword>
-    <keyword xml:lang="de">start</keyword>
     <keyword xml:lang="de">konfiguration</keyword>
-    <keyword xml:lang="de">soplos</keyword>
-    <keyword xml:lang="de">hilfe</keyword>
-    <keyword xml:lang="de">anleitung</keyword>
-    <keyword xml:lang="de">einführung</keyword>
-    <keyword xml:lang="de">erste schritte</keyword>
-    <keyword xml:lang="de">linux</keyword>
-    <keyword xml:lang="de">übersetzung</keyword>
-    <keyword xml:lang="it">benvenuto</keyword>
-    <keyword xml:lang="it">inizio</keyword>
-    <keyword xml:lang="it">configurazione</keyword>
-    <keyword xml:lang="it">soplos</keyword>
-    <keyword xml:lang="it">aiuto</keyword>
-    <keyword xml:lang="it">guida</keyword>
-    <keyword xml:lang="it">introduzione</keyword>
-    <keyword xml:lang="it">primi passi</keyword>
-    <keyword xml:lang="it">linux</keyword>
-    <keyword xml:lang="it">traduzione</keyword>
-    <keyword xml:lang="ru">приветствие</keyword>
-    <keyword xml:lang="ru">старт</keyword>
-    <keyword xml:lang="ru">настройка</keyword>
-    <keyword xml:lang="ru">soplos</keyword>
-    <keyword xml:lang="ru">помощь</keyword>
-    <keyword xml:lang="ru">руководство</keyword>
-    <keyword xml:lang="ru">введение</keyword>
-    <keyword xml:lang="ru">первые шаги</keyword>
-    <keyword xml:lang="ru">linux</keyword>
-    <keyword xml:lang="ru">перевод</keyword>
-    <keyword xml:lang="ro">bun venit</keyword>
-    <keyword xml:lang="ro">start</keyword>
-    <keyword xml:lang="ro">configurare</keyword>
-    <keyword xml:lang="ro">soplos</keyword>
-    <keyword xml:lang="ro">ajutor</keyword>
-    <keyword xml:lang="ro">ghid</keyword>
-    <keyword xml:lang="ro">introducere</keyword>
-    <keyword xml:lang="ro">primii pași</keyword>
-    <keyword xml:lang="ro">linux</keyword>
-    <keyword xml:lang="ro">traducere</keyword>
+    <keyword xml:lang="de">anpassen</keyword>
   </keywords>
-
-  <translation type="gettext">
-    <locale>es</locale>
-    <locale>en</locale>
-    <locale>fr</locale>
-    <locale>pt</locale>
-    <locale>de</locale>
-    <locale>it</locale>
-    <locale>ru</locale>
-    <locale>ro</locale>
-  </translation>
-
-  <launchable type="desktop-id">com.soplos.welcome.desktop</launchable>
-
-  <!-- Icono de stock preferido -->
-  <icon type="stock">com.soplos.welcome</icon>
-  <!-- Icono remoto como fallback -->
-  <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/icons/com.soplos.welcome.png</url>
-  </icon>
 
   <screenshots>
     <screenshot type="default">
-      <caption>Welcome tab</caption>
-      <caption xml:lang="en">Welcome tab</caption>
-      <caption xml:lang="es">Pestaña de bienvenida</caption>
-      <caption xml:lang="fr">Onglet d'accueil</caption>
-      <caption xml:lang="pt">Aba de boas-vindas</caption>
-      <caption xml:lang="de">Willkommens-Tab</caption>
-      <caption xml:lang="it">Scheda di benvenuto</caption>
-      <caption xml:lang="ru">Вкладка приветствия</caption>
-      <caption xml:lang="ro">Fila de întâmpinare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot1.png</image>
+      <caption>Welcome screen with system overview</caption>
+      <caption xml:lang="es">Pantalla de bienvenida con resumen del sistema</caption>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Software center</caption>
-      <caption xml:lang="en">Software center</caption>
-      <caption xml:lang="es">Centro de software</caption>
-      <caption xml:lang="fr">Centre de logiciels</caption>
-      <caption xml:lang="pt">Central de software</caption>
-      <caption xml:lang="de">Software-Center</caption>
-      <caption xml:lang="it">Centro software</caption>
-      <caption xml:lang="ru">Центр программ</caption>
-      <caption xml:lang="ro">Centru software</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png</image>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot3.png</image>
+      <caption>Intelligent software management center</caption>
+      <caption xml:lang="es">Centro de gestión inteligente de software</caption>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Drivers tab</caption>
-      <caption xml:lang="en">Drivers tab</caption>
-      <caption xml:lang="es">Pestaña de controladores</caption>
-      <caption xml:lang="fr">Onglet pilotes</caption>
-      <caption xml:lang="pt">Aba de drivers</caption>
-      <caption xml:lang="de">Treiber-Tab</caption>
-      <caption xml:lang="it">Scheda driver</caption>
-      <caption xml:lang="ru">Вкладка драйверов</caption>
-      <caption xml:lang="ro">Fila de drivere</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png</image>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot4.png</image>
+      <caption>Hardware driver detection and installation</caption>
+      <caption xml:lang="es">Detección e instalación de controladores de hardware</caption>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Hardware detector</caption>
-      <caption xml:lang="en">Hardware detector</caption>
-      <caption xml:lang="es">Detector de hardware</caption>
-      <caption xml:lang="fr">Détecteur de matériel</caption>
-      <caption xml:lang="pt">Detector de hardware</caption>
-      <caption xml:lang="de">Hardware-Erkennung</caption>
-      <caption xml:lang="it">Rilevatore hardware</caption>
-      <caption xml:lang="ru">Детектор оборудования</caption>
-      <caption xml:lang="ro">Detector hardware</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Kernels tab</caption>
-      <caption xml:lang="en">Kernels tab</caption>
-      <caption xml:lang="es">Pestaña de kernels</caption>
-      <caption xml:lang="fr">Onglet noyaux</caption>
-      <caption xml:lang="pt">Aba de kernels</caption>
-      <caption xml:lang="de">Kernel-Tab</caption>
-      <caption xml:lang="it">Scheda kernel</caption>
-      <caption xml:lang="ru">Вкладка ядер</caption>
-      <caption xml:lang="ro">Fila de kerneluri</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Recommended tab</caption>
-      <caption xml:lang="en">Recommended tab</caption>
-      <caption xml:lang="es">Pestaña de recomendados</caption>
-      <caption xml:lang="fr">Onglet recommandés</caption>
-      <caption xml:lang="pt">Aba de recomendados</caption>
-      <caption xml:lang="de">Empfohlene-Tab</caption>
-      <caption xml:lang="it">Scheda raccomandati</caption>
-      <caption xml:lang="ru">Вкладка рекомендуемых</caption>
-      <caption xml:lang="ro">Fila de recomandate</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Customization tab</caption>
-      <caption xml:lang="en">Customization tab</caption>
-      <caption xml:lang="es">Pestaña de personalización</caption>
-      <caption xml:lang="fr">Onglet personnalisation</caption>
-      <caption xml:lang="pt">Aba de personalização</caption>
-      <caption xml:lang="de">Anpassungs-Tab</caption>
-      <caption xml:lang="it">Scheda personalizzazione</caption>
-      <caption xml:lang="ru">Вкладка персонализации</caption>
-      <caption xml:lang="ro">Fila de personalizare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot7.png</image>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot5.png</image>
+      <caption>Desktop customization and theming</caption>
+      <caption xml:lang="es">Personalización del escritorio y temas</caption>
     </screenshot>
   </screenshots>
 
-  <url type="homepage">https://soploslinux.com/tyson</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
-  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
-  <url type="contact">https://soploslinux.com/foros</url>
-  <url type="help">https://soploslinux.com</url>
-
-  <developer id="com.soploslinux">
-    <name>Sergi Perich</name>
-    <name xml:lang="es">Sergi Perich</name>
-    <name xml:lang="fr">Sergi Perich</name>
-    <name xml:lang="pt">Sergi Perich</name>
-    <name xml:lang="de">Sergi Perich</name>
-    <name xml:lang="it">Sergi Perich</name>
-    <name xml:lang="ru">Sergi Perich</name>
-    <name xml:lang="ro">Sergi Perich</name>
-    <url type="homepage">https://soploslinux.com</url>
-  </developer>
+  <translation type="gettext">soplos-welcome</translation>
 
   <provides>
     <binary>soplos-welcome</binary>
   </provides>
 
+  <launchable type="desktop-id">org.soplos.welcome.desktop</launchable>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-welcome/issues</url>
+  <url type="help">https://github.com/SoplosLinux/soplos-welcome/wiki</url>
+  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+
+  <developer_name>Sergi Perich</developer_name>
+
   <releases>
-    <release version="1.1.5" date="2025-09-08">
+    <release version="2.0.0" date="2025-12-06">
       <description>
-        <p>Updated Blender icon for better alignment and display. Updated button links in welcome tab to new Soplos.org URLs.</p>
-        <p xml:lang="es">Icono de Blender actualizado para mejor alineación y visualización. Enlaces de botones en la pestaña de bienvenida actualizados a nuevas URLs de Soplos.org.</p>
-        <p xml:lang="en">Updated Blender icon for better alignment and display. Updated button links in welcome tab to new Soplos.org URLs.</p>
-        <p xml:lang="fr">Icône Blender mise à jour pour un meilleur alignement et affichage. Liens des boutons dans l'onglet de bienvenue mis à jour vers les nouvelles URL Soplos.org.</p>
-        <p xml:lang="pt">Ícone do Blender atualizado para melhor alinhamento e exibição. Links dos botões na aba de boas-vindas atualizados para novas URLs do Soplos.org.</p>
-        <p xml:lang="de">Blender-Symbol für bessere Ausrichtung und Anzeige aktualisiert. Button-Links im Willkommens-Tab auf neue Soplos.org-URLs aktualisiert.</p>
-        <p xml:lang="it">Icona Blender aggiornata per un migliore allineamento e visualizzazione. Link dei pulsanti nella scheda di benvenuto aggiornati alle nuove URL di Soplos.org.</p>
-        <p xml:lang="ru">Иконка Blender обновлена для лучшего выравнивания и отображения. Ссылки кнопок на вкладке приветствия обновлены на новые URL-адреса Soplos.org.</p>
-        <p xml:lang="ro">Pictograma Blender actualizată pentru o aliniere și afișare mai bună. Linkurile butoanelor din fila de bun venit actualizate la noile URL-uri Soplos.org.</p>
-      </description>
-    </release>
-    <release version="1.1.4" date="2025-09-09">
-      <description>
-        <p>Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".</p>
-        <p xml:lang="es">Las etiquetas de la pestaña de personalización ahora hacen referencia a los ajustes oficiales de Plasma 6 cuando procede. El editor Grub mantiene la marca "Soplos Grub Editor".</p>
-        <p xml:lang="en">Labels in the customization tab now reference Plasma 6 official settings where appropriate. Grub Editor remains branded as "Soplos Grub Editor".</p>
-        <p xml:lang="fr">Les étiquettes de l'onglet personnalisation font désormais référence aux paramètres officiels de Plasma 6 lorsque cela est approprié. L'éditeur Grub conserve la marque "Soplos Grub Editor".</p>
-        <p xml:lang="pt">As etiquetas na aba de personalização agora fazem referência às configurações oficiais do Plasma 6 quando apropriado. O editor Grub permanece com a marca "Soplos Grub Editor".</p>
-        <p xml:lang="de">Die Bezeichnungen im Anpassungs-Tab verweisen jetzt, wo angebracht, auf die offiziellen Plasma-6-Einstellungen. Der Grub-Editor bleibt als "Soplos Grub Editor" markiert.</p>
-        <p xml:lang="it">Le etichette nella scheda personalizzazione ora fanno riferimento, quando appropriato, alle impostazioni ufficiali di Plasma 6. L'editor Grub rimane con il marchio "Soplos Grub Editor".</p>
-        <p xml:lang="ru">Ярлыки на вкладке персонализации теперь, где это уместно, ссылаются на официальные настройки Plasma 6. Редактор Grub по-прежнему маркирован как "Soplos Grub Editor".</p>
-        <p xml:lang="ro">Etichetele din fila de personalizare fac acum referire, acolo unde este cazul, la setările oficiale Plasma 6. Editorul Grub rămâne marcat "Soplos Grub Editor".</p>
-      </description>
-    </release>
-    <release version="1.1.3" date="2025-07-29">
-      <description>
-        <p>Updated all translation dictionaries.</p>
-        <p>Fixed several functions in the hardware detector.</p>
-        <p>Updated all program icons.</p>
-        <p xml:lang="es">Actualizados todos los diccionarios de traducción.</p>
-        <p xml:lang="es">Corregidas varias funciones en el detector de hardware.</p>
-        <p xml:lang="es">Actualizados todos los iconos del programa.</p>
-        <p xml:lang="en">Updated all translation dictionaries.</p>
-        <p xml:lang="en">Fixed several functions in the hardware detector.</p>
-        <p xml:lang="en">Updated all program icons.</p>
-        <p xml:lang="fr">Mise à jour de tous les dictionnaires de traduction.</p>
-        <p xml:lang="fr">Correction de plusieurs fonctions dans le détecteur de matériel.</p>
-        <p xml:lang="fr">Mise à jour de toutes les icônes du programme.</p>
-        <p xml:lang="pt">Atualizados todos os dicionários de tradução.</p>
-        <p xml:lang="pt">Corrigidas várias funções no detector de hardware.</p>
-        <p xml:lang="pt">Atualizados todos os ícones do programa.</p>
-        <p xml:lang="de">Alle Übersetzungswörterbücher aktualisiert.</p>
-        <p xml:lang="de">Mehrere Funktionen im Hardware-Erkenner korrigiert.</p>
-        <p xml:lang="de">Alle Programmsymbole aktualisiert.</p>
-        <p xml:lang="it">Aggiornati tutti i dizionari di traduzione.</p>
-        <p xml:lang="it">Corrette diverse funzioni nel rilevatore hardware.</p>
-        <p xml:lang="it">Aggiornate tutte le icone del programma.</p>
-        <p xml:lang="ru">Обновлены все словари переводов.</p>
-        <p xml:lang="ru">Исправлены несколько функций в детекторе оборудования.</p>
-        <p xml:lang="ru">Обновлены все значки программы.</p>
-        <p xml:lang="ro">Actualizate toate dicționarele de traducere.</p>
-        <p xml:lang="ro">Corectate mai multe funcții în detectorul de hardware.</p>
-        <p xml:lang="ro">Actualizate toate pictogramele programului.</p>
-      </description>
-    </release>
-    <release version="1.1.2" date="2025-07-27">
-      <description>
-        <p>Cambio de icono del programa a una nueva versión más moderna y reconocible.</p>
-        <p xml:lang="es">Cambio de icono del programa a una nueva versión más moderna y reconocible.</p>
-        <p xml:lang="en">Changed program icon to a new, more modern and recognizable version.</p>
-        <p xml:lang="fr">Changement de l'icône du programme pour une version plus moderne et reconnaissable.</p>
-        <p xml:lang="pt">Alteração do ícone do programa para uma versão mais moderna e reconhecível.</p>
-        <p xml:lang="de">Programmicon auf eine modernere und besser erkennbare Version geändert.</p>
-        <p xml:lang="it">Cambiata l'icona del programma con una versione più moderna e riconoscibile.</p>
-        <p xml:lang="ru">Изменена иконка программы на более современную и узнаваемую версию.</p>
-        <p xml:lang="ro">Schimbare a pictogramei programului cu una mai modernă și mai recognoscibilă.</p>
-      </description>
-    </release>
-    <release version="1.1.1" date="2025-07-27">
-      <description>
-        <p>Fixed office install/uninstall button logic in the Recommended tab (now works like other categories).</p>
-        <p>Fixed hardware detector: now always returns the correct recommended driver for NVIDIA and other hardware.</p>
-        <p xml:lang="es">Corregida la lógica de los botones de instalar/desinstalar de la categoría Office en la pestaña de recomendados (ahora funciona como en el resto de categorías).</p>
-        <p xml:lang="es">Corregido el detector de hardware: ahora siempre devuelve el controlador recomendado correcto para NVIDIA y otros dispositivos.</p>
-        <p xml:lang="en">Fixed office install/uninstall button logic in the Recommended tab (now works like other categories).</p>
-        <p xml:lang="en">Fixed hardware detector: now always returns the correct recommended driver for NVIDIA and other hardware.</p>
-        <p xml:lang="fr">Correction de la logique des boutons d'installation/désinstallation pour la catégorie Office dans l'onglet recommandé (fonctionne désormais comme les autres catégories).</p>
-        <p xml:lang="fr">Correction du détecteur de matériel : il retourne désormais toujours le pilote recommandé correct pour NVIDIA et autres matériels.</p>
-        <p xml:lang="pt">Corrigida a lógica dos botões de instalar/desinstalar da categoria Office na aba recomendados (agora funciona como nas demais categorias).</p>
-        <p xml:lang="pt">Corrigido o detector de hardware: agora sempre retorna o driver recomendado correto para NVIDIA e outros dispositivos.</p>
-        <p xml:lang="de">Korrektur der Logik der Installations-/Deinstallationsschaltflächen für die Kategorie Office im Tab "Empfohlen" (funktioniert jetzt wie in den anderen Kategorien).</p>
-        <p xml:lang="de">Hardware-Erkennung korrigiert: Gibt jetzt immer den richtigen empfohlenen Treiber für NVIDIA und andere Hardware zurück.</p>
-        <p xml:lang="it">Correzione della logica dei pulsanti di installazione/disinstallazione per la categoria Office nella scheda consigliata (ora funziona come nelle altre categorie).</p>
-        <p xml:lang="it">Corretto il rilevatore hardware: ora restituisce sempre il driver consigliato corretto per NVIDIA e altri dispositivi.</p>
-        <p xml:lang="ru">Исправлена логика кнопок установки/удаления для категории Office на вкладке "Рекомендуемые" (теперь работает как в других категориях).</p>
-        <p xml:lang="ru">Исправлен детектор оборудования: теперь всегда возвращает правильный рекомендуемый драйвер для NVIDIA и другого оборудования.</p>
-        <p xml:lang="ro">Corectată logica butoanelor de instalare/dezinstalare pentru categoria Office din fila Recomandate (acum funcționează ca la celelalte categorii).</p>
-        <p xml:lang="ro">Detectorul de hardware a fost corectat: acum returnează întotdeauna driverul recomandat corect pentru NVIDIA și alte dispozitive.</p>
-      </description>
-    </release>
-    <release version="1.1.0" date="2025-07-21">
-      <description>
-        <p>Mejoras en la integración y funcionamiento de QEMU/KVM para máquinas virtuales y refuerzo en la gestión e instalación de controladores NVIDIA.</p>
-        <p xml:lang="es">Mejoras en la integración y funcionamiento de QEMU/KVM para máquinas virtuales y refuerzo en la gestión e instalación de controladores NVIDIA.</p>
-        <p xml:lang="en">Improved QEMU/KVM virtual machine support and enhanced NVIDIA driver management and installation.</p>
-        <p xml:lang="fr">Amélioration de la prise en charge des machines virtuelles QEMU/KVM et renforcement de la gestion/installation des pilotes NVIDIA.</p>
-        <p xml:lang="pt">Melhorias no suporte a máquinas virtuais QEMU/KVM e reforço na gestão/instalação dos drivers NVIDIA.</p>
-        <p xml:lang="de">Verbesserte QEMU/KVM-VM-Unterstützung und optimierte Verwaltung/Installation der NVIDIA-Treiber.</p>
-        <p xml:lang="it">Migliorato il supporto QEMU/KVM per macchine virtuali e rafforzata la gestione/installazione dei driver NVIDIA.</p>
-        <p xml:lang="ru">Улучшена поддержка виртуальных машин QEMU/KVM и усилено управление/установка драйверов NVIDIA.</p>
-        <p xml:lang="ro">Îmbunătățiri pentru suportul QEMU/KVM și întărirea gestionării/instalării driverelor NVIDIA.</p>
-        <p>Fragmentación y reorganización de los diccionarios de idiomas: cada idioma ahora se gestiona en archivos independientes para facilitar el mantenimiento y la internacionalización.</p>
-        <p xml:lang="es">Fragmentación y reorganización de los diccionarios de idiomas: cada idioma ahora se gestiona en archivos independientes para facilitar el mantenimiento y la internacionalización.</p>
-        <p xml:lang="en">Language dictionary fragmentation and reorganization: each language is now managed in separate files for easier maintenance and internationalization.</p>
-        <p xml:lang="fr">Fragmentation et réorganisation des dictionnaires de langues : chaque langue est désormais gérée dans des fichiers séparés pour faciliter la maintenance et l'internationalisation.</p>
-        <p xml:lang="pt">Fragmentação e reorganização dos dicionários de idiomas: cada idioma agora é gerenciado em arquivos independentes para facilitar a manutenção e a internacionalização.</p>
-        <p xml:lang="de">Fragmentierung and Neuorganisation der Sprachwörterbücher: Jede Sprache wird jetzt in separaten Dateien verwaltet, um die Wartung und Internationalisierung zu erleichtern.</p>
-        <p xml:lang="it">Frammentazione e riorganizzazione dei dizionari delle lingue: ogni lingua ora è gestita in file separati per facilitare la manutenzione e l'internazionalizzazione.</p>
-        <p xml:lang="ru">Фрагментация и реорганизация языковых словарей: каждый язык теперь управляется в отдельных файлах для облегчения обслуживания и интернационализации.</p>
-        <p xml:lang="ro">Fragmentarea și reorganizarea dicționarelor de limbi: fiecare limbă este acum gestionată în fișiere separate pentru a facilita întreținerea și internaționalizarea.</p>
-        <p>Fragmentación finalizada: el programa está 100% internacionalizado y preparado para colaboración internacional.</p>
-        <p xml:lang="es">Fragmentación finalizada: el programa está 100% internacionalizado y preparado para colaboración internacional.</p>
-        <p xml:lang="en">Dictionary fragmentation finalized: the program is now 100% internationalized and ready for international collaboration.</p>
-        <p xml:lang="fr">Fragmentation terminée : le programme est désormais 100 % internationalisé et prêt pour la collaboration internationale.</p>
-        <p xml:lang="pt">Fragmentação concluída: o programa está 100% internacionalizado e pronto para colaboração internacional.</p>
-        <p xml:lang="de">Fragmentierung abgeschlossen: Das Programm ist jetzt zu 100 % internationalisiert und bereit für internationale Zusammenarbeit.</p>
-        <p xml:lang="it">Frammentazione completata: il programma è ora completamente internazionalizzato e pronto per la collaborazione internazionale.</p>
-        <p xml:lang="ru">Фрагментация завершена: программа полностью интернационализирована и готова к международному сотрудничеству.</p>
-        <p xml:lang="ro">Fragmentarea finalizată: programul este acum 100% internaționalizat și pregătit pentru colaborare internațională.</p>
-        <p>Mejorada la lógica de los botones de instalar/desinstalar en la pestaña de recomendados: ahora cambian de estado y acción dinámicamente tras cada operación.</p>
-        <p>La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.</p>
-        <p xml:lang="es">Mejorada la lógica de los botones de instalar/desinstalar en la pestaña de recomendados: ahora cambian de estado y acción dinámicamente tras cada operación.</p>
-        <p xml:lang="es">La instalación de LibreWolf ahora se realiza mediante Flatpak (Flathub) en vez de APT/repositorios externos, evitando conflictos y simplificando el mantenimiento.</p>
-        <p xml:lang="en">Improved logic for install/uninstall buttons in the recommended tab: they now dynamically change state and action after each operation.</p>
-        <p xml:lang="en">LibreWolf is now installed via Flatpak (Flathub) instead of APT/external repositories, avoiding conflicts and simplifying maintenance.</p>
-        <p xml:lang="fr">Logique améliorée pour les boutons d'installation/désinstallation dans l'onglet recommandé : ils changent maintenant dynamiquement d'état et d'action après chaque opération.</p>
-        <p xml:lang="fr">LibreWolf est maintenant installé via Flatpak (Flathub) au lieu d'APT/dépôts externes, évitant les conflits et simplifiant la maintenance.</p>
-        <p xml:lang="pt">Lógica aprimorada para os botões de instalar/desinstalar na aba recomendada: agora eles mudam dinamicamente de estado e ação após cada operação.</p>
-        <p xml:lang="pt">O LibreWolf agora é instalado via Flatpak (Flathub) em vez de APT/repositórios externos, evitando conflitos e simplificando a manutenção.</p>
-        <p xml:lang="de">Verbesserte Logik für Installations-/Deinstallationsschaltflächen im empfohlenen Tab: Sie ändern jetzt dynamisch den Status und die Aktion nach jedem Vorgang.</p>
-        <p xml:lang="de">LibreWolf wird jetzt über Flatpak (Flathub) anstelle von APT/externalen Repositories installiert, um Konflikte zu vermeiden und die Wartung zu vereinfachen.</p>
-        <p xml:lang="it">Logica migliorata per i pulsanti di installazione/disinstallazione nella scheda consigliata: ora cambiano dinamicamente stato e azione dopo ogni operazione.</p>
-        <p xml:lang="it">LibreWolf ora viene installato tramite Flatpak (Flathub) invece di APT/repository esterni, evitando conflitti e semplificando la manutenzione.</p>
-        <p xml:lang="ru">Улучшена логика кнопок установки/удаления на вкладке рекомендаций: теперь они динамически меняют состояние и действие после каждой операции.</p>
-        <p xml:lang="ru">LibreWolf теперь устанавливается через Flatpak (Flathub), а не через APT/внешние репозитории, что предотвращает конфликты и упрощает обслуживание.</p>
-        <p xml:lang="ro">Logica îmbunătățită pentru butoanele de instalare/ dezinstalare din fila recomandată: acum acestea își schimbă starea și acțiunea dinamic după fiecare operațiune.</p>
-        <p xml:lang="ro">LibreWolf este acum instalat prin Flatpak (Flathub) în loc de APT/repo externe, evitând conflictele și simplificând întreținerea.</p>
-      </description>
-    </release>
-    <release version="1.0.9" date="2025-07-16">
-      <description>
-        <p>Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.</p>
-        <p xml:lang="es">Metainfo finalizado y validado según el estándar AppStream/DEP-11 para máxima compatibilidad en centros de software. Añadidos iconos en 48x48, 64x64 y 128x128.</p>
-        <p xml:lang="en">Metainfo finalized and validated according to AppStream/DEP-11 standard for maximum compatibility in software centers. Added icons in 48x48, 64x64 and 128x128.</p>
-        <p xml:lang="fr">Metainfo finalisé et validé selon la norme AppStream/DEP-11 pour une compatibilité maximale dans les centres logiciels. Icônes ajoutées en 48x48, 64x64 et 128x128.</p>
-        <p xml:lang="pt">Metainfo finalizado e validado de acordo com o padrão AppStream/DEP-11 para máxima compatibilidade em centros de software. Ícones adicionados em 48x48, 64x64 e 128x128.</p>
-        <p xml:lang="de">Metainfo abgeschlossen und gemäß AppStream/DEP-11-Standard validiert für maximale Kompatibilität in Software-Centern. Hinzugefügte Symbole in 48x48, 64x64 und 128x128.</p>
-        <p xml:lang="it">Metainfo finalizzato e validato secondo lo standard AppStream/DEP-11 per la massima compatibilità nei centri software. Aggiunte icone in 48x48, 64x64 e 128x128.</p>
-        <p xml:lang="ru">Metainfo завершён и проверен по стандарту AppStream/DEP-11 для максимальной совместимости в центрах программ. Добавлены иконки 48x48, 64x64 и 128x128.</p>
-        <p xml:lang="ro">Metainfo finalizat și validat conform standardului AppStream/DEP-11 pentru compatibilitate maximă în centrele software. Adăugate pictograme în 48x48, 64x64 și 128x128.</p>
-      </description>
-    </release>
-    <release version="1.0.8" date="2025-07-14">
-      <description>
-        <p>Final metainfo corrections for full compatibility and visibility in software centers (AppStream/Discover).</p>
-        <p xml:lang="es">Correcciones finales del archivo metainfo para compatibilidad y visibilidad total en centros de software (AppStream/Discover).</p>
-        <p xml:lang="fr">Corrections finales du fichier metainfo pour une compatibilité et une visibilité complètes dans les centres logiciels (AppStream/Discover).</p>
-        <p xml:lang="pt">Correções finais do arquivo metainfo para compatibilidade e visibilidade total em centros de software (AppStream/Discover).</p>
-        <p xml:lang="de">Abschließende Korrekturen der Metainfo-Datei für vollständige Kompatibilität und Sichtbarkeit in Software-Centern (AppStream/Discover).</p>
-        <p xml:lang="it">Correzioni finali del file metainfo per compatibilità e visibilità totale nei centri software (AppStream/Discover).</p>
-        <p xml:lang="ru">Финальные исправления файла metainfo для полной совместимости и видимости в центрах программ (AppStream/Discover).</p>
-        <p xml:lang="ro">Corecții finale ale fișierului metainfo pentru compatibilitate și vizibilitate completă în centrele software (AppStream/Discover).</p>
-      </description>
-    </release>
-    <release version="1.0.7" date="2025-07-13">
-      <description>
-        <p>Fixed metainfo file for proper visualization in Discover/AppStream.</p>
-        <p xml:lang="es">Corrección del archivo metainfo para visualización adecuada en Discover/AppStream.</p>
-        <p xml:lang="fr">Correction du fichier metainfo pour une visualisation correcte dans Discover/AppStream.</p>
-        <p xml:lang="pt">Correção do arquivo metainfo para visualização adequada no Discover/AppStream.</p>
-        <p xml:lang="de">Korrektur der Metainfo-Datei für die korrekte Anzeige in Discover/AppStream.</p>
-        <p xml:lang="it">Correzione del file metainfo per la corretta visualizzazione in Discover/AppStream.</p>
-        <p xml:lang="ru">Исправлен файл metainfo для корректного отображения в Discover/AppStream.</p>
-        <p xml:lang="ro">Corectarea fișierului metainfo pentru vizualizare corectă în Discover/AppStream.</p>
-      </description>
-    </release>
-    <release version="1.0.6" date="2025-06-24">
-      <description>
-        <p>Minor bug fixes, translation updates, installer improvements, updated help/donation links, and minor security enhancements.</p>
-        <p xml:lang="es">Corrección de errores menores, actualización de traducciones, mejoras en el instalador, enlaces de ayuda/donación actualizados y pequeños ajustes de seguridad.</p>
-        <p xml:lang="fr">Corrections de bugs mineurs, mises à jour des traductions, améliorations de l'installateur, liens d'aide/don actualisés et petits ajustements de sécurité.</p>
-        <p xml:lang="pt">Correções de bugs menores, atualização de traduções, melhorias no instalador, links de ajuda/doação atualizados e pequenos ajustes de segurança.</p>
-        <p xml:lang="de">Kleinere Fehlerbehebungen, Übersetzungsaktualisierungen, Verbesserungen am Installer, aktualisierte Hilfe-/Spendenlinks und kleinere Sicherheitsanpassungen.</p>
-        <p xml:lang="it">Correzioni di bug minori, aggiornamenti delle traduzioni, miglioramenti all'installer, link di aiuto/donazione aggiornati e piccoli aggiustamenti di sicurezza.</p>
-        <p xml:lang="ru">Мелкие исправления ошибок, обновления переводов, улучшения установщика, обновленные ссылки на помощь/пожертвования и небольшие улучшения безопасности.</p>
-        <p xml:lang="ro">Corecții minore de erori, actualizări de traduceri, îmbunătățiri ale programului de instalare, linkuri de ajutor/donații actualizate și mici ajustări de securitate.</p>
+        <p>Major rewrite with modern architecture and enhanced capabilities:</p>
         <ul>
-          <li>Minor bug fixes and stability improvements</li>
-          <li xml:lang="es">Corrección de errores menores y mejoras de estabilidad</li>
-          <li xml:lang="fr">Corrections de bugs mineurs et améliorations de stabilité</li>
-          <li xml:lang="pt">Correções de bugs menores e melhorias de estabilidade</li>
-          <li xml:lang="de">Kleinere Fehlerbehebungen and Stabilitätsverbesserungen</li>
-          <li xml:lang="it">Correzioni di bug minori e miglioramenti di stabilità</li>
-          <li xml:lang="ru">Мелкие исправления ошибок и улучшения стабильности</li>
-          <li xml:lang="ro">Corecții minore de erori și îmbunătățiri de stabilitate</li>
-          <li>Translation updates for all supported languages</li>
-          <li xml:lang="es">Actualización y ampliación de traducciones</li>
-          <li xml:lang="fr">Mises à jour et extension des traductions</li>
-          <li xml:lang="pt">Atualização e ampliação das traduções</li>
-          <li xml:lang="de">Aktualisierung und Erweiterung der Übersetzungen</li>
-          <li xml:lang="it">Aggiornamento e ampliamento delle traduzioni</li>
-          <li xml:lang="ru">Обновление и расширение переводов</li>
-          <li xml:lang="ro">Actualizare și extindere a traducerilor</li>
-          <li>Installer improvements and clearer error messages</li>
-          <li xml:lang="es">Mejoras en el proceso de instalación y mensajes de error</li>
-          <li xml:lang="fr">Améliorations du processus d'installation et messages d'erreur</li>
-          <li xml:lang="pt">Melhorias no processo de instalação e mensagens de erro</li>
-          <li xml:lang="de">Verbesserungen beim Installationsprozess und Fehlermeldungen</li>
-          <li xml:lang="it">Miglioramenti nel processo di installazione e messaggi di errore</li>
-          <li xml:lang="ru">Улучшения процесса установки и сообщения об ошибках</li>
-          <li xml:lang="ro">Îmbunătățiri ale procesului de instalare și mesaje de eroare</li>
-          <li>Updated help and donation links</li>
-          <li xml:lang="es">Actualización de enlaces de ayuda y donaciones</li>
-          <li xml:lang="fr">Mise à jour des liens d'aide et de dons</li>
-          <li xml:lang="pt">Atualização de links de ajuda e doação</li>
-          <li xml:lang="de">Aktualisierung von Hilfe- und Spendenlinks</li>
-          <li xml:lang="it">Aggiornamento dei link di aiuto e donazione</li>
-          <li xml:lang="ru">Обновление ссылок на помощь и пожертвования</li>
-          <li xml:lang="ro">Actualizare a linkurilor de ajutor și donații</li>
-          <li>Minor security enhancements</li>
-          <li xml:lang="es">Ajustes menores de seguridad</li>
-          <li xml:lang="fr">Petits ajustements de sécurité</li>
-          <li xml:lang="pt">Pequenos ajustes de segurança</li>
-          <li xml:lang="de">Kleinere Sicherheitsanpassungen</li>
-          <li xml:lang="it">Piccoli aggiustamenti di sicurezza</li>
-          <li xml:lang="ru">Небольшие улучшения безопасности</li>
-          <li xml:lang="ro">Ajustări minore de securitate</li>
+          <li>Complete rewrite with modular, professional architecture</li>
+          <li>Universal desktop environment support (GNOME, KDE, XFCE)</li>
+          <li>Advanced CSS-based theming system</li>
+          <li>Professional GNU Gettext internationalization</li>
+          <li>Intelligent software and hardware management</li>
+          <li>Complete X11 and Wayland compatibility</li>
+          <li>Automatic hardware scanning (CPU, GPU, RAM, storage, network, VM)</li>
+          <li>NVIDIA driver management (Latest + Legacy 470/390/340 via .run files)</li>
+          <li>AMD, Wi-Fi, and VM Tools support</li>
+          <li>One-click installation from hardware scan results</li>
+          <li>Smart driver recommendations</li>
+          <li>Kernel management (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) with NVIDIA safety checks</li>
+          <li>CPU Microcode updates (Intel and AMD automatic detection)</li>
+          <li>System maintenance tools (Clean old kernels, Update GRUB)</li>
+          <li>Recommended Tab: Batch Installation ("Selección Múltiple") mode with support for APT, Flatpak, .deb, and custom scripts (only DaVinci Resolve excluded)</li>
+          <li>Recommended Tab: Search and filter functionality to quickly find applications by name or description</li>
+          <li>Recommended Tab: Select All/Deselect All buttons for fast batch package selection</li>
+          <li>Recommended Tab: Custom script support for complex installations</li>
+          <li>Recommended Tab: Global progress bar integration</li>
+          <li>Recommended Tab: Enhanced error handling and UI stability fixes</li>
+          <li>Software updates: DaVinci Resolve (optimized custom workflow: 10x faster build, fixed installation, enhanced stability), RapidRAW, Google Antigravity, Midori</li>
+          <li>Snap Removal: Removed Snap support from Recommended software</li>
+          <li>Gaming Tab: Performance Mode with power-profiles-daemon, GPU Optimization (NVIDIA/AMD/Intel detection), Disk I/O Optimization (udev rules), RGB Gaming Theme (instant black/red neon theme toggle), Gaming Wallpapers with GNOME XML support</li>
+          <li>Gaming Launchers: Full support for 13 platforms (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) with installation/uninstallation, APT/Flatpak badges, and official package indicators</li>
+          <li>UI improvements: Category icons (VS Code, Steam)</li>
+          <li>System Integration: Fixed application icon visibility and desktop entry</li>
+          <li>Security Tab: System backups, Firewall, Antivirus, and Filesystem tools</li>
+          <li>Customization Tab: Native customization for XFCE, GNOME, and Plasma</li>
+          <li>Critical Fix: Resolved GPU detection issues (false positive AMD)</li>
+          <li>Gaming Tab: Fixed dialog messages showing line breaks correctly, improved GPU detection for VMs, removed 32-bit packages, single password prompt for all optimizations, complete Revert All functionality</li>
+          <li>Fixed KDE Plasma icon display with proper WM_CLASS</li>
+          <li>Fixed Welcome Tab autostart .desktop file creation</li>
+          <li>Fixed Flatpak installation in Tyson variant</li>
+          <li>Fixed Recommends Tab UI button alignment</li>
+          <li>Fixed Repo Selector button behavior</li>
+          <li>Updated Welcome tab URLs</li>
+          <li>Fixed UFW Firewall status detection, activation, and periodic updates</li>
+          <li>Fixed BTRFS filesystem detection for Calamares subvolumes</li>
+          <li>Fixed window deformation during downloads</li>
+          <li>Gaming Tab: Fixed wallpaper installation progress bar (now shows progress during extraction)</li>
+          <li>Gaming Tab: Added toggle functionality for Performance Mode (install/uninstall)</li>
+          <li>Gaming Tab: Safety update - Removed wallpaper uninstallation to protect system files</li>
+          <li>Gaming Tab: Updated "Revert All" dialog to accurately reflect implemented optimizations (GPU/Disk I/O)</li>
+          <li>Fixed Batch Installation: Improved reliability for Chrome, RapidRAW, Midori, and Cursor installations (now use sequential logic with dpkg -i)</li>
+          <li>Fixed Clean System: Consolidated cleanup commands into a single administrator password prompt</li>
+          <li>Fixed Recommended Tab UI: Resolved vertical scrollbar overlapping content boxes</li>
+          <li>Updated Google Antigravity: Description updated to "Advanced Agentic AI Coding Assistant"</li>
+          <li>Fixed Translations: Comprehensive cleanup of Spanish dictionary (removed duplicates, fixed fuzzy entries) and added missing gaming wallpaper confirmations</li>
+          <li>Fixed ClamAV: Resolved single password prompt issue and added missing translations for update process</li>
+          <li>Fixed Progress Bar: Corrected calculation logic to prevent percentage overflow (>100%) during batch installations</li>
+          <li>Fixed Recommended Tab Scrollbar: Resolved vertical scrollbar overlapping content boxes</li>
+          <li>Complete French Dictionary: Full revision and 100% translation (565 messages)</li>
+          <li>Complete German Dictionary: Full revision, fixed typo "Dunkle", 100% translation</li>
+          <li>Complete Italian Dictionary: Full revision and 100% translation (565 messages)</li>
+          <li>Complete Portuguese Dictionary: Full revision and 100% translation (565 messages)</li>
+          <li>Complete Romanian Dictionary: Full revision and 100% translation (565 messages)</li>
+          <li>Complete Russian Dictionary: Full revision and 100% translation (565 messages)</li>
+          <li>All 8 languages (EN, ES, DE, FR, IT, PT, RO, RU) now at 100% with 565 messages each</li>
         </ul>
       </description>
-    </release>
-    <release version="1.0.5" date="2025-01-15">
-      <description>
-        <p>Complete internationalization and software updates</p>
-        <p xml:lang="es">Internacionalización completa y actualizaciones de software</p>
-        <p xml:lang="fr">Internationalisation complète et mises à jour logicielles</p>
-        <p xml:lang="pt">Internacionalização completa e atualizações de software</p>
-        <p xml:lang="de">Vollständige Internationalisierung und Software-Updates</p>
-        <p xml:lang="it">Internazionalizzazione completa e aggiornamenti software</p>
-        <p xml:lang="ru">Полная интернационализация и обновления программного обеспечения</p>
-        <p xml:lang="ro">Internaționalizare completă și actualizări software</p>
+      <description xml:lang="es">
+        <p>Reescritura mayor con arquitectura moderna y capacidades mejoradas:</p>
         <ul>
-          <li>Full support for 8 languages (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="es">Soporte completo para 8 idiomas (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="fr">Support complet pour 8 langues (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="pt">Suporte completo para 8 idiomas (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="de">Vollständige Unterstützung für 8 Sprachen (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="it">Supporto completo per 8 lingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="ru">Полная поддержка 8 языков (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li xml:lang="ro">Suport complet pentru 8 limbi (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-          <li>Replaced Midori with Epiphany browser</li>
-          <li xml:lang="es">Reemplazado Midori por el navegador Epiphany</li>
-          <li xml:lang="fr">Remplacé Midori par le navigateur Epiphany</li>
-          <li xml:lang="pt">Substituído Midori pelo navegador Epiphany</li>
-          <li xml:lang="de">Midori durch Epiphany-Browser ersetzt</li>
-          <li xml:lang="it">Sostituito Midori con il browser Epiphany</li>
-          <li xml:lang="ru">Заменен Midori на браузер Epiphany</li>
-          <li xml:lang="ro">Înlocuit Midori cu browserul Epiphany</li>
-          <li>Replaced DaVinci Resolve with Shotcut video editor</li>
-          <li xml:lang="es">Reemplazado DaVinci Resolve por el editor de video Shotcut</li>
-          <li xml:lang="fr">Remplacé DaVinci Resolve par l'éditeur vidéo Shotcut</li>
-          <li xml:lang="pt">Substituído DaVinci Resolve pelo editor de vídeo Shotcut</li>
-          <li xml:lang="de">DaVinci Resolve durch Shotcut-Videoeditor ersetzt</li>
-          <li xml:lang="it">Sostituito DaVinci Resolve con l'editor video Shotcut</li>
-          <li xml:lang="ru">Заменен DaVinci Resolve на видеоредактор Shotcut</li>
-          <li xml:lang="ro">Înlocuit DaVinci Resolve cu editorul video Shotcut</li>
-          <li>Automatic language detection</li>
-          <li xml:lang="es">Detección automática de idioma</li>
-          <li xml:lang="fr">Détection automatique de la langue</li>
-          <li xml:lang="pt">Detecção automática de idioma</li>
-          <li xml:lang="de">Automatische Spracherkennung</li>
-          <li xml:lang="it">Rilevamento automatico della lingua</li>
-          <li xml:lang="ru">Автоматическое определение языка</li>
-          <li xml:lang="ro">Detectare automată a limbii</li>
-          <li>Enhanced user interface and stability improvements</li>
-          <li xml:lang="es">Interfaz de usuario mejorada y mejoras de estabilidad</li>
-          <li xml:lang="fr">Interface utilisateur améliorée et améliorations de stabilité</li>
-          <li xml:lang="pt">Interface de usuário aprimorada e melhorias de estabilidade</li>
-          <li xml:lang="de">Verbesserte Benutzeroberfläche und Stabilitätsverbesserungen</li>
-          <li xml:lang="it">Interfaccia utente migliorata e miglioramenti di stabilità</li>
-          <li xml:lang="ru">Улучшенный пользовательский интерфейс и повышение стабильности</li>
-          <li xml:lang="ro">Interfață de utilizator îmbunătățită și îmbunătățiri de stabilitate</li>
+          <li>Reescritura completa con arquitectura modular y profesional</li>
+          <li>Soporte universal de entornos de escritorio (GNOME, KDE, XFCE)</li>
+          <li>Sistema de temas avanzado basado en CSS</li>
+          <li>Internacionalización profesional GNU Gettext</li>
+          <li>Gestión inteligente de software y hardware</li>
+          <li>Compatibilidad completa con X11 y Wayland</li>
+          <li>Escaneo automático de hardware (CPU, GPU, RAM, almacenamiento, red, VM)</li>
+          <li>Gestión de controladores NVIDIA (Último + Legacy 470/390/340 vía archivos .run)</li>
+          <li>Soporte para AMD, Wi-Fi y herramientas VM</li>
+          <li>Instalación con un clic desde resultados de escaneo de hardware</li>
+          <li>Recomendaciones inteligentes de controladores</li>
+          <li>Gestión de núcleos (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) con verificaciones de seguridad NVIDIA</li>
+          <li>Actualizaciones de microcódigo de CPU (detección automática Intel y AMD)</li>
+          <li>Herramientas de mantenimiento del sistema (Limpiar núcleos antiguos, Actualizar GRUB)</li>
+          <li>Pestaña Recomendado: Instalación por lotes (modo "Selección Múltiple") con soporte para APT, Flatpak, .deb y scripts personalizados (solo DaVinci Resolve excluido)</li>
+          <li>Pestaña Recomendado: Búsqueda y filtrado para encontrar aplicaciones rápidamente por nombre o descripción</li>
+          <li>Pestaña Recomendado: Botones Seleccionar Todos/Deseleccionar Todos para selección rápida por lotes</li>
+          <li>Pestaña Recomendado: Soporte de scripts personalizados para instalaciones complejas</li>
+          <li>Pestaña Recomendado: Integración de barra de progreso global</li>
+          <li>Pestaña Recomendado: Manejo de errores mejorado y correcciones de estabilidad UI</li>
+          <li>Actualizaciones de software: DaVinci Resolve (flujo optimizado: compilación 10x más rápida, instalación corregida, estabilidad mejorada), RapidRAW, Google Antigravity, Midori</li>
+          <li>Eliminación de Snap: Soporte Snap eliminado del software recomendado</li>
+          <li>Gaming Tab: Modo Rendimiento con power-profiles-daemon, Optimización GPU (detección NVIDIA/AMD/Intel), Optimización Disco I/O (reglas udev), Tema RGB Gaming (tema negro/rojo neón con activación instantánea), Fondos Gaming con soporte XML GNOME</li>
+          <li>Launchers de Gaming: Soporte completo para 13 plataformas (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) con instalación/desinstalación, badges APT/Flatpak e indicadores de paquetes oficiales</li>
+          <li>Mejoras de UI: Iconos de categoría (VS Code, Steam)</li>
+          <li>Integración del sistema: Corregida visibilidad del icono de la aplicación y entrada de escritorio</li>
+          <li>Pestaña de Seguridad: Copias de seguridad, Firewall, Antivirus y herramientas de sistema de archivos</li>
+          <li>Pestaña de Personalización: Personalización nativa para XFCE, GNOME y Plasma</li>
+          <li>Corrección Crítica: Resueltos problemas de detección de GPU (falsos positivos AMD)</li>
+          <li>Gaming Tab: Corregidos mensajes de diálogo mostrando saltos de línea correctamente, mejorada detección GPU en VMs, eliminados paquetes 32-bit, un solo prompt de contraseña para todas las optimizaciones, funcionalidad Revertir Todo completa</li>
+          <li>Corregida visualización de icono en KDE Plasma con WM_CLASS adecuado</li>
+          <li>Corregida creación de archivo .desktop de autoarranque en pestaña Bienvenida</li>
+          <li>Corregida instalación Flatpak en variante Tyson</li>
+          <li>Corregida alineación de botones en pestaña Recomendados</li>
+          <li>Comportamiento corregido del botón Selector de Repositorios</li>
+          <li>URLs de la pestaña de Bienvenida actualizadas</li>
+          <li>Corregida detección, activación y actualizaciones periódicas firewall UFW</li>
+          <li>Corregida detección filesystem BTRFS para subvolúmenes Calamares</li>
+          <li>Corregida deformación ventana durante descargas</li>
+          <li>Gaming Tab: Corregida barra de progreso instalación fondos (ahora muestra progreso durante extracción)</li>
+          <li>Gaming Tab: Añadida funcionalidad de activar/desactivar para Modo Rendimiento</li>
+          <li>Gaming Tab: Actualización de seguridad - Eliminada desinstalación de fondos</li>
+          <li>Gaming Tab: Actualizado diálogo "Revertir Todo" (GPU/Disk I/O implementados)</li>
+          <li>Instalación por lotes corregida: Fiabilidad mejorada para Chrome, RapidRAW, Midori y Cursor (lógica secuencial con dpkg -i)</li>
+          <li>Limpiar Sistema: Optimizado para requerir solo una contraseña de administrador</li>
+          <li>UI: Corregido solapamiento de barra de desplazamiento en pestaña Recomendado</li>
+          <li>Actualizada descripción de Google Antigravity a "Asistente de programación IA avanzado basado en agentes"</li>
+          <li>Limpieza de traducciones: Corregidas entradas confusas y duplicados en el diccionario español, añadidas confirmaciones de fondos</li>
+          <li>Corrección actualización ClamAV: Resueltos problemas de contraseña única y traducciones faltantes</li>
+          <li>Corrección Barra de Progreso: Resuelto problema de desbordamiento (>100%) en pestaña Recomendado durante instalaciones por lotes</li>
+          <li>Corrección Barra de Desplazamiento: Resuelto solapamiento en pestaña Recomendado</li>
+          <li>Diccionario Francés Completo: Revisión completa y traducción al 100% (565 mensajes)</li>
+          <li>Diccionario Alemán Completo: Revisión completa, corregido error "Dunkle", traducción 100%</li>
+          <li>Diccionario Italiano Completo: Revisión completa y traducción al 100% (565 mensajes)</li>
+          <li>Diccionario Portugués Completo: Revisión completa y traducción al 100% (565 mensajes)</li>
+          <li>Diccionario Rumano Completo: Revisión completa y traducción al 100% (565 mensajes)</li>
+          <li>Diccionario Ruso Completo: Revisión completa y traducción al 100% (565 mensajes)</li>
+          <li>Los 8 idiomas (EN, ES, DE, FR, IT, PT, RO, RU) ahora al 100% con 565 mensajes cada uno</li>
         </ul>
       </description>
-    </release>
-    <release version="1.0.0" date="2025-05-08">
-      <description>
-        <p>Initial release</p>
-        <p xml:lang="es">Versión inicial</p>
-        <p xml:lang="fr">Version initiale</p>
-        <p xml:lang="pt">Versão inicial</p>
-        <p xml:lang="de">Erste Version</p>
-        <p xml:lang="it">Versione iniziale</p>
-        <p xml:lang="ru">Начальная версия</p>
-        <p xml:lang="ro">Versiune inițială</p>
+      <description xml:lang="fr">
+        <p>Réécriture majeure avec une architecture moderne et des capacités améliorées :</p>
+        <ul>
+          <li>Réécriture complète avec une architecture modulaire et professionnelle</li>
+          <li>Support universel des environnements de bureau (GNOME, KDE, XFCE)</li>
+          <li>Système de thèmes avancé basé sur CSS</li>
+          <li>Internationalisation professionnelle GNU Gettext</li>
+          <li>Gestion intelligente des logiciels et du matériel</li>
+          <li>Compatibilité complète X11 et Wayland</li>
+          <li>Analyse matérielle automatique (CPU, GPU, RAM, stockage, réseau, VM)</li>
+          <li>Gestion des pilotes NVIDIA (Dernier + Legacy 470/390/340 via fichiers .run)</li>
+          <li>Support AMD, Wi-Fi et outils VM</li>
+          <li>Installation en un clic depuis les résultats d'analyse matérielle</li>
+          <li>Recommandations intelligentes de pilotes</li>
+          <li>Gestion des noyaux (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) avec vérifications de sécurité NVIDIA</li>
+          <li>Mises à jour du microcode CPU (détection automatique Intel et AMD)</li>
+          <li>Outils de maintenance système (Nettoyer anciens noyaux, Mettre à jour GRUB)</li>
+          <li>Onglet Recommandé : Installation par lots (mode "Sélection Multiple") avec prise en charge APT, Flatpak, .deb et scripts personnalisés (seul DaVinci Resolve exclu)</li>
+          <li>Onglet Recommandé : Recherche et filtrage pour trouver rapidement des applications par nom ou description</li>
+          <li>Onglet Recommandé : Boutons Tout Sélectionner/Tout Désélectionner pour sélection rapide par lots</li>
+          <li>Onglet Recommandé : Support de scripts personnalisés pour installations complexes</li>
+          <li>Onglet Recommandé : Intégration de la barre de progression globale</li>
+          <li>Onglet Recommandé : Gestion des erreurs améliorée et corrections de stabilité UI</li>
+          <li>Mises à jour logicielles : DaVinci Resolve (flux optimisé : compilation 10x plus rapide, installation corrigée, stabilité améliorée), RapidRAW, Google Antigravity, Midori</li>
+          <li>Suppression de Snap : Support Snap supprimé des logiciels recommandés</li>
+          <li>Onglet Gaming: Mode Performance avec power-profiles-daemon, Optimisation GPU (détection NVIDIA/AMD/Intel), Optimisation E/S disque (règles udev), Thème RGB Gaming (activation instantanée du thème noir/rouge néon), Fonds d'écran Gaming avec support XML GNOME</li>
+          <li>Lanceurs Gaming: Support complet pour 13 plateformes (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) avec installation/désinstallation, badges APT/Flatpak et indicateurs de paquets officiels</li>
+          <li>Améliorations UI : Icônes de catégorie (VS Code, Steam)</li>
+          <li>Intégration système : Correction de la visibilité de l'icône de l'application et entrée de bureau</li>
+          <li>Onglet Sécurité: Sauvegardes système, Pare-feu, Antivirus et outils de système de fichiers</li>
+          <li>Onglet Personnalisation: Personnalisation native pour XFCE, GNOME et Plasma</li>
+          <li>Correction Critique: Résolution des problèmes de détection GPU (faux positifs AMD)</li>
+          <li>Onglet Gaming: Messages de dialogue affichant correctement les sauts de ligne, détection GPU améliorée pour les VMs, suppression des paquets 32-bit, invite de mot de passe unique pour toutes les optimisations, fonctionnalité Tout Réinitialiser complète</li>
+          <li>Correction affichage icône KDE Plasma avec WM_CLASS approprié</li>
+          <li>Correction création fichier .desktop autostart onglet Bienvenue</li>
+          <li>Correction installation Flatpak dans variante Tyson</li>
+          <li>Correction alignement boutons onglet Recommandé</li>
+          <li>Correction du comportement du bouton Sélecteur de Dépôts</li>
+          <li>Mise à jour des URL de l'onglet Bienvenue</li>
+          <li>Correction détection, activation et mises à jour périodiques pare-feu UFW</li>
+          <li>Correction détection système de fichiers BTRFS pour sous-volumes Calamares</li>
+          <li>Correction déformation fenêtre pendant téléchargements</li>
+          <li>Onglet Gaming: Correction barre progression installation fonds d'écran (pendant l'extraction)</li>
+          <li>Onglet Gaming: Ajout fonctionnalité bascule pour Mode Performance</li>
+          <li>Onglet Gaming: Mise à jour sécurité - Suppression désinstallation fonds d'écran</li>
+          <li>Onglet Gaming: Mise à jour dialogue "Tout Réinitialiser" (GPU/Disk I/O implémentés)</li>
+          <li>Installation par lots corrigée : Fiabilité améliorée pour Chrome, RapidRAW, Midori et Cursor</li>
+          <li>Nettoyer le système : Optimisé pour ne nécessiter qu'un seul mot de passe administrateur</li>
+          <li>UI : Correction du chevauchement de la barre de défilement dans l'onglet Recommandé</li>
+          <li>Mise à jour de la description de Google Antigravity</li>
+          <li>Nettoyage des traductions : Correction des entrées floues et des doublons dans le dictionnaire espagnol</li>
+          <li>Correction mise à jour ClamAV : Résolution des problèmes de mot de passe unique et de traductions manquantes</li>
+          <li>Correction barre de progression : Résolution du problème de dépassement (>100%) dans l'onglet Recommandé</li>
+          <li>Correction barre de défilement : Résolution du chevauchement dans l'onglet Recommandé</li>
+          <li>Dictionnaire français complet : Révision complète et traduction à 100% (565 messages)</li>
+          <li>Dictionnaire allemand complet : Révision complète, correction "Dunkle", traduction 100%</li>
+          <li>Dictionnaire italien complet : Révision complète et traduction à 100% (565 messages)</li>
+          <li>Dictionnaire portugais complet : Révision complète et traduction à 100% (565 messages)</li>
+          <li>Dictionnaire roumain complet : Révision complète et traduction à 100% (565 messages)</li>
+          <li>Dictionnaire russe complet : Révision complète et traduction à 100% (565 messages)</li>
+          <li>Les 8 langues (EN, ES, DE, FR, IT, PT, RO, RU) maintenant à 100% avec 565 messages chacune</li>
+        </ul>
+      </description>
+      <description xml:lang="pt">
+        <p>Reescrita principal com arquitetura moderna e capacidades aprimoradas:</p>
+        <ul>
+          <li>Reescrita completa com arquitetura modular e profissional</li>
+          <li>Suporte universal a ambientes de desktop (GNOME, KDE, XFCE)</li>
+          <li>Sistema de temas avançado baseado em CSS</li>
+          <li>Internacionalização profissional GNU Gettext</li>
+          <li>Gestão inteligente de software e hardware</li>
+          <li>Compatibilidade completa com X11 e Wayland</li>
+          <li>Verificação automática de hardware (CPU, GPU, RAM, armazenamento, rede, VM)</li>
+          <li>Gestão de drivers NVIDIA (Recente + Legacy 470/390/340 via arquivos .run)</li>
+          <li>Suporte a AMD, Wi-Fi e ferramentas VM</li>
+          <li>Instalação com um clique a partir dos resultados da verificação de hardware</li>
+          <li>Recomendações inteligentes de drivers</li>
+          <li>Gestão de kernels (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) com verificações de segurança NVIDIA</li>
+          <li>Atualizações de microcode de CPU (detecção automática Intel e AMD)</li>
+          <li>Ferramentas de manutenção do sistema (Limpar kernels antigos, Atualizar GRUB)</li>
+          <li>Aba Recomendado: Instalação em lote (modo "Seleção Múltipla") com suporte para APT, Flatpak, .deb e scripts personalizados (apenas DaVinci Resolve excluído)</li>
+          <li>Aba Recomendado: Pesquisa e filtragem para encontrar aplicativos rapidamente por nome ou descrição</li>
+          <li>Aba Recomendado: Botões Selecionar Todos/Desselecionar Todos para seleção rápida em lote</li>
+          <li>Aba Recomendado: Suporte a scripts personalizados para instalações complexas</li>
+          <li>Aba Recomendado: Integração de barra de progresso global</li>
+          <li>Aba Recomendado: Tratamento de erros aprimorado e correções de estabilidade da UI</li>
+          <li>Atualizações de software: DaVinci Resolve (fluxo otimizado: compilação 10x mais rápida, instalação corrigida, estabilidade aprimorada), RapidRAW, Google Antigravity, Midori</li>
+          <li>Remoção do Snap: Suporte Snap removido do software recomendado</li>
+          <li>Aba Gaming: Modo Desempenho com power-profiles-daemon, Otimização GPU (detecção NVIDIA/AMD/Intel), Otimização E/S disco (regras udev), Tema RGB Gaming (ativação instantânea do tema preto/vermelho neon), Papéis de Parede Gaming com suporte XML GNOME</li>
+          <li>Launchers de Gaming: Suporte completo para 13 plataformas (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) com instalação/desinstalação, badges APT/Flatpak e indicadores de pacotes oficiais</li>
+          <li>Melhorias de UI: Ícones de categoria (VS Code, Steam)</li>
+          <li>Integração do sistema: Correção da visibilidade do ícone do aplicativo e entrada na área de trabalho</li>
+          <li>Aba de Segurança: Backups do sistema, Firewall, Antivírus e ferramentas de sistema de arquivos</li>
+          <li>Aba de Personalização: Personalização nativa para XFCE, GNOME e Plasma</li>
+          <li>Correção Crítica: Resolvidos problemas de detecção de GPU (falsos positivos AMD)</li>
+          <li>Aba Gaming: Mensagens de diálogo exibindo quebras de linha corretamente, detecção de GPU melhorada para VMs, removidos pacotes 32-bit, prompt de senha único para todas as otimizações, funcionalidade Reverter Tudo completa</li>
+          <li>Corrigida exibição ícone KDE Plasma com WM_CLASS adequado</li>
+          <li>Corrigida criação arquivo .desktop autostart aba Boas-vindas</li>
+          <li>Corrigida instalação Flatpak na variante Tyson</li>
+          <li>Corrigido alinhamento botões aba Recomendado</li>
+          <li>Comportamento corrigido do botão Seletor de Repositórios</li>
+          <li>URLs da guia Boas-vindas atualizadas</li>
+          <li>Corrigida detecção, ativação e atualizações periódicas firewall UFW</li>
+          <li>Corrigida detecção sistema de arquivos BTRFS para subvolumes Calamares</li>
+          <li>Corrigida deformação janela durante downloads</li>
+          <li>Aba Gaming: Corrigida barra de progresso instalação papéis de parede (durante extração)</li>
+          <li>Aba Gaming: Adicionada funcionalidade de alternância para Modo Desempenho</li>
+          <li>Aba Gaming: Atualização de segurança - Removida desinstalação de papéis de parede</li>
+          <li>Aba Gaming: Atualizado diálogo "Reverter Tudo" (GPU/Disk I/O implementados)</li>
+          <li>Instalação em lote corrigida: Confiabilidade aprimorada para Chrome, RapidRAW, Midori e Cursor</li>
+          <li>Limpar Sistema: Otimizado para exigir apenas uma senha de administrador</li>
+          <li>UI: Corrigida sobreposição da barra de rolagem na aba Recomendado</li>
+          <li>Atualizada descrição do Google Antigravity</li>
+          <li>Limpeza de traduções: Corrigidas entradas confusas e duplicatas no dicionário espanhol</li>
+          <li>Correção atualização ClamAV: Resolvidos problemas de senha única e traduções ausentes</li>
+          <li>Correção Barra de Progresso: Resolvido problema de estouro (>100%) na aba Recomendado durante instalações em lote</li>
+          <li>Correção Barra de Rolagem: Resolvida sobreposição na aba Recomendado</li>
+          <li>Dicionário Francês Completo: Revisão completa e tradução a 100% (565 mensagens)</li>
+          <li>Dicionário Alemão Completo: Revisão completa, corrigido erro "Dunkle", tradução 100%</li>
+          <li>Dicionário Italiano Completo: Revisão completa e tradução a 100% (565 mensagens)</li>
+          <li>Dicionário Português Completo: Revisão completa e tradução a 100% (565 mensagens)</li>
+          <li>Dicionário Romeno Completo: Revisão completa e tradução a 100% (565 mensagens)</li>
+          <li>Dicionário Russo Completo: Revisão completa e tradução a 100% (565 mensagens)</li>
+          <li>Os 8 idiomas (EN, ES, DE, FR, IT, PT, RO, RU) agora a 100% com 565 mensagens cada</li>
+        </ul>
+      </description>
+      <description xml:lang="de">
+        <p>Große Neufassung mit moderner Architektur und erweiterten Funktionen:</p>
+        <ul>
+          <li>Komplette Neufassung mit modularer, professioneller Architektur</li>
+          <li>Universelle Desktop-Umgebungsunterstützung (GNOME, KDE, XFCE)</li>
+          <li>Erweitertes CSS-basiertes Themensystem</li>
+          <li>Professionelle GNU Gettext Internationalisierung</li>
+          <li>Intelligentes Software- und Hardware-Management</li>
+          <li>Vollständige X11- und Wayland-Kompatibilität</li>
+          <li>Automatischer Hardware-Scan (CPU, GPU, RAM, Speicher, Netzwerk, VM)</li>
+          <li>NVIDIA-Treiberverwaltung (Aktuell + Legacy 470/390/340 über .run-Dateien)</li>
+          <li>Unterstützung für AMD, Wi-Fi und VM-Tools</li>
+          <li>Ein-Klick-Installation aus Hardware-Scan-Ergebnissen</li>
+          <li>Intelligente Treiberempfehlungen</li>
+          <li>Kernel-Verwaltung (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) mit NVIDIA-Sicherheitsprüfungen</li>
+          <li>CPU-Mikrocode-Updates (automatische Erkennung von Intel und AMD)</li>
+          <li>Systemwartungstools (Alte Kernel bereinigen, GRUB aktualisieren)</li>
+          <li>Empfohlen-Tab: Batch-Installation ("Mehrfachauswahl"-Modus) mit Unterstützung für APT, Flatpak, .deb und benutzerdefinierte Skripte (nur DaVinci Resolve ausgeschlossen)</li>
+          <li>Empfohlen-Tab: Suche und Filterung, um Anwendungen schnell nach Name oder Beschreibung zu finden</li>
+          <li>Empfohlen-Tab: Alles Auswählen/Alles Abwählen Schaltflächen für schnelle Batch-Auswahl</li>
+          <li>Empfohlen-Tab: Unterstützung für benutzerdefinierte Skripte für komplexe Installationen</li>
+          <li>Empfohlen-Tab: Globale Fortschrittsbalken-Integration</li>
+          <li>Empfohlen-Tab: Verbesserte Fehlerbehandlung und UI-Stabilitätskorrekturen</li>
+          <li>Software-Updates: DaVinci Resolve (optimierter Workflow: 10x schnellerer Build, korrigierte Installation, verbesserte Stabilität), RapidRAW, Google Antigravity, Midori</li>
+          <li>Snap-Entfernung: Snap-Unterstützung aus empfohlener Software entfernt</li>
+          <li>Gaming-Tab: Leistungsmodus mit power-profiles-daemon, GPU-Optimierung (Erkennung NVIDIA/AMD/Intel), Festplatten-E/A-Optimierung (udev-Regeln), RGB Gaming-Design (sofortige Umschaltung auf schwarz/rot Neon-Design), Gaming-Hintergrundbilder mit GNOME XML-Unterstützung</li>
+          <li>Gaming-Launcher: Vollständige Unterstützung für 13 Plattformen (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) mit Installation/Deinstallation, APT/Flatpak-Badges und offiziellen Paket-Indikatoren</li>
+          <li>UI-Verbesserungen: Kategoriesymbole (VS Code, Steam)</li>
+          <li>Systemintegration: Korrigierte Sichtbarkeit des Anwendungssymbols und Desktop-Eintrag</li>
+          <li>Sicherheits-Tab: System-Backups, Firewall, Antivirus und Dateisystem-Tools</li>
+          <li>Anpassungs-Tab: Native Anpassung für XFCE, GNOME und Plasma</li>
+          <li>Kritische Korrektur: GPU-Erkennungsprobleme behoben (falsche AMD-Positivmeldungen)</li>
+          <li>Gaming-Tab: Dialog-Nachrichten zeigen korrekt Zeilenumbrüche, verbesserte GPU-Erkennung für VMs, entfernte 32-Bit-Pakete, einzelne Passwortabfrage für alle Optimierungen, vollständige Alles-Zurücksetzen-Funktionalität</li>
+          <li>Korrigierte KDE Plasma Symbol-Anzeige mit WM_CLASS</li>
+          <li>Korrigierte .desktop Autostart-Datei Erstellung Willkommens-Tab</li>
+          <li>Korrigierte Flatpak-Installation in Tyson-Variante</li>
+          <li>Korrigierte Button-Ausrichtung Empfohlen-Tab</li>
+          <li>Korrigiertes Verhalten der Repo-Auswahltaste</li>
+          <li>Aktualisierte URLs im Willkommens-Tab</li>
+          <li>Korrigierte UFW-Firewall-Statuserkennung, -Aktivierung und periodische Updates</li>
+          <li>Korrigierte BTRFS-Dateisystemerkennung für Calamares-Subvolumes</li>
+          <li>Korrigierte Fensterverformung während Downloads</li>
+          <li>Gaming-Tab: Fortschrittsbalken Installation Wallpaper korrigiert (während Entpacken)</li>
+          <li>Gaming-Tab: Umschaltfunktion für Leistungsmodus hinzugefügt</li>
+          <li>Gaming-Tab: Sicherheitsupdate - Deinstallation von Wallpapern entfernt</li>
+          <li>Gaming-Tab: Dialog "Alles zurücksetzen" aktualisiert (GPU/Disk I/O implementiert)</li>
+          <li>Batch-Installation korrigiert: Verbesserte Zuverlässigkeit für Chrome, RapidRAW, Midori und Cursor</li>
+          <li>System bereinigen: Optimiert, um nur eine Administrator-Passwortabfrage zu benötigen</li>
+          <li>UI: Scrollbalken-Überlappung im Empfohlen-Tab behoben</li>
+          <li>Google Antigravity Beschreibung aktualisiert</li>
+          <li>Übersetzungsbereinigung: Unklare Einträge und Duplikate im spanischen Wörterbuch korrigiert</li>
+          <li>ClamAV-Update korrigiert: Einzel-Passwortabfrage und fehlende Übersetzungen behoben</li>
+          <li>Fortschrittsbalken korrigiert: Überlaufproblem (>100%) im Empfohlen-Tab behoben</li>
+          <li>Scrollbalken korrigiert: Überlappung im Empfohlen-Tab behoben</li>
+          <li>Französisches Wörterbuch vollständig: Komplette Überarbeitung und 100% Übersetzung (565 Nachrichten)</li>
+          <li>Deutsches Wörterbuch vollständig: Komplette Überarbeitung, Tippfehler "Dunkle" korrigiert, 100% Übersetzung</li>
+          <li>Italienisches Wörterbuch vollständig: Komplette Überarbeitung und 100% Übersetzung (565 Nachrichten)</li>
+          <li>Portugiesisches Wörterbuch vollständig: Komplette Überarbeitung und 100% Übersetzung (565 Nachrichten)</li>
+          <li>Rumänisches Wörterbuch vollständig: Komplette Überarbeitung und 100% Übersetzung (565 Nachrichten)</li>
+          <li>Russisches Wörterbuch vollständig: Komplette Überarbeitung und 100% Übersetzung (565 Nachrichten)</li>
+          <li>Alle 8 Sprachen (EN, ES, DE, FR, IT, PT, RO, RU) jetzt 100% mit je 565 Nachrichten</li>
+        </ul>
+      </description>
+      <description xml:lang="it">
+        <p>Riscrittura completa con architettura moderna e funzionalità migliorate:</p>
+        <ul>
+          <li>Riscrittura completa con architettura modulare e professionale</li>
+          <li>Supporto universale per ambienti desktop (GNOME, KDE, XFCE)</li>
+          <li>Sistema di temi avanzato basato su CSS</li>
+          <li>Internazionalizzazione professionale GNU Gettext</li>
+          <li>Gestione intelligente di software e hardware</li>
+          <li>Compatibilità completa X11 e Wayland</li>
+          <li>Scansione hardware automatica (CPU, GPU, RAM, archiviazione, rete, VM)</li>
+          <li>Gestione driver NVIDIA (Ultimi + Legacy 470/390/340 via file .run)</li>
+          <li>Supporto AMD, Wi-Fi e strumenti VM</li>
+          <li>Installazione con un clic dai risultati della scansione hardware</li>
+          <li>Raccomandazioni intelligenti dei driver</li>
+          <li>Gestione kernel (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) con controlli di sicurezza NVIDIA</li>
+          <li>Aggiornamenti microcodice CPU (rilevamento automatico Intel e AMD)</li>
+          <li>Strumenti di manutenzione del sistema (Pulizia vecchi kernel, Aggiornamento GRUB)</li>
+          <li>Scheda Consigliati: Installazione batch (modalità "Selezione Multipla") con supporto per APT, Flatpak, .deb e script personalizzati (solo DaVinci Resolve escluso)</li>
+          <li>Scheda Consigliati: Ricerca e filtro per trovare rapidamente applicazioni per nome o descrizione</li>
+          <li>Scheda Consigliati: Pulsanti Seleziona Tutto/Deseleziona Tutto per selezione batch rapida</li>
+          <li>Scheda Consigliati: Supporto script personalizzati per installazioni complesse</li>
+          <li>Scheda Consigliati: Integrazione barra di avanzamento globale</li>
+          <li>Scheda Consigliati: Gestione errori migliorata e correzioni stabilità UI</li>
+          <li>Aggiornamenti software: DaVinci Resolve (flusso ottimizzato: build 10x più veloce, installazione corretta, stabilità migliorata), RapidRAW, Google Antigravity, Midori</li>
+          <li>Rimozione Snap: Supporto Snap rimosso dal software consigliato</li>
+          <li>Scheda Gaming: Modalità Prestazioni con power-profiles-daemon, Ottimizzazione GPU (rilevamento NVIDIA/AMD/Intel), Ottimizzazione I/O disco (regole udev), Tema RGB Gaming (attivazione istantanea del tema nero/rosso neon), Sfondi Gaming con supporto XML GNOME</li>
+          <li>Launcher Gaming: Supporto completo per 13 piattaforme (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) con installazione/disinstallazione, badge APT/Flatpak e indicatori di pacchetti ufficiali</li>
+          <li>Miglioramenti UI: Icone di categoria (VS Code, Steam)</li>
+          <li>Integrazione sistema: Corretta visibilità icona applicazione e voce desktop</li>
+          <li>Scheda Sicurezza: Backup di sistema, Firewall, Antivirus e strumenti per file system</li>
+          <li>Scheda Personalizzazione: Personalizzazione nativa per XFCE, GNOME e Plasma</li>
+          <li>Correzione Critica: Risolti problemi di rilevamento GPU (falsi positivi AMD)</li>
+          <li>Scheda Gaming: Messaggi di dialogo visualizzano correttamente interruzioni di riga, migliorato rilevamento GPU per VM, rimossi pacchetti 32-bit, richiesta password singola per tutte le ottimizzazioni, funzionalità Ripristina Tutto completa</li>
+          <li>Corretta visualizzazione icona KDE Plasma con WM_CLASS</li>
+          <li>Corretta creazione file .desktop autostart scheda Benvenuto</li>
+          <li>Corretta installazione Flatpak nella variante Tyson</li>
+          <li>Corretto allineamento pulsanti scheda Consigliati</li>
+          <li>Corretto comportamento del pulsante Selettore Repo</li>
+          <li>URL della scheda Benvenuto aggiornati</li>
+          <li>Corretta rilevamento, attivazione e aggiornamenti periodici firewall UFW</li>
+          <li>Corretta rilevamento filesystem BTRFS per sottovolumi Calamares</li>
+          <li>Corretta deformazione finestra durante download</li>
+          <li>Scheda Gaming: Corretta barra avanzamento installazione sfondi (durante estrazione)</li>
+          <li>Scheda Gaming: Aggiunta funzionalità attiva/disattiva Modalità Prestazioni</li>
+          <li>Scheda Gaming: Aggiornamento sicurezza - Rimossa disinstallazione sfondi</li>
+          <li>Scheda Gaming: Aggiornato dialogo "Ripristina Tutto" (GPU/Disk I/O implementati)</li>
+          <li>Installazione batch corretta: Affidabilità migliorata per Chrome, RapidRAW, Midori e Cursor</li>
+          <li>Pulisci Sistema: Ottimizzato per richiedere una sola password amministratore</li>
+          <li>UI: Risolto sovrapposizione barra di scorrimento nella scheda Consigliati</li>
+          <li>Aggiornata descrizione di Google Antigravity</li>
+          <li>Pulizia traduzioni: Corrette voci confuse e duplicati nel dizionario spagnolo</li>
+          <li>Correzione aggiornamento ClamAV: Risolti problemi di password unica e traduzioni mancanti</li>
+          <li>Correzione Barra di Avanzamento: Risolto problema di overflow (>100%) nella scheda Consigliati</li>
+          <li>Correzione Barra di Scorrimento: Risolta sovrapposizione nella scheda Consigliati</li>
+          <li>Dizionario Francese Completo: Revisione completa e traduzione al 100% (565 messaggi)</li>
+          <li>Dizionario Tedesco Completo: Revisione completa, corretto errore "Dunkle", traduzione 100%</li>
+          <li>Dizionario Italiano Completo: Revisione completa e traduzione al 100% (565 messaggi)</li>
+          <li>Dizionario Portoghese Completo: Revisione completa e traduzione al 100% (565 messaggi)</li>
+          <li>Dizionario Romeno Completo: Revisione completa e traduzione al 100% (565 messaggi)</li>
+          <li>Dizionario Russo Completo: Revisione completa e traduzione al 100% (565 messaggi)</li>
+          <li>Tutte le 8 lingue (EN, ES, DE, FR, IT, PT, RO, RU) ora al 100% con 565 messaggi ciascuna</li>
+        </ul>
+      </description>
+      <description xml:lang="ru">
+        <p>Крупная переработка с современной архитектурой и улучшенными возможностями:</p>
+        <ul>
+          <li>Полная переработка с модульной, профессиональной архитектурой</li>
+          <li>Универсальная поддержка окружений рабочего стола (GNOME, KDE, XFCE)</li>
+          <li>Продвинутая система тем на основе CSS</li>
+          <li>Профессиональная интернационализация GNU Gettext</li>
+          <li>Умное управление программным и аппаратным обеспечением</li>
+          <li>Полная совместимость с X11 и Wayland</li>
+          <li>Автоматическое сканирование оборудования (CPU, GPU, RAM, накопители, сеть, VM)</li>
+          <li>Управление драйверами NVIDIA (Последние + Legacy 470/390/340 через .run файлы)</li>
+          <li>Поддержка AMD, Wi-Fi и инструментов VM</li>
+          <li>Установка в один клик из результатов сканирования</li>
+          <li>Умные рекомендации драйверов</li>
+          <li>Управление ядрами (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) с проверками безопасности NVIDIA</li>
+          <li>Обновления микрокода CPU (автоопределение Intel и AMD)</li>
+          <li>Инструменты обслуживания системы (Очистка старых ядер, Обновление GRUB)</li>
+          <li>Вкладка Рекомендуемое: Пакетная установка (режим "Множественный выбор") с поддержкой APT, Flatpak, .deb и пользовательских скриптов (только DaVinci Resolve исключен)</li>
+          <li>Вкладка Рекомендуемое: Поиск и фильтрация для быстрого нахождения приложений по названию или описанию</li>
+          <li>Вкладка Рекомендуемое: Кнопки Выбрать Всё/Снять Всё для быстрого пакетного выбора</li>
+          <li>Вкладка Рекомендуемое: Поддержка пользовательских скриптов для сложных установок</li>
+          <li>Вкладка Рекомендуемое: Интеграция глобального прогресс-бара</li>
+          <li>Вкладка Рекомендуемое: Улучшенная обработка ошибок и исправления стабильности UI</li>
+          <li>Обновления ПО: DaVinci Resolve (оптимизированный процесс: сборка в 10 раз быстрее, исправленная установка, улучшенная стабильность), RapidRAW, Google Antigravity, Midori</li>
+          <li>Удаление Snap: Поддержка Snap удалена из рекомендуемого ПО</li>
+          <li>Вкладка Gaming: Режим производительности с power-profiles-daemon, Оптимизация GPU (обнаружение NVIDIA/AMD/Intel), Оптимизация дискового ввода-вывода (правила udev), RGB Gaming Тема (мгновенное переключение черно-красной неоновой темы), Игровые обои с поддержкой GNOME XML</li>
+          <li>Игровые лаунчеры: Полная поддержка 13 платформ (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) с установкой/удалением, значками APT/Flatpak и индикаторами официальных пакетов</li>
+          <li>Улучшения UI: Иконки категорий (VS Code, Steam)</li>
+          <li>Системная интеграция: Исправлена видимость иконки приложения и запись рабочего стола</li>
+          <li>Вкладка Безопасность: Резервные копии системы, Firewall, Антивирус и инструменты файловой системы</li>
+          <li>Вкладка Настройка: Встроенная настройка для XFCE, GNOME и Plasma</li>
+          <li>Критическое Исправление: Решены проблемы обнаружения GPU (ложные срабатывания AMD)</li>
+          <li>Вкладка Gaming: Диалоговые сообщения правильно показывают переносы строк, улучшено обнаружение GPU для VM, удалены 32-битные пакеты, единственный запрос пароля для всех оптимизаций, полная функциональность Вернуть Всё</li>
+          <li>Исправлено отображение иконки KDE Plasma с WM_CLASS</li>
+          <li>Исправлено создание файла .desktop автозапуска вкладка Приветствие</li>
+          <li>Исправлена установка Flatpak в варианте Tyson</li>
+          <li>Исправлено выравнивание кнопок вкладка Рекомендуемое</li>
+          <li>Исправлено поведение кнопки выбора репозитория</li>
+          <li>Обновлены URL вкладки приветствия</li>
+          <li>Исправлено обнаружение, активация и периодические обновления брандмауэра UFW</li>
+          <li>Исправлено обнаружение файловой системы BTRFS для подтомов Calamares</li>
+          <li>Исправлена деформация окна во время загрузок</li>
+          <li>Вкладка Gaming: Исправлен прогресс-бар установки обоев (во время распаковки)</li>
+          <li>Вкладка Gaming: Добавлен переключатель для Режима производительности</li>
+          <li>Вкладка Gaming: Обновление безопасности - Удалена деинсталляция обоев</li>
+          <li>Вкладка Gaming: Обновлен диалог "Вернуть Всё" (GPU/Disk I/O реализованы)</li>
+          <li>Исправлена пакетная установка: Улучшена надежность для Chrome, RapidRAW, Midori и Cursor</li>
+          <li>Очистка системы: Оптимизировано для запроса только одного пароля администратора</li>
+          <li>UI: Исправлено наложение полосы прокрутки во вкладке Рекомендуемое</li>
+          <li>Обновлено описание Google Antigravity</li>
+          <li>Очистка переводов: Исправлены нечеткие записи и дубликаты в испанском словаре</li>
+          <li>Исправлено обновление ClamAV: Решены проблемы с паролем и отсутствующими переводами</li>
+          <li>Исправлен прогресс-бар: Решена проблема переполнения (>100%) во вкладке Рекомендуемое</li>
+          <li>Исправлена полоса прокрутки: Решена проблема наложения во вкладке Рекомендуемое</li>
+          <li>Полный французский словарь: Полная ревизия и 100% перевод (565 сообщений)</li>
+          <li>Полный немецкий словарь: Полная ревизия, исправлена опечатка "Dunkle", 100% перевод</li>
+          <li>Полный итальянский словарь: Полная ревизия и 100% перевод (565 сообщений)</li>
+          <li>Полный португальский словарь: Полная ревизия и 100% перевод (565 сообщений)</li>
+          <li>Полный румынский словарь: Полная ревизия и 100% перевод (565 сообщений)</li>
+          <li>Полный русский словарь: Полная ревизия и 100% перевод (565 сообщений)</li>
+          <li>Все 8 языков (EN, ES, DE, FR, IT, PT, RO, RU) теперь на 100% с 565 сообщениями каждый</li>
+        </ul>
+      </description>
+      <description xml:lang="ro">
+        <p>Rescriere majoră cu arhitectură modernă și capacități îmbunătățite:</p>
+        <ul>
+          <li>Rescriere completă cu arhitectură modulară și profesională</li>
+          <li>Suport universal pentru medii desktop (GNOME, KDE, XFCE)</li>
+          <li>Sistem avansat de teme bazat pe CSS</li>
+          <li>Internaționalizare profesională GNU Gettext</li>
+          <li>Gestionare inteligentă software și hardware</li>
+          <li>Compatibilitate completă X11 și Wayland</li>
+          <li>Scanare automată hardware (CPU, GPU, RAM, stocare, rețea, VM)</li>
+          <li>Gestionare drivere NVIDIA (Ultimele + Legacy 470/390/340 via fișiere .run)</li>
+          <li>Suport AMD, Wi-Fi și instrumente VM</li>
+          <li>Instalare cu un clic din rezultatele scanării hardware</li>
+          <li>Recomandări inteligente de drivere</li>
+          <li>Gestionare kerneluri (Liquorix, XanMod x64v3/x64v4/EDGE/LTS) cu verificări de securitate NVIDIA</li>
+          <li>Actualizări microcode CPU (detectare automată Intel și AMD)</li>
+          <li>Instrumente de întreținere sistem (Curățare kerneluri vechi, Actualizare GRUB)</li>
+          <li>Tab Recomandat: Instalare în lot (modul "Selecție Multiplă") cu suport pentru APT, Flatpak, .deb și scripturi personalizate (doar DaVinci Resolve exclus)</li>
+          <li>Tab Recomandat: Căutare și filtrare pentru găsirea rapidă a aplicațiilor după nume sau descriere</li>
+          <li>Tab Recomandat: Butoane Selectează Toate/Deselectează Toate pentru selecție rapidă în lot</li>
+          <li>Tab Recomandat: Suport scripturi personalizate pentru instalări complexe</li>
+          <li>Tab Recomandat: Integrare bară de progres globală</li>
+          <li>Tab Recomandat: Gestionare erori îmbunătățită și corecții stabilitate UI</li>
+          <li>Actualizări software: DaVinci Resolve (flux optimizat: compilare de 10x mai rapidă, instalare corectată, stabilitate îmbunătățită), RapidRAW, Google Antigravity, Midori</li>
+          <li>Eliminare Snap: Suport Snap eliminat din software-ul recomandat</li>
+          <li>Tab Gaming: Mod Performanță cu power-profiles-daemon, Optimizare GPU (detectare NVIDIA/AMD/Intel), Optimizare I/O disc (reguli udev), Temă RGB Gaming (activare instantanee a temei negru/roșu neon), Fundaluri Gaming cu suport XML GNOME</li>
+          <li>Launchere Gaming: Suport complet pentru 13 platforme (Steam, Lutris, Heroic, Bottles, Vinegar, R2ModMan, Prism, Itch.io, Minigalaxy, RetroArch, Moonlight, Chiaki, Discord) cu instalare/dezinstalare, badge APT/Flatpak și indicatori de pachete oficiale</li>
+          <li>Îmbunătățiri UI: Pictograme categorii (VS Code, Steam)</li>
+          <li>Integrare sistem: Corectată vizibilitatea pictogramei aplicației și intrarea desktop</li>
+          <li>Tab Securitate: Backup-uri de sistem, Firewall, Antivirus și instrumente pentru sistem de fișiere</li>
+          <li>Tab Personalizare: Personalizare nativă pentru XFCE, GNOME și Plasma</li>
+          <li>Corectare Critică: Rezolvate problemele de detectare GPU (fals pozitive AMD)</li>
+          <li>Tab Gaming: Mesajele de dialog afișează corect întreruperile de linie, detectare GPU îmbunătățită pentru VM-uri, eliminate pachetele 32-bit, solicitare unică de parolă pentru toate optimizările, funcționalitate completă Resetare Totală</li>
+          <li>Corectată afișare pictogramă KDE Plasma cu WM_CLASS</li>
+          <li>Corectată creare fișier .desktop autostart tab Bun venit</li>
+          <li>Corectată instalare Flatpak în varianta Tyson</li>
+          <li>Corectat aliniere butoane tab Recomandat</li>
+          <li>Comportament corectat al butonului Selector Repo</li>
+          <li>Actualizare URL-uri tab Bun venit</li>
+          <li>Corectată detectare, activare și actualizări periodice firewall UFW</li>
+          <li>Corectată detectare sistem fișiere BTRFS pentru subvolume Calamares</li>
+          <li>Corectată deformare fereastră în timpul descărcărilor</li>
+          <li>Tab Gaming: Corectată bara progres instalare fundaluri (în timpul extracției)</li>
+          <li>Tab Gaming: Adăugată funcționalitate comutare Mod Performanță</li>
+          <li>Tab Gaming: Actualizare securitate - Eliminată dezinstalare fundaluri</li>
+          <li>Tab Gaming: Actualizat dialog "Resetare Totală" (GPU/Disk I/O implementate)</li>
+          <li>Instalare în lot corectată: Fiabilitate îmbunătățită pentru Chrome, RapidRAW, Midori și Cursor</li>
+          <li>Curățare Sistem: Optimizat pentru a necesita o singură parolă de administrator</li>
+          <li>UI: Corectată suprapunerea barei de derulare în tab-ul Recomandat</li>
+          <li>Actualizată descrierea Google Antigravity</li>
+          <li>Curățare traduceri: Corectate intrările neclare și duplicatele din dicționarul spaniol</li>
+          <li>Corecție actualizare ClamAV: Rezolvate problemele cu parola unică și traducerile lipsă</li>
+          <li>Corecție Bară de Progres: Rezolvată problema depășirii (>100%) în tab-ul Recomandat</li>
+          <li>Corecție Bară de Derulare: Rezolvată suprapunerea în tab-ul Recomandat</li>
+          <li>Dicționar Francez Complet: Revizie completă și traducere 100% (565 mesaje)</li>
+          <li>Dicționar German Complet: Revizie completă, corectată greșeală "Dunkle", traducere 100%</li>
+          <li>Dicționar Italian Complet: Revizie completă și traducere 100% (565 mesaje)</li>
+          <li>Dicționar Portughez Complet: Revizie completă și traducere 100% (565 mesaje)</li>
+          <li>Dicționar Român Complet: Revizie completă și traducere 100% (565 mesaje)</li>
+          <li>Dicționar Rus Complet: Revizie completă și traducere 100% (565 mesaje)</li>
+          <li>Toate cele 8 limbi (EN, ES, DE, FR, IT, PT, RO, RU) acum la 100% cu 565 mesaje fiecare</li>
+        </ul>
       </description>
     </release>
   </releases>
 
-  <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="social-chat">none</content_attribute>
-  </content_rating>
+  <content_rating type="oars-1.1" />
 
-  <languages>
-    <lang percentage="100">es</lang>
-    <lang percentage="100">en</lang>
-    <lang percentage="100">fr</lang>
-    <lang percentage="100">pt</lang>
-    <lang percentage="100">de</lang>
-    <lang percentage="100">it</lang>
-    <lang percentage="100">ru</lang>
-    <lang percentage="100">ro</lang>
-  </languages>
+  <update_contact>info@soploslinux.com</update_contact>
+
 </component>
