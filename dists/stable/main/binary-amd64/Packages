@@ -177,19 +177,19 @@ MD5sum: 1af6b5b6cc2ae5d42e57f9eeb4bab0be
 Description: Plymouth boot splash theme manager for Soplos Linux
 
 Package: soplos-plymouth-theme
-Version: 0.0.1
+Version: 0.0.2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plymouth-theme/soplos-plymouth-theme_0.0.1_all.deb
-Size: 255032
-SHA256: f13d97d276a459ed2e4e3e7c097c927dc5c0f1e2c486889a02f1a8b142c115d5
-SHA1: cfac9c8239e3d49fc10f0d68923db54deabbe677
-MD5sum: 31de257b46e736d108294d957d738460
+Filename: pool/main/s/soplos-plymouth-theme/soplos-plymouth-theme_0.0.2_all.deb
+Size: 666400
+SHA256: 0316b4990db173efd5d33f27f4df09a76b4be6e6f8c33731efd6b84abda88c50
+SHA1: 27cada32ca112fd74dd78e7b08cb78ddc83f87ed
+MD5sum: 97e29bbd869f19fbf8cfd2b4596a775f
 Description: Soplos Plymouth theme.
  This package provides the Soplos Plymouth theme, including all required images and configuration for Plymouth boot splash.
- Build date: 2025-07-27
+ Build date: 2025-12-20
 
 Package: soplos-release
 Version: 0.1.0
@@ -255,6 +255,21 @@ MD5sum: 8a6ad9f6962412cd42ec27ee394afa8f
 Description: Soplos Wallpapers Pack 02.
  This package provides the Soplos Wallpapers Pack 02, including a collection of high quality wallpapers for Soplos Linux.
  Build date: 2025-07-27
+
+Package: soplos-wallpapers01
+Version: 0.0.1
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_0.0.1_all.deb
+Size: 34258712
+SHA256: de1b14e1e7c7985f03cbd3df3943e08b3b3931a2798d1d0fc83ccbde57364cac
+SHA1: 0ed56c7530ae03877191055ced5effcf9219b665
+MD5sum: 5981661af383d6a6ebb52e7043818e00
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
 
 Package: soplos-welcome
 Version: 1.1.5
